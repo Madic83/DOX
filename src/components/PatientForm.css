@@ -1,0 +1,163 @@
+.form-container {
+  background: white;
+  min-height: 100vh;
+}
+
+.form-header {
+  background: #2563eb;
+  color: white;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-header h2 {
+  font-size: 1.5rem;
+}
+
+.patient-form {
+  padding: 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.form-section h3 {
+  font-size: 1.125rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #374151;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.875rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color 0.2s;
+  -webkit-appearance: none;
+  min-height: 48px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+/* Triage buttons */
+.triage-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.triage-btn {
+  padding: 1rem;
+  border: 3px solid;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: white;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.triage-label {
+  font-size: 0.75rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.triage-p1 {
+  border-color: #dc2626;
+  color: #dc2626;
+}
+
+.triage-p1.active {
+  background: #dc2626;
+  color: white;
+}
+
+.triage-p2 {
+  border-color: #f59e0b;
+  color: #f59e0b;
+}
+
+.triage-p2.active {
+  background: #f59e0b;
+  color: white;
+}
+
+.triage-p3 {
+  border-color: #10b981;
+  color: #10b981;
+}
+
+.triage-p3.active {
+  background: #10b981;
+  color: white;
+}
+
+.triage-p4 {
+  border-color: #6b7280;
+  color: #6b7280;
+}
+
+.triage-p4.active {
+  background: #6b7280;
+  color: white;
+}
+
+.form-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
