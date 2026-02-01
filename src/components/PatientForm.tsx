@@ -10,7 +10,7 @@ interface Props {
 
 export function PatientForm({ patient, onSave, onCancel }: Props) {
   const [formData, setFormData] = useState<Patient>({
-    id: patient?.id || '',
+    id: patient?.id || Date.now().toString(),
     patientNumber: patient?.patientNumber || '',
     dateTime: patient?.dateTime || new Date().toISOString().slice(0, 16),
     age: patient?.age || '',
@@ -20,16 +20,19 @@ export function PatientForm({ patient, onSave, onCancel }: Props) {
     signs: patient?.signs || '',
     treatment: patient?.treatment || '',
     name: patient?.name || '',
-    rank: patient?.rank || '',
-    ssn: patient?.ssn || '',
+    rank: patient?.rank,
+    ssn: patient?.ssn,
     unit: patient?.unit || '',
     location: patient?.location || '',
     bloodPressure: patient?.bloodPressure || '',
     pulse: patient?.pulse || '',
     respiration: patient?.respiration || '',
     temperature: patient?.temperature || '',
-    triageCategory: patient?.triageCategory || '',
-    notes: patient?.notes || ''
+    consciousness: patient?.consciousness || '',
+    spo2: patient?.spo2 || '',
+    triageCategory: (patient?.triageCategory || '') as 'P1' | 'P2' | 'P3' | 'P4' | '',
+    notes: patient?.notes,
+    vitalHistory: patient?.vitalHistory || []
   })
 
   const handleChange = (field: keyof Patient, value: any) => {

@@ -747,7 +747,7 @@ function App() {
                         onClick={() => {
                           if (isApplied) {
                             // Ta bort sista för¶rekomsten
-                            const lines = formData.treatment.split('\n')
+                            const lines = (formData.treatment ?? '').split('\n')
                             let lastIndex = -1
                             for (let i = lines.length - 1; i >= 0; i--) {
                               if (lines[i].includes(ioAccess)) {
@@ -804,7 +804,7 @@ function App() {
                 <button
                   key={option.value}
                   type="button"
-                  onClick={() => setFormData({...formData, triageCategory: option.value})}
+                  onClick={() => setFormData({...formData, triageCategory: option.value as 'P1' | 'P2' | 'P3' | 'P4' | ''})}
                   style={{
                     padding: '20px',
                     fontSize: '16px',
