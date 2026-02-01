@@ -1794,6 +1794,95 @@ function App() {
             </div>
           </>
         )}
+
+        {showEvacuationModal && (
+          <div style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            background: 'rgba(0, 0, 0, 0.7)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 1000
+          }}>
+            <div style={{
+              background: '#111',
+              padding: '30px',
+              borderRadius: '8px',
+              border: '2px solid #ea580c',
+              maxWidth: '500px',
+              width: '90%'
+            }}>
+              <h2 style={{ marginBottom: '20px', color: '#ea580c' }}>Evakuera patient</h2>
+              <p style={{ marginBottom: '15px', color: '#aaa' }}>
+                Patient: <strong>{patient.patientNumber || '-'}</strong>
+              </p>
+              <label style={{ display: 'block', marginBottom: '10px', color: '#fff' }}>
+                Evakueringsplats:
+              </label>
+              <input
+                type="text"
+                value={evacuationLocation}
+                onChange={(e) => setEvacuationLocation(e.target.value)}
+                placeholder="Ange evakueringsplats (t.ex. Sjukhus/Evakueringspunkt)"
+                style={{
+                  width: '100%',
+                  padding: '10px',
+                  marginBottom: '20px',
+                  background: '#000',
+                  color: '#fff',
+                  border: '1px solid #333',
+                  borderRadius: '4px',
+                  boxSizing: 'border-box'
+                }}
+              />
+              <div style={{ display: 'flex', gap: '10px' }}>
+                <button
+                  onClick={() => {
+                    setEvacuatedPatients([...evacuatedPatients, { ...patient, evacuatedLocation: evacuationLocation }])
+                    setPatients(patients.filter(p => p.id !== patient.id))
+                    setShowVitals(null)
+                    setShowEvacuationModal(false)
+                    setEvacuationLocation('')
+                  }}
+                  style={{
+                    flex: 1,
+                    padding: '10px 20px',
+                    background: '#ea580c',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: 'pointer',
+                    fontWeight: 'bold'
+                  }}
+                >
+                  Evakuera
+                </button>
+                <button
+                  onClick={() => {
+                    setShowEvacuationModal(false)
+                    setEvacuationLocation('')
+                  }}
+                  style={{
+                    flex: 1,
+                    padding: '10px 20px',
+                    background: '#666',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: 'pointer',
+                    fontWeight: 'bold'
+                  }}
+                >
+                  Avbryt
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     )
   }
@@ -2000,98 +2089,6 @@ function App() {
               </div>
             </div>
           ))}
-        </div>
-      )}
-
-      {showEvacuationModal && showVitals && (
-        <div style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background: 'rgba(0, 0, 0, 0.7)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          zIndex: 1000
-        }}>
-          <div style={{
-            background: '#111',
-            padding: '30px',
-            borderRadius: '8px',
-            border: '2px solid #ea580c',
-            maxWidth: '500px',
-            width: '90%'
-          }}>
-            <h2 style={{ marginBottom: '20px', color: '#ea580c' }}>Evakuera patient</h2>
-            <p style={{ marginBottom: '15px', color: '#aaa' }}>
-              Patient: <strong>{patients.find(p => p.id === showVitals)?.patientNumber || '-'}</strong>
-            </p>
-            <label style={{ display: 'block', marginBottom: '10px', color: '#fff' }}>
-              Evakueringsplats:
-            </label>
-            <input
-              type="text"
-              value={evacuationLocation}
-              onChange={(e) => setEvacuationLocation(e.target.value)}
-              placeholder="Ange evakueringsplats (t.ex. Sjukhus/Evakueringspunkt)"
-              style={{
-                width: '100%',
-                padding: '10px',
-                marginBottom: '20px',
-                background: '#000',
-                color: '#fff',
-                border: '1px solid #333',
-                borderRadius: '4px',
-                boxSizing: 'border-box'
-              }}
-            />
-            <div style={{ display: 'flex', gap: '10px' }}>
-              <button
-                onClick={() => {
-                  const patientToEvacuate = patients.find(p => p.id === showVitals)
-                  if (patientToEvacuate) {
-                    setEvacuatedPatients([...evacuatedPatients, { ...patientToEvacuate, evacuatedLocation: evacuationLocation }])
-                    setPatients(patients.filter(p => p.id !== showVitals))
-                    setShowVitals(null)
-                    setShowEvacuationModal(false)
-                    setEvacuationLocation('')
-                  }
-                }}
-                style={{
-                  flex: 1,
-                  padding: '10px 20px',
-                  background: '#ea580c',
-                  color: '#fff',
-                  border: 'none',
-                  borderRadius: '4px',
-                  cursor: 'pointer',
-                  fontWeight: 'bold'
-                }}
-              >
-                Evakuera
-              </button>
-              <button
-                onClick={() => {
-                  setShowEvacuationModal(false)
-                  setEvacuationLocation('')
-                }}
-                style={{
-                  flex: 1,
-                  padding: '10px 20px',
-                  background: '#666',
-                  color: '#fff',
-                  border: 'none',
-                  borderRadius: '4px',
-                  cursor: 'pointer',
-                  fontWeight: 'bold'
-                }}
-              >
-                Avbryt
-              </button>
-            </div>
-          </div>
         </div>
       )}
     </div>
