@@ -1675,13 +1675,29 @@ function App() {
       padding: '20px',
       boxSizing: 'border-box',
       width: '100%',
-      overflow: 'hidden',
-      display: 'flex',
-      flexDirection: 'column'
+      overflow: 'hidden'
     }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px', gap: '15px', flexWrap: 'wrap' }}>
         <h1 style={{ margin: 0 }}>DOX - Patientregistrering</h1>
-        <span style={{ color: '#aaa', whiteSpace: 'nowrap' }}>Inloggad som: <strong style={{ color: '#F3D021' }}>{currentUser}</strong></span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '15px', flexShrink: 0 }}>
+          <span style={{ color: '#aaa', whiteSpace: 'nowrap' }}>Inloggad som: <strong style={{ color: '#F3D021' }}>{currentUser}</strong></span>
+          <button 
+            onClick={handleLogout}
+            style={{
+              padding: '10px 20px',
+              background: '#dc2626',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontWeight: 'bold',
+              whiteSpace: 'nowrap',
+              flexShrink: 0
+            }}
+          >
+            Logga ut
+          </button>
+        </div>
       </div>
       <p style={{ marginBottom: '20px' }}>{patients.length} patienter registrerade</p>
       
@@ -1842,24 +1858,6 @@ function App() {
           ))}
         </div>
       )}
-      <div style={{ marginTop: 'auto', paddingTop: '20px', borderTop: '1px solid #333' }}>
-        <button 
-          onClick={handleLogout}
-          style={{
-            width: '100%',
-            padding: '12px 20px',
-            background: '#dc2626',
-            color: '#fff',
-            border: 'none',
-            borderRadius: '6px',
-            cursor: 'pointer',
-            fontWeight: 'bold',
-            fontSize: '16px'
-          }}
-        >
-          Logga ut
-        </button>
-      </div>
     </div>
   )
 }
