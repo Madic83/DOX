@@ -2052,7 +2052,7 @@ function App() {
                 onClick={() => {
                   const patientToEvacuate = patients.find(p => p.id === showVitals)
                   if (patientToEvacuate) {
-                    setEvacuatedPatients([...evacuatedPatients, { ...patientToEvacuate, evacuatedLocation }])
+                    setEvacuatedPatients([...evacuatedPatients, { ...patientToEvacuate, evacuatedLocation: evacuationLocation }])
                     setPatients(patients.filter(p => p.id !== showVitals))
                     setShowVitals(null)
                     setShowEvacuationModal(false)
