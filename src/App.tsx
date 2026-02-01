@@ -1459,6 +1459,29 @@ function App() {
                 </tbody>
               </table>
             </div>
+
+            {/* Åtgärder och Läkemedel */}
+            {patient.treatment && (
+              <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginBottom: '20px' }}>
+                <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Åtgärder och givna läkemedel</h4>
+                <div style={{ 
+                  whiteSpace: 'pre-wrap', 
+                  fontFamily: 'monospace', 
+                  fontSize: '14px', 
+                  lineHeight: '1.6',
+                  color: '#fff'
+                }}>
+                  {patient.treatment.split('\n').map((line, index) => (
+                    <div key={index} style={{ 
+                      marginBottom: '8px',
+                      paddingLeft: line.trim().startsWith('-') || line.trim().startsWith('•') ? '0' : '20px'
+                    }}>
+                      {line || '\u00A0'}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         ) : null}
 
