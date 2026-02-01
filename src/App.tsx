@@ -1285,6 +1285,22 @@ function App() {
 
         {viewMode === 'journal' && allReadings.length > 0 ? (
           <div>
+            <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+              <button 
+                onClick={() => setShowForm(true)}
+                style={{
+                  padding: '10px 20px',
+                  background: '#F3D021',
+                  color: '#000',
+                  border: 'none',
+                  borderRadius: '6px',
+                  cursor: 'pointer',
+                  fontWeight: 'bold'
+                }}
+              >
+                Registrera värde
+              </button>
+            </div>
             <h3 style={{ marginBottom: '20px', color: '#F3D021' }}>Trend:</h3>
             
             {createCombinedGraph(allReadings)}
