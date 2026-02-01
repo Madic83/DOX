@@ -12,13 +12,14 @@ function App() {
   const [customTimeVitals, setCustomTimeVitals] = useState('')
   const [customTimeMeds, setCustomTimeMeds] = useState('')
   const [customTimeActions, setCustomTimeActions] = useState('')
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<Partial<Patient>>({
     patientNumber: '',
     name: '',
     age: '',
     timeOfInjury: '',
     mechanism: '',
     injuries: '',
+    signs: '',
     consciousness: '',
     respiration: '',
     pulse: '',
@@ -28,7 +29,12 @@ function App() {
     treatment: '',
     location: '',
     unit: '',
-    triageCategory: ''
+    triageCategory: '',
+    rank: '',
+    ssn: '',
+    notes: '',
+    dateTime: '',
+    vitalHistory: []
   })
 
   const handleTimeInput = (value: string): string => {
@@ -867,12 +873,12 @@ function App() {
       // Lägg till nuvarande värden fråt¥n formData om vi är i redigeringsläge
       editingPatientId === showVitals && (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) ? [{
         time: 'CURRENT',
-        consciousness: formData.consciousness,
-        respiration: formData.respiration,
-        pulse: formData.pulse,
-        bloodPressure: formData.bloodPressure,
-        spo2: formData.spo2,
-        temperature: formData.temperature
+        consciousness: formData.consciousness || '',
+        respiration: formData.respiration || '',
+        pulse: formData.pulse || '',
+        bloodPressure: formData.bloodPressure || '',
+        spo2: formData.spo2 || '',
+        temperature: formData.temperature || ''
       } as VitalReading] : []
     ]
 
