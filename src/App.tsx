@@ -131,12 +131,12 @@ function App() {
           if (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) {
             const newReading: VitalReading = {
               time: getTime(customTimeVitals),
-              consciousness: formData.consciousness,
-              respiration: formData.respiration,
-              pulse: formData.pulse,
-              bloodPressure: formData.bloodPressure,
-              spo2: formData.spo2,
-              temperature: formData.temperature
+              consciousness: formData.consciousness ?? '',
+              respiration: formData.respiration ?? '',
+              pulse: formData.pulse ?? '',
+              bloodPressure: formData.bloodPressure ?? '',
+              spo2: formData.spo2 ?? '',
+              temperature: formData.temperature ?? ''
             }
             updatedPatient.vitalHistory = [...(p.vitalHistory || []), newReading]
           }
@@ -154,21 +154,40 @@ function App() {
       if (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) {
         const initialReading: VitalReading = {
           time: getTime(customTimeVitals),
-          consciousness: formData.consciousness,
-          respiration: formData.respiration,
-          pulse: formData.pulse,
-          bloodPressure: formData.bloodPressure,
-          spo2: formData.spo2,
-          temperature: formData.temperature
+          consciousness: formData.consciousness ?? '',
+          respiration: formData.respiration ?? '',
+          pulse: formData.pulse ?? '',
+          bloodPressure: formData.bloodPressure ?? '',
+          spo2: formData.spo2 ?? '',
+          temperature: formData.temperature ?? ''
         }
         vitalHistory.push(initialReading)
       }
       
       const newPatient: Patient = {
         id: Date.now().toString(),
-        ...formData,
         patientNumber,
-        vitalHistory
+        vitalHistory,
+        name: formData.name ?? '',
+        age: formData.age ?? '',
+        unit: formData.unit ?? '',
+        timeOfInjury: formData.timeOfInjury ?? '',
+        mechanism: formData.mechanism ?? '',
+        injuries: formData.injuries ?? '',
+        consciousness: formData.consciousness ?? '',
+        respiration: formData.respiration ?? '',
+        pulse: formData.pulse ?? '',
+        bloodPressure: formData.bloodPressure ?? '',
+        spo2: formData.spo2 ?? '',
+        temperature: formData.temperature ?? '',
+        treatment: formData.treatment ?? '',
+        location: formData.location ?? '',
+        triageCategory: (formData.triageCategory ?? '') as 'P1' | 'P2' | 'P3' | 'P4' | '',
+        signs: formData.signs ?? '',
+        rank: formData.rank,
+        ssn: formData.ssn,
+        notes: formData.notes,
+        dateTime: formData.dateTime
       }
       setPatients([...patients, newPatient])
     }
@@ -399,7 +418,7 @@ function App() {
                   'Vätska 250ml'
                 ].map(med => {
                   const regex = new RegExp(med.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ' \\[\\d{2}:\\d{2}\\]', 'g')
-                  const allCount = (formData.treatment.match(regex) || []).length
+                  const allCount = ((formData.treatment ?? '').match(regex) || []).length
                   const previousCount = (previousTreatment.match(regex) || []).length
                   const count = allCount - previousCount
                   return (
@@ -409,7 +428,7 @@ function App() {
                       onClick={() => {
                         if (count > 0) {
                           // Ta bort senaste dosen
-                          const lines = formData.treatment.split('\n')
+                          const lines = (formData.treatment ?? '').split('\n')
                           let lastIndex = -1
                           for (let i = lines.length - 1; i >= 0; i--) {
                             if (lines[i].includes(med)) {
@@ -425,7 +444,7 @@ function App() {
                           // Lägg till ny dos
                           const currentTime = getTime(customTimeMeds)
                           const medWithTime = `${med} [${currentTime}]`
-                          setFormData({...formData, treatment: formData.treatment + (formData.treatment ? '\n' : '') + medWithTime})
+                          setFormData({...formData, treatment: (formData.treatment ?? '') + ((formData.treatment ?? '') ? '\n' : '') + medWithTime})
                         }
                       }}
                       style={{
@@ -479,7 +498,7 @@ function App() {
                   { label: 'Metronidazol 1g x1', indication: 'Tillägg vid buk-, intrakraniella eller skallskador' }
                 ].map(item => {
                   const regex = new RegExp(item.label.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ' \\[\\d{2}:\\d{2}\\]', 'g')
-                  const allCount = (formData.treatment.match(regex) || []).length
+                  const allCount = ((formData.treatment ?? '').match(regex) || []).length
                   const previousCount = (previousTreatment.match(regex) || []).length
                   const count = allCount - previousCount
                   return (
@@ -489,7 +508,7 @@ function App() {
                       onClick={() => {
                         if (count > 0) {
                           // Ta bort sista för¶rekomsten
-                          const lines = formData.treatment.split('\n')
+                          const lines = (formData.treatment ?? '').split('\n')
                           let lastIndex = -1
                           for (let i = lines.length - 1; i >= 0; i--) {
                             if (lines[i].includes(item.label)) {
@@ -505,7 +524,7 @@ function App() {
                           // Lägg till
                           const currentTime = getTime(customTimeMeds)
                           const medWithTime = `${item.label} [${currentTime}]`
-                          setFormData({...formData, treatment: formData.treatment + (formData.treatment ? '\n' : '') + medWithTime})
+                          setFormData({...formData, treatment: (formData.treatment ?? '') + ((formData.treatment ?? '') ? '\n' : '') + medWithTime})
                         }
                       }}
                       style={{
@@ -568,7 +587,7 @@ function App() {
                 <label style={{ display: 'block', marginBottom: '5px', fontSize: '13px' }}>Tourniquet:</label>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '6px' }}>
                   {['TQ HA', 'TQ HB', 'TQ VA', 'TQ VB'].map(tq => {
-                    const isApplied = formData.treatment.includes(tq)
+                    const isApplied = (formData.treatment ?? '').includes(tq)
                     return (
                       <button
                         key={tq}
@@ -576,7 +595,7 @@ function App() {
                         onClick={() => {
                           if (isApplied) {
                             // Ta bort sista för¶rekomsten
-                            const lines = formData.treatment.split('\n')
+                            const lines = (formData.treatment ?? '').split('\n')
                             let lastIndex = -1
                             for (let i = lines.length - 1; i >= 0; i--) {
                               if (lines[i].includes(tq)) {
@@ -624,7 +643,7 @@ function App() {
                       <div key={item.action} style={{ display: 'flex', gap: '4px' }}>
                         {item.sides.map(side => {
                           const actionText = `${item.action} ${side}`
-                          const isApplied = formData.treatment.includes(actionText)
+                          const isApplied = (formData.treatment ?? '').includes(actionText)
                           return (
                             <button
                               key={`${item.action}-${side}`}
@@ -632,7 +651,7 @@ function App() {
                               onClick={() => {
                                 if (isApplied) {
                                   // Ta bort sista för¶rekomsten
-                                  const lines = formData.treatment.split('\n')
+                                  const lines = (formData.treatment ?? '').split('\n')
                                   let lastIndex = -1
                                   for (let i = lines.length - 1; i >= 0; i--) {
                                     if (lines[i].includes(actionText)) {
@@ -648,7 +667,7 @@ function App() {
                                   // Lägg till
                                   const currentTime = getTime(customTimeActions)
                                   const actionWithTime = `${actionText} [${currentTime}]`
-                                  setFormData({...formData, treatment: formData.treatment + (formData.treatment ? '\n' : '') + actionWithTime})
+                                  setFormData({...formData, treatment: (formData.treatment ?? '') + ((formData.treatment ?? '') ? '\n' : '') + actionWithTime})
                                 }
                               }}
                               style={{
@@ -670,7 +689,7 @@ function App() {
                       </div>
                     )
                   } else {
-                    const isApplied = formData.treatment.includes(item.action)
+                    const isApplied = (formData.treatment ?? '').includes(item.action)
                     return (
                       <button
                         key={item.action}
@@ -678,7 +697,7 @@ function App() {
                         onClick={() => {
                           if (isApplied) {
                             // Ta bort sista för¶rekomsten
-                            const lines = formData.treatment.split('\n')
+                            const lines = (formData.treatment ?? '').split('\n')
                             let lastIndex = -1
                             for (let i = lines.length - 1; i >= 0; i--) {
                               if (lines[i].includes(item.action)) {
@@ -694,7 +713,7 @@ function App() {
                             // Lägg till
                             const currentTime = getTime(customTimeActions)
                             const actionWithTime = `${item.action} [${currentTime}]`
-                            setFormData({...formData, treatment: formData.treatment + (formData.treatment ? '\n' : '') + actionWithTime})
+                            setFormData({...formData, treatment: (formData.treatment ?? '') + ((formData.treatment ?? '') ? '\n' : '') + actionWithTime})
                           }
                         }}
                         style={{
@@ -720,7 +739,7 @@ function App() {
                 <label style={{ display: 'block', marginBottom: '5px', fontSize: '13px' }}>IV/IO access:</label>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '6px' }}>
                   {['H Arm', 'V Arm', 'H Ben', 'V Ben'].map(ioAccess => {
-                    const isApplied = formData.treatment.includes(ioAccess)
+                    const isApplied = (formData.treatment ?? '').includes(ioAccess)
                     return (
                       <button
                         key={ioAccess}
@@ -744,7 +763,7 @@ function App() {
                             // Lägg till
                             const currentTime = getTime(customTimeActions)
                             const actionWithTime = `IV/IO access ${ioAccess} [${currentTime}]`
-                            setFormData({...formData, treatment: formData.treatment + (formData.treatment ? '\n' : '') + actionWithTime})
+                            setFormData({...formData, treatment: (formData.treatment ?? '') + ((formData.treatment ?? '') ? '\n' : '') + actionWithTime})
                           }
                         }}
                         style={{
@@ -870,16 +889,15 @@ function App() {
     // Kombinera historik med nuvarande värden
     const allReadings: VitalReading[] = [
       ...(patient.vitalHistory || []),
-      // Lägg till nuvarande värden fråt¥n formData om vi är i redigeringsläge
-      editingPatientId === showVitals && (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) ? [{
+      ...(editingPatientId === showVitals && (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) ? [{
         time: 'CURRENT',
-        consciousness: formData.consciousness || '',
-        respiration: formData.respiration || '',
-        pulse: formData.pulse || '',
-        bloodPressure: formData.bloodPressure || '',
-        spo2: formData.spo2 || '',
-        temperature: formData.temperature || ''
-      } as VitalReading] : []
+        consciousness: formData.consciousness ?? '',
+        respiration: formData.respiration ?? '',
+        pulse: formData.pulse ?? '',
+        bloodPressure: formData.bloodPressure ?? '',
+        spo2: formData.spo2 ?? '',
+        temperature: formData.temperature ?? ''
+      } as VitalReading] : [])
     ]
 
     const getNumericValue = (str: string | undefined): number => {
