@@ -1382,7 +1382,7 @@ function App() {
           † Tillbaka
         </button>
 
-        {viewMode === 'journal' && allReadings.length > 0 ? (
+        {viewMode === 'journal' ? (
           <div>
             <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
               <button 
@@ -1423,26 +1423,29 @@ function App() {
                 Registrera värde
               </button>
             </div>
-            <h3 style={{ marginBottom: '20px', color: '#F3D021' }}>Trend:</h3>
             
-            {createCombinedGraph(allReadings)}
+            {allReadings.length > 0 ? (
+              <>
+                <h3 style={{ marginBottom: '20px', color: '#F3D021' }}>Trend:</h3>
+                
+                {createCombinedGraph(allReadings)}
 
-            {/* Tabell med exakta värden */}
-            <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginTop: '20px', marginBottom: '20px', overflowX: 'auto' }}>
-              <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Exakta värden</h4>
-              <table style={{ width: '100%', borderCollapse: 'collapse', color: '#fff' }}>
-                <thead>
-                  <tr style={{ borderBottom: '2px solid #F3D021' }}>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Tidpunkt</th>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Andning (AF)</th>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>SpO2 (%)</th>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Puls (HF)</th>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Blodtryck (BT)</th>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>ACVPU</th>
-                    <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Temperatur (°C)</th>
-                  </tr>
-                </thead>
-                <tbody>
+                {/* Tabell med exakta värden */}
+                <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginTop: '20px', marginBottom: '20px', overflowX: 'auto' }}>
+                  <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Exakta värden</h4>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', color: '#fff' }}>
+                    <thead>
+                      <tr style={{ borderBottom: '2px solid #F3D021' }}>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Tidpunkt</th>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Andning (AF)</th>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>SpO2 (%)</th>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Puls (HF)</th>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Blodtryck (BT)</th>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>ACVPU</th>
+                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Temperatur (°C)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
                   {allReadings.map((reading, index) => (
                     <tr key={index} style={{ borderBottom: '1px solid #333', background: reading.time === 'CURRENT' ? '#1a3a1a' : 'transparent' }}>
                       <td style={{ padding: '10px', fontWeight: reading.time === 'CURRENT' ? 'bold' : 'normal' }}>
@@ -1480,6 +1483,20 @@ function App() {
                     </div>
                   ))}
                 </div>
+              </div>
+            )}
+              </>
+            ) : (
+              <div style={{ 
+                background: '#111', 
+                padding: '20px', 
+                borderRadius: '8px', 
+                border: '1px solid #333',
+                textAlign: 'center',
+                color: '#666',
+                marginTop: '20px'
+              }}>
+                Inga vitala parametrar registrerade ännu. Klicka på "Registrera värde" för att börja.
               </div>
             )}
           </div>
