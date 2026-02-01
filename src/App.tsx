@@ -111,10 +111,10 @@ function App() {
   }
 
   // const isValidTime = (time: string): boolean => {
-    if (!time) return true // Tom är ok, använder vi aktuell tid
-    const regex = /^([0-1][0-9]|2[0-3]):[0-5][0-9]$/
-    return regex.test(time)
-  }
+  //   if (!time) return true // Tom är ok, använder vi aktuell tid
+  //   const regex = /^([0-1][0-9]|2[0-3]):[0-5][0-9]$/
+  //   return regex.test(time)
+  // }
 
   const canBeValidTime = (input: string): boolean => {
     if (!input) return true // Tom är ok
