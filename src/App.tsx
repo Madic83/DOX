@@ -1424,20 +1424,19 @@ function App() {
               </button>
             </div>
             
-            {allReadings.length > 0 ? (
-              <>
-                <h3 style={{ marginBottom: '20px', color: '#F3D021' }}>Trend:</h3>
-                
-                {createCombinedGraph(allReadings)}
+            <h3 style={{ marginBottom: '20px', color: '#F3D021' }}>Trend:</h3>
+            
+            {createCombinedGraph(allReadings)}
 
-                {/* Tabell med exakta värden */}
-                <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginTop: '20px', marginBottom: '20px', overflowX: 'auto' }}>
-                  <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Exakta värden</h4>
-                  <table style={{ width: '100%', borderCollapse: 'collapse', color: '#fff' }}>
-                    <thead>
-                      <tr style={{ borderBottom: '2px solid #F3D021' }}>
-                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Tidpunkt</th>
-                        <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Andning (AF)</th>
+            {/* Tabell med exakta värden */}
+            <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginTop: '20px', marginBottom: '20px', overflowX: 'auto' }}>
+              <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Exakta värden</h4>
+              {allReadings.length > 0 ? (
+                <table style={{ width: '100%', borderCollapse: 'collapse', color: '#fff' }}>
+                  <thead>
+                    <tr style={{ borderBottom: '2px solid #F3D021' }}>
+                      <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Tidpunkt</th>
+                      <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Andning (AF)</th>
                         <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>SpO2 (%)</th>
                         <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Puls (HF)</th>
                         <th style={{ padding: '10px', textAlign: 'left', color: '#F3D021' }}>Blodtryck (BT)</th>
@@ -1460,13 +1459,18 @@ function App() {
                     </tr>
                   ))}
                 </tbody>
-              </table>
+                </table>
+              ) : (
+                <div style={{ textAlign: 'center', color: '#666', padding: '20px' }}>
+                  Inga värden registrerade ännu
+                </div>
+              )}
             </div>
 
             {/* Åtgärder och Läkemedel */}
-            {patient.treatment && (
-              <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginBottom: '20px' }}>
-                <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Åtgärder och givna läkemedel</h4>
+            <div style={{ background: '#111', padding: '20px', borderRadius: '8px', border: '1px solid #333', marginBottom: '20px' }}>
+              <h4 style={{ marginBottom: '15px', color: '#F3D021' }}>Åtgärder och givna läkemedel</h4>
+              {patient.treatment && patient.treatment.trim() ? (
                 <div style={{ 
                   whiteSpace: 'pre-wrap', 
                   fontFamily: 'monospace', 
@@ -1483,22 +1487,12 @@ function App() {
                     </div>
                   ))}
                 </div>
-              </div>
-            )}
-              </>
-            ) : (
-              <div style={{ 
-                background: '#111', 
-                padding: '20px', 
-                borderRadius: '8px', 
-                border: '1px solid #333',
-                textAlign: 'center',
-                color: '#666',
-                marginTop: '20px'
-              }}>
-                Inga vitala parametrar registrerade ännu. Klicka på "Registrera värde" för att börja.
-              </div>
-            )}
+              ) : (
+                <div style={{ textAlign: 'center', color: '#666', padding: '20px' }}>
+                  Inga åtgärder eller läkemedel registrerade ännu
+                </div>
+              )}
+            </div>
           </div>
         ) : null}
 
