@@ -44,17 +44,15 @@ function App() {
     vitalHistory: []
   })
 
-  // Ladda användare och patienter från localStorage vid start
+  // Ladda användarens patienter från localStorage om inloggad
   useEffect(() => {
-    const savedUser = localStorage.getItem('currentUser')
-    if (savedUser) {
-      setCurrentUser(savedUser)
-      const savedPatients = localStorage.getItem(`patients_${savedUser}`)
+    if (currentUser) {
+      const savedPatients = localStorage.getItem(`patients_${currentUser}`)
       if (savedPatients) {
         setPatients(JSON.parse(savedPatients))
       }
     }
-  }, [])
+  }, [currentUser])
 
   // Spara patienter till localStorage när de ändras
   useEffect(() => {
@@ -70,35 +68,42 @@ function App() {
       return
     }
 
-    // Enkelt autentiseringssystem - lagra användare i localStorage
+    // Special test account
+    if (loginForm.username === 'test' && loginForm.password === 'test') {
+      setCurrentUser('test')
+      const savedPatients = localStorage.getItem('patients_test')
+      if (savedPatients) {
+        setPatients(JSON.parse(savedPatients))
+      } else {
+        setPatients([])
+      }
+      setLoginForm({ username: '', password: '' })
+      return
+    }
+
+    // Regular user authentication
     const users = JSON.parse(localStorage.getItem('users') || '{}')
     
     if (users[loginForm.username]) {
       if (users[loginForm.username] === loginForm.password) {
-        // Inloggning lyckad
+        // Login successful
         setCurrentUser(loginForm.username)
-        localStorage.setItem('currentUser', loginForm.username)
-        
-        // Ladda användarens patienter
         const savedPatients = localStorage.getItem(`patients_${loginForm.username}`)
         if (savedPatients) {
           setPatients(JSON.parse(savedPatients))
         } else {
           setPatients([])
         }
-        
         setLoginForm({ username: '', password: '' })
       } else {
         alert('Fel lösenord')
       }
     } else {
-      // Registrera ny användare
+      // Register new user
       users[loginForm.username] = loginForm.password
       localStorage.setItem('users', JSON.stringify(users))
       
-      // Logga in den nya användaren
       setCurrentUser(loginForm.username)
-      localStorage.setItem('currentUser', loginForm.username)
       setPatients([])
       setLoginForm({ username: '', password: '' })
     }
