@@ -2,11 +2,6 @@
 import type { Patient, VitalReading } from './types'
 import './App.css'
 
-interface User {
-  username: string
-  password: string
-}
-
 function App() {
   const [currentUser, setCurrentUser] = useState<string | null>(null)
   const [loginForm, setLoginForm] = useState({ username: '', password: '' })
