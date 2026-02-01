@@ -893,7 +893,7 @@ function App() {
     if (!patient) return null
 
     // Kombinera historik med nuvarande värden
-    const allReadings = [
+    const allReadings: VitalReading[] = [
       ...(patient.vitalHistory || []),
       // Lägg till nuvarande värden fråt¥n formData om vi är i redigeringsläge
       editingPatientId === showVitals && (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) ? [{
@@ -904,7 +904,7 @@ function App() {
         bloodPressure: formData.bloodPressure,
         spo2: formData.spo2,
         temperature: formData.temperature
-      }] : []
+      } as VitalReading] : []
     ]
 
     const getNumericValue = (str: string | undefined): number => {
