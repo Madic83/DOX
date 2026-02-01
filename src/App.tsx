@@ -1,8 +1,15 @@
-﻿import { useState } from 'react'
+﻿import { useState, useEffect } from 'react'
 import type { Patient, VitalReading } from './types'
 import './App.css'
 
+interface User {
+  username: string
+  password: string
+}
+
 function App() {
+  const [currentUser, setCurrentUser] = useState<string | null>(null)
+  const [loginForm, setLoginForm] = useState({ username: '', password: '' })
   const [patients, setPatients] = useState<Patient[]>([])
   const [showForm, setShowForm] = useState(false)
   const [editingPatientId, setEditingPatientId] = useState<string | null>(null)
@@ -36,6 +43,149 @@ function App() {
     dateTime: '',
     vitalHistory: []
   })
+
+  // Ladda användare och patienter från localStorage vid start
+  useEffect(() => {
+    const savedUser = localStorage.getItem('currentUser')
+    if (savedUser) {
+      setCurrentUser(savedUser)
+      const savedPatients = localStorage.getItem(`patients_${savedUser}`)
+      if (savedPatients) {
+        setPatients(JSON.parse(savedPatients))
+      }
+    }
+  }, [])
+
+  // Spara patienter till localStorage när de ändras
+  useEffect(() => {
+    if (currentUser) {
+      localStorage.setItem(`patients_${currentUser}`, JSON.stringify(patients))
+    }
+  }, [patients, currentUser])
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (!loginForm.username.trim() || !loginForm.password.trim()) {
+      alert('Användarnamn och lösenord krävs')
+      return
+    }
+
+    // Enkelt autentiseringssystem - lagra användare i localStorage
+    const users = JSON.parse(localStorage.getItem('users') || '{}')
+    
+    if (users[loginForm.username]) {
+      if (users[loginForm.username] === loginForm.password) {
+        // Inloggning lyckad
+        setCurrentUser(loginForm.username)
+        localStorage.setItem('currentUser', loginForm.username)
+        
+        // Ladda användarens patienter
+        const savedPatients = localStorage.getItem(`patients_${loginForm.username}`)
+        if (savedPatients) {
+          setPatients(JSON.parse(savedPatients))
+        } else {
+          setPatients([])
+        }
+        
+        setLoginForm({ username: '', password: '' })
+      } else {
+        alert('Fel lösenord')
+      }
+    } else {
+      // Registrera ny användare
+      users[loginForm.username] = loginForm.password
+      localStorage.setItem('users', JSON.stringify(users))
+      
+      // Logga in den nya användaren
+      setCurrentUser(loginForm.username)
+      localStorage.setItem('currentUser', loginForm.username)
+      setPatients([])
+      setLoginForm({ username: '', password: '' })
+    }
+  }
+
+  const handleLogout = () => {
+    setCurrentUser(null)
+    localStorage.removeItem('currentUser')
+    setPatients([])
+    setShowForm(false)
+    setShowVitals(null)
+  }
+
+  // Om ingen är inloggad, visa login-sida
+  if (!currentUser) {
+    return (
+      <div style={{ minHeight: '100vh', background: '#000', color: '#fff', padding: '20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <div style={{ maxWidth: '400px', width: '100%', background: '#111', padding: '40px', borderRadius: '12px', border: '1px solid #333' }}>
+          <h1 style={{ textAlign: 'center', marginBottom: '30px', color: '#F3D021' }}>DOX</h1>
+          <h2 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '18px' }}>Militär Patientdokumentation</h2>
+          
+          <form onSubmit={handleLogin}>
+            <div style={{ marginBottom: '20px' }}>
+              <label style={{ display: 'block', marginBottom: '8px' }}>Användarnamn:</label>
+              <input
+                type="text"
+                value={loginForm.username}
+                onChange={e => setLoginForm({...loginForm, username: e.target.value})}
+                placeholder="Ange användarnamn"
+                style={{
+                  width: '100%',
+                  padding: '12px',
+                  background: '#222',
+                  color: '#fff',
+                  border: '1px solid #444',
+                  borderRadius: '6px',
+                  fontSize: '14px',
+                  boxSizing: 'border-box'
+                }}
+              />
+            </div>
+
+            <div style={{ marginBottom: '30px' }}>
+              <label style={{ display: 'block', marginBottom: '8px' }}>Lösenord:</label>
+              <input
+                type="password"
+                value={loginForm.password}
+                onChange={e => setLoginForm({...loginForm, password: e.target.value})}
+                placeholder="Ange lösenord"
+                style={{
+                  width: '100%',
+                  padding: '12px',
+                  background: '#222',
+                  color: '#fff',
+                  border: '1px solid #444',
+                  borderRadius: '6px',
+                  fontSize: '14px',
+                  boxSizing: 'border-box'
+                }}
+              />
+            </div>
+
+            <button
+              type="submit"
+              style={{
+                width: '100%',
+                padding: '12px',
+                background: '#F3D021',
+                color: '#000',
+                border: 'none',
+                borderRadius: '6px',
+                fontSize: '16px',
+                fontWeight: 'bold',
+                cursor: 'pointer'
+              }}
+            >
+              Logga in / Registrera
+            </button>
+          </form>
+
+          <div style={{ marginTop: '20px', fontSize: '12px', color: '#888', textAlign: 'center' }}>
+            <p>Första gången? Ange ett användarnamn och lösenord för att registrera dig.</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
 
   const handleTimeInput = (value: string): string => {
     // Ta bara siffror
@@ -1511,7 +1661,26 @@ function App() {
       color: '#fff',
       padding: '20px'
     }}>
-      <h1>Patientregistrering</h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
+        <h1>DOX - Patientregistrering</h1>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
+          <span style={{ color: '#aaa' }}>Inloggad som: <strong style={{ color: '#F3D021' }}>{currentUser}</strong></span>
+          <button 
+            onClick={handleLogout}
+            style={{
+              padding: '10px 20px',
+              background: '#dc2626',
+              color: '#fff',
+              border: 'none',
+              borderRadius: '6px',
+              cursor: 'pointer',
+              fontWeight: 'bold'
+            }}
+          >
+            Logga ut
+          </button>
+        </div>
+      </div>
       <p style={{ marginBottom: '20px' }}>{patients.length} patienter registrerade</p>
       
       <button 
