@@ -377,30 +377,6 @@ function App() {
     setShowForm(false)
   }
 
-  const handleEditPatient = (patient: Patient) => {
-    setPreviousTreatment(patient.treatment)
-    setFormData({
-      patientNumber: patient.patientNumber,
-      name: patient.name,
-      age: patient.age,
-      timeOfInjury: patient.timeOfInjury,
-      mechanism: patient.mechanism,
-      injuries: patient.injuries,
-      consciousness: '',
-      respiration: '',
-      pulse: '',
-      bloodPressure: '',
-      spo2: '',
-      temperature: '',
-      treatment: patient.treatment,
-      location: patient.location,
-      unit: patient.unit,
-      triageCategory: patient.triageCategory
-    })
-    setEditingPatientId(patient.id)
-    setShowForm(true)
-  }
-
   const getTriageColor = (category: string) => {
     switch(category) {
       case 'P1': return '#dc2626'
