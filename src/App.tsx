@@ -1677,10 +1677,10 @@ function App() {
       width: '100%',
       overflow: 'hidden'
     }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
-        <h1>DOX - Patientregistrering</h1>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <span style={{ color: '#aaa' }}>Inloggad som: <strong style={{ color: '#F3D021' }}>{currentUser}</strong></span>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px', gap: '15px', flexWrap: 'wrap' }}>
+        <h1 style={{ margin: 0 }}>DOX - Patientregistrering</h1>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '15px', flexShrink: 0 }}>
+          <span style={{ color: '#aaa', whiteSpace: 'nowrap' }}>Inloggad som: <strong style={{ color: '#F3D021' }}>{currentUser}</strong></span>
           <button 
             onClick={handleLogout}
             style={{
@@ -1690,7 +1690,9 @@ function App() {
               border: 'none',
               borderRadius: '6px',
               cursor: 'pointer',
-              fontWeight: 'bold'
+              fontWeight: 'bold',
+              whiteSpace: 'nowrap',
+              flexShrink: 0
             }}
           >
             Logga ut
