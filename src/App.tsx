@@ -1147,7 +1147,7 @@ function App() {
     const createCombinedGraph = (readings: VitalReading[]) => {
       // Filter out readings that have at least one vital parameter
       const data = readings.filter(r => r.pulse || r.respiration || r.spo2 || r.temperature || r.consciousness || r.bloodPressure)
-      if (data.length === 0) return null
+      const hasData = data.length > 0
 
       // Define parameters with their ranges and colors
       const params = [
@@ -1163,10 +1163,12 @@ function App() {
       const maxValue = 200
       const padding = 40
       const pointSpacing = 25  // Fast avståt¥nd mellan punkter
-      const width = Math.max(data.length * pointSpacing + padding * 2, 400)  // Grafens totala bredd
+      const gridCount = Math.max(data.length, 10)
+      const width = Math.max(gridCount * pointSpacing + padding * 2, 400)  // Grafens totala bredd
       const height = 400  // Håt¶gre graf
-      const graphWidth = (data.length - 1) * pointSpacing  // Faktiska ritområt¥det baserat på¥ antal punkter
+      const graphWidth = (gridCount - 1) * pointSpacing  // Faktiska ritområt¥det baserat på¥ antal punkter
       const graphHeight = height - padding * 2
+      const gridColor = hasData ? '#444' : '#666'
 
       // Calculate points för each parameter
       const allPoints = params.map(param => ({
@@ -1235,9 +1237,9 @@ function App() {
           <div style={{ overflowX: 'auto' }}>
             <svg width={Math.max(width, 400)} height={height} style={{ background: '#0a0a0a', borderRadius: '4px' }}>
               {/* Rutnät - vertikala linjer vid varje datapunkt */}
-              {data.map((_, i) => {
-                const x = padding + (i / Math.max(data.length - 1, 1)) * graphWidth
-                return <line key={`vgrid-${i}`} x1={x} y1={padding} x2={x} y2={height - padding} stroke="#444" strokeDasharray="2,2" strokeWidth="0.5" opacity="0.7" />
+              {Array.from({ length: gridCount }).map((_, i) => {
+                const x = padding + (i / Math.max(gridCount - 1, 1)) * graphWidth
+                return <line key={`vgrid-${i}`} x1={x} y1={padding} x2={x} y2={height - padding} stroke={gridColor} strokeDasharray="2,2" strokeWidth="0.5" opacity={hasData ? "0.7" : "0.9"} />
               })}
               
               {/* Rutnät - horisontella linjer med skala 0-200, varje 10 enheter */}
@@ -1250,10 +1252,10 @@ function App() {
                   <g key={`hgrid-${i}`}>
                     <line 
                       x1={padding} y1={y} x2={width - padding} y2={y} 
-                      stroke={isMainLine ? '#666' : '#444'}
+                      stroke={isMainLine ? '#888' : gridColor}
                       strokeDasharray={isMainLine ? '0' : '2,2'} 
                       strokeWidth={isMainLine ? '2' : '0.5'}
-                      opacity="1"
+                      opacity={hasData ? "1" : "0.9"}
                     />
                     {showLabel && (
                       <text x={padding - 8} y={y + 4} textAnchor="end" fill="#fff" fontSize="12" fontWeight="bold">
@@ -1265,8 +1267,21 @@ function App() {
               })}
 
               {/* Axlar */}
-              <line x1={padding} y1={padding} x2={padding} y2={height - padding} stroke="#666" strokeWidth="2" />
-              <line x1={padding} y1={height - padding} x2={width - padding} y2={height - padding} stroke="#666" strokeWidth="2" />
+              <line x1={padding} y1={padding} x2={padding} y2={height - padding} stroke="#888" strokeWidth="2" />
+              <line x1={padding} y1={height - padding} x2={width - padding} y2={height - padding} stroke="#888" strokeWidth="2" />
+
+              {!hasData && (
+                <text
+                  x={width / 2}
+                  y={height / 2}
+                  textAnchor="middle"
+                  fill="#888"
+                  fontSize="14"
+                  fontWeight="bold"
+                >
+                  Inga vitalparametrar registrerade
+                </text>
+              )}
 
               {/* Linjer och symboler för¶r varje parameter */}
               {allPoints.map(param => {
