@@ -3,6 +3,7 @@ import './App.css'
 
 interface VitalReading {
   time: string
+  timestamp?: string
   consciousness: string
   respiration: string
   pulse: string
@@ -109,7 +110,7 @@ function App() {
     return new Date().toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' })
   }
 
-  const isValidTime = (time: string): boolean => {
+  // const isValidTime = (time: string): boolean => {
     if (!time) return true // Tom är ok, använder vi aktuell tid
     const regex = /^([0-1][0-9]|2[0-3]):[0-5][0-9]$/
     return regex.test(time)
@@ -1127,9 +1128,9 @@ function App() {
       )
     }
 
-    const createGraphBars = (readings: VitalReading[], field: keyof VitalReading, min: number, max: number, color: string) => {
-      const data = readings.filter(r => r[field])
-      if (data.length === 0) return null
+    // const createGraphBars = (readings: VitalReading[], field: keyof VitalReading, min: number, max: number, color: string) => {
+    //   const data = readings.filter(r => r[field])
+    //   if (data.length === 0) return null
 
       const width = 800
       const height = 300
