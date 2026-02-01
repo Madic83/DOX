@@ -269,12 +269,20 @@ function App() {
     return true
   }
 
+  const savePatients = (patientList: Patient[]) => {
+    if (currentUser) {
+      localStorage.setItem(`patients_${currentUser}`, JSON.stringify(patientList))
+    }
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     
+    let updatedPatients: Patient[] = []
+    
     if (editingPatientId) {
       // Uppdatera befintlig patient
-      setPatients(patients.map(p => {
+      updatedPatients = patients.map(p => {
         if (p.id === editingPatientId) {
           const updatedPatient = { ...p, ...formData }
           // Lägg till nuvarande vitala parametrar i historik om nåtg¥gra är ifyllda
@@ -293,7 +301,8 @@ function App() {
           return updatedPatient
         }
         return p
-      }))
+      })
+      setPatients(updatedPatients)
       setEditingPatientId(null)
     } else {
       // Skapa ny patient
@@ -339,8 +348,12 @@ function App() {
         notes: formData.notes,
         dateTime: formData.dateTime
       }
-      setPatients([...patients, newPatient])
+      updatedPatients = [...patients, newPatient]
+      setPatients(updatedPatients)
     }
+    
+    // Spara explicit till localStorage
+    savePatients(updatedPatients)
     
     setFormData({
       patientNumber: '',
