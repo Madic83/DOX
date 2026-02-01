@@ -1672,7 +1672,10 @@ function App() {
       minHeight: '100vh', 
       background: '#000', 
       color: '#fff',
-      padding: '20px'
+      padding: '20px',
+      boxSizing: 'border-box',
+      width: '100%',
+      overflow: 'hidden'
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
         <h1>DOX - Patientregistrering</h1>
