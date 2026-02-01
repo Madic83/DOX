@@ -1675,7 +1675,7 @@ function App() {
       padding: '20px',
       boxSizing: 'border-box',
       width: '100%',
-      overflow: 'hidden'
+      overflow: 'auto'
     }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '20px', gap: '15px', flexWrap: 'wrap' }}>
         <h1 style={{ margin: 0 }}>DOX - Patientregistrering</h1>
