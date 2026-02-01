@@ -1745,18 +1745,13 @@ function App() {
           {patients.map(patient => (
             <div 
               key={patient.id} 
-              onClick={() => handleEditPatient(patient)}
               style={{ 
               background: '#111', 
               padding: '15px', 
               marginBottom: '15px', 
               borderRadius: '8px',
-              border: '1px solid #333',
-              cursor: 'pointer',
-              transition: 'background 0.2s'
+              border: '1px solid #333'
             }}
-            onMouseEnter={(e) => e.currentTarget.style.background = '#222'}
-            onMouseLeave={(e) => e.currentTarget.style.background = '#111'}
             >
               <div style={{ fontSize: '20px', fontWeight: 'bold', marginBottom: '10px' }}>
                 {patient.patientNumber} - {patient.name || 'Namn ej angivet'}
