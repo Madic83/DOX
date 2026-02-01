@@ -6,10 +6,14 @@ function App() {
   const [currentUser, setCurrentUser] = useState<string | null>(null)
   const [loginForm, setLoginForm] = useState({ username: '', password: '' })
   const [patients, setPatients] = useState<Patient[]>([])
+  const [evacuatedPatients, setEvacuatedPatients] = useState<(Patient & { evacuatedLocation?: string })[]>([])
   const [showForm, setShowForm] = useState(false)
   const [editingPatientId, setEditingPatientId] = useState<string | null>(null)
   const [showVitals, setShowVitals] = useState<string | null>(null)
   const [viewMode, setViewMode] = useState<'journal' | 'at-mist' | 'rekommendationer'>('journal')
+  const [showEvacuationModal, setShowEvacuationModal] = useState(false)
+  const [evacuationLocation, setEvacuationLocation] = useState('')
+  const [viewEvacuated, setViewEvacuated] = useState(false)
   const [previousTreatment, setPreviousTreatment] = useState('')
   const [customTimeVitals, setCustomTimeVitals] = useState('')
   const [customTimeMeds, setCustomTimeMeds] = useState('')
@@ -53,8 +57,9 @@ function App() {
   useEffect(() => {
     if (currentUser) {
       localStorage.setItem(`patients_${currentUser}`, JSON.stringify(patients))
+      localStorage.setItem(`evacuated_${currentUser}`, JSON.stringify(evacuatedPatients))
     }
-  }, [patients, currentUser])
+  }, [patients, evacuatedPatients, currentUser])
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
@@ -72,6 +77,12 @@ function App() {
       } else {
         setPatients([])
       }
+      const savedEvacuated = localStorage.getItem('evacuated_test')
+      if (savedEvacuated) {
+        setEvacuatedPatients(JSON.parse(savedEvacuated))
+      } else {
+        setEvacuatedPatients([])
+      }
       setLoginForm({ username: '', password: '' })
       return
     }
@@ -88,6 +99,12 @@ function App() {
           setPatients(JSON.parse(savedPatients))
         } else {
           setPatients([])
+        }
+        const savedEvacuated = localStorage.getItem(`evacuated_${loginForm.username}`)
+        if (savedEvacuated) {
+          setEvacuatedPatients(JSON.parse(savedEvacuated))
+        } else {
+          setEvacuatedPatients([])
         }
         setLoginForm({ username: '', password: '' })
       } else {
@@ -1021,6 +1038,88 @@ function App() {
     )
   }
 
+  if (viewEvacuated) {
+    return (
+      <div style={{ minHeight: '100vh', background: '#000', color: '#fff', padding: '20px' }}>
+        <button
+          onClick={() => setViewEvacuated(false)}
+          style={{
+            padding: '10px 20px',
+            fontSize: '16px',
+            background: '#666',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            marginBottom: '20px'
+          }}
+        >
+          ← Tillbaka
+        </button>
+        <h1 style={{ marginBottom: '20px' }}>Evakuerade patienter ({evacuatedPatients.length})</h1>
+        
+        {evacuatedPatients.length === 0 ? (
+          <div style={{ textAlign: 'center', padding: '40px', color: '#666' }}>
+            <p>Inga evakuerade patienter</p>
+          </div>
+        ) : (
+          <div>
+            {evacuatedPatients.map(patient => (
+              <div key={patient.id} style={{
+                background: '#111',
+                padding: '15px',
+                marginBottom: '15px',
+                borderRadius: '8px',
+                border: '1px solid #333'
+              }}>
+                <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '10px', color: '#ea580c' }}>
+                  {patient.patientNumber} - {patient.name || 'Namn ej angivet'}
+                </div>
+                <div style={{ marginBottom: '10px' }}>
+                  <strong>Evakueringsplats:</strong> {patient.evacuatedLocation || '-'}
+                </div>
+                <div style={{ marginBottom: '5px' }}>
+                  <strong>Ålder:</strong> {patient.age || '-'}
+                </div>
+                <div style={{ marginBottom: '5px' }}>
+                  <strong>Skador:</strong> {patient.injuries || '-'}
+                </div>
+                <div style={{ marginBottom: '10px' }}>
+                  <strong>Triagekategori:</strong>{' '}
+                  <span style={{
+                    padding: '4px 8px',
+                    borderRadius: '4px',
+                    background: getTriageColor(patient.triageCategory),
+                    color: '#fff',
+                    fontWeight: 'bold'
+                  }}>
+                    {patient.triageCategory}
+                  </span>
+                </div>
+                <button
+                  onClick={() => {
+                    setEvacuatedPatients(evacuatedPatients.filter(p => p.id !== patient.id))
+                  }}
+                  style={{
+                    padding: '8px 16px',
+                    background: '#dc2626',
+                    color: '#fff',
+                    border: 'none',
+                    borderRadius: '4px',
+                    cursor: 'pointer',
+                    fontSize: '14px'
+                  }}
+                >
+                  Ta bort från lista
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    )
+  }
+
   if (showVitals) {
     const patient = patients.find(p => p.id === showVitals)
     if (!patient) return null
@@ -1587,6 +1686,23 @@ function App() {
         {viewMode === 'at-mist' && (
           <>
             <h3 style={{ marginBottom: '15px', color: '#F3D021', marginTop: '30px' }}>AT-MIST</h3>
+            <button 
+              onClick={() => {
+                setShowEvacuationModal(true)
+              }}
+              style={{
+                padding: '10px 20px',
+                background: '#ea580c',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '6px',
+                cursor: 'pointer',
+                fontWeight: 'bold',
+                marginBottom: '15px'
+              }}
+            >
+              Evakuering
+            </button>
                 
                 {/* Samlad journal */}
                 <div style={{ 
@@ -1754,6 +1870,24 @@ function App() {
         + Registrera ny patient
       </button>
 
+      <button 
+        onClick={() => setViewEvacuated(true)}
+        style={{
+          padding: '20px 40px',
+          fontSize: '18px',
+          background: '#ea580c',
+          color: '#fff',
+          border: 'none',
+          borderRadius: '8px',
+          cursor: 'pointer',
+          marginBottom: '30px',
+          fontWeight: 'bold',
+          marginTop: '10px'
+        }}
+      >
+        Evakuerade ({evacuatedPatients.length})
+      </button>
+
       {patients.length > 0 && (
         <div>
           <h2 style={{ marginBottom: '15px' }}>Registrerade patienter</h2>
@@ -1866,6 +2000,98 @@ function App() {
               </div>
             </div>
           ))}
+        </div>
+      )}
+
+      {showEvacuationModal && showVitals && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: 'rgba(0, 0, 0, 0.7)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 1000
+        }}>
+          <div style={{
+            background: '#111',
+            padding: '30px',
+            borderRadius: '8px',
+            border: '2px solid #ea580c',
+            maxWidth: '500px',
+            width: '90%'
+          }}>
+            <h2 style={{ marginBottom: '20px', color: '#ea580c' }}>Evakuera patient</h2>
+            <p style={{ marginBottom: '15px', color: '#aaa' }}>
+              Patient: <strong>{patients.find(p => p.id === showVitals)?.patientNumber || '-'}</strong>
+            </p>
+            <label style={{ display: 'block', marginBottom: '10px', color: '#fff' }}>
+              Evakueringsplats:
+            </label>
+            <input
+              type="text"
+              value={evacuationLocation}
+              onChange={(e) => setEvacuationLocation(e.target.value)}
+              placeholder="Ange evakueringsplats (t.ex. Sjukhus/Evakueringspunkt)"
+              style={{
+                width: '100%',
+                padding: '10px',
+                marginBottom: '20px',
+                background: '#000',
+                color: '#fff',
+                border: '1px solid #333',
+                borderRadius: '4px',
+                boxSizing: 'border-box'
+              }}
+            />
+            <div style={{ display: 'flex', gap: '10px' }}>
+              <button
+                onClick={() => {
+                  const patientToEvacuate = patients.find(p => p.id === showVitals)
+                  if (patientToEvacuate) {
+                    setEvacuatedPatients([...evacuatedPatients, { ...patientToEvacuate, evacuatedLocation }])
+                    setPatients(patients.filter(p => p.id !== showVitals))
+                    setShowVitals(null)
+                    setShowEvacuationModal(false)
+                    setEvacuationLocation('')
+                  }
+                }}
+                style={{
+                  flex: 1,
+                  padding: '10px 20px',
+                  background: '#ea580c',
+                  color: '#fff',
+                  border: 'none',
+                  borderRadius: '4px',
+                  cursor: 'pointer',
+                  fontWeight: 'bold'
+                }}
+              >
+                Evakuera
+              </button>
+              <button
+                onClick={() => {
+                  setShowEvacuationModal(false)
+                  setEvacuationLocation('')
+                }}
+                style={{
+                  flex: 1,
+                  padding: '10px 20px',
+                  background: '#666',
+                  color: '#fff',
+                  border: 'none',
+                  borderRadius: '4px',
+                  cursor: 'pointer',
+                  fontWeight: 'bold'
+                }}
+              >
+                Avbryt
+              </button>
+            </div>
+          </div>
         </div>
       )}
     </div>
