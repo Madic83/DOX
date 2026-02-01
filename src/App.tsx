@@ -994,7 +994,7 @@ function App() {
               marginRight: '10px'
             }}
           >
-            Spara patient
+            Spara
           </button>
           <button
             type="button"
