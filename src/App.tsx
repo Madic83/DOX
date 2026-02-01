@@ -1287,7 +1287,30 @@ function App() {
           <div>
             <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
               <button 
-                onClick={() => setShowForm(true)}
+                onClick={() => {
+                  setPreviousTreatment(patient.treatment)
+                  setFormData({
+                    patientNumber: patient.patientNumber,
+                    name: patient.name,
+                    age: patient.age,
+                    timeOfInjury: patient.timeOfInjury,
+                    mechanism: patient.mechanism,
+                    injuries: patient.injuries,
+                    consciousness: '',
+                    respiration: '',
+                    pulse: '',
+                    bloodPressure: '',
+                    spo2: '',
+                    temperature: '',
+                    treatment: patient.treatment,
+                    location: patient.location,
+                    unit: patient.unit,
+                    triageCategory: patient.triageCategory,
+                    signs: patient.signs
+                  })
+                  setEditingPatientId(patient.id)
+                  setShowForm(true)
+                }}
                 style={{
                   padding: '10px 20px',
                   background: '#F3D021',
