@@ -1,37 +1,6 @@
 ﻿import { useState } from 'react'
+import type { Patient, VitalReading } from './types'
 import './App.css'
-
-interface VitalReading {
-  time: string
-  timestamp?: string
-  consciousness: string
-  respiration: string
-  pulse: string
-  bloodPressure: string
-  spo2: string
-  temperature: string
-}
-
-interface Patient {
-  id: string
-  patientNumber: string
-  name: string
-  age: string
-  timeOfInjury: string
-  mechanism: string
-  injuries: string
-  consciousness: string
-  respiration: string
-  pulse: string
-  bloodPressure: string
-  spo2: string
-  temperature: string
-  vitalHistory: VitalReading[]
-  treatment: string
-  location: string
-  unit: string
-  triageCategory: string
-}
 
 function App() {
   const [patients, setPatients] = useState<Patient[]>([])

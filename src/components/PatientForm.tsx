@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { Patient } from '../types'
+import { useState } from 'react'
+import type { Patient } from '../types'
 import './PatientForm.css'
 
 interface Props {
