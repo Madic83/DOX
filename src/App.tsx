@@ -1924,6 +1924,31 @@ function App() {
         <h1 style={{ margin: 0 }}>DOX - Patientregistrering</h1>
         <div style={{ display: 'flex', alignItems: 'center', gap: '15px', flexShrink: 0 }}>
           <span style={{ color: '#aaa', whiteSpace: 'nowrap' }}>Inloggad som: <strong style={{ color: '#F3D021' }}>{currentUser}</strong></span>
+          {currentUser === 'test' && (
+            <button 
+              onClick={() => {
+                if (window.confirm('Är du säker på att du vill rensa ALLA patienter och evakuerade? Detta går inte att ångra!')) {
+                  setPatients([])
+                  setEvacuatedPatients([])
+                  localStorage.removeItem('patients_test')
+                  localStorage.removeItem('evacuated_test')
+                }
+              }}
+              style={{
+                padding: '10px 20px',
+                background: '#ea580c',
+                color: '#fff',
+                border: 'none',
+                borderRadius: '6px',
+                cursor: 'pointer',
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap',
+                flexShrink: 0
+              }}
+            >
+              RENSA
+            </button>
+          )}
           <button 
             onClick={handleLogout}
             style={{
