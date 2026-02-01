@@ -2027,28 +2027,7 @@ function App() {
                 }}>{patient.triageCategory}</span>
               </div>
               <div style={{ color: '#aaa', marginBottom: '5px' }}>
-                <strong>Ålder:</strong> {patient.age}
-              </div>
-              {patient.consciousness && (
-                <div style={{ color: '#aaa', marginBottom: '5px' }}>
-                  <strong>Medvetande:</strong> {patient.consciousness}
-                </div>
-              )}
-              {patient.pulse && (
-                <div style={{ color: '#aaa', marginBottom: '5px' }}>
-                  <strong>Puls:</strong> {patient.pulse}
-                </div>
-              )}
-              {patient.bloodPressure && (
-                <div style={{ color: '#aaa', marginBottom: '5px' }}>
-                  <strong>BT:</strong> {patient.bloodPressure}
-                </div>
-              )}
-              <div style={{ color: '#aaa', marginBottom: '5px' }}>
                 <strong>Skador:</strong> {patient.injuries}
-              </div>
-              <div style={{ color: '#aaa', marginBottom: '5px' }}>
-                <strong>Behandling:</strong> {patient.treatment}
               </div>
               
               <div style={{ display: 'flex', gap: '10px', marginTop: '10px', flexWrap: 'wrap' }}>
