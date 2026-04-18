@@ -1,0 +1,2308 @@
+
+Smärtbehandling
+Spinal rörelsebegränsning (SRB) vid trauma 
+Traumatisk blödningschock – Prehospital resuscitering
+Explosionsskador
+Krosskador
+Brännskador, större (termiska)
+Rökgasförgiftning
+Elolyckor
+Barotrauma
+Dekompressionssjuka (tryckfallssjuka/dykarsjuka)
+Undersökning av dykare Navalmedicin FM DNC 2020 12.4
+Stöd till ”Undersökning av dykare”
+Bukskador
+Drunkning
+Hjärtstopp (traumatiskt)
+Skallskada
+Mild traumatisk hjärnskada
+Screening för TBI (3 Question DVBIC Screening Tool)
+Spinal skada
+Thoraxskador
+Ögonskador
+Käkfrakturer
+Tandskador
+Omgivningsorsakade tillstånd
+Akut bullerskada
+Hypertermi
+Hypotermi
+Akuta medicinska tillstånd
+Allergi/Anafylaxi
+Astma
+Hjärtstopp (medicinskt)
+Främmande kropp
+Hypoglykemi
+Kramper
+Medvetandesänkning
+Huvudvärk
+Akut stressreaktion
+CBRN
+CBRN
+Läkemedel
+
+Smärtbehandling
+Behandla med en målsättning att nå VAS <3. Börja om möjligt med att mäta och
+dokumentera initial VAS.
+Paracetamol och/eller Ibuprofen
+Vid lindrig till måttlig smärta till patient som klarar att svälja tablett.
+Synergistisk effekt när dessa två substanser ges samtidigt.
+Ketamin
+Används vid svår smärta om patienten är i cirkulatorisk chock eller riskerar att hamna i
+chock.
+Morfin
+Används vid svår smärta.
+Försiktighet till patient i hotande eller manifest cirkulatorisk chock eller vid
+skallskada.
+Fentanyl
+Används vid svår smärta, för övrigt som vid morfin.
+I praktiken:
+Vid mindre skador:
+Prova först peroral terapi med Paracetamol eller Ibuprofen (av värde även vid svårare
+smärta som grundbehandling).
+Vid större skador eller svårare smärta:
+Starta tidigt med någon form av opioid (Morfin eller Fentanyl) som grundanalgesi
+tillsammans med antiemetika. (Snabbast effekt fås förstås av i v administrering men i m, i n
+eller buccal administrering har stora fördelar vad gäller enkelhet.)
+Vid behov av ytterligare smärtlindring eller som proceduranalgesi, lägg till Ketamin. Ha
+tålamod och låt läkemedlet ha effekt innan du genomför procedur eller ger mer! (Notera att
+Ketamin är utmärkt för analgesi och sedering att ge i m)
+
+Spinal rörelsebegränsning (SRB) vid trauma
+Grundprinciper
+Spinal rörelsebegränsning får aldrig förhindra eller fördröja evakuering eller livräddande
+åtgärder på den kritiskt skadade traumapatienten.
+Den skadade ska tas omhand på ett sätt så att minsta möjliga förflyttning görs. Använd med
+fördel CombiCarrier/skopbår. Den spinala rörelsebegränsningen ska anpassas till den
+skadade, och inte tvärtom.
+Bedöm behov av övervakning och behandling av vitala funktioner i ryggläge. Överväg
+sidoläge vid medvetandesänkning om kontinuerlig övervakning ej är möjligt.
+Bedöm behov att spänna fast armar under förflyttning.
+Fastspänd patient får aldrig lämnas oövervakad på grund av risk för kräkning och aspiration.
+Skadade som kan samarbeta ska vägledas till egen urtagning/losstagning.
+Gravida: undvik ryggläge, >20 grader vänstertippning.
+Indikation för stockvändning (logroll): vid misstanke om penetrerande skada på baksida
+thorax (traumamekanism och/eller positivt blodsvep).
+Aspekter vid fördröjd avtransport
+Beakta risken för uppkomst av trycksår; polstra under utsatta ställen. Kontrollera de utsatta
+ställen regelbundet och vid tecken på tryckskador överväg omlagring eller vändning av den
+skadade.
+Evakuering
+• Bårsystem med mjukt underlag vid längre transporter.
+• Kontinuerlig övervakning av luftväg och andning.
+• Beakta risk för nedkylning.
+Exempel på skademekanismer:
+- Kraftigt våld mot huvud, bröstkorg eller bäcken
+- Plötslig acceleration, deceleration eller sidoböjning
+- Fall
+- Utslungad ur fordon
+- Dykning på grunt vatten
+- Explosion
+*) Exempel på skador som kan försämra förmåga att uppfatta smärta i ryggen:
+- Frakturer i långa rörben
+- Misstanke om skador på inre organ
+- Stora sårskador
+- Omfattande brännskador
+
+Traumatisk blödningschock – Prehospital resuscitering
+Traumatisk blödning är den vanligaste undvikbara dödsorsaken i stridssammanhang. De flesta
+av dessa dödsfall sker prehospitalt. Snabb blödningskontroll och tidig resuscitering med
+blodprodukter har i flera studier visat ökad överlevnad vid livshotande blödning. Målet är att
+återställa hemostas samt undvikande av vävnadshypoxi och koagulopati. Stor risk för
+blodtransfusionsbehov föreligger vid amputation ovan knä, (framförallt i samband med
+bäckenskador), penetrerande skador av thorax och/eller buk, kraftigt trubbigt våld och
+explosionsskador.
+När blodprodukter saknas men kristalloid vätska finns att tillgå bör man vara mer restriktiv
+med volymersättning då det är visat en rad negativa effekter av detta, samtidigt är det förstås
+bättre att ge kristalloider än att patienten blöder ihjäl. Faktorer som är av betydelse för hur
+mycket kristalloid vätska man ger, är tid till kirurgi, storlek på blödning och eventuell
+comorbiditet. Förlorar patienten medvetandet p g a lågt blodtryck eller om radialispulsen
+försvinner (eller ett systoliskt blodtryck <80-90 mm Hg) är det rimligt att ge 250-500 ml
+Ringer-Acetat som avbryts så fort puls eller medvetande återkommer. Detta upprepas till man
+når vårdnivå där man kan ge blodprodukter och/eller har kirurgisk förmåga
+Symtom och kliniska fynd
+• Kallsvettig hud
+• Radialispuls (snabb, svag, avsaknad)
+• Sjunkande systoliskt blodtryck
+• Påverkan på medvetande (förvirring, medvetandesänkning, medvetslöshet)
+Indikationer för initiering av blodtransfusion
+• Medvetandesänkning (som ej beror på skallskada) eller
+• Svag/icke-palpabel radialispuls eller
+• BT syst < 100 mmHg (< 110 mmHg med skallskada)
+Transfusionsmål
+• Förbättrat medvetande eller
+• Kraftigare/palpabel radialispuls eller
+• BT syst >100 mmHg (>110 mmHg med skallskada)
+Indikationer för initiering av volymsbehandling med kristalloider
+• Ej tillgång till blodprodukter
+• Kirurgisk förmåga längre bort än 30 minuter
+• Medvetandesänkning (som ej beror på skallskada) eller
+• Svag/icke-palpabel radialispuls eller
+• BT syst <80-90 mmHg (< 110 mmHg med skallskada)
+Behandlingsmål vid volymsbehandling med kristalloider
+Den minsta bolus upp till 500 ml som ger:
+• Förbättrat medvetande eller
+• Palpabel radialispuls eller
+• BT syst > 80-90 mmHg (> 110 mmHg med skallskada)
+Upprepa vid behov
+Observera
+• ID-kontroll av mottagare och dokumentation av transfusion i journalen.
+• Inj Tranexamsyra och Kalcium i annan infart än blodprodukter. Är det inte möjligt att
+sätta två infarter, spola infarten med 10 ml NaCl före och efter administrering av
+läkemedel/blodprodukter.
+• Använd blodvärmare om situationen tillåter.
+• Prioritera att ge blodprodukt till blödande patienter. LTOWB (Low Titer O Whole
+Blood) alternativt LyoPlas (FDP).
+• Undvik övertrycksventilation (intubation) så länge den skadade befinner sig i
+hypovolem chock (risk för cirkulatorisk kollaps). Resuscitera först. Skapa v b fri
+luftväg med enkla hjälpmedel om den skadade spontanandas.
+• Sträva efter kirurgisk hemostas så snabbt som möjligt.
+• Tomma plasmaflaskor och blodpåsar ska skickas med patienten.
+• Fortsätt monitorera vitala parametrar.
+• Säkerställ hypotermiprofylax.
+Transfusionsreaktioner
+Avbryt transfusionen vid tecken till:
+• Anafylaxi (blodtrycksfall, stridorös andning, hög puls och andningsfrekvens,
+urtikaria). Behandla som vid allergi (se ”Allergi/anafylaxi”)
+• Nytillkommen smärta eller tryck över bröstet, flanksmärta eller andra allvarliga
+symtom (misstanke om hemolytisk reaktion).
+• Feber, frossa
+Akuta reaktioner uppstår vanligast inom 10-15 minuter från transfusionsstart men kan
+uppträda upp till 24 timmar efteråt.
+Vid misstanke om allvarlig transfusionsreaktion ska det dokumenteras i journalen (symtom
+och tidpunkt för reaktionen) samt kontakt tas med ledningsansvarig läkare som i sin tur ska
+rapportera transfusionsreaktionen vidare till blodcentralen.
+Evakuering
+Patient som är i behov av blod är alltid högsta prioritet.
+
+Explosionsskador
+Kroppsskador orsakade av partiklar eller tryckvåg från en explosion, t ex av mina, granat.
+Explosioner kan ge lungskador och pulmonell blödning, sönderslitning av andra organ i
+bröstkorg och buk, brustna trumhinnor och påverkan på det centrala nervsystemet.
+Explosioner utgör en komplex skademekanism (övertryck, trubbigt och penetrerande
+mekanismer).
+Symtom och kliniska fynd
+Primära Tryckvåg • Apné, kraftigt blodtrycksfall och låg puls direkt vid
+skadetillfället som kan hålla i sig några timmar
+• Lungskador med andnöd, blodiga upphostningar, låg
+saturation, pneumothorax, luftembolier (→ neurologiska
+bortfallssymtom, hjärtinfarkt, arytmier)
+• Blödningar och perforation i magtarmkanalen
+• Hjärnskakning, mild traumatisk hjärnskada
+• Trumhinneruptur, skada på inneröra (→ nedsatt hörsel/dövhet)
+• Ruptur av ögongloben
+Sekundära Omkringkastade
+fragment
+• Amputation av extremiteter
+• Penetrerande skador (inklusive ögon)
+• Främmande kropp
+Tertiära Individen
+slängd mot
+föremål
+• Frakturer
+• Skallskador
+• Spinala skador
+• Inre blödningar (t ex lever, mjälte)
+Kvartära Övriga • Brännskador
+• Krosskador
+Kvintära Tillsatser
+(”Dirty bomb”)
+• Blodsmitta (hepatit B, C; HIV)
+• Strålningsskador
+Behandling/åtgärd
+• Arbeta och åtgärda enligt <C>ABCDE.
+• Låg tröskel för bilateral thorakocentes/thorakostomi
+• Ge Tranexamsyra, 2 g i v tidigt
+• Bäckenstabilisator
+• Vid blödningschock resuscitera enl kapitel ”Traumatisk blödningschock – prehospital
+resuscitering”.
+• Antibiotika vid penetrerande skador.
+Observera
+• Samtliga som utsatts för en tryckvåg ska undersökas avseende mild traumatisk
+hjärnskada (mTBI), hörsel- och ögonskador.
+• Screening för blodsmitta vid penetrerande skador (störst risk vid attack av
+självmordsbombare, flera skadade).
+Aspekter vid fördröjd avtransport
+Misstanke om ”blast lung” vid andnöd, hosta/blodig upphostning och låg saturation. En
+lungskada kan försämras efter 12-24 timmar p g a inflammation och mekanisk ventilation kan
+komma att behövas.
+Evakuering
+Överväg bilaterala thoraxdrän inför transport (framförallt flyg).
+Krosskador
+Bakgrund
+Definieras som vävnadsskada till följd av långvarig kompression av vävnaden, framförallt i
+thorax och extremiteter. Uppstår vanligast i samband med en fastklämning under ett tungt
+föremål. Vävnadsskadan är allvarligare ju större del av kroppen som är involverad. I den
+fastklämda kroppsdelen upphör blodcirkulationen. Vid losstagning sköljs
+nedbrytningsprodukter (bl a kalium) som samlats i blodet till hjärta och lungor och kan leda
+till cirkulatorisk instabilitet och värsta fall hjärtstillestånd.
+Symtom och kliniska fynd
+• Ofta kombination av multipla skador
+• Lågt blodtryck (chock) och arytmier (framförallt efter losstagning)
+• Smärta
+Behandling/åtgärd
+Om det krävs omedelbar losstagning (taktiskt läge), applicera en tourniquet först, lossa den
+skadade och åtgärda enligt nedan i lugnare skede.
+A) Innan losstagning:
+• Undersök den skadade enligt <C>ABCDE.
+• Sätt venös eller intraosseös infart.
+• Ge Ringer-Acetat 1000 ml/h i v, om den skadade är vaken kan peroral
+vätskeersättning ges.
+• Smärtstilla i första hand med Ketamin.
+• Sätt tourniquet om fastklämningen varat i mer än två timmar eller om behandlingen
+blir fördröjd.
+B) Under losstagning:
+• Fortsätt med vätskeinfusion 1000 ml/h under hela losstagningen. Dröjer losstagningen
+längre än två timmar, minska infusionstakten till 500 ml/h.
+C) Efter losstagning:
+• Fortsätt med vätskeinfusionen enligt ovan.
+• Bedöm cirkulatoriskt status omededelbart efter losstagning (minst radialispuls och
+medvetandegrad). Vid svagare, oregelbunden eller långsammare puls eller pulslöshet
+ge inj Kalcium 9,2 mg/ml, 10 ml i v (under 2-3 min), kan upprepas v b Fortsatt
+vätskeinfusion.
+• Vid hjärtstillestånd: A-HLR enligt algoritm, se ”Hjärtstopp (medicinskt)”.
+• Ny undersökning enligt <C>ABCDE. Vanligt med förekomst av flera skador
+samtidigt.
+• Bedöm indikation för stabilisering av halsrygg, se ”Spinal rörelsebegränsning vid
+trauma”.
+• Aggressiv hypotermiprofylax.
+Observera
+Använd ej depolariserande muskelrelaxantia!
+Vård vid fördröjd avtransport
+• Cirkulatorisk bedömning (blodtryck, puls, medvetande) var 15:e minut första två
+timmarna, därefter en gång var 30:e minut.
+• Kontroll av urinmängd (flaska eller urinkateter). Mål 100 ml/h. Öka vätskeinfusionen
+om urinmängd <100 ml/h. Avbryt vid utebliven effekt eller upphörd urinproduktion.
+Max 6 liter vätska.
+• Vid svår muskelskada kan urinen färgas mörk.
+• Antibiotika (inj Ertapenem, 1 g i v) inom 3 h från skadan.
+Evakuering
+Snarast möjligt. Noggrann monitorering av vitala parametrar under hela evakueringen.
+Brännskador, större (termiska)
+En stor brännskada definieras om den brännskadade kroppsytan överstiger 20% av den totala
+hudytan (Total Burned Surface Area, TBSA).
+Symtom och kliniska fynd
+• Hosta, heshet, stridor samt brännskada eller sot runt/i näsa och mun ska föranleda
+misstanke om inhalationsbrännskada. Var även uppmärksam på tecken på ofri luftväg.
+• Hög andningsfrekvens, andnöd och oro/ångest kan vara tecken på lungskada.
+• En renodlad brännskadad är vaken och initialt cirkulatoriskt stabil, men uppvisar
+ibland hög hjärtfrekvens på grund av smärta.
+• Sällan lika brännskadedjup i hela den skadade ytan.
+Behandling/åtgärd
+• Det initiala omhändertagandet av en brännskadad sker enligt samma principer som för
+en traumapatient, enligt <C>ABCDE. Brännskadeomhändertagandet är sekundärt till
+övriga trauman.
+• Låg tröskel för tidig intubation eller kirurgisk luftväg vid påverkad luftväg (stridor,
+heshet). En brännskada i luftvägarna kan på en timme orsaka hotad luftväg på grund
+av svullnad.
+• Oxygenbehandling, högt flöde på mask med reservoar.
+• Vid luftvägssvullnad ge slemhinneavsvällande och bronkdilaterande:
+Nebulisator: Adrenalin 1 mg/ml, 1 ml, utspätt med 2 ml NaCl 0,9%
+Nebulisator: Salbutamol 2 mg/ml, 3 - 6 ml, ev. med tillägg av Ipratropium 0,25
+mg/ml, 1 - 2 ml.
+• Uppskatta brännskadans omfattning (%TBSA) med hjälp av 9% - regeln (det är
+vanligt att man överskattar den totala utbredningen och underskattar utbredningen av
+fullhudsskador). Om TBSA >20%, ge inf Ringer-Acetat 500 ml/h i v tills timdiures
+kan mätas.
+• Aggressiv hypotermiprofylax!
+• Delhudsskador är mycket smärtsamma. Ketamin är förstahandsval.
+• Låt fastbrända kläder/uniformsdelar sitta kvar, var noggrann med att avlägsna de
+metalldelar som finns hos patienten som kan lagra värme och fortsätta fördjupa
+brännskadornas omfattning.
+• Omläggning av brännskadade områden med torra, rena lakan eller plastfolie. Undvik
+fuktiga förband då hypotermi är vanligt. Förband ska inte sitta åt för hårt runt
+extremiteten på grund av svullnadsrisken.
+• Åtsittande föremål som t ex klockor, ringar ska tas av; sanera metallföremål såsom
+bältesdetaljer, nycklar, halsband etc.
+Observera
+Hypotoni sekundärt till vätskeförlust vid en renodlad brännskada uppträder först efter några
+timmar. Blödning ska i så fall misstänkas tills det är uteslutet som orsak.
+Aspekter vid fördröjd avtransport
+• Överväg intubation alternativt kirurgisk luftväg om > 40% TBSA på grund av generell
+svullnadsrisk med luftvägspåverkan; fäst tuben med bomullsband om huvudet.
+Ventrikelsond. Kontrollera regelbundet bomullsbandet då man kan behöva knyta om
+det. Beakta riskerna med depolariserande muskelrelaxantia vid vävnadsskada.
+• Sätt urinkateter och justera tillförd vätska enligt timdiures (mål: 0.5 ml/kg/h). Vid för
+hög timdiures sänks vätsketillförseln med 1/3-del (dvs -33%), vid för låg timdiures
+höjs vätsketillförseln med 1/3-del (dvs +33%).
+• Suturera venösa infarter.
+• Höjd huvudända 30 grader.
+• Regelbundna kontroller av distalstatus på brännskadad extremitet för att kunna avgöra
+angelägenhetsgrad och behov av eskarotomi.
+Evakuering
+Inför och under transporten:
+• Bedöm luftväg innan transport, säkra v b
+• Kontrollera att infarter är adekvat fixerade och fungerar.
+• Höjd huvudända även under transport.
+• Temperaturen i fordonet/fartyget bör vara på maximal nivå.
+• Fortsatt vätskebehandling och kontroll av timdiuresen.
+9 %-regeln
+Rökgasförgiftning
+Exponering för giftiga gaser kan ske vid brand och/eller vid ofullständig förbränning,
+framförallt i slutna utrymmen. Retande gaser, som ammoniak, klorgas, svaveldioxid och
+isocyanater, ger stark påverkan på luftvägarna. Heta gaser ger framförallt en risk för svullnad
+av slemhinnan i luftvägarna vilket kan leda till svåra andningsbesvär.
+I brandrök finns två gaser att ta särskild hänsyn till, kolmonoxid och cyanväte. Vid
+ofullständig förbränning bildas kolmonoxid (CO), en färglös gas utan smak eller lukt.
+Kolmonoxid orsakar syrebrist i kroppen genom att konkurrera ut syremolekylernas plats.
+Detta sker dels i de röda blodkropparna men även i kroppens alla andra celler. Cyanväte
+blockerar de energiproducerande mekanismerna i kroppens celler. Vid inandning sker detta
+efter bara några minuter. En smak av bittermandel eller metallisk smak kan uppfattas.
+Symtom och kliniska fynd
+Retande gaser (ammoniak, klorgas, svaveldioxid, isocyanater)
+• Hosta
+• Andnöd
+• Kraftig slemproduktion
+• Luftvägsobstruktivitet
+• Syresättningsproblem
+• Toxiskt lungödem – kan visa sig upp till 24 - 48 timmar efter skada
+Kolmonoxid
+• Illamående och/eller yrsel
+• Huvudvärk
+• Andnöd
+• Takykardi
+• EKG-påverkan som vid ischemi
+• Sänkt medvetande, från trötthet till medvetslöshet
+• ”Rosighet” i huden, klarröda läppar
+Cyanväte
+• Huvudvärk
+• Illamående/kräkningar
+• Hud/slemhinnor och nagelbäddar kan bli körsbärsröda
+• Andningspåverkan
+• Cirkulationspåverkan
+• Medevetandepåverkan, kramper, koma
+• Laktatvärde? (> 10 mmol/l talar starkt för cyanidpåverkan)
+Heta gaser
+• Stridor
+• Hosta
+• Luftvägsobstruktion
+• Syresättningsproblem
+Behandling/åtgärd
+• Avbryt pågående exponering, var noga med din egen säkerhet.
+• Omhändertagande enligt <C>ABCDE.
+• Snabb Oxygenbehandling.
+• Låg tröskel för intubation, särskilt om personen exponerats för heta gaser.
+• Om tillgängligt: Hydroxykobalamin (Cyanokit) till alla som exponerats för rökgaser
+i slutet utrymme och är medvetandepåverkade (även hjärtstopp).
+Retande gaser
+Lindriga symtom (sveda i mun/svalg/bröst, lättare hosta eller heshet)
+• Vila
+• Information om förväntad succesiv förbättring inom 24 timmar. Vid utebliven
+förbättring ska ny bedömning göras.
+Allvarliga symtom (intensiv eller blodig hosta, andnöd, påverkad luftväg,
+allmänpåverkan)
+• Observation i 24-48 timmar.
+• Oxygenbehandling till alla med retsymtom, andnöd eller låg syresättning.
+• Överväg antibiotikabehandling med tanke på stor slemhinneskada och ökad
+infektionsrisk.
+• Inhalation av kortison för att lindra slemhinneskadan. Bronkdilaterande medel ges
+först. Systemiskt verkande kortison rekommenderas inte.
+Bronkdilaterande:
+Turbuhaler: Bricanyl 0,5 mg/dos, 2-3 inhalationer
+Nebulisator: Salbutamol 2 mg/ml, 3-6 ml, ev. med tillägg av Ipratropium
+0,25 mg/ml, 1-2 ml
+Kortison:
+Turbuhaler: Pulmicort 400 μg/dos, 10 inhalationer, håll andan 10 sekunder
+mellan inhalationerna
+Nebulisator: Budesonid 0,5 mg/ml, 8 ml
+Vid svårare symtom kan behandlingen upprepas, 1-2 gånger under första timmen
+och sedan 2 - 3 gånger till under första dygnet med:
+Turbuhaler: Pulmicort 400 μg/dos, 5 inhalationer
+Nebulisator: Budesonid 0,5 mg/ml, 4 ml
+Fosgen/nitrösa gaser
+• Överväg behandling med kortisoninhalation enligt ovan oavsett symtombild
+• Observationstid ska baseras på exponeringsgrad, inte initiala symtom.
+Kolmonoxid
+• Kort exponering och med enbart övergående huvudvärk som symtom räcker det
+med frisk luft och vila.
+• Längre exponering: Oxygenbehandling med tättslutande mask i minst 6 timmar.
+För gravida 12 timmar.
+• EKG för att se tecken på ischemi/arytmier.
+• Ställningstagande till behandling med hyperbar oxygen (HBO), framförallt vid
+COHb >20-25%, laktacidos eller CNS-påverkan.
+Cyanväte
+• Oxygenbehandling med tättslutande mask
+• Allvarliga symtom: Hydroxykobalamin (Cyanokit) 25 mg/ml, 5 g i v (om
+tillgängligt)
+• Lindriga symtom: Natriumtiosulfat 150 mg/ml, 100 ml i v under 5 - 10 min.
+• Ställningstagande till behandling med hyperbar oxygen (HBO)
+Heta gaser
+• Överväg tidig intubation, säkra tuben med bomullsband vid brännskada i ansiktet.
+• Oxygenbehandling 15 l/min, mask med reservoar.
+• Vila, höjd huvudända.
+• Vid luftvägsobstruktion kan bronkdilaterande ges:
+Turbuhaler: Bricanyl, 0,5 mg/dos, 2 - 3 inhalationer
+Nebulisator: Salbutamol 2 mg/ml, 3 - 6 ml, ev. med tillägg av Ipratropium
+0,25 mg/ml, 1 - 2 ml
+Aspekter vid fördröjd avtransport
+Observans på att toxiska lungödem kan uppstå upp till 48 timmar efter initial exponering med
+ett relativt symtomfattigt intervall.
+Evakuering
+Inför transport ska noggrann utvärdering av luftvägen göras. Låg tröskel för säkring av
+luftväg med hjälp av intubation.
+Referenser
+Läkemedelsboken. Akuta förgiftningar – initial bedömning och behandling.
+Giftinformationscentralen.
+Elolyckor
+Bakgrund
+Skadans omfattning beror på mängden elektrisk energi. Elolyckor indelas i högspännings-
+(>1000 V) och lågspänningsolyckor (<1000 V). Växelström är farligare än likström beroende
+på svårigheten att komma loss från strömkällan och högre risk att inducera ventrikelflimmer
+(hjärtstopp). Högspänningsolyckor ska betraktas som traumafall.
+Blixtnedslag ska alltid handläggas som högspänningsolyckor.
+Symtom och kliniska fynd
+• Arytmier i form av ventrikelflimmer, asystoli och supraventrikulära arytmier.
+Lågspänningsolyckor kan ge dödlig arytmi direkt vid skadetillfället och sällsynt kan
+arytmier, t ex förmaksflimmer, uppträda timmarna efter olyckstillfället även vid
+lågspänningsolyckor.
+• Andningsstopp direkt efter skadan kan uppstå. Långvarig assisterad ventilation/HLR
+är motiverad.
+• Brännskador: högspänningsskador orsakar både ytliga och djupa brännskador.
+Strömmen följer vävnader med lägst resistens (blodkärl, nerver och muskler) och kan
+ge djupa brännskador även om hudskadorna är begränsade. Risk för utveckling av
+kompartmentsyndrom.
+• Njursvikt kan uppstå vid högspänningsolyckor på grund av muskelsönderfall.
+• Neurologiska skador med medvetslöshet, funktionsbortfall i extremiteter och andra
+neurologiska symtom förekommer vid högspänningsolyckor.
+• Ögon- och hörselskador om strömmen gått genom skallen. Nervpåverkan kan
+uppträda med viss fördröjning och kvarstå under lång tid. Överväg traumatisk
+hjärnskada vid neurologiska bortfallssymtom.
+• Kärlskador kan uppkomma vid högspänningsolyckor och kan ge både arteriell
+kärlspasm och trombos med symtom på akut ischemi.
+• Frakturer och luxationer av leder uppkommer på grund av trauma och kraftig
+muskelkontraktion i samband med olyckan.
+• Skada på kotpelaren.
+Behandling/åtgärd
+• Bedömning enligt <C>ABCDE.
+• Alltid rytmövervakning.
+Misstänkt högspänningsolycka:
+• Rytmövervakning.
+• Ge inf Ringer-Acetat, 1000 - 2000 ml i v första timmen.
+Arytmier: Sedvanlig handläggning.
+Aspekter vid fördröjd avtransport
+• Rytmövervakning i minst 12 timmar i följande fall:
+- säkerställd eller misstänkt högspänningsolycka
+- påvisad/nydebuterad arytmi
+- medvetslöshet, bestående eller övergående
+- misstänkt strömpassage genom bålen
+- blixtnedslag
+• Regelbundna kontroller av distalstatus av den drabbade extremiteten (mycket stor risk
+för kompartmentsyndrom).
+• Blodgas om möjligt (risk för hyperkalemi).
+• Kontroll av urinen. Mer vätsketillförsel vid misstanke om myoglobinuri (mörkfärgad
+urin).
+Evakuering
+Personer ska omedelbart till högre medicinsk vårdnivå vid:
+• Högspänningsolycka
+• Lågspänningsolycka med strömgenomgång genom bålen
+• Medvetandepåverkan
+• Brännskador
+• Tecken på nervskador t ex förlamning
+Barotrauma
+Gasers volym beror på det omgivande trycket enligt Boyles lag. Vid ökning av tryck minskar
+gasvolymen och vid minskat tryck ökar densamma. Det påverkar gasfyllda hålrum med rigida
+väggar, i eller intill kroppen, som inte har en kommunikation med omgivningstrycket. Ett
+exempel är mellanörat med en blockerad gaspassage i örontrumpeten. Påverkan kan ske i
+såväl kompressionsfas (ökande tryck) som i dekompressionsfas (minskande tryck) med två
+olika typer av skador till följd.
+I dekompressionsfas kallas skadorna för barotrauma och uppstår då kroppen inte kan
+evakuera den ökande gasvolymen genom en naturlig väg och vävnadsskada uppstår. T ex
+trumhinneruptur.
+Skador i kompressionsfas kallas mer specifikt för ”squeeze” och är ett resultat av kroppens
+försök att utjämna trycket. Blod eller cellvätska pressas från vävnaden mot det drabbade
+hålrummet vilket ger små blödningar eller svullnad.
+Symtom och kliniska fynd
+Symtomutvecklingen kan vara snabb, ofta inom minuter från avslutande av dyk.
+Barotrauma:
+• Lungbristning
+- Arteriella luftembolier, framförallt luftembolisering till hjärnan – neurologisk
+påverkan beroende av vilket område i hjärnan som drabbas. Andra symtom
+kan vara kräkning, hosta/blodig hosta. I svårare fall även
+respiratorisk/cirkulatorisk påverkan, inklusive medvetandeförlust och
+hjärtstillestånd.
+- Mediastinalt emfysem – ev. andningssvårigheter
+- Subkutant emfysem – krepitationer i huden, svullnad, smärta i drabbat område,
+dissektion till larynx ger förändring av röst (ovanligt)
+- Pneumothorax – smärta i ena thoraxhalvan, andfåddhet
+• Öron
+- Ruptur av trumhinnan: smärta och ev. även blödning i yttre hörselgången.
+- Alternobar vertigo – beror på assymmetri i trycket mellan höger och vänster
+mellanöra.
+• Magtarmkanal
+- Smärta, ev. uppspänd buk - nedsvald gas kan ge övertöjning av
+magtarmkanalens väggar.
+Squeeze:
+• Hud - luft i veck av dykdräkten komprimeras och ”nyper” i skinnet, ger små
+blödningar.
+• Öron:
+- Smärta
+- Vätska/blod i mellanörat (ses vid öroninspektion) – vid långvariga problem
+- Stark smärta som plötsligt går över och ev. vätska/blod i hörselgången
+(trumhinneperforation)
+- Rotatorisk yrsel, tinnitus (ofta pip eller ringande ljud i örat) och ensidig
+hörselnedsättning som kan uppträda gradvis (ruptur av runda fönstret på grund
+av för kraftig tryckutjämningsmanöver)
+• Ögon och ansikte – små till större blödningar runt ögonen eller i ögats bindehinnor,
+ödem och/eller blödningar i huden runt ögonen.
+• Bihålor – framförallt smärta och slemhinneskada (vanligaste orsaken till blod i
+dykmasken).
+• Tänder – kan ge mycket stark smärta och därmed leda till irrationella beslut.
+• Lungor – vid fridykning; komprimeras lungvolymen mer än residualvolym strömmar
+venöst blod in i lungan, kan ge vävnadsskador och lungödem.
+• Helkropp – vid hjälmdykning; slangbrott skapar momentant undertryck på hela
+kroppen som pressas in mot den solida dykhjälmen.
+Behandling/åtgärd
+Dykledaren har det övergripande operativa ansvaret vid dykeriolycksfall. I en situation med
+allvarlig symtombild och/eller snabb utveckling av symtom kan dykledaren initiera
+behandling enligt mall (se nedan). Därefter ska läkare med dykmedicinsk kompetens
+kontaktas snarast möjligt.
+• Lungbristning
+- Omhändertagande enligt <C>ABCDE.
+- Undersökning enligt mall (”Undersökning av dykare”).
+- Den drabbade vårdas med fördel i horisontalläge för att minska bubblor till CNS.
+- Oxygen i så hög koncentration som möjligt – Normobar Oxygen Behandling
+(NBO)
+- Kontakta läkare med dykmedicinsk kompetens; FM dykläkare i beredskap om
+sådan finns tillgänglig alternativt civil HBO-jour genom SOS Alarm 112.
+- Lämna information om: dykprofilen (djup, tid, andningsgas,
+uppstigningshastighet, använda tabeller och tidigare dyk), observationer av
+kamrater, given behandling och symtomutveckling.
+- Etablera perifer venös infart.
+- Är den skadade vid medvetande kan dryck ges efter det initiala omhändertagandet.
+Vid påverkat medvetande inf Ringer-Acetat, 1000 ml i v på 1 - 2 timmar.
+Behandling för lungbristning med neurologiska symtom är Hyperbar Oxygen Behandling –
+HBO som ges i tryckkammare. Följ råd från FM dykarläkare/civil HBO-jour angående
+fortsatt handläggning.
+Ska den skadade transporteras till tryckkammare för bedömning/behandling ska NBO
+fortsätta under transport.
+• Ruptur av runda fönstret
+- Kontakta FM dykläkare/läkare med dykmedicinsk kompetens. Lämna information
+om: dykprofilen (djup, tid, andningsgas, uppstigningshastighet, använda tabeller
+och tidigare dyk), observationer av kamrater, given behandling och
+symtomutveckling.
+- Den drabbade bör transporteras till öronklinik för undersökning och utredning.
+- I väntan på behandling får den drabbade gärna inta sittande position, om möjligt.
+- Den drabbade ska undvika att krysta, t ex genom fler tryckutjämningsmanövrar.
+• Ruptur av trumhinnan
+- Kontakta läkare med dykmedicinsk kompetens för rådgivning vad gäller
+differentialdiagnostik.
+- Den drabbade bör genomgå inspektion av trumhinna innan dykning återupptas.
+• Squeeze
+- Symtomatisk behandling, t ex mot smärta.
+Observera
+Även lättare neurologisk påverkan ska handläggas skyndsamt med stöd av läkare med
+dykmedicinsk kompetens då progress av symtombilden kan ske. Utan adekvat behandling
+finns stor risk för permanenta neurologiska skador.
+Aspekter vid fördröjd avtransport
+Vid lungbristning med neurologiska symtom: fortsätt att ge Oxygen i så hög koncentration
+som möjligt.
+Evakuering
+Vid flygtransport av patient med misstänkt lungbristning är max flyghöjd 300 m/1000 ft
+(icke-trycksatt kabin), annars riskerar symtomen att förvärras.
+Dekompressionssjuka (tryckfallssjuka/”dykarsjuka”)
+Mängden löst gas, t ex kvävgas, i kroppens vävnader styrs av bland annat omgivningens
+tryck. Vid högre tryck, t ex under vatten, ökar mängden löst kvävgas i kroppen. Vid lägre
+tryck, såsom vid vistelse på hög höjd/flygning (framförallt vid accidentell dekompression vid
+höjder > 18000 fot) eller uppstigning från dyk, är det omgivande kvävgastrycket lägre och
+kroppen strävar efter att uppnå jämnvikt med detta lägre tryck. Förändringen till ett lägre
+tryck kallas för dekompression. Sker denna förändring snabbt hinner inte människan vädra ut
+överskottet av kväve från vävnaderna och bubbelbildning av överskottet av kväve kan uppstå.
+Gasbubblor bildas som kan förhindra cirkulationen, utöva lokalt tryck i vävnader, samt utlösa
+biokemiska reaktioner som liknar kroppens inflammationssvar.
+Mängden löst gas i kroppen påverkas även av temperatur, en kall kropp har svårare att både ta
+upp och avge gas medan det omvända förhållandet gäller för en varmare kropp. Har en
+vävnad god blodcirkulation sker både upptag och avgivning av gas snabbare än i en vävnad
+som har sämre cirkulation. Det är därför viktigt att undvika både nedkylning och hypovolemi
+hos den drabbade.
+Bubblor kan bildas i det venösa blodet och transporteras till lungorna. Är det små bubblor
+fastnar de och vädras ut. Större bubblor, framförallt vid rikligt antal, kan ge cirkulatorisk
+påverkan, så kallade ”chokes”. Även vid liten kvävgasbelastning med långsam
+dekompression är det normalt att hitta ett litet antal små bubblor i det venösa blodet.
+Ett specialfall i sammanhanget uppkommer vid ubåtsolycka med vatteninträngning där
+räddningsinsats inväntas. Besättningen risker då att utsättas för ökat tryck under en längre tid.
+Symtom och kliniska fynd
+Symtombilden varierar med var bubblorna bildas och/eller fastnar:
+• Klåda i huden, s k ”dykarloppor”.
+• Blå-lila-röda missfärgningar av huden, s k marmoreringar, vanligast på bålen.
+• Smärta i stora leder (axel, armbåge, höft, knä), s k ”ledbends”
+• Ödembildning på grund av bubblor i lymfkärl, s k ”lymfbends”
+• Symtom från den del av CNS som påverkas, t ex onormal trötthet, yrsel, nedsatt
+styrka, känselbortfall eller domningar. Kan även vid allvarligare fall ge generella
+kramper och medvetandepåverkan.
+• Andnings- och/eller cirkulationspåverkan.
+OBS! Symtom som neurologisk påverkan med eller utan svikt av respiration/cirkulation som
+debuterar vid eller mycket snart efter avslutat dyk kan även orsakas av så kallad
+lungbristining med arteriell luftembolisering till hjärnan. Omedelbar handläggning som vid
+dekompressionssjuka.
+Behandling/åtgärd för dykare
+Dykledaren har det övergripande operativa ansvaret vid dykeriolycksfall. I en situation med
+allvarlig symtombild och/eller snabb utveckling av symtom kan dykledaren initiera
+behandling enligt mall (se nedan). Därefter ska läkare med dykmedicinsk kompetens
+kontaktas snarast möjligt.
+• Omhändertagande enligt <C>ABCDE.
+• Undersökning enligt mall (”Undersökning av dykare”).
+• Oxygen i så hög koncentration som möjligt – Normobar Oxygen Behandling (NBO).
+• Kontakta läkare med dykmedicinsk kompetens: FM dykläkare i beredskap om sådan
+finns tillgänglig alternativt civil HBO-jour genom SOS Alarm 112.
+• Lämna information om: dykprofilen (djup, tid, andningsgas, uppstigningshastighet,
+använda tabeller och tidigare dyk), observationer av kamrater, given behandling och
+symtomutveckling.
+• Förhindra fysisk ansträngning.
+• Etablera perifer venös infart.
+• Är den skadade vid medvetande kan dryck ges efter det initiala omhändertagandet.
+Vid påverkat medvetande inf Ringer-Acetat, 1000 ml i v på 1-2 timmar.
+Behandling för tryckfallssjuka för dykare är Hyperbar Oxygen Behandling – HBO som ges i
+tryckkammare. Följ råd från FM dykarläkare/civil HBO-jour angående fortsatt handläggning.
+Ska den skadade transporteras till tryckkammare för bedömning/behandling ska NBO
+fortsätta under transport.
+Behandling/åtgärd för piloter
+• Återvända till högre tryck (landa).
+• Omhändertagande enligt <C>ABCDE.
+• Undersökning enligt mall (”Undersökning av dykare”).
+• Oxygen i så hög koncentration som möjligt – Normobar Oxygen Behandling (NBO).
+• Kontakt med Flygläkare.
+Observera
+Även lättare neurologisk påverkan ska handläggas skyndsamt med stöd av läkare med
+dykmedicinsk kompetens då progress av symtombilden kan ske. Utan adekvat behandling
+finns stor risk för permanenta neurologiska skador.
+Aspekter vid fördröjd avtransport
+Fortsätt att ge Oxygen i så hög koncentration som möjligt.
+Evakuering
+Vid flygtransport är max flyghöjd 300 m/1000 ft (icke-trycksatt kabin), annars riskerar
+symtomen att förvärras.
+Bukskador
+Anamnes
+• Bedöm skademekanism och grad av våld. Penetrerande skada? Trubbigt våld?
+• Har bilbälte använts?
+• Krockkudde utlösts?
+• Inspektera omgivningen, ofta finns ledtrådar kring skademekanism tillgängliga.
+Symtom och kliniska fynd
+• Sår i bukväggen
+• Missfärgning av huden
+• Inspektera och palpera buken försiktigt (”upp till höger - lever, upp till vänster –
+mjälte”)
+• Främmande föremål som sitter kvar i bukväggen, detta är typiskt sådant som
+distraherar från viktigare bedömning av vitala funktioner.
+• Tecken på cirkulatorisk chock (höjd puls, andningsfrekvens och sjunkande blodtryck).
+• Medvetandepåverkan: förvirring och oro är ofta tidiga tecken på blödningschock.
+• Patologiskt andningsmönster, avsaknad av bukandning.
+Behandling/åtgärd
+• Vätskeresuscitera v b
+• Ge inj Tranexamsyra 100 mg/ml, 2 g i v vid misstanke om eller risk för blödning.
+• Täck öppna sårskador, tänk på möjligheten att använda thoraxförband vid större
+skador.
+• Främmande föremål som penetrerat in i bukhålan lämnas kvar i läge och stabiliseras.
+• Ge inj Ertapenem, 1 g i v vid penetrerande skada.
+Observera
+Var observant på associerade skador (t ex thorax, bäcken).
+Aspekter vid fördröjd avtransport
+Peroral nutrition/vätska, bedöm med hänsyn till ev. skador på tarm.
+Överväg reponering av eviscererad tarm. Reponera ej vid pågående blödning i bukhålan eller
+av tarmen.
+Drunkning
+Andningspåverkan/andningsstopp på grund av vätska i luftvägarna vid submersion eller
+immersion.
+Anamnes
+Händelseförlopp - tid under vatten, djup, vattentemperatur, dykning.
+Finns förutsättningar för hypotermi före hjärtstopp?
+Vid symtom i samband med dykning, se ”Dekompressionssjuka”.
+Symtom och kliniska fynd
+• Lufthunger, cyanos
+• Oro, panik
+• Känselbortfall – thorax, armar eller ben
+• Bröstsmärta, svårt att djupandas
+• Rosslande hosta, rosa/skummande upphostningar, agonal andning
+• Bradykardi, asystoli
+• Ledsmärtor
+• Hypotermi
+Behandling/åtgärd
+• Livlös patient som bogseras i vattnet till stranden:
+- Ge 5 kraftiga inblåsningar när du bottnar.
+- Dra upp den skadade på land och gör ny medvetandekontroll.
+- Om ingen eller onormal andning: starta HLR.
+- Vid misstanke om kraftig nedkylning, se ”Hypotermi”.
+• Patient med livstecken:
+- Förhindra fortsatt nedkylning, isolera och packa in i ångtätt skikt, t ex
+bubbelplast.
+• EKG-övervakning.
+• Vid hypotension (BT syst < 80 mmHg), ge inf Ringer-acetat, 250 ml i v , kan
+upprepas fyra gånger. Undvik övervätskning p g a risk för lungödem.
+• Oxygen v b, målsaturation 92%
+Observera
+• Stor risk för kräkning vid HLR!
+• Spinal rörelsebegränsning vid alla drunkningstillbud i samband med dykning i grunt
+vatten.
+• Alla som behövde någon form av resuscitering (även en inblåsning) och uppvisar
+symtom från luftvägarna ska evakueras till sjukhus.
+• Kontakt med tryckkammarjour vid dykningsrelaterad drunkning.
+Evakuering
+• Sidoläge p g a kräkningsrisk.
+• Kraftigt nedkyld patient med någon form av livstecken ska evakueras med isolation, t
+ex bubbelplast.
+• Undvik onödiga manipulationer på grund av arytmirisk vid hypotermi.
+Aspekter vid fördröjd avtransport
+Lungskador kan bli symtomatiska efter 6 timmar och kräva assisterad ventilation med
+respirator. Överväg tidig säkring av luftväg.
+Hjärtstopp (traumatiskt)
+Cirkulationsstillestånd som orsakas av trauma som leder till hypoxi eller en hypovolem
+chock. Hypovolemin kan vara sekundär till övertryckspneumothorax, hjärttamponad eller
+livshotande blödning.
+Symtom och kliniska fynd
+• Livlöshet:
+o Ingen puls (carotis) alternativt uttalad bradykardi eller
+o PEA, asystoli
+o Kroppsskador som kan vara uttalade eller mycket diskreta
+Behandling/åtgärd
+• Stoppa livshotande yttre blödning (<C>).
+• Etablera fri luftväg på det sätt du behärskar, ventilera vid behov, ge Oxygen.
+• Avlasta thorax bilateralt med nåldekompression alternativt thorakostomi.
+• Stabilisera bäcken vid trubbigt våld eller explosion.
+• Sätt intraosseös nål och ge vätska snabbt, helst blodprodukter alternativt inf Ringer-
+Acetat, 2000 ml i v
+• Ge inj Tranexamsyra 100 mg/ml, 2 g i o
+• Stabilisera eventuella femurfrakturer.
+• Kompressioner kan övervägas men bör inte försena åtgärder enl ovan.
+• Hänsyn till eventuella nack- eller ryggskador nedprioriteras, men tillämpa den
+försiktighet som är möjlig.
+• Förvarna mottagande enhet om traumatiskt hjärtstopp om patienten förs dit under
+pågående behandling.
+• Prioritera transport till kirurgisk förmåga
+• Prognosen är ytterst dyster vid cirkulationsstillestånd >20 minuter, Är det längre tid
+sedan sista livstecken kan man låta bli att inleda behandling. Har man inte haft effekt
+av ovanstående åtgärder och man inte är i omedelbar närhet av kirurgi kan behandling
+avbrytas efter 20 min
+Skallskada
+En skallskada är ofta associerad med andra skador. Penetrerande skallskada har ofta en dyster
+prognos men framförallt vid mindre kaliber och skador som inte passerar mittlinjen är
+prognosen bättre. Skilj också på skallskada och ansiktsskada (då inte cerebrum är engagerat).
+Lågt blodtryck hos en skallskadad beror ej på intrakraniell skallskada, blödningschock måste
+misstänkas.
+Anamnes
+• Medvetslös? Hur länge?
+• Bedöm skademekanism och grad av våld.
+• Skallskada medför risk för halsryggskada.
+Symtom och kliniska fynd
+• Påverkat medvetande
+• Var observant på ”fritt intervall” (går från medvetande till medvetslöshet)
+• Amnesi (retrograd – antegrad)
+• Neurologiska symtom – kramper, pareser
+• Liqvorläckage/blödning ur öra, näsa
+• Långsam puls/högt blodtryck (obs relativ bradykardi är viktigt att notera och tyder
+ofta på en allvarligare skallskada)
+• Patologiska ögonrörelser
+• Oliksidig pupillreaktion
+• Ofri luftväg, patologiskt andningsmönster
+• Övergående hypoventilation/apné
+• Hematom, svullnad, sårskada, brillenhematom, Battle Sign
+Behandling/åtgärd
+• Säkerställ fri luftväg.
+• Spinal rörelsebegränsning enl riktlinje (om det taktiska läget tillåter).
+• Assistera ventilation med hjälp av mask alternativt larynxmask om andningsfrekvens
+< 10/min. Koppla kapnograf och eftersträva normoventilation med EtCO2 4.5 - 5 kPa
+och andningsfrekvens > 10/min. Sat > 90%.
+Om kompetens finns och det taktiska läget tillåter: RSI och intubation vid
+medvetslöshet (GCS < 9).
+• Om svag/icke-palpabel radialispuls alternativt BT < 80 - 90 mmHg: misstanke om
+samtidig annan skada med hemorragisk chock. Vätskeresuscitera, helst med
+blodprodukter med mål palpabel radialispuls alternativt BT syst 100 - 110 mmHg.
+• Om isolerad skallskada utan samtidig hemorragisk chock eller om blödningskontroll
+uppnådd: mål BT syst 110 - 140 mmHg (MAP 80 mmHg).
+• Tranexamsyra 100 mg/ml, 2g i v till medelsvåra skallskador (påverkat medvetande
+C, V, P i ACVPU).
+• Undersök pupiller (storlek, position, ljusreaktion).
+• Antibiotika vid penetrerande skallskada, inj Cefotaxim, 1 g i v /i m
+• Vid kramper, se ”Kramper”.
+• Täck öppna sår i skallen med sterila kompresser/förband, försiktighet med tryck på
+skallfrakturer och där hjärnvävnad blottas.
+• 30 grader höjd huvudända om möjligt.
+Observera
+• Försiktighet med förband och bomullsband runt halsen.
+• Följ medvetandegrad och pupillstatus.
+• Följ EtCO2.
+Evakuering
+Påbörja evakuering så snart som möjligt. Kontakta mottagande enhet.
+Mild traumatisk hjärnskada
+Orsakas av yttre trauma i form av antingen trubbigt våld eller tryckvåg och benämns med en
+samlingsterm MTBI (Mild Traumatic Brain Injury). Denna intrakraniella skada orsakas i
+militärt sammanhang för det mesta av tryckvågen vid detonation, hastig fartökning och/eller
+fartsänkning och är ofta svår att upptäcka med gängse radiologiska metoder (slätröntgen, CT).
+Syfte med denna rutin är att säkerställa att personal utsatt för tryckvågsskador eller annan
+mild traumatisk hjärnskada får adekvat bedömning, omhändertagande och behandling.
+Symtom och kliniska fynd
+För diagnos krävs:
+• Kort medvetandeförlust
+• Minnesförlust för händelserna strax innan och/eller efter incidenten
+• Förändrat mentalt status (t ex förvirring, desorientering, sänkt medvetande) under
+tiden före eller kort stund efter incidenten.
+Behandling/åtgärd
+• I anslutning till utlösande incident, t ex detonation eller trafikolycka, utför en
+legitimerad läkare översiktligt neurologiskt status för att utesluta/bekräfta eventuellt
+funktionsbortfall.
+• Senast 48 timmar efter tillbudet ska all personal, som befunnit sig inom
+detonationsområdet eller i fordon som varit inblandade i trafikolycka, fylla i ett enkelt
+självskattningsformulär Screening för TBI (3 Question DVBIC Screening Tool) som
+ska finnas på varje förbandsplats.
+• Vid positivt screeningsresultat ska en utredningsprocess inledas. Om tillbudet äger
+rum utomlands och patienten repatrieras, fortsätter utredningen genom kontrakterat
+civilt sjukhus, för närvarande Karolinska Universitetssjukhuset (SMO samt
+jourhavande läkare ansvarig för kontakt med kontrakterad sjukvårdsinrättning). Vid
+incident inom Sverige fortsätter utredningen på sjukhus närmaste patientens boende
+med möjlighet till högt specialiserade radiologiska undersökningar (MR) och
+neuropsykologiska tester.
+Screening för TBI (3 Question DVBIC Screening Tool)
+1. Har du drabbats av någon skada/skador under insatsen med ursprung i något av
+följande?
+(Kryssa i alla som stämmer)
+A.  Fragment/splitter
+B.  Finkalibrig ammunition
+C.  Fordonsrelaterad
+D.  Fall
+E.  Explosion (IED, RPG, Mina, Granat etc.)
+F.  Annat specificera:_____________________________________
+2. Ledde någon skada du fick under insatsen till något av följande?
+(Kryssa i alla som stämmer)
+A.  Omtöcknad, förvirrad eller ”ser stjärnor”
+B.  Kommer inte ihåg att du fick skadan (minnesbortfall)
+C.  Tappat medvetandet i mindre än en minut
+D.  Tappat medvetandet i 1 - 20 minuter
+E.  Tappat medvetandet i mer än 20 minuter
+F.  Symtom på hjärnskakning (t ex huvudvärk, yrsel, dåsighet)
+G.  Huvudskada
+H.  Inget av ovanstående
+3. Har du för närvarande några besvär som du tror kan komma från ett slag mot huvudet
+eller en hjärnskakning?
+(Kryssa i alla som stämmer)
+A.  Huvudvärk
+B.  Yr/yrsel
+C.  Minnesproblem
+D.  Balansproblem
+E.  ”Ringande” i öronen
+F.  Irritabilitet
+G.  Sömnbesvär
+H.  Inlärningsproblem
+I.  Koncentrationssvårigheter
+J.  Påtaglig trötthet
+Spinal skada
+En spinal skada är en skada på ryggmärgen som oftast orsakas av kraftigt trubbigt våld mot
+nacke eller rygg. I militär kontext är det även vanligt förekommande med penetrerande våld
+som explosionsskador som kan leda till komplexa spinala skador och/eller luftembolier.
+Nervsträngarna som löper i ryggmärgen kan bli delvis eller helt förstörda och beroende på
+lokalisationen (nivå) ge upphov till neurologiska bortfallssymtom.
+Anamnes
+• Bedöm skademekanism och grad av våld.
+• Medvetandepåverkan?
+Symtom och kliniska fynd
+• Neurologiska symtom – bortfall av känsel/motorik
+• Hypoventilation/bukandning vid skada på halsryggnivå
+• Smärta/ömhet i nacke/rygg
+• Neurogen chock: lågt blodtryck (syst och diast) och låg puls; varm, torr hud (skada på
+hög bröstryggnivå)
+• Påverkad/upphörd blås- /sfinkterfunktion
+Behandling/åtgärder
+• Säkerställ fri luftväg vid medvetandesänkning.
+• Bedöm andningsdjup och frekvens. Höga spinala skador ger påverkad andning.
+Eftersträv normal ventilation, assistera andning v b och koppla kapnograf (EtCO2
+5kPa, andningsfrekvens > 10/min).
+• Vid hypotension (BT syst < 100 mmHg), ge inf Ringer-Acetat i v , 250 ml, kan
+upprepas fyra gånger. Mål BT syst > 110 mmHg (MAP > 80 mmHg).
+• Bradykardi (puls < 45/min i kombination med BT syst < 100 mmHg) behandlas med
+inj Atropin 0,5 mg/ml, 1 ml (0,5 mg) i v
+• Spinal rörelsebegränsning.
+Observera
+Patienten ska ej stockvändas för undersökning av kotpelaren.
+Thoraxskador
+De vanligaste thoraxskadorna är pneumothorax, lungkontusion, skada på thoraxväggen och
+skador på de stora kärlen i thorax. Vanligaste skademekanismerna i militär kontext är
+penetrerande och explosion.
+Anamnes
+• Bedöm skademekanism – penetrerande/trubbigt/explosion.
+• Tid sedan händelsen.
+Symtom och kliniska fynd
+• Andningspåverkan med lufthunger (dyspné)
+• Ökad andningsfrekvens
+• Nedsatt saturation
+• Oro, ångest; vill ej ligga ner
+• Smärta vid djupandning, oregelbunden andning
+• Instabil bröstkorg, asymmetriska andningsrörelser, ”Flail Chest”
+• Öppen pneumothorax
+• Blodtillblandade upphostningar
+• Halsvenstas (saknas vid samtidig hypovolemi) och trachealförskjutning – sena tecken
+vid övertryckspneumothorax
+• Cirkulationskollaps
+Behandling/åtgärder
+• Arbeta enligt <C>ABCDE.
+• Penetrerande/öppen thoraxskada: applicera thoraxförband (alternativt
+defibrillatorplattor).
+• Främmande föremål som penetrerat in i thorax lämnas kvar i läge och stabiliseras.
+• Den skadade bör inta ställning som underlättar andningen mest.
+• Om livlös, se ”Traumatiskt hjärtstopp”.
+• Observans på utveckling av övertryckspneumothorax.
+- Tilltagande andnöd
+- Ökande andningsfrekvens
+- Saturation < 90%
+- Sjunkande blodtryck
+Lyft på eventuellt förekommande lufttäta thoraxförband. Om ingen förbättring
+genomför thorakocentes (nåldekompression) alternativt thorakostomi (bara vid
+övertrycksandning) på den skadade sidan. Upprepas en gång vid utebliven effekt på
+samma sida men annan lokalisation. Behov av bilateral dekompression?
+Observera
+• Observera att även skott- och splitterskador i andra delar av kroppen kan ge skador i
+thorax beroende på projektilbanan i kroppen.
+• Efter genomförd nåldekompression samt vid penetrerande thoraxskada kommer det
+krävas thoraxdränage i ett senare skede.
+• Beakta risken för lungkontusioner och tryckskador på lungorna efter t ex en explosion.
+Den skadade kan då försämras några timmar efter skadetillfället och behöva
+respiratorvård.
+Ögonskador
+Kemisk skada
+Bakgrund
+Orsakas huvudsakligen vid exponering för frätande ämnen (framförallt alkali).
+Symtom och kliniska fynd
+• Nedsatt syn
+• Ökat tårflöde
+• Irritation, smärta
+Behandling/åtgärd
+• Avlägsna eventuellt förekommande kontaktlins.
+• Spola ögat omedelbart med stora mängder vätska, NaCl 0.9%, Ringer-Acetat
+(använd infusionsslangen) eller med det renaste vattnet som finns. Lyft v b ögonlocket
+för att kunna spola rent. Ju längre det går att spola desto större chans att rädda synen.
+• Ge v b ögondroppar Tetrakain 10 mg/ml, 1 - 2 droppar vid kraftig smärta och för att
+underlätta spolningen.
+• Vid symtomgivande exponering för tårgas eller pepparspray ska hela ansiktet sköljas
+med vatten alternativt Ringer-Acetat.
+Penetrerande skada
+Bakgrund
+Förekommer isolerat eller som del av omfattande skador i ansikte och huvud. I samband med
+explosioner är det vanligt att små föremål penetrerar in i ögongloben utan att man hittar
+uppenbara ytliga skador. Beakta även att det är vanligt att båda ögonen är skadade efter en
+explosion. I samband med explosioner kan även trumhinnorna vara skadade och den skadade
+kan på grund av hörselnedsättning ej medverka vid undersökning.
+Symtom och kliniska fynd
+• Fråga aktivt efter nedsatt syn, irritation, smärta (anamnesen är den viktigaste
+indikationen att skada föreligger)
+• Främmande föremål i ögat
+• Skador på ögonlock
+• Kännbara frakturer runt ögonhålan
+• Blödningar
+• Svullnad, framträdande öga
+• Oregelbunden pupill
+Behandling/åtgärd
+• Låt främmande kroppar sitta kvar. Om de är mycket rörliga så kan det vara en fördel
+ax fixera dem mot t ex kinden eller pannan för att undvika rörelse, om det går att göra
+utan att dra i ögat.
+• Låt eventuellt förekommande kontaktlins sitta kvar. (Risk att dra ut ögonvävnad som
+man misstar för kontaktlins.)
+• Gör en snabb synundersökning. Först med det friska ögat stängt. Täck sedan för det
+skadade ögat. Varje öga ska undersökas för sig.
+Från bäst till sämst:
+1. Kan läsa text
+2. Kan räkna antal fingrar
+3. Kan se handrörelser
+4. Kan se ljus
+• Täck det skadade ögat med ett hårt ögonförband (ej tryckförband!). Ett mjukt förband
+kan läggas under det hårda förbandet. Om ögonförband inte finns tillgängligt kan ett
+par intakta skyddsglasögon användas istället. Om den skadades ögonlock är oskadat
+kan det användas som skydd, stäng det då bakom ett mjukt förband alternativt tejp.
+• Vid stora öppna skador kan det vara bra med ett förband framför båda ögonen så att
+patienten inte tittar runt. Försvårar det evakueringen eller utlöser stress hos den
+skadade räcker det med att täcka enbart det skadade ögat.
+• Ge antibiotika, T. Moxifloxacin 400 mg, 1 st p o så fort tillfälle ges. Till patient som
+inte kan svälja, ge inj Cefotaxim, 1 g i v /i m Ge ej ögondroppar för att lokalbedöva!
+• Smärtstilla. Välj läkemedel efter den skadades cirkulatoriska och respiratoriska
+tillstånd (Ketamin ej kontraindicerat).
+Observera
+Ögonskador får ej förhindra upptäckt av andra skador eller fördröja avtransport av kritiskt
+skadad patient.
+Evakuering
+Konstaterad eller misstanke om öppen ögonskada ska föranleda snabb avtransport.
+Käkfrakturer
+Bakgrund
+Käkfrakturer drabbar mandibeln (underkäken) betydligt oftare är maxillan (överkäken).
+Käkledskondylen (collum mandibulae) är den anatomiska del som vanligen drabbas i
+mandibeln. Frakturer i maxillan och mellanansiktet är ovanligare och brukar klassiskt indelas
+efter anatomisk utbredning i Le Fort I, II och III (efter René Le Fort 1901).
+Mandibelfrakturer
+Symtom och kliniska fynd
+• Asymmetri orsakad av muskeldrag på den drabbade sidan
+• Smärta, palpationsömhet
+• Malocklusion (ocklusionsstörning, öppet bett)
+• Deviation vid gapning
+• Rörelseinskränkning
+• Sensibilitetsstörning i underkäkens nerver, tänder, tunga och hakspets
+Maxillafrakturer och mellanansiktes frakturer
+Symtom och kliniska fynd
+• Asymmetri, felställning
+• Svullnad, smärta, palpationsömhet
+• Ökad rörlighet i mellanansiktet (näsrot, tandbärande segment)
+• Trismus (gapsvårigheter)
+• ”Förlängt” ansikte
+• Frontalt öppet bett
+• Andningssvårigheter
+• Blödning från hörselgången, näsa
+• Diplopi (dubbelseende)
+• Sensibilitetsstörningar i överkäkens tänder och frontala delarna av mellanansiktet
+Behandling/åtgärd (båda tillstånd)
+• Kontrollera risken för commotio (hjärnskakning)
+• Upprätta fria luftvägar
+• Eventuella blödningar stoppas
+Evakuering
+Akut transport till sjukvårdsenhet, helst käkkirurgjour.
+Tandskador
+Trauma mot ansiktet ger ofta upphov till multipla skador vilka kan omfatta flera olika
+vävnader. Det är därför mycket viktigt att man är organiserad i sitt tänkande och genomför
+den kliniska undersökningen systematiskt och genomgående. Adekvata diagnoser är en
+förutsättning för ett korrekt patientomhändertagande.
+Skador i tandens hårdvävnad
+a) Okomplicerad kronfraktur (kronfraktur utan pulpablotta)
+Symtom och kliniska fynd
+• Fraktur som orsakat tandsubstansförlust omfattande emalj och dentin
+(tandben) utan synlig blottläggning av pulpan.
+• Tanden kan vara hypersensibel (framförallt känslig för kyla).
+• Röntgen visar frakturens omfattning och utsträckning.
+Behandling/åtgärd
+• Enbart slipning av vass yta med liten fil (liten fraktur) kan göras direkt på
+plats.
+• Vid större substansförlust med symtom såsom isning, försök att täcka den
+öppna ytan av dentin med provisorisk fyllning (Cavit).
+• Tandläkarbesök så snart som det är möjligt för röntgen av tanden och
+permanent restauration med etsteknik.
+• Analgetika (T. Paracetamol 1 g, max 4 st/dygn och/eller T. Ibuprofen 400
+mg, max 3 st/dygn.)
+b) Komplicerad kronfraktur (kronfraktur med pulpablotta)
+Symtom och kliniska fynd
+• Frakturen involverar emalj, dentin och pulpa.
+• Blödning från pulpan.
+• Tanden är hypersensibel (framför allt känslig för kyla).
+Behandling/åtgärd
+• Transport så snart som möjligt till tandvårdsenhet för röntgen och vidare
+handläggning.
+c) Kron-rotfrakturer (okomplicerade och komplicerade)
+Symtom och kliniska fynd
+• Fraktur involverande emalj, dentin, rotcement med eller utan pulpablotta och
+kommunikation till munhålan.
+• Krondelen kan vara separerad från rotsegmentet. Klinisk diagnostik försvåras
+om fraktursegmentet ej är separerade från varandra.
+• Tanden kan vara hypersensibel (kyla/värme).
+• Tanden är perkussionsöm.
+Behandling/åtgärd
+• Smärtlindring: analgetika (T. Paracetamol 1 g p o, max 4 st/dygn och/eller T.
+Ibuprofen 400 mg p o, max 3 st/dygn)
+• Ev. antibiotika (T. Fenoxymetylpenicillin, 1 g p o, 1 x 3)
+• Rekommendera munskölj med Klorhexidin 0, 12% (Corsodyl, Hexident) 2
+gånger/dag tills patienten kan komma till tandläkare.
+• Snar avtransport till sjukvårdsenhet/tandläkare för röntgen och vidare
+handläggning. Om frakturlinjen går under alveolära benkanten kan tanden inte
+sparas.
+Extraktion av tanden bör göras av tandläkare.
+Exartikulation
+Symtom och kliniska fynd
+• Tanden fullständigt ute ur alveolen
+• Blödning ur alveolen
+Behandling/åtgärd
+• Bedömning av tandläkare
+Omgivningsorsakade tillstånd
+Akut bullerskada
+Symtom och kliniska fynd
+• Subjektiv hörselnedsättning
+• Lockkänsla
+• Sus, pip, ringningar
+• Smärta
+Behandling/åtgärd
+• Den skadade ska tas till och vistas i en miljö där det finns vardagsljud utan förekomst
+av hörselskadligt buller.
+• Hörselskydd bör undvikas för att inte förstärka eventuell tinnitus. Kan användas
+kortvarigt vid transport.
+• Undvik kraftig fysisk ansträngning.
+Observera
+Medicinsk bedömning och hörselundersökning inom 24 h efter bullertraumat. I första hand
+Försvarshälsan, om ej möjligt inom tre dygn till civil sjukvård.
+Hypertermi
+Bakgrund
+Värmerelaterade sjukdomar kan yttra sig som lindrig till svår fysisk påverkan. Vid svår
+påverkan (värmeslag) är dödligheten hög trots full intensivvård.
+Kyla och vätska så fort som möjligt!!
+Definitionen på hypertermi är kroppstemperatur > 37.5 C på grund av sviktande
+temperaturreglering.
+Orsak, symtom och medicinsk handläggning beroende på hypertermins svårighetsgrad
+Värmekramp
+• Orsak: elektrolytförluster genom svettning, långvarig hård fysisk aktivitet.
+• Symtom: plötsligt uppkomna, smärtsamma, ofrivilliga kramper i ben, armar och buk,
+tydliga muskelsammandragningar.
+• Fynd: rektaltemperatur < 38.5 C, opåverkat mentalt status.
+• Behandling:
+- vila, lätta på utrustning och klädsel
+- massage och stretchning av drabbad muskel
+- vätska p o, helst med elektrolyttillsats (t ex sportdryck)
+- vid fortsatta symtom inf Ringer-Acetat i v
+Värmeutmattning
+• Orsak: negligering av värmerelaterade symtom, kan utvecklas till värmeslag
+• Symtom: extrem muskelsvaghet, stapplande gång, blekhet, kraftig svettning,
+muskelsmärtor, dålig balans, illamående, kräkningar, magsmärtor
+• Fynd: orienterad, opåverkat medvetande, snabb hjärt- och andningsfrekvens,
+rektaltemperatur < 40.5 C
+• Behandling:
+- vila, lätta på utrustning och kläder
+- påbörja kylning så fort som möjligt, måltemperatur < 38.5 C, vätska p o
+- vid fortsatta symtom inf Ringer-Acetat i v
+- vila i 1 - 2 dagar
+- observation på sjukhus om kraftigt förhöjd temperatur eller uttalade symtom
+Värmesvimning
+• Orsak: värmeorsakad blodansamling i benen vid längre tids stillastående
+• Symtom: svartnar för ögonen, tunnelseende, ljuskänslighet, lättare huvudvärk, blek,
+kallsvettig
+• Fynd: självlimiterande, övergående när patienten ligger horisontellt, långsam
+hjärtfrekvens, rektaltemperatur < 38.5 C
+• Behandling:
+- horisontalläge med upphöjda ben
+- lätta på utrustning och klädsel, vila i skugga, vätska p o
+- vila 24 timmar
+- om ej återställd inom 15 minuter, ta rektaltemperatur och överväg värmeslag
+eller icke-värmerelaterad orsak
+Värmeslag, ansträngningsutlöst (”Exertional Heat Stroke”)
+• Orsak: utslagen temperaturreglering, fysisk aktivitet utan möjlighet för kroppen till
+avkylning (t ex fotmarsch med packning)
+• Symtom: påverkat medvetande, generella muskelkramper (epileptiforma)
+• Fynd: rektaltemperatur > 40.5 C, snabb hjärtfrekvens, normalt eller lågt blodtryck,
+högt pulstryck, pupillpåverkan (pinpoint, dilaterade, fixerade), nystagmus,
+hypoglykemi
+• Behandling:
+- Omedelbar! aggressiv kylning tills rektaltemperaturen < 39 C
+- symtomatisk behandling av sviktande vitala parametrar
+- hjärtkompressioner vid pulslöshet (defibrillering och antiarrytmika ineffektiva
+vid svår hypertermi)
+- kyla först, transportera sen (om parametrar tillåter), annars kylning under
+transport; försiktig, långsam infusion av kristalloid
+Fysikalisk nedkylning vid värmeslag
+• Skugga och fläkta
+• Nedsänkning i iskallt vatten, konstant omrörning av vattnet under kylningen.
+Överkroppen viktigast.
+• Kylklampar eller annat kallt i armhålor, skrev, runt hals
+• Om nedsänkning ej möjlig spraya med kallt vatten (15 C) från alla håll, samtidigt
+med fläktning.
+Observera
+• Undvik läkemedel i form av paracetamol, NSAID, ASA.
+• Kramper behandlas symtomatiskt.
+Övervakning
+Rektaltemperatur var 5:e minut vid värmeslag.
+Hypotermi
+Accidentell hypotermi, allmän nedkylning, definieras som en oplanerad sänkning av central
+kroppstemperatur till < 35 C. Ofta orsakad av exponering för kall miljö, i kombination med
+större trauma, intoxikation, andra sjukdomstillstånd eller fysisk utmattning samt vid
+drunkning och lavinolyckor.
+Symtom och kliniska fynd
+Kroppens försvar mot nedkylning består av perifer vasokonstriktion (kärlsammandragning)
+som minskar värmeförlusterna till omgivningen samt huttring (ofrivilliga
+muskelkontraktioner) som ökar kroppens energiproduktion. Vid exponering för kyla aktiveras
+dessa reaktioner tidigt, redan innan central kroppstemperatur hinner sjunka, men blir mer
+uttalade med tilltagande nedkylning. Förmåga till huttring kan nedsättas av
+utmattning/näringsbrist eller vid samtidiga skador/sjukdomar. Vid svår nedkylning avstannar
+huttringen helt som en direkt följd av kylans påverkan på nerver och muskulatur.
+Tidiga symtom på allmän nedkylning:
+• Blek och kall hud, ofta med påverkan på finmotorik och känsel i händer och fötter.
+• Tilltagande huttring, nedsatt kraft och påverkad grovmotorik.
+• Trötthet med påverkan på humör och omdöme.
+• Ökad urinproduktion (kölddiures).
+Vid mer uttalad nedkylning ses:
+• Avtagande eller utslagen huttring.
+• Sänkt medvetandegrad/medvetslöshet.
+• Långsam andning och puls med sjunkande blodtryck.
+• Oregelbunden hjärtrytm med risk för ventrikelflimmer och hjärtstillestånd.
+• Försämrad koagulationsförmåga med risk för ökad blödning vid samtidigt trauma.
+Den kliniska bilden vid hypotermi påverkas av samtidiga skador, sjukdomar eller andra
+tillstånd. Verifiera om möjligt med mätning av central kroppstemperatur. I fält kan en enkel
+gradering av nedkylning göras utifrån medvetandegrad, huttring och förekomst av livstecken.
+Observera att angivet temperaturintervall kan uppvisa stora variationer.
+• HT grad 1: Vaken och huttrar (30 - 35 C)
+• HT grad 2: Medvetandesänkt, avtagande huttring (28 - 32 C)
+• HT grad 3: Medvetslös med egen andning/puls (24 - 28 C)
+• HT grad 4: Livlös utan egen andning/puls (< 24 C)
+• HT grad 5: Irreversibel hypotermi, död! (<10-15 C)
+Behandling/åtgärd
+Initiala åtgärder, på skadeplats och under transport, syftar i första hand till att förhindra
+fortsatt nedkylning. Skydda mot väder och vind, om möjligt genom att tidigt förflytta den
+skadade in i fordon, tält eller annan skyddad miljö. Vid uttalad nedkylning (HT grad 2-3)
+skall personen behandlas varsamt och om möjligt i horisontalläge för att minska risken för
+blodtrycksfall och arytmier.
+HT grad 1 (”kall, huttrar”)
+• Värm upp på lämpligaste vis: Varm dryck, filt, yttre värme, fysisk aktivitet)
+HT grad 2 (”kall, trött, huttrar inte”)
+• Initialt omhändertagande enligt <C>ABCDE.
+• Monitorering av saturation (syremättnad) är ofta opålitlig p g a nedsatt perifer
+cirkulation. Tillför syrgas utifrån klinisk bedömning. Vid svår nedkylning
+rekommenderas övervakning med defibrilleringsplattor och tidig i v /i o kärlaccess.
+• Avlägsna om möjligt blöta kläder och tillför isolering i form av förstärkningskläder,
+täcken, filtar, sovsäck eller liknande. I utomhusmiljö prioriteras ett vind- och
+vattentätt material ytterst som vindsäck/bubbelplast/eller särskilt räddningstäcke för
+att bibehålla värme och isoleringsförmåga i underliggande lager.
+• Överväg aktiv värmetillförsel. En i övrigt oskadad och vaken person bör tillföras varm
+och energirik dryck, t ex choklad/soppa/saft och uppmuntras till fysisk aktivitet för att
+stimulera kroppens egen värmeproduktion. Vid mer uttalad nedkylning eller vid
+samtidiga skador/sjukdomar tillförs med fördel en aktiv värmekälla till bålen, t ex en
+kemisk värmefilt eller plastflaskor/vattensäck med varmt vatten. Observera att kall
+hud har en ökad risk för brännskador p g a nedsatt blodcirkulation. Skydda v b med en
+tunn filt/lakan eller kläder mellan hud och värmekälla.
+• Intravenösa vätskor/blodprodukter bör ges via vätskevärmare för att motverka
+ytterligare nedkylning. Vid längre transporter kan inf Glukos ges för att
+upprätthålla/stimulera kroppens egen värmeproduktion.
+• Kontrollera kroppstemperatur när så är möjligt. Hörselgångstermometer kan användas
+men observera risk för falskt låga temperaturer, särskilt i utomhusmiljö. Vid svår
+nedkylning prioriteras kontinuerlig mätning av kroppstemperatur med
+temperaturgivare/probe i rektum, urinblåsa (KAD) eller esofagus (matstrupen).
+HT grad 3 (”medvetslös”)
+• Bedöm livstecken i en minut (medvetande/andning/puls i central artär).
+• Sidoläge, vid behov och kompetens försiktigt RSI/intubation, annars basala
+luftvägsåtgärder (LMA utan sedering riskerar att utlösa arytmier eller
+luftvägsreaktioner)
+• I övrigt som HT grad 2.
+HT grad 4 (”livlös”)
+• Bedöm livstecken i en minut (medvetande/andning/puls i central artär).
+• Vid misstanke om hjärtstopp: starta HLR
+• Adrenalin kan ges upp till 3 gånger initialt om temperaturen oklar. Kolla temperatur
+så snart som möjligt för beslut om förlängd resuscitering är indicerad.
+• Om kroppstemperatur:
+• < 30 C: avstå läkemedel
+• 30 - 35 C: Adrenalin i dubbelt intervall (var 8:e minut)
+• > 35 C: normal A-HLR algoritm
+• Vid ventrikelflimmer defibrillera snarast, efter 3:e defibrillering utan sinusrytm bör
+man avvakta tills kroppstemperatur är > 30C.
+• HLR ska fortsättas tills dess att patienten är varm.
+• Patienten ska transporteras med pågående HLR till enhet med möjlighet till ECLS och
+uppvärmning på ECMO/hjärtlungmaskin.
+• Bör ej dödförklaras förrän uppvärmning skett till minst 33C.
+Aspekter vid fördröjd avtransport
+Aktiv uppvärmning vid svår nedkylning bör ske i en kontrollerad miljö med adekvat
+monitorering och tillgång till intensivvårdskompetens.
+• Rekommenderad uppvärmningshastighet 1 - 2 C/h. Beredskap för att hantera
+vasodilatation, blodtrycksfall, ev. arytmier och elektrolytrubbningar.
+• Oftast tillräckligt med extern uppvärmning i form av varmluftstäcke eller kemisk
+värmefilt.
+• Kontrollera P-glukos, blodgas och elektrolyter.
+• Säkra intravenösa infarter.
+• Sätt KAD.
+Vid uttalad hypotermi kan det vara svårt att avgöra om livstecken föreligger. Vid frånvaro av
+andning och puls, eller vid tveksamhet, starta HLR och transportera till sjukhus med
+möjlighet till cirkulatoriskt stöd och uppvärmning med hjärtlungmaskin/ECMO.
+• Bedöm livstecken (medvetande/ andning/ centrala pulsar) i en minut.
+• Om kompetens och utrustning finns omedelbart tillgängligt så kan EKG, ultraljud av
+hjärta och/eller mätning av EtCO2 (utandad koldioxid) användas som hjälpmedel för
+att bedöma om cirkulation föreligger.
+• Vid misstanke om hjärtstopp, starta HLR (30:2) enligt ordinarie algoritm.
+• Säkra luftväg tidigt om kompetens finns, särskilt inför längre transporter.
+• Adrenalin kan ges om temp oklar men bör avstås om bekräftat/förmodat
+< 30 C.
+• Vid temp > 30 C ges Adrenalin med dubblerat tidsintervall, dvs var 8:e minut.
+• Defibrillering vid VT/VF kan initialt provas upp till 3 gånger.
+• Avstå ytterligare defibrillering tills temp > 30 C.
+• Prioritera tidigt att etablera transport/MEDEVAC till högre vårdnivå.
+• Korta avbrott i kompressioner kan initialt vara nödvändigt för att möjliggöra
+förflyttning. Överväg mekaniska bröstkompressioner om tillgängligt.
+• Kontrollera central kroppstemperatur om möjligt.
+• Långvarig resuscitering är motiverad om temp < 30 C.
+• Fortsätt HLR tills dess att patienten kan bedömas på sjukhus.
+• Skydda mot ytterligare nedkylning under transport.
+Svår nedkylning ger en sänkt metabolism vilket skyddar kroppens organ mot skador orsakade
+av syrebrist. Överlevnad med god neurologisk funktion är därför möjlig trots långvarigt
+cirkulationsstillestånd. Särskilt vid situationer där nedkylning förelegat innan hjärtstoppet
+inträffat men även vid mycket snabb nedkylning direkt efter hjärtstoppet, såsom vid
+drunkning i kallt vatten.
+Förutsättning för att lyckas etablera egen hjärtaktivitet och cirkulation efter hjärtstillestånd
+vid hypotermi är ofta uppvärmning med hjärtlungmaskin/ECMO. Grundprincipen är därför
+att nedkyld person med hjärtstopp alltid skall transporteras med pågående HLR till sjukhus
+för bedömning och ev. fortsatt resuscitering.
+Prehospitalt bör HLR endast avstås/avslutas vid samtidig förekomst av svåra skador
+oförenliga med liv eller misstanke om mycket långvarig syrebrist/ andra tillstånd som gör att
+resuscitering ej bedöms möjlig.
+Evakuering
+• Varsam evakuering i fordon med temperatur i vårdutrymmet 25 - 30 C.
+• Notera vindförhållanden; vinddrag från t ex öppna dörrar kan bidra till avkylning
+(helikopter).
+
+Allergi/Anafylaxi
+Överkänslighetsreaktion (allergi) som snabbt kan leda till ett livshotande tillstånd (anafylaxi,
+allergisk chock). Vanliga orsaker är getingstick, läkemedel (antibiotika), födoämnen.
+Allergiliknande reaktion kan även uppträda i samband med blodtransfusion.
+Allergi
+Symtom och kliniska fynd
+• Nässelutslag (urtikaria) med klåda
+• Klåda, svullnad i halsen
+• Ögonrodnad med klåda
+• Rinnsnuva med klåda, nästäppa
+• Nysningar
+• Ingen påverkan på andning, cirkulation eller allmäntillstånd
+Behandling/åtgärd
+• T. Desloratadin 5 mg, 1 st p o
+• T. Betametason 0,5 mg, 10 tabletter p o löses i vatten
+Anafylaxi
+Symtom och kliniska fynd
+Som vid allergi, men med tillägg av:
+• Lågt blodtryck
+• Andnöd, obstruktivitet
+• Buksmärta, kräkningar, diarré; urinavgång
+• Oro, ångest, medvetandesänkning
+• Andnings- och cirkulationsstopp
+Behandling/åtgärd
+• Inj Adrenalin 1 mg/ml, 0,5 mg i m (lårets utsida). Upprepas var 5:e minut v b
+• Sätt PVK alternativt intraosseös nål och ge inf Ringer-Acetat, 250 ml i v i snabb takt
+• Inj Betametason 4 mg/ml, 8 mg i v
+• T. Desloratadin 5 mg, 2 tabletter p o (när patienten kan medverka).
+• Vid obstruktivitet ge inhal. Salbutamol 2 mg/ml, 2,5 ml, upprepas var 10:e minut v b
+• Följ saturation, puls, blodtryck
+Vid utebliven effekt av upprepade intramuskulära adrenalininjektioner och cirkulatorisk
+kollaps med medvetandepåverkan ges:
+Inj Adrenalin 0,1 mg/ml, 1-3 ml i v, ges långsamt (1 ml/minut).
+Kan upprepas efter 2-5 min. Kontinuerlig EKG-övervakning krävs.
+Observera
+• Adrenalin intramuskulärt ges på liberal indikation vid misstänkt anafylaxi.
+• Försiktighet vid intravenös administrering av adrenalin på grund av risk för allvarlig
+hjärtpåverkan (arytmi, svikt).
+• Hastig uppresning av patienter med anafylaxi kan leda till livshotande blodtrycksfall.
+Aspekter vid fördröjd avtransport
+Allvarliga reaktioner ska behållas under övervakning i minst 4 - 12 timmar beroende på
+svårighetsgrad. Effekten av läkemedelsbehandlingen kan släppa och allergireaktionen kan
+återkomma. Ge då ytterligare Betametason enligt ovan med tillägg av T. Desloratadin, 5 mg
+p o
+Evakuering
+Alla patienter med anafylaxi ska snabbt evakueras till högre vårdnivå.
+Astma
+Inflammation i luftvägarnas slemhinnor som gör att musklerna runt luftrören drar ihop sig och
+slemhinnan i luftrören svullnar. Det innebär att luftflödet till lungorna begränsas.
+Orsaker: försämring av grundsjukdomen, rökgasförgiftning, allergi.
+Symtom och kliniska fynd
+• Andnöd med förhöjd andningsfrekvens och sänkt saturation, vill sitta upp
+• Ökad hosta/slemproduktion
+• Förlängd utandning, mot delvis slutna läppar
+• Pipande andningsljud (framförallt vid utandning)
+• Försvagade eller avsaknade andningsljud (allvarligt tecken)
+• Förhöjd puls
+Behandling/åtgärd
+• Ge Oxygen, 4 - 6 l, målsaturation > 90%.
+• Inhal. Salbutamol 2 mg/ml, 2,5 ml via nebulisator. Kan upprepas en gång efter 10 -
+20 min alternativt inhal Bricanyl Turbuhaler 0,5 mg/dos, 1 - 2 inhalationer.
+• T. Betametason 0,5 mg, 8 tabletter p o Löses i vatten. Vid svåra fall inj Betametason
+4 mg/ml, 8 mg i v
+• Om patienten har svårt att inhalera och bedömt livshotande tillstånd
+inj Adrenalin 1 mg/ml, 0,5 mg i m Kan upprepas v b
+Observera
+Inga sederande läkemedel ska ges.
+Aspekter vid fördröjd avtransport
+Övervakning av andningen, saturation och hjärtfrekvens. Upprepa v b behandling med inh.
+Salbutamol en gång per timme eller kontinuerligt, inhal. Ipratropium 0,25 mg/ml, 2 ml var
+6:e timme.
+Evakuering
+Om det rör sig om en patient med känd astma som blir helt återställd med normaliserad
+saturation och hjärtfrekvens och helt upphävda subjektiva symtom kan evakuering ske med
+låg prioritet. I alla andra fall bör snabb evakuering ske.
+Hjärtstopp (medicinskt)
+Symtom och kliniska fynd
+• Medvetslöshet
+• Andningsstopp eller agonal andning
+• Pulslöshet
+Undersökningar
+Primärt undersöks endast vitala funktioner.
+I fredstid och vid alla tillåtande situationer i krig är grundregeln att HLR ska påbörjas på
+personer som drabbats av ett hjärtstopp. Vid osäkerhet i frågan om HLR bör utföras eller inte,
+ska HLR alltid påbörjas.
+Om det är uppenbart att spontan cirkulation och andningsfunktion inte går att återställa ska
+HLR inte påbörjas. T ex när personen har skador som inte är förenliga med liv eller uppvisar
+tydliga tecken på att varit död en längre tid, t ex likstelhet. Ett annat ställningstagande till att
+inte starta HLR kan vara under pågående strid om det taktiska läget inte tillåter.
+Behandling/åtgärd
+Arbeta enligt A-HLR-algoritmen. Ge inj Adrenalin 1 mg/ml, spädd till 0,1 mg/ml, 1 mg i v
+vid:
+• Asystoli/PEA omedelbart
+• VT/VF efter 3:e defibrilleringen
+• Ge därefter Adrenalin var 4:e minut
+• Skapa fri luftväg
+Vid kvarstående VT/VF efter 3 defibrilleringar, ge inj Amiodaron 50 mg/ml, 300 mg i v
+Hela dosen ska ges så snabbt som möjligt. Vid kvarstående VT/VF efter 5:e defibrilleringen
+ges ytterligare Amiodaron 50mg/ml, 150 mg i v
+Vid inledande av HLR är det absolut viktigaste att starta kompressioner, därefter koppla
+defibrillator. (Endast vid drunkning eller annan hypoxisk orsak är ventilation (med 100%
+Oxygen) prioriterat och att starta med.)
+Avbrytande av A-HLR
+HLR kan avbrytas om samtliga kriterier nedan (1 - 4) är uppfyllda, under förutsättning att det
+inte finns skäl att misstänka att patienten är förgiftad, nedkyld, gravid eller varit med om
+drunkningstillbud.
+1. Hjärtstoppet var obevittnat.
+2. HLR har inte påbörjats av personer på platsen.
+3. Mer än 15 minuter från larm till ankomst till patient.
+4. Initial rytm asystoli eller kontinuerlig asystoli trots A-HLR under minst 20 minuter.
+Främmande kropp
+Främmande föremål på olika nivåer i luftvägarna, t ex matbitar, nötter, tänder.
+Anamnes
+• Vad hände i samband med insjuknandet?
+• Symtomens svårighetsgrad – partiellt eller komplett hinder?
+Symtom och kliniska fynd
+• Hostattacker, stridor, indragningar, användning av yttre andningsmuskler
+• Kan ej prata
+• Tar sig ofta om halsen
+• Andningsstopp
+• Cyanos
+• Medvetslöshet
+• ”Symtomfritt” intervall (främmande kropp som hamnat perifert i bronkträdet att
+respiration ej hindras helt)
+Behandling/åtgärd
+• Vid partiellt luftvägsstopp:
+- Uppmana patienten att fortsätta hosta.
+- Ge Oxygen.
+- Evakuera i den ställning som patienten väljer, ofta i sittande. Tvinga ej
+patienten att lägga sig ner.
+• Vid totalt luftvägsstopp – vaken patient:
+- Ge upp till 5 ryggslag.
+- Ge upp till 5 buktryck med patienten framåtlutad.
+- Upprepa ovanstående.
+• Vid totalt luftvägsstopp – medvetslös patient:
+- Titta i munnen efter främmande kropp, ev. med hjälp av laryngoskop. Plocka
+bort eventuell främmande kropp med fingrar eller Magills tång.
+- Starta HLR. Titta i munnen innan nya inblåsningar.
+Observera
+Patienter med främmande kropp, även om man tror sig fått upp allt, ska bedömas av läkare.
+Hypoglykemi
+Hypoglykemi kan uppstå vid behandling med såväl insulin som tabletter mot diabetes.
+Anamnes
+• Aktuell medicinering – doser (överdosering insulin)?
+• Aktivitet och kost under dagen (uppskjuten eller överhoppad måltid)?
+• Ökad fysisk aktivitet?
+• Alkohol?
+• Tecken till infektion?
+• Kända diabeteskomplikationer?
+Symtom och kliniska fynd
+• Hungerkänslor
+• Huvudvärk
+• Dubbelseende
+• Kallsvett
+• Vidgade pupiller
+• Tremor/kramper
+• Oro/ångest/aggressivitet
+• Blek hud
+• Sänkt medvetande/koma
+Behandling/åtgärd
+• Kontroll av P-glukos och ev. insulinpump.
+• Om P-glukos ej är mätbart och patienten är medvetandesänkt – behandla som om
+patienten har hypoglykemi.
+• Hypoglykemi: P-glukos < 3,0 mmol/l eller stark misstanke om att patientens symtom
+beror på för lågt P-glukos:
+• Vaken patient ges socker peroralt (t ex mjölk/saft/juice)
+• Medvetslös patient ges inj Glukos 300 mg/ml, 10 ml (3 g) i v (snabb bolus). Om
+patienten inte vaknar upp ges upprepade 10 ml doser tills P-glukos > 5 mmol/l. Max
+100 ml.
+Observera
+Vid infektionstecken, nedsatt medvetande, upprepade hypoglykemiepisoder eller
+intoxikationer i samband med hypoglykemin ska patienten evakueras.
+Evakuering
+Vaken och orienterad patient med diabetes typ 1 behöver inte evakueras.
+Kramper
+Bakgrund
+Kramper är oftast ett tecken på bakomliggande orsak. Exempel på orsaker är skalltrauma, lågt
+blodsocker, infektioner, alkoholabstinens, elektrolytrubbning, allvarlig hypertermi, stroke.
+För vissa patienter med känd epilepsi kan omgivningsfaktorer som sömnbrist och
+ljusstimulering öka risken för epileptiska anfall.
+Symtom och kliniska fynd
+• Plötslig medvetandeförlust med initial stelhet i hela kroppen, därefter symmetriska
+ryckningar i hela kroppen
+• Uttalad trötthet eller förvirring efter anfallet, varar flera minuter till flera timmar
+• Tungbett
+• Urin- eller faecesavgång
+Behandling/åtgärd
+• Kontrollera och skapa fri luftväg.
+• Förhindra ytterligare skador till följd av kramperna; skydda huvudet.
+• Ge inj Midazolam 5 mg/ml, 10 mg i m alternativt i.n (fördelat i båda näsborrarna).
+• Om patienten har PVK/intraosseös infart kan inj Midazolam 5 mg/ml, 2,5 mg i v ges.
+Kan upprepas upp till max 10 mg.
+• Vid misstanke om skalltrauma, undersökning enligt <C>ABCDE.
+• Kontroll av nackstelhet, kroppstemperatur, P-glukos. Tecken på orsaker som kräver
+akut åtgärd som hypertermi, hypoglykemi?
+Se respektive riktlinje.
+Observera
+• Livshotande tillstånd om långvariga/upprepade kramper (> 30 min).
+• Alla med förstagångskramp ska evakueras.
+Medvetandesänkning
+Tänk enligt minnesramsan MIDASE:
+Anamnes
+• Trauma?
+• Underliggande sjukdomar? Pågående läkemedelsbehandling?
+• Infektionstecken, feber?
+• Många drabbade samtidigt?
+• Vittnen?
+Symtom och kliniska fynd
+• Sänkt medvetandegrad
+• Tecken på skalltrauma
+• Tungbett
+• Nackstelhet
+• Högt alternativt lågt blodtryck
+• Lågt P-glukos
+• Feber
+Behandling/åtgärd
+• Fria luftvägar/framstuga sidoläge
+• Inhal Oxygen v b (sat > 90%)
+• Perifer/intraosseös infart
+• Inf Ringer-Acetat, 250 ml i v vid BT syst < 90 mmHg, kan upprepas.
+• Orsaksbehandling
+Evakuering
+Alltid snabb avtransport (undantag känd diabetiker som återhämtar sig fullt, se
+”Hypoglykemi”).
+Huvudvärk
+Bakgrund
+I 90 % av fallen rör det sig om ofarlig huvudvärk som beror på spänningshuvudvärk eller
+migrän. Det finns dock orsaker till huvudvärk som kan vara allvarliga och kräva snabb
+handläggning och avtransport.
+Behandling/åtgärd
+Genom att ställa följande frågor/hitta följande symtom hos den sjuka kan man skilja mellan
+ofarliga och farliga typer av huvudvärk:
+Ofarliga
+• Känd huvudvärk sedan tidigare, oförändrad karaktär
+• Samtidiga lättare förkylningssymtom utan allmänpåverkan, nackstelhet eller feber
+• Minskat/upphört intag av läkemedel (framförallt smärtstillande), koffein
+→ Behandla med vila och smärtstillande (T. Paracetamol 1 g, max 4 st/dygn och/eller T.
+Ibuprofen 400 mg, max 3 st/dygn).
+Misstänkt farliga
+• Urakut insättande (åskknall)
+• Feber, nackstelhet
+• Krampanfall
+• Personlighetsförändring (t ex aggressivitet, apati, oklar ångest)
+• Neurologiska bortfallssymtom, dubbelseende, dimsyn, ljus- /ljudkänslighet
+• Medicinering med p-piller
+• Ökar vid fysisk ansträngning, hosta eller nysning
+• Medvetandepåverkan/ -förlust
+• Traumatisk skada mot huvudet
+→ Evakuera omgående till högre vårdnivå.
+Akut stressreaktion
+Övergående reaktion på en händelse eller upplevelse som utgör en extrem fysisk och/eller
+psykisk belastning. Tillståndet uppkommer i direkt anslutning till händelsen och
+karakteriseras av en förändrad verklighetsuppfattning.
+Anamnes
+• Utlösande orsak/händelse
+• Sömnbrist
+• Tidigare/långvarig stress
+Symtom och kliniska fynd
+• Fysiska:
+- Hjärtklappning
+- Svettning
+- Darrning
+- Muskelspänningar med värk
+• Psykiska/kognitiva:
+- Svårigheter att kontrollera känslor (aggressivitet, förtvivlan)
+- Minskad psykisk uthållighet
+- Nedsatt koncentrationsförmåga
+- Svårighet att fatta beslut
+Behandling/åtgärd
+• Prata långsamt och med lugn röst.
+• Lyssna på personen och uppmuntra till att prata.
+• Fråga om självmordstankar.
+• Visa stöd, omsorg och engagemang.
+• Avsätt och ge den andra tillräckligt med tid.
+• Låt bli att kritisera och/eller döma.
+• Respektera den andres tankar och reaktioner.
+• Ge inga råd.
+• Vid svår ångest/fysiskt kraftigt agiterad person: Tabl Atarax 25 mg, 12,5 mg (1/2
+tabl) p o, kan upprepas. Max 50 mg/dygn.
+Alternativt inj Midazolam 5 mg/ml, 5 mg i m alternativt i n
+Observera
+Lämna inte personen ensam.
+CBRN
+Prehospitalt omhändertagande av skadade i CBRN-sammanhang
+Omhändertagande av skadade vid CBRN-händelser sker enligt <C>ABCDE och övriga
+principer för prehospitalt omhändertagande. Om den skadade befinner sig i en kontaminerad
+miljö genomförs omedelbart nödvändiga livräddande åtgärder, därefter bör den skadade om
+möjligt evakueras till en säkrare plats. Att vårda en patient i kontaminerad miljö kan kräva
+skyddsutrustning vilket försvårar eller omöjliggör vissa åtgärder. Man måste också vara
+medveten om att den skadade kan utgöra en kontaminationsrisk för oskyddad
+sjukvårdspersonal. Samtidigt ska inte det initiala omhändertagandet fördröjas på grund av
+överdrivet fokus på egen säkerhet. Dubbla nitrilhandskar och ev. skyddsmask kan i de flesta
+fall ge ett tillräckligt skydd i detta läge.
+Initialt omhändertagande sker enligt <C>ABCDE, men med beaktande av egen säkerhet.
+Giftinformationscentralen ska inte glömmas bort som en resurs i dessa sammanhang för
+frågor som gäller behandlingsriktlinjer och aktuella risker.
+Tecken på CBRN-händelser
+Det kan vara svårt eller omöjligt att initialt avgöra om en händelse kan vara CBRN-relaterad,
+men tecken att vara observant på kan vara:
+Flera patienter med liknande symtom
+Möjliga symtom kan vara synstörningar, ögonsmärtor, mios/mydriasis, huvudvärk,
+andningspåverkan, sekretion (ögon, saliv, svett), hudrodnad/brännskador av okänd orsak eller
+medvetandepåverkan,
+annorlunda smak- eller luktupplevelser, synlig rök eller dimma.
+Sanering
+Sanering av skadade är i de flesta fall en del av omhändertagandet, framförallt vid kemiska
+hot, och syftar till att avlägsna substanser som är skadliga för patienten såväl som för
+omhändertagande personal. Vissa kemikalier på hud tas snabbt upp av kroppen och en
+omedelbar initial sanering kan då vara livräddande. Den enklaste formen av sanering och
+samtidigt den som ofta är rimlig i prehospitala sammanhang är total avklädning. På så sätt blir
+man av med ämnen i pulver- eller vätskeform som kan finnas på kläder och skor. Är det
+endast ämnen i gasform det handlar om är vanligen avklädning fullt tillräckligt. Gäller det
+fasta och/eller flytande ämnen måste en ytterligare, fullständig sanering övervägas. Nervgas
+och senapsgas är specialfall som är mer svårhanterliga och här bör speciella
+personsaneringsmedel (PS 104 eller PS 105) användas även vid initial sanering. I följande
+skiss illustreras schematiskt det upplägg och den zonindelning som gäller vid sanering inom
+civil och militär räddningstjänst och sjukvård, nationellt såväl som internationellt.
+
+Het zon (hot zone) är det kontaminerade område där det farliga ämnet finns och där det kan
+vara förenat med uppenbar risk att vistas. Särskild skyddsutrustning kan behöva användas.
+Efter omedelbart livräddande åtgärder är den primära uppgiften att föra ut skadad och
+oskyddad personal ur zonen snarast möjligt. En första livräddande personsanering kan behöva
+genomföras i övergången mellan het och varm zon.
+Varm zon
+Varm zon (warm zone) är området närmast utanför den heta zonen där hotbilden främst består
+av risken för sekundär kontamination genom hantering av kontaminerad materiel och/eller
+kontaminerade skadade från den heta zonen. Skyddsutrustning ska normalt sett bäras. I den
+varma zonen upprättas vanligen en samlingsplats för skadade och saneringsplats för sanering
+av såväl skadade som annan personal.
+Huvuduppgift i den varma zonen är sortering/prioritering och omhändertagande. Detta följs
+snarast möjligt av slutlig sanering och flyttning av de skadade till kall zon.
+Kall zon
+Kall zon (cold zone) är det yttre område dit skadade förs efter sanering. Beroende av läge och
+resurser kan även skadade med ytterligare saneringsbehov flyttas till denna zon, men de ska
+då kunna hanteras så att de inte utgör ett hot för andra. Förutsättningarna i den kalla zonen
+ska vara sådana att skyddsutrustning inte ska behöva bäras. Skyddsutrustning bör dock
+medföras för att kunna tas på om t ex vindriktningen skulle ändras.
+I den kalla zonen fortsätter omhändertagandet med förnyad prioritering och medicinskt
+omhändertagande med de resurser som finns att tillgå.
+CBRN - översikt
+C - (kemiska hot)
+1) Luftvägar
+Exempel
+• Lungretande gaser (t ex ammoniak, fosgen, klorgas, svaveldioxid)
+• Allmäntoxiska gaser (t ex kolmonoxid, cyanid, svavelväte och fluorväte)
+Mekanism
+Lungretande gaser ger i första hand symtom genom sin retande effekt på ögon och luftvägar.
+Allmäntoxiska gaser ger varierande toxiska effekter på enskilda organ/organsystem. Det är
+dock sällan en distinkt skiljelinje mellan de olika typerna av gaser.
+Symtom
+• Irritation, smärta och sveda i ögonen
+• Irritation, hosta, sveda och andra symtom från luftvägarna
+• Andnöd, kvävningskänsla, stridor
+• Specifika toxiska effekter beroende av ämne som t ex huvudvärk, cyanos,
+blodtrycksfall, chock, kramper, medvetslöshet
+Behandling
+Se ”Rökgasförgiftning”.
+Övrigt
+Vid brand i olika typer av materiel kan ett antal retande eller toxiska gaser bildas.
+Vissa gaser transporteras i tryckkondenserad form (nedkyld, flytande) och har en mycket låg
+temperatur vid läckage. Därmed finns risk för momentana frysskador vid kontakt med
+läckande vätska.
+2) Ögon och hud
+Exempel
+• Syror: t ex svavelsyra, fluorvätesyra och salpetersyra
+• Baser: t ex natriumhydroxid och kaliumhydroxid
+Mekanism
+Frätskador är en vanlig effekt men man ska också beakta att vissa ämnen kan ge
+systemtoxiska effekter efter passage genom huden.
+Vid stänk i ögonen är risken för bestående ögonskador stor och snabbt insatt behandling kan
+vara avgörande för att begränsa skadans omfattning.
+Symtom
+Lokala hudskador i form av t ex frätskador. Observera att vissa ämnen kan ge en långsamt
+insättande frätskada som initialt kan yttra sig endast som hudrodnad.
+Symtom från ögon och luftvägar i likhet med retande gaser om ämnet har stänkt eller
+förekommer i gasfas.
+Irritation, hosta, sveda och andra symtom från luftvägarna.
+Specifika toxiska effekter beroende av ämne.
+Behandling
+Ögon: se ”Ögonskador”
+Hud: Stänk på huden av frätande ämnen behandlas med riklig sköljning med vatten.
+3) Nervsystemet – nervgaser/organiska fosforföreningar
+Exempel
+Sarin, soman, VX, nervgasgruppen ”Novitjok”, insekticider
+Mekanism
+Organiska fosforföreningar binds till enzymet acetylkolinesteras och hämmar dess
+nedbrytning av acetylkolin. Följden blir en kolinerg överstimulering med ökad aktivitet i bl a.
+skelettmuskulatur och glatt muskulatur. Förgiftning kan ske genom både inandning och
+hudpenetration. Trots benämningen nervgas så kan den här typen av ämnen förekomma i
+flytande och fast form såväl som gasform. Speciellt ämnen hörande till ”Novitjok” gruppen
+verkar kunna finnas kvar i miljön länge med stor risk för sekundär smitta
+Symtom
+• Mios
+• Sekretion i form av salivation, svettningar, tårflöde, rinnande näsa samt sekretion i
+luftvägarna.
+• Skelettmuskelkramper som kan vara lokala om det rör sig om hudpenetration, eller
+mer generella av typen epileptiska kramper där det också finns ett CNS-medierat
+inslag.
+• Andningspåverkan.
+• Takykardi vid lindrigare förgiftning och övergång till bradykardi vid svårare fall.
+Behandling
+Autoinjektor med nervgasmotmedel (Atropin + Oxim). Normalt sett inleds behandlingen
+med en autoinjektor. Om innehåll läcker ut ur autoinjektorn eller backar ut ur ingångshålet,
+överväg injektion av ytterligare en autoinjektor.
+Om effekten av given autoinjektor av annat skäl inte bedöms tillräcklig eller om patienten
+försämras ges ytterligare en autoinjektor efter 10 - 15 minuter.
+Ytterligare Atropin ges för att förstärka effekten. (Doseringar som nämns för de mest potenta
+nervgaserna är 2-6 mg atropin var 5-10 min) Behandlingsmål är normaltorra/torra slemhinnor
+och/eller torr axill. Lätt takykardi kan vara ett behandlingsmål vid bradykardi. Mycket höga
+doser kan krävas vid svåra förgiftningar.
+Bensodiazepiner ska ges snarast, i synnerhet vid svårare förgiftning. Midazolam 5 mg/ml,
+2,5-5 mg i v ges som första dos och kan upprepas v b. Finns tillgång till autoinjektor med
+Diazepam 10 mg ges en sådan.
+4) Hud – hudskadande ämnen
+Exempel
+Senapsgas
+Mekanism
+Skadorna uppkommer genom att senapsgasen kemiskt reagerar med molekyler i kroppens
+vävnader. Förgiftning kan ske genom inandning såväl som genom hudpenetration av
+senapsgas i vätskeform.
+Symtom
+Ofta är symtomen mycket lätta eller obefintliga initialt för att sedan förvärras 1 - 3 timmar
+efter exponering.
+Vanliga symtom är sveda och smärta i ögonen samt hudskador liknande de som ses vid
+brännskador.
+Symtom från luftvägarna av samma typ som för retande gaser.
+Behandling
+Enligt lungretande och toxiska gaser.
+5) Opioider
+Exempel
+Fentanyl
+Mekanism
+Andningsdepression genom påverkan på centrala funktioner.
+Symtom
+• Mios
+• Andningsdepression
+• Medvetandepåverkan, medvetslöshet
+Behandling
+Naloxon 0,4 mg/ml, 0,2 mg i v alternativt 0,4 mg i n, upprepas v b.
+B - (biologiska hot)
+Under denna rubrik återfinns såväl vanliga infektionssjukdomar som biologiska stridsmedel.
+Det är ofta svårt eller omöjligt att vid misstanke om infektionssjukdom initialt bedöma om det
+rör sig om ett naturligt utbrott eller bruk av biologiskt stridsmedel då många av de tänkbara
+biologiska stridsmedlen också förekommer naturligt.
+Spridningsväg kan vara från en primär smittkälla som t ex vatten eller livsmedel men det kan
+också röra sig om en smitta med spridning sekundärt från människa till människa.
+Alla observationer ska dock alltid följas upp och rapporteras i aktuell organisation.
+Viktigt i arbetet med hantering av biologiska hot är god preventiv medicinsk kunskap hos all
+personal.
+RN - (radiologiska hot)
+Här ingår såväl kärnvapen som olika typer av strålkällor. Strålskador ger vanligen symtom
+först i ett senare skede och det kan ofta vara svårt eller omöjligt att ställa en diagnos
+prehospitalt.
+Exempel
+• Radioaktiva ämnen i samband med smutsiga bomber, olyckshändelser mm.
+• Radioaktivt nedfall i samband med större olyckshändelse i kärnkraftverk eller
+kärnvapenexplosion
+Mekanism
+Skadorna uppkommer genom att joniserande strålning utsänds i samband med radioaktiva
+ämnens sönderfall. Joniserande strålning skapar negativt och positivt laddade joner i cellerna
+som i sin tur leder till kemiska reaktioner och påverkan på den aktuella cellens funktioner.
+Symtom
+Symtomen beror till stor del av vilka stråldoser man utsatts för och under hur lång tid samt
+vilka organsystem som drabbats.
+Akut strålsjuka uppkommer ca ett dygn efter att man utsatts för helkroppsdoser på ca 1 Sv
+(Sievert, 1 Sv = 1000 mSv). Illamående och kräkningar är de vanligaste symtomen på akut
+strålsjuka. Stråldoser i detta område ska följas upp men kommer vanligen inte att innebära
+några större problem ur sjukvårdens synvinkel.
+Hudrodnad, illamående och kräkningar kan också uppkomma tidigare vid högre stråldoser (3
+- 6 Sievert eller mer). Dessa symtom kommer inom några timmar efter misstänkt bestrålning
+kan tyda på höga stråldoser som sannolikt kommer att kräva kvalificerad behandling.
+Påverkan på blodbilden är typisk vid påverkan av joniserande strålning men är sällan
+omedelbar och har initialt sett endast en diagnostisk betydelse.
+De största riskerna är förknippade med intag (peroralt eller via inhalation) av vissa ämnen.
+Här kan symtomen vara ospecifika initialt men snabbt utvecklas till livshotande tillstånd
+beroende av vilka ämnen och vilken stråldos det rör sig om.
+Behandling
+Sedvanligt omhändertagande enligt principerna för <C>ABCDE gäller. I likhet med för
+kemiska skador så kan man förvänta sig en försämrad prognos och därmed en möjlig
+påverkan på prioriteringen vid kombination av traumatisk skada och radiologisk skada.
+De allvarliga följderna av RN-skador är inte omedelbara utan uppkommer efter dagar -
+veckor och hanteras därmed inte prehospitalt.
+Illamående kan behandlas med antiemetiska läkemedel, t ex Ondansetron.
+Specifika antidoter mot vissa radioaktiva ämnen finns liksom bl a. läkemedel för att stimulera
+bildningen av ny benmärg men dessa är vanligen inte aktuella att ge prehospitalt. Undantag är
+jodtabletter (kaliumjodid) som ska ges snarast om det misstänks att man utsatts för (eller
+kommer att utsättas för) radioaktiv jod. Radioaktiv jod är dock i princip bara ett problem i
+samband med haverier i kärnkraftverk. Personer äldre än 40 år bedöms dock inte ha någon
+nytta av behandling med jodtabletter.
+Vid behov av kirurgisk behandling bör denna (beroende av stråldos) ske inom 1-2 dygn då
+strålskador kan innebära påverkan på bl a immunsystem och läkningsprocesser. Alternativet
+kan vara att avvakta med kirurgi 2-3 veckor för att möjliggöra återhämtning och förbättra
+prognosen.
+Övrigt
+Beroende på vilka analysmöjligheter som finns kan det vara av värde att samla prov från
+patienten. Uppkastningar, urin samt prover från t ex näshålan kan, om personen är invärtes
+kontaminerad, i vissa fall användas för att bestämma vilka strålkällor som är aktuella samt
+vilken stråldos patienten fått vilket kan vara av värde vid fortsatt behandling.
+Sanering vid RN-händelser syftar till att mekaniskt avlägsna eventuell yttre radioaktiv
+kontamination från den skadade. I praktiken innebär det sanering av samma typ som vid
+kemisk kontamination. Notera dock att radiologisk kontamination inte kan elimineras utan
+ämnet ifråga kommer bara att flyttas från patienten och finnas kvar i miljön.
+Läkemedel
+ADRENALIN
+Beredningsform: Injektionslösning
+Styrka: 1 mg/ml
+Kan spädas till 0,1 mg/ml, 10 ml (vid A-HLR)
+Terapeutisk effekt: • Ökad myokardkontraktilitet
+• Sänker tröskeln inför defibrillering
+• Slemhinneavsvällande
+• Bronkdilatation
+• Perifer vasokonstriktion
+Indikationer: • Hjärtstopp
+• Svår allergi, anafylaxi
+• Behandlingsrefraktär, livshotande astma
+• Övre luftvägssvullnad (t ex inhalationsbrännskada)
+Administrationssätt: Vid anafylaxi: intramuskulärt
+Vid övre luftvägssvullnad: inhalation via nebulisator
+Dosering: Hjärtstopp: 1 mg (10 ml av spädd lösning 0.1 mg/ml) intravenöst enl
+HLR algoritm
+Anafylaxi/astma: 0,5 mg (0,5 ml) intramuskulärt, upprepas var 5:e
+minut v b
+Övre luftvägssvullnad: inhalation 1 ml (1 mg) + 2 ml NaCl 0,9%
+Kontraindikationer: -
+Försiktighet: • Angina pectoris
+• Obehandlad hypertyreos
+Biverkningar: • Huvudvärk, yrsel, tremor
+• Takykardi, palpitationer, oro
+• Blodtrycksstegring
+• Illamående, kräkning
+Överdosering: • Arytmier
+• Hjärtinsufficiens
+• Lungödem
+AMIODARON
+Beredningsform: Injektionslösning
+Styrka: 50 mg/ml
+Terapeutisk effekt: Förlängd refraktärperiod och minskad myokardiell retbarhet
+Indikationer: Hjärtstopp
+Administrationssätt: Intravenöst
+Dosering: 300 mg (6 ml) intravenöst efter 3:e defibrilleringen.
+150 mg (3 ml) efter 5:e defibrilleringen.
+Kontraindikationer: -
+Biverkningar: • Hypotension
+• Bradykardi
+• AV-block
+ATARAX
+Beredningsform: Tablett
+Styrka: 25 mg
+Terapeutisk effekt: Lugnande
+Indikationer: Ångest
+Administrationssätt: Peroralt
+Dosering: 12.5 mg (1/2 tablett)
+Kan upprepas. Max 50 mg/dygn.
+Kontraindikationer: Elektrolytrubbningar
+Biverkningar: • Sömnighet/trötthet
+• Huvudvärk
+• Muntorrhet
+Försiktighet Bör ej kombineras med Ondansetron
+ATROPIN
+Beredningsform: Injektionslösning
+Styrka: 0,5 mg/ml
+Terapeutisk effekt: Pulshöjande (förbättrad överledning i AV-noden)
+Indikationer: Bradykardi
+Administrationssätt: Intravenöst
+Dosering: 0,5 mg (1 ml)
+Se CBRN-kapitlet för dosering vid CBRN-händelser. Kan kräva
+många upprepade injektioner och höga doser.
+Kontraindikationer: -
+Biverkningar: • Takykardi
+• Muntorrhet
+• Excitation, desorientering och hallucinationer (vid höga
+doser)
+• Miktionsbesvär, ackommodationspares
+BETAMETASON
+Beredningsform: Tabletter, injektionslösning
+Styrka: 0,5 mg respektive 4 mg/ml
+Terapeutisk effekt: Inflammationshämmande, effektduration > 48 timmar
+Indikationer: • Svår allergi
+• Anafylaktisk reaktion
+• Astma
+Administrationssätt: Peroralt: Tabletterna löses i vatten. I undantagsfall kan de tuggas innan
+nedsväljning.
+Intravenöst
+Dosering: Astma: 8 tabletter (4 mg) peroralt eller 8 mg (2 ml) intravenöst
+Allergi/anafylaxi: 5 mg (10 tabletter) peroralt eller 8 mg (2 ml)
+intravenöst
+Kontraindikationer: -
+Försiktighet: • Magsår
+• Diabetes mellitus
+• Hypertoni
+• Hjärtinsufficiens
+Biverkningar: Hyperglykemi
+BRICANYL TURBUHALER (TERBUTALIN)
+Beredningsform: Inhalationspulver
+Styrka: 0,5 mg/dos
+Terapeutisk effekt: Bronkdilaterande
+Indikationer: • Astma
+• Rökgasförgiftning
+Administrationssätt: Inhalation
+Dosering: Astma: 1-2 inhalationer
+Rökgasförgiftning: 2-3 inhalationer
+Kontraindikationer: -
+Försiktighet: Diabetiker (risk för hypoglykemi)
+Biverkningar: • Tremor
+• Huvudvärk
+• Takykardi
+• Hjärtklappningar
+BUDESONID
+Beredningsform: Suspension för nebulisator
+Styrka: 0,5 mg/ml
+Terapeutisk effekt: Lokal antiinflammatorisk effekt i lungorna
+Indikationer: Rökgasförgiftning
+Administrationssätt: Inhalation via nebulisatormask
+Dosering: 8 ml (4 mg), kan upprepas.
+Kontraindikationer: -
+Biverkningar: -
+CEFOTAXIM
+Beredningsform: Pulver till infusionslösning
+Styrka: 1 g
+Terapeutisk effekt: Antibiotika
+Indikationer: • Penetrerande skador
+• Svåra mjukdelsinfektioner
+• Meningit
+Administrationssätt: Intramuskulärt
+Intravenöst
+Blandas med 4 ml NaCl 0,9%
+Dosering: 1 g x 2
+Meningit: 3 g x 3 intravenöst
+Försiktighet Bör inte injiceras snabbare än 3-5 minuter (risk för arytmier)
+Kontraindikationer: Överkänslighet
+Biverkningar: • Diarré
+• Utslag
+• Smärtor vid injektionsstället vid intramuskulär injektion
+DESLORATADIN
+Beredningsform: Tablett, tablett munlöslig
+Styrka: 5 mg
+Terapeutisk effekt: Antihistamin (ej sederande)
+Indikationer: Allergisk reaktion
+Administrationssätt: Peroralt. Alternativt smältas i munnen.
+Dosering: Allergi: 1 tablett (5 mg)
+Anafylaxi: 2 tabletter (10 mg)
+Kontraindikationer: -
+Biverkningar: • Trötthet
+• Muntorrhet
+• Huvudvärk
+ERTAPENEM
+Beredningsform: Pulver till infusionslösning
+Styrka: 1 g
+Terapeutisk effekt: Antibiotika
+Indikationer: Penetrerande bukskador
+Administrationssätt: Intravenöst
+Blandas med 10 ml NaCl 0,9%
+Dosering: 1 g
+Kontraindikationer: Överkänslighet
+Försiktighet: Bör ges som infusion under 30 minuter
+Biverkningar: • Huvudvärk
+• Tromboflebit
+• Diarré, illamående, kräkningar
+• Utslag, klåda
+FENTANYL
+Beredningsform: Sugtablett
+Styrka: 800 μg
+Terapeutisk effekt: Smärtstillande, opioid
+Indikationer: Svår smärta
+Administrationssätt: Buccalt
+Dosering: 1 sugtablett
+Kräver patientövervakning efter administration.
+Kontraindikationer: • Skallskada
+• Cirkulatorisk chock
+Försiktighet: -
+Biverkningar: • Andningsdepression (antidot: Naloxon)
+• Illamående, kräkningar
+FLUMAZENIL
+Beredningsform: Injektionslösning
+Styrka: 0,1 mg/ml
+Terapeutisk effekt: Specifik antidot mot bensodiazepin
+Indikationer: Överdosering med bensodiazepin
+Administrationssätt: Intravenöst
+Dosering: 0,2 mg (2 ml). Vid otillräcklig effekt inom 60 sek kan upprepade
+doser om 0,1 mg (1 ml) ges tills effekt uppnås, max 1 mg (10 ml)
+Kontraindikationer: -
+Försiktighet: Patient med känd krampbenägenhet
+Biverkningar: -
+GLUKOS
+Beredningsform: Infusionslösning
+Styrka: 300 mg/ml
+Terapeutisk effekt: Blodsockerhöjande
+Indikationer: Svår hypoglykemi
+Administrationssätt: Intravenöst
+Dosering: 10 ml (3 g), därefter 10 ml i bolus doser. Max 100 ml.
+Kontraindikationer: -
+Biverkningar: • Tromboflebit vid injektion i tunna, perifera kärl
+• Vävnadsnekros vid extravasal injektion
+HYDROXYKOBALAMIN (CYANOKIT)
+Beredningsform: Pulver till infusionslösning
+Styrka: 25 mg/ml
+Terapeutisk effekt: Medel mot cyanidförgiftning
+Indikationer: Rökgasförgiftning
+Administrationssätt: Intravenöst under 15 minuter
+Dosering: 5 g (200 ml), kan upprepas en gång v b
+Kontraindikationer: -
+Biverkningar: -
+IBUPROFEN
+Beredningsform: Tablett
+Styrka: 400 mg
+Terapeutisk effekt: Smärtstillande (NSAID)
+Indikationer: Lindrig till måttlig smärta
+Administrationssätt: Peroralt
+Dosering: 1 tablett, max 3 gånger per dygn
+Kontraindikationer: • Överkänslighet mot ASA/NSAID
+• Astma
+• Dehydrering
+• Inflammatorisk tarmsjukdom
+• Ulcus
+• Risk för blödning
+Biverkningar: • Illamående, kräkning
+• Buksmärtor
+• Astma, bronkospasm
+• Hudutslag
+IPRATROPIUM
+Beredningsform: Lösning för nebulisator
+Styrka: 0,25 mg/ml
+Terapeutisk effekt: Bronkdilaterande
+Indikationer: • Rökgasförgiftning
+• Astma
+Administrationssätt: Inhalation via nebulisator
+Dosering: Rökgasförgiftning: 1-2 ml (0,25 - 0,5 mg)
+Astma: 2 ml (0,5 mg) var 6:e timme
+Kontraindikationer: -
+Biverkningar: • Yrsel, illamående
+• Huvudvärk
+• Halsirritation, hosta
+• Muntorrhet
+KALCIUM
+Beredningsform: Injektionslösning
+Styrka: 9,2 mg/ml
+Terapeutisk effekt: Ökar hjärtmuskelkontraktilitet
+Indikationer: • Reperfusionssyndrom
+• Transfusion med blodprodukter
+Administrationssätt: Intravenöst, långsamt (2-3 min)
+Dosering: 10 ml, kan upprepas v b
+S-Calcium ska mätas med blodgas så fort möjlighet finns.
+Kontraindikationer: -
+Försiktighet: -
+Biverkningar: Bradykardi
+Interaktioner: Ges ej i samma infart som blodprodukter
+Överdosering: • Arytmier, hjärtstopp
+• Illamående, kräkningar
+• Buksmärta
+• Medvetandesänkning
+KETAMIN 10 mg/ml
+Beredningsform: Injektionsvätska
+Styrka: 10 mg/ml
+Terapeutisk effekt: • Dissociativ anestesi
+• Smärtstillande
+• Bronkdilatation
+Indikationer: • Svår smärta
+• Anestesiinduktion
+Administrationssätt: Intravenöst
+Dosering: Analgesi: 30 mg (3 ml), kan upprepas
+Anestesiinduktion: individuell dosering
+Kontraindikationer: -
+Försiktighet: • Pågående psykos
+Biverkningar: • Hallucinationer
+• Salivation
+• Övergående takykardi och blodtryckshöjning
+• Okontrollerat rörelsemönster
+Interaktioner: • Bensodiazepiner förstärker effekten av ketamin
+• Förstärkt effekt av opioid
+Överdosering: Övergående respiratorisk depression vid snabb tillförsel
+KETAMIN 50 mg/ml
+Beredningsform: Injektionslösning
+Styrka: 50 mg/ml
+Terapeutisk effekt: • Dissociativ anestesi
+• Smärtstillande
+• Bronkdilatation
+Indikationer: Svår smärta
+Administrationssätt: Intranasalt via MAD
+Intramuskulärt
+Dosering: Intranasalt: 50 mg (1 ml) (fördelat i båda näsborrarna)
+Intramuskulärt: 50-150 mg (1-3 ml)
+Kan upprepas efter ca 30 min
+Kontraindikationer: -
+Försiktighet: • Pågående psykos
+Biverkningar: • Hallucinationer
+• Salivation
+• Övergående takykardi och blodtryckshöjning
+• Okontrollerat rörelsemönster
+Interaktioner: • Bensodiazepiner förstärker effekten av ketamin
+• Förstärkt effekt av opioid
+Överdosering: Övergående respiratorisk depression vid snabb tillförsel
+LIDOKAIN
+Beredningsform: Injektionslösning
+Styrka: 10 mg/ml
+Terapeutisk effekt: Lokalanestesi
+Indikationer: Lokal anestesi vid anläggning av intraosseös infart på vaken patient
+Administrationssätt: Infiltreras i hud och/eller injiceras i intraosseös nål
+Dosering: 1-2 ml (10 - 20 mg) infiltreras från hud ner till periostet,
+2 ml (20 mg) ges därefter intraosseöst
+Kontraindikationer: -
+MIDAZOLAM
+Beredningsform: Injektionslösning
+Styrka: 5 mg/ml
+Terapeutisk effekt: • Lugnande, ångestdämpande, sövande
+• Muskelrelaxerande, antiepileptisk (kramplösande)
+Indikationer: • Sedering
+• Generella kramper
+• Vid misstänkt nervgasförgiftning tillsammans med
+autoinjektor
+Administrationssätt: Intramuskulärt
+Intranasalt via MAD
+Intravenöst
+Kräver patientövervakning efter administration.
+Dosering: Kramper:
+- intramuskulärt: 10 mg (2 ml) i stor muskelgrupp.
+- intranasalt: 10 mg (2 ml) fördelat i båda näsborrarna
+- intravenöst: 2,5 mg (0,5 ml), kan upprepas upp till max 10
+mg
+Sedering:
+- intramuskulärt: 5 mg (1 ml)
+- intranasalt: 5 mg (1 ml)
+- intravenöst: 1-2 mg (0,2-0,4 ml)
+Kontraindikationer: -
+Försiktighet: • Hypovolema patienter
+• Nedsatt allmäntillstånd
+• Alkohol och andra narkotiska preparat t ex andra
+bensodiazepiner potentierar effekten
+Biverkningar: • Andningsdepression (Antidot: Flumazenil)
+• Hypotension
+MORFIN
+Beredningsform: Injektionslösning
+Styrka: 10 mg/ml
+Terapeutisk effekt: • Analgesi
+• Ångestdämpande
+Indikationer: Svår smärta
+Administrationssätt: Intravenöst
+Kräver patientövervakning efter administration.
+Spädning 1 ml morfin spädes med 9 ml NaCl 0,9% till 1 mg/ml
+Dosering: 1,0–2,5 mg (1–2,5 ml, med spädning enligt ovan) i upprepade doser
+till önskad effekt
+Kontraindikationer: -
+Försiktighet. • Hypovolemi
+• Andningspåverkan
+• Skallskada
+Biverkningar: • Andningsdepression
+• Hypotension
+• Blodtrycksfall, framförallt vid hypovolemi
+• Bronkkonstriktion
+• Illamående, kräkningar
+• Yrsel
+• Urinretention
+• Klåda, urtikaria
+Överdosering: • Andningsdepression (Antidot: Naloxon)
+MOXIFLOXACIN
+Beredningsform: Tablett
+Styrka: 400 mg
+Terapeutisk effekt: Antibiotika
+Indikationer: Penetrerande skada hos vaken patient
+Administrationssätt: Peroralt
+Dosering: 1 tablett
+Kontraindikationer: Överkänslighet
+NALOXON
+Beredningsform: Injektionslösning
+Styrka: 0,4 mg/ml
+Terapeutisk effekt: Specifik antidot mot opioider
+Indikationer: Överdosering med opiod
+Administrationssätt: Intravenöst
+Intramuskulärt
+Intranasalt
+Dosering: Intravenöst: 0,2 mg (0,5 ml), kan upprepas
+Intramuskulärt: 0,4 mg (1 ml), kan upprepas
+Intranasalt: 0,4 mg (1 ml), kan upprepas
+Kontraindikationer: -
+Försiktighet: Kort halveringstid, risk för rebound av opioideffekten (ca 20 min)
+Biverkningar: • Illamående, kräkningar
+• Svettningar
+• Lungödem
+• Takykardi, tremor
+NATRIUMTIOSULFAT
+Beredningsform: Injektionslösning
+Styrka: 150 mg/ml
+Terapeutisk effekt: Medel mot cyanidförgiftning
+Indikationer: Rökgasförgiftning
+Administrationssätt: Intravenöst
+Dosering: 100 ml under 5-10 minuter
+Kontraindikationer: -
+Försiktighet: Hypotension
+Biverkningar: -
+ONDANSETRON
+Beredningsform: Injektionslösning
+Styrka: 2 mg/ml
+Terapeutisk effekt: 5-HT3-antagonist
+Indikationer: Illamående och kräkningar
+Administrationssätt: Intravenöst
+Dosering: 4 mg (2 ml), max 8 mg (4 ml) tre gånger per dygn
+Biverkningar: • Huvudvärk
+• Värmekänsla
+Kontraindikationer: -
+OXYGEN
+Beredningsform: Andningsoxygen
+Styrka: -
+Terapeutisk effekt: Höjning av PO2 i blod
+Indikationer: • Hypoxi
+• Dykarsjuka
+Administrationssätt: Inhalation
+Dosering: Doseras efter behov och indikation
+Riktvärden vid användning av olika hjälpmedel:
+Grimma 1-4 liter 24 - 40%
+Traumamask 10-15 liter 80 - 99%
+Pocketmask 10 liter 50%
+Mask/reservoar/blåsa >15 liter 93% - 100%
+Kontraindikationer: -
+Försiktighet: • Kroniskt obstruktiv lungsjukdom (KOL)
+• Arbete i omgivning med risk för brand eller självantändning
+(olja, fett)
+PARACETAMOL
+Beredningsform: Tablett
+Styrka: 500 mg
+Terapeutisk effekt: Smärtstillande
+Indikationer: Lindrig till måttlig smärta
+Administrationssätt: Peroralt
+Dosering: 1 g (2 tabletter), max 4 gånger per dygn
+Kontraindikationer: Leversvikt
+Försiktighet: Hypovolemi
+Överdosering: • Buksmärtor, illamående, kräkningar
+• Leversvikt
+PULMICORT TURBUHALER (BUDESONID)
+Beredningsform: Inhalationspulver
+Styrka: 400 μg/dos
+Terapeutisk effekt: Lokal antiinflammatorisk effekt i lungorna
+Indikationer: Rökgasförgiftning
+Administrationssätt: Inhalation
+Dosering: 10 inhalationer, kan upprepas
+Kontraindikationer: -
+Biverkningar: -
+RINGER-ACETAT
+Beredningsform: Infusionslösning
+Styrka: Fysiologiskt balanserad elektrolytlösning (isoton)
+Terapeutisk effekt: Ökning av intravasal volym
+Indikationer: • Hypovolemi
+• Vätskeresuscitering vid brännskador
+• Forcerad diures
+Administrationssätt: Intravenöst
+Dosering: Individuell dosering beroende på kliniskt tillstånd
+Kontraindikationer: -
+Försiktighet: • Allvarlig hjärtsvikt (lungödem)
+• Andningssvårigheter av medicinska orsaker (t ex lungödem,
+KOL)
+• Svår skallskada
+SALBUTAMOL
+Beredningsform: Lösning för nebulisator
+Styrka: 2 mg/ml (endosbehållare 2,5 ml = 5 mg)
+Terapeutisk effekt: Bronkdilatation
+Indikationer: • Akut astma
+• Rökgasförgiftning
+• Inhalationsbrännskada med luftvägssvullnad
+Administrationssätt: Inhalation via nebulisator
+Dosering: Rökgasförgiftning: 3-6 ml (6-12 mg)
+Akut astma: 2,5 ml (5 mg), kan upprepas v b
+Kontraindikationer: -
+Försiktighet: • Svår hjärtkärlsjukdom
+• Okontrollerad hypertyreos
+Biverkningar: • Takykardi, palpitationer
+• Tremor, yrsel
+• Huvudvärk
+• Bronkospasm
+• Klåda, hudutslag
+TETRAKAIN
+Beredningsform: Ögondroppar
+Styrka: 10 mg/ml (1%)
+Terapeutisk effekt: Lokalt smärtstillande
+Indikationer: • Ögonsmärtor vid exponering för frätande ämnen
+• Underlätta spolning av öga vid kemisk ögonskada
+Administrationssätt: Droppas i ögat
+Dosering: 1-2 droppar i det skadade ögat
+Kontraindikationer: Penetrerande ögonskada
+Försiktighet: Får ej ersätta nödvändig ögonspolning
+Biverkningar: • Övergående lokal irritation/sveda
+• Hornhinneskada vid upprepad användning
+TRANEXAMSYRA
+Beredningsform: Injektionslösning
+Styrka: 100 mg/ml
+Terapeutisk effekt: Fibrinolyshämmare
+Indikationer: • Stor blödning
+• Medelsvår skallskada med medvetandepåverkan
+Administrationssätt: Intravenöst
+Dosering: 2 g (20 ml) som bolus. Ges ej efter tre timmar från skadetillfället.
+Kontraindikationer: Aktiv tromboembolisk sjukdom
+Biverkningar: • Illamående, kräkning. Minskad risk vid långsam infusion.
+• Hypotension. Minskad risk vid långsam infusion.

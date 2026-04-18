@@ -1,0 +1,5978 @@
+[
+  {
+    "type": "h1",
+    "text": "Traumatisk blödningschock – Prehospital resuscitering"
+  },
+  {
+    "type": "body",
+    "text": "Traumatisk blödning är den vanligaste undvikbara dödsorsaken i stridssammanhang. De flesta av dessa dödsfall sker prehospitalt. Snabb blödningskontroll och tidig resuscitering med blodprodukter har i flera studier visat ökad överlevnad vid livshotande blödning. Målet är att återställa hemostas samt undvikande av vävnadshypoxi och koagulopati. Stor risk för blodtransfusionsbehov föreligger vid amputation ovan knä, (framförallt i samband med bäckenskador), penetrerande skador av thorax och/eller buk, kraftigt trubbigt våld och explosionsskador. När blodprodukter saknas men kristalloid vätska finns att tillgå bör man vara mer restriktiv med volymersättning då det är visat en rad negativa effekter av detta, samtidigt är det förstås bättre att ge kristalloider än att patienten blöder ihjäl. Faktorer som är av betydelse för hur mycket kristalloid vätska man ger, är tid till kirurgi, storlek på blödning och eventuell comorbiditet. Förlorar patienten medvetandet p g a lågt blodtryck eller om radialispulsen försvinner (eller ett systoliskt blodtryck <80-90 mm Hg) är det rimligt att ge 250-500 ml Ringer-Acetat som avbryts så fort puls eller medvetande återkommer. Detta upprepas till man når vårdnivå där man kan ge blodprodukter och/eller har kirurgisk förmåga"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Kallsvettig hud"
+  },
+  {
+    "type": "bullet",
+    "text": "Radialispuls (snabb, svag, avsaknad)"
+  },
+  {
+    "type": "bullet",
+    "text": "Sjunkande systoliskt blodtryck"
+  },
+  {
+    "type": "bullet",
+    "text": "Påverkan på medvetande (förvirring, medvetandesänkning, medvetslöshet)"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer för initiering av blodtransfusion"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandesänkning (som ej beror på skallskada) eller"
+  },
+  {
+    "type": "bullet",
+    "text": "Svag/icke-palpabel radialispuls eller"
+  },
+  {
+    "type": "bullet",
+    "text": "BT syst < 100 mmHg (< 110 mmHg med skallskada)"
+  },
+  {
+    "type": "body",
+    "text": "Transfusionsmål"
+  },
+  {
+    "type": "bullet",
+    "text": "Förbättrat medvetande eller"
+  },
+  {
+    "type": "bullet",
+    "text": "Kraftigare/palpabel radialispuls eller"
+  },
+  {
+    "type": "bullet",
+    "text": "BT syst >100 mmHg (>110 mmHg med skallskada)"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer för initiering av volymsbehandling med kristalloider"
+  },
+  {
+    "type": "bullet",
+    "text": "Ej tillgång till blodprodukter"
+  },
+  {
+    "type": "bullet",
+    "text": "Kirurgisk förmåga längre bort än 30 minuter"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandesänkning (som ej beror på skallskada) eller"
+  },
+  {
+    "type": "bullet",
+    "text": "Svag/icke-palpabel radialispuls eller"
+  },
+  {
+    "type": "bullet",
+    "text": "BT syst <80-90 mmHg (< 110 mmHg med skallskada)"
+  },
+  {
+    "type": "body",
+    "text": "Behandlingsmål vid volymsbehandling med kristalloider Den minsta bolus upp till 500 ml som ger:"
+  },
+  {
+    "type": "bullet",
+    "text": "Förbättrat medvetande eller"
+  },
+  {
+    "type": "bullet",
+    "text": "Palpabel radialispuls eller"
+  },
+  {
+    "type": "bullet",
+    "text": "BT syst > 80-90 mmHg (> 110 mmHg med skallskada)"
+  },
+  {
+    "type": "body",
+    "text": "Upprepa vid behov"
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "ID-kontroll av mottagare och dokumentation av transfusion i journalen."
+  },
+  {
+    "type": "bullet",
+    "text": "Inj Tranexamsyra och Kalcium i annan infart än blodprodukter. Är det inte möjligt att"
+  },
+  {
+    "type": "body",
+    "text": "sätta två infarter, spola infarten med 10 ml NaCl före och efter administrering av läkemedel/blodprodukter."
+  },
+  {
+    "type": "bullet",
+    "text": "Använd blodvärmare om situationen tillåter."
+  },
+  {
+    "type": "bullet",
+    "text": "Prioritera att ge blodprodukt till blödande patienter. LTOWB (Low Titer O Whole"
+  },
+  {
+    "type": "body",
+    "text": "Blood) alternativt LyoPlas (FDP)."
+  },
+  {
+    "type": "bullet",
+    "text": "Undvik övertrycksventilation (intubation) så länge den skadade befinner sig i"
+  },
+  {
+    "type": "body",
+    "text": "hypovolem chock (risk för cirkulatorisk kollaps). Resuscitera först. Skapa v b fri luftväg med enkla hjälpmedel om den skadade spontanandas."
+  },
+  {
+    "type": "bullet",
+    "text": "Sträva efter kirurgisk hemostas så snabbt som möjligt."
+  },
+  {
+    "type": "bullet",
+    "text": "Tomma plasmaflaskor och blodpåsar ska skickas med patienten."
+  },
+  {
+    "type": "bullet",
+    "text": "Fortsätt monitorera vitala parametrar."
+  },
+  {
+    "type": "bullet",
+    "text": "Säkerställ hypotermiprofylax."
+  },
+  {
+    "type": "body",
+    "text": "Transfusionsreaktioner Avbryt transfusionen vid tecken till:"
+  },
+  {
+    "type": "bullet",
+    "text": "Anafylaxi (blodtrycksfall, stridorös andning, hög puls och andningsfrekvens,"
+  },
+  {
+    "type": "body",
+    "text": "urtikaria). Behandla som vid allergi (se ”Allergi/anafylaxi”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Nytillkommen smärta eller tryck över bröstet, flanksmärta eller andra allvarliga"
+  },
+  {
+    "type": "body",
+    "text": "symtom (misstanke om hemolytisk reaktion)."
+  },
+  {
+    "type": "bullet",
+    "text": "Feber, frossa"
+  },
+  {
+    "type": "body",
+    "text": "Akuta reaktioner uppstår vanligast inom 10-15 minuter från transfusionsstart men kan uppträda upp till 24 timmar efteråt. Vid misstanke om allvarlig transfusionsreaktion ska det dokumenteras i journalen (symtom och tidpunkt för reaktionen) samt kontakt tas med ledningsansvarig läkare som i sin tur ska rapportera transfusionsreaktionen vidare till blodcentralen."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Patient som är i behov av blod är alltid högsta prioritet."
+  },
+  {
+    "type": "h1",
+    "text": "Explosionsskador"
+  },
+  {
+    "type": "body",
+    "text": "Kroppsskador orsakade av partiklar eller tryckvåg från en explosion, t ex av mina, granat. Explosioner kan ge lungskador och pulmonell blödning, sönderslitning av andra organ i bröstkorg och buk, brustna trumhinnor och påverkan på det centrala nervsystemet. Explosioner utgör en komplex skademekanism (övertryck, trubbigt och penetrerande mekanismer)."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "Primära Tryckvåg • Apné, kraftigt blodtrycksfall och låg puls direkt vid skadetillfället som kan hålla i sig några timmar"
+  },
+  {
+    "type": "bullet",
+    "text": "Lungskador med andnöd, blodiga upphostningar, låg"
+  },
+  {
+    "type": "body",
+    "text": "saturation, pneumothorax, luftembolier (→ neurologiska bortfallssymtom, hjärtinfarkt, arytmier)"
+  },
+  {
+    "type": "bullet",
+    "text": "Blödningar och perforation i magtarmkanalen"
+  },
+  {
+    "type": "bullet",
+    "text": "Hjärnskakning, mild traumatisk hjärnskada"
+  },
+  {
+    "type": "bullet",
+    "text": "Trumhinneruptur, skada på inneröra (→ nedsatt hörsel/dövhet)"
+  },
+  {
+    "type": "bullet",
+    "text": "Ruptur av ögongloben"
+  },
+  {
+    "type": "body",
+    "text": "Sekundära Omkringkastade fragment"
+  },
+  {
+    "type": "bullet",
+    "text": "Amputation av extremiteter"
+  },
+  {
+    "type": "bullet",
+    "text": "Penetrerande skador (inklusive ögon)"
+  },
+  {
+    "type": "bullet",
+    "text": "Främmande kropp"
+  },
+  {
+    "type": "body",
+    "text": "Tertiära Individen slängd mot föremål"
+  },
+  {
+    "type": "bullet",
+    "text": "Frakturer"
+  },
+  {
+    "type": "bullet",
+    "text": "Skallskador"
+  },
+  {
+    "type": "bullet",
+    "text": "Spinala skador"
+  },
+  {
+    "type": "bullet",
+    "text": "Inre blödningar (t ex lever, mjälte)"
+  },
+  {
+    "type": "body",
+    "text": "Kvartära Övriga • Brännskador"
+  },
+  {
+    "type": "bullet",
+    "text": "Krosskador"
+  },
+  {
+    "type": "body",
+    "text": "Kvintära Tillsatser (”Dirty bomb”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Blodsmitta (hepatit B, C; HIV)"
+  },
+  {
+    "type": "bullet",
+    "text": "Strålningsskador"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Arbeta och åtgärda enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Låg tröskel för bilateral thorakocentes/thorakostomi"
+  },
+  {
+    "type": "bullet",
+    "text": "Ge Tranexamsyra, 2 g i v tidigt"
+  },
+  {
+    "type": "bullet",
+    "text": "Bäckenstabilisator"
+  },
+  {
+    "type": "bullet",
+    "text": "Vid blödningschock resuscitera enl kapitel ”Traumatisk blödningschock – prehospital"
+  },
+  {
+    "type": "body",
+    "text": "resuscitering”."
+  },
+  {
+    "type": "bullet",
+    "text": "Antibiotika vid penetrerande skador."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Samtliga som utsatts för en tryckvåg ska undersökas avseende mild traumatisk"
+  },
+  {
+    "type": "body",
+    "text": "hjärnskada (mTBI), hörsel- och ögonskador."
+  },
+  {
+    "type": "bullet",
+    "text": "Screening för blodsmitta vid penetrerande skador (störst risk vid attack av"
+  },
+  {
+    "type": "body",
+    "text": "självmordsbombare, flera skadade)."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Misstanke om ”blast lung” vid andnöd, hosta/blodig upphostning och låg saturation. En lungskada kan försämras efter 12-24 timmar p g a inflammation och mekanisk ventilation kan komma att behövas."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Överväg bilaterala thoraxdrän inför transport (framförallt flyg)."
+  },
+  {
+    "type": "h1",
+    "text": "Krosskador"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Definieras som vävnadsskada till följd av långvarig kompression av vävnaden, framförallt i thorax och extremiteter. Uppstår vanligast i samband med en fastklämning under ett tungt föremål. Vävnadsskadan är allvarligare ju större del av kroppen som är involverad. I den fastklämda kroppsdelen upphör blodcirkulationen. Vid losstagning sköljs nedbrytningsprodukter (bl a kalium) som samlats i blodet till hjärta och lungor och kan leda till cirkulatorisk instabilitet och värsta fall hjärtstillestånd."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Ofta kombination av multipla skador"
+  },
+  {
+    "type": "bullet",
+    "text": "Lågt blodtryck (chock) och arytmier (framförallt efter losstagning)"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärta"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "body",
+    "text": "Om det krävs omedelbar losstagning (taktiskt läge), applicera en tourniquet först, lossa den skadade och åtgärda enligt nedan i lugnare skede. A) Innan losstagning:"
+  },
+  {
+    "type": "bullet",
+    "text": "Undersök den skadade enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Sätt venös eller intraosseös infart."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge Ringer-Acetat 1000 ml/h i v, om den skadade är vaken kan peroral"
+  },
+  {
+    "type": "body",
+    "text": "vätskeersättning ges."
+  },
+  {
+    "type": "bullet",
+    "text": "Smärtstilla i första hand med Ketamin."
+  },
+  {
+    "type": "bullet",
+    "text": "Sätt tourniquet om fastklämningen varat i mer än två timmar eller om behandlingen"
+  },
+  {
+    "type": "body",
+    "text": "blir fördröjd. B) Under losstagning:"
+  },
+  {
+    "type": "bullet",
+    "text": "Fortsätt med vätskeinfusion 1000 ml/h under hela losstagningen. Dröjer losstagningen"
+  },
+  {
+    "type": "body",
+    "text": "längre än två timmar, minska infusionstakten till 500 ml/h. C) Efter losstagning:"
+  },
+  {
+    "type": "bullet",
+    "text": "Fortsätt med vätskeinfusionen enligt ovan."
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm cirkulatoriskt status omededelbart efter losstagning (minst radialispuls och"
+  },
+  {
+    "type": "body",
+    "text": "medvetandegrad). Vid svagare, oregelbunden eller långsammare puls eller pulslöshet ge inj Kalcium 9,2 mg/ml, 10 ml i v (under 2-3 min), kan upprepas v b Fortsatt vätskeinfusion."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid hjärtstillestånd: A-HLR enligt algoritm, se ”Hjärtstopp (medicinskt)”."
+  },
+  {
+    "type": "bullet",
+    "text": "Ny undersökning enligt <C>ABCDE. Vanligt med förekomst av flera skador"
+  },
+  {
+    "type": "body",
+    "text": "samtidigt."
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm indikation för stabilisering av halsrygg, se ”Spinal rörelsebegränsning vid"
+  },
+  {
+    "type": "body",
+    "text": "trauma”."
+  },
+  {
+    "type": "bullet",
+    "text": "Aggressiv hypotermiprofylax."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Använd ej depolariserande muskelrelaxantia!"
+  },
+  {
+    "type": "h2",
+    "text": "Vård vid fördröjd avtransport"
+  },
+  {
+    "type": "bullet",
+    "text": "Cirkulatorisk bedömning (blodtryck, puls, medvetande) var 15:e minut första två"
+  },
+  {
+    "type": "body",
+    "text": "timmarna, därefter en gång var 30:e minut."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontroll av urinmängd (flaska eller urinkateter). Mål 100 ml/h. Öka vätskeinfusionen"
+  },
+  {
+    "type": "body",
+    "text": "om urinmängd <100 ml/h. Avbryt vid utebliven effekt eller upphörd urinproduktion. Max 6 liter vätska."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid svår muskelskada kan urinen färgas mörk."
+  },
+  {
+    "type": "bullet",
+    "text": "Antibiotika (inj Ertapenem, 1 g i v) inom 3 h från skadan."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Snarast möjligt. Noggrann monitorering av vitala parametrar under hela evakueringen."
+  },
+  {
+    "type": "h1",
+    "text": "Brännskador, större (termiska)"
+  },
+  {
+    "type": "body",
+    "text": "En stor brännskada definieras om den brännskadade kroppsytan överstiger 20% av den totala hudytan (Total Burned Surface Area, TBSA)."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Hosta, heshet, stridor samt brännskada eller sot runt/i näsa och mun ska föranleda"
+  },
+  {
+    "type": "body",
+    "text": "misstanke om inhalationsbrännskada. Var även uppmärksam på tecken på ofri luftväg."
+  },
+  {
+    "type": "bullet",
+    "text": "Hög andningsfrekvens, andnöd och oro/ångest kan vara tecken på lungskada."
+  },
+  {
+    "type": "bullet",
+    "text": "En renodlad brännskadad är vaken och initialt cirkulatoriskt stabil, men uppvisar"
+  },
+  {
+    "type": "body",
+    "text": "ibland hög hjärtfrekvens på grund av smärta."
+  },
+  {
+    "type": "bullet",
+    "text": "Sällan lika brännskadedjup i hela den skadade ytan."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Det initiala omhändertagandet av en brännskadad sker enligt samma principer som för"
+  },
+  {
+    "type": "body",
+    "text": "en traumapatient, enligt <C>ABCDE. Brännskadeomhändertagandet är sekundärt till övriga trauman."
+  },
+  {
+    "type": "bullet",
+    "text": "Låg tröskel för tidig intubation eller kirurgisk luftväg vid påverkad luftväg (stridor,"
+  },
+  {
+    "type": "body",
+    "text": "heshet). En brännskada i luftvägarna kan på en timme orsaka hotad luftväg på grund av svullnad."
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygenbehandling, högt flöde på mask med reservoar."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid luftvägssvullnad ge slemhinneavsvällande och bronkdilaterande:"
+  },
+  {
+    "type": "body",
+    "text": "Nebulisator: Adrenalin 1 mg/ml, 1 ml, utspätt med 2 ml NaCl 0,9% Nebulisator: Salbutamol 2 mg/ml, 3 - 6 ml, ev. med tillägg av Ipratropium 0,25 mg/ml, 1 - 2 ml."
+  },
+  {
+    "type": "bullet",
+    "text": "Uppskatta brännskadans omfattning (%TBSA) med hjälp av 9% - regeln (det är"
+  },
+  {
+    "type": "body",
+    "text": "vanligt att man överskattar den totala utbredningen och underskattar utbredningen av fullhudsskador). Om TBSA >20%, ge inf Ringer-Acetat 500 ml/h i v tills timdiures kan mätas."
+  },
+  {
+    "type": "bullet",
+    "text": "Aggressiv hypotermiprofylax!"
+  },
+  {
+    "type": "bullet",
+    "text": "Delhudsskador är mycket smärtsamma. Ketamin är förstahandsval."
+  },
+  {
+    "type": "bullet",
+    "text": "Låt fastbrända kläder/uniformsdelar sitta kvar, var noggrann med att avlägsna de"
+  },
+  {
+    "type": "body",
+    "text": "metalldelar som finns hos patienten som kan lagra värme och fortsätta fördjupa brännskadornas omfattning."
+  },
+  {
+    "type": "bullet",
+    "text": "Omläggning av brännskadade områden med torra, rena lakan eller plastfolie. Undvik"
+  },
+  {
+    "type": "body",
+    "text": "fuktiga förband då hypotermi är vanligt. Förband ska inte sitta åt för hårt runt extremiteten på grund av svullnadsrisken."
+  },
+  {
+    "type": "bullet",
+    "text": "Åtsittande föremål som t ex klockor, ringar ska tas av; sanera metallföremål såsom"
+  },
+  {
+    "type": "body",
+    "text": "bältesdetaljer, nycklar, halsband etc."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Hypotoni sekundärt till vätskeförlust vid en renodlad brännskada uppträder först efter några timmar. Blödning ska i så fall misstänkas tills det är uteslutet som orsak."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "bullet",
+    "text": "Överväg intubation alternativt kirurgisk luftväg om > 40% TBSA på grund av generell"
+  },
+  {
+    "type": "body",
+    "text": "svullnadsrisk med luftvägspåverkan; fäst tuben med bomullsband om huvudet. Ventrikelsond. Kontrollera regelbundet bomullsbandet då man kan behöva knyta om det. Beakta riskerna med depolariserande muskelrelaxantia vid vävnadsskada."
+  },
+  {
+    "type": "bullet",
+    "text": "Sätt urinkateter och justera tillförd vätska enligt timdiures (mål: 0.5 ml/kg/h). Vid för"
+  },
+  {
+    "type": "body",
+    "text": "hög timdiures sänks vätsketillförseln med 1/3-del (dvs -33%), vid för låg timdiures höjs vätsketillförseln med 1/3-del (dvs +33%)."
+  },
+  {
+    "type": "bullet",
+    "text": "Suturera venösa infarter."
+  },
+  {
+    "type": "bullet",
+    "text": "Höjd huvudända 30 grader."
+  },
+  {
+    "type": "bullet",
+    "text": "Regelbundna kontroller av distalstatus på brännskadad extremitet för att kunna avgöra"
+  },
+  {
+    "type": "body",
+    "text": "angelägenhetsgrad och behov av eskarotomi."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Inför och under transporten:"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm luftväg innan transport, säkra v b"
+  },
+  {
+    "type": "bullet",
+    "text": "Kontrollera att infarter är adekvat fixerade och fungerar."
+  },
+  {
+    "type": "bullet",
+    "text": "Höjd huvudända även under transport."
+  },
+  {
+    "type": "bullet",
+    "text": "Temperaturen i fordonet/fartyget bör vara på maximal nivå."
+  },
+  {
+    "type": "bullet",
+    "text": "Fortsatt vätskebehandling och kontroll av timdiuresen."
+  },
+  {
+    "type": "body",
+    "text": "9 %-regeln"
+  },
+  {
+    "type": "h1",
+    "text": "Rökgasförgiftning"
+  },
+  {
+    "type": "body",
+    "text": "Exponering för giftiga gaser kan ske vid brand och/eller vid ofullständig förbränning, framförallt i slutna utrymmen. Retande gaser, som ammoniak, klorgas, svaveldioxid och isocyanater, ger stark påverkan på luftvägarna. Heta gaser ger framförallt en risk för svullnad av slemhinnan i luftvägarna vilket kan leda till svåra andningsbesvär. I brandrök finns två gaser att ta särskild hänsyn till, kolmonoxid och cyanväte. Vid ofullständig förbränning bildas kolmonoxid (CO), en färglös gas utan smak eller lukt. Kolmonoxid orsakar syrebrist i kroppen genom att konkurrera ut syremolekylernas plats. Detta sker dels i de röda blodkropparna men även i kroppens alla andra celler. Cyanväte blockerar de energiproducerande mekanismerna i kroppens celler. Vid inandning sker detta efter bara några minuter. En smak av bittermandel eller metallisk smak kan uppfattas."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "Retande gaser (ammoniak, klorgas, svaveldioxid, isocyanater)"
+  },
+  {
+    "type": "bullet",
+    "text": "Hosta"
+  },
+  {
+    "type": "bullet",
+    "text": "Andnöd"
+  },
+  {
+    "type": "bullet",
+    "text": "Kraftig slemproduktion"
+  },
+  {
+    "type": "bullet",
+    "text": "Luftvägsobstruktivitet"
+  },
+  {
+    "type": "bullet",
+    "text": "Syresättningsproblem"
+  },
+  {
+    "type": "bullet",
+    "text": "Toxiskt lungödem – kan visa sig upp till 24 - 48 timmar efter skada"
+  },
+  {
+    "type": "body",
+    "text": "Kolmonoxid"
+  },
+  {
+    "type": "bullet",
+    "text": "Illamående och/eller yrsel"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Andnöd"
+  },
+  {
+    "type": "bullet",
+    "text": "Takykardi"
+  },
+  {
+    "type": "bullet",
+    "text": "EKG-påverkan som vid ischemi"
+  },
+  {
+    "type": "bullet",
+    "text": "Sänkt medvetande, från trötthet till medvetslöshet"
+  },
+  {
+    "type": "bullet",
+    "text": "”Rosighet” i huden, klarröda läppar"
+  },
+  {
+    "type": "body",
+    "text": "Cyanväte"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Illamående/kräkningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Hud/slemhinnor och nagelbäddar kan bli körsbärsröda"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningspåverkan"
+  },
+  {
+    "type": "bullet",
+    "text": "Cirkulationspåverkan"
+  },
+  {
+    "type": "bullet",
+    "text": "Medevetandepåverkan, kramper, koma"
+  },
+  {
+    "type": "bullet",
+    "text": "Laktatvärde? (> 10 mmol/l talar starkt för cyanidpåverkan)"
+  },
+  {
+    "type": "body",
+    "text": "Heta gaser"
+  },
+  {
+    "type": "bullet",
+    "text": "Stridor"
+  },
+  {
+    "type": "bullet",
+    "text": "Hosta"
+  },
+  {
+    "type": "bullet",
+    "text": "Luftvägsobstruktion"
+  },
+  {
+    "type": "bullet",
+    "text": "Syresättningsproblem"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Avbryt pågående exponering, var noga med din egen säkerhet."
+  },
+  {
+    "type": "bullet",
+    "text": "Omhändertagande enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Snabb Oxygenbehandling."
+  },
+  {
+    "type": "bullet",
+    "text": "Låg tröskel för intubation, särskilt om personen exponerats för heta gaser."
+  },
+  {
+    "type": "bullet",
+    "text": "Om tillgängligt: Hydroxykobalamin (Cyanokit) till alla som exponerats för rökgaser"
+  },
+  {
+    "type": "body",
+    "text": "i slutet utrymme och är medvetandepåverkade (även hjärtstopp). Retande gaser Lindriga symtom (sveda i mun/svalg/bröst, lättare hosta eller heshet)"
+  },
+  {
+    "type": "bullet",
+    "text": "Vila"
+  },
+  {
+    "type": "bullet",
+    "text": "Information om förväntad succesiv förbättring inom 24 timmar. Vid utebliven"
+  },
+  {
+    "type": "body",
+    "text": "förbättring ska ny bedömning göras. Allvarliga symtom (intensiv eller blodig hosta, andnöd, påverkad luftväg, allmänpåverkan)"
+  },
+  {
+    "type": "bullet",
+    "text": "Observation i 24-48 timmar."
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygenbehandling till alla med retsymtom, andnöd eller låg syresättning."
+  },
+  {
+    "type": "bullet",
+    "text": "Överväg antibiotikabehandling med tanke på stor slemhinneskada och ökad"
+  },
+  {
+    "type": "body",
+    "text": "infektionsrisk."
+  },
+  {
+    "type": "bullet",
+    "text": "Inhalation av kortison för att lindra slemhinneskadan. Bronkdilaterande medel ges"
+  },
+  {
+    "type": "body",
+    "text": "först. Systemiskt verkande kortison rekommenderas inte. Bronkdilaterande: Turbuhaler: Bricanyl 0,5 mg/dos, 2-3 inhalationer Nebulisator: Salbutamol 2 mg/ml, 3-6 ml, ev. med tillägg av Ipratropium 0,25 mg/ml, 1-2 ml Kortison: Turbuhaler: Pulmicort 400 μg/dos, 10 inhalationer, håll andan 10 sekunder mellan inhalationerna Nebulisator: Budesonid 0,5 mg/ml, 8 ml Vid svårare symtom kan behandlingen upprepas, 1-2 gånger under första timmen och sedan 2 - 3 gånger till under första dygnet med: Turbuhaler: Pulmicort 400 μg/dos, 5 inhalationer Nebulisator: Budesonid 0,5 mg/ml, 4 ml Fosgen/nitrösa gaser"
+  },
+  {
+    "type": "bullet",
+    "text": "Överväg behandling med kortisoninhalation enligt ovan oavsett symtombild"
+  },
+  {
+    "type": "bullet",
+    "text": "Observationstid ska baseras på exponeringsgrad, inte initiala symtom."
+  },
+  {
+    "type": "body",
+    "text": "Kolmonoxid"
+  },
+  {
+    "type": "bullet",
+    "text": "Kort exponering och med enbart övergående huvudvärk som symtom räcker det"
+  },
+  {
+    "type": "body",
+    "text": "med frisk luft och vila."
+  },
+  {
+    "type": "bullet",
+    "text": "Längre exponering: Oxygenbehandling med tättslutande mask i minst 6 timmar."
+  },
+  {
+    "type": "body",
+    "text": "För gravida 12 timmar."
+  },
+  {
+    "type": "bullet",
+    "text": "EKG för att se tecken på ischemi/arytmier."
+  },
+  {
+    "type": "bullet",
+    "text": "Ställningstagande till behandling med hyperbar oxygen (HBO), framförallt vid"
+  },
+  {
+    "type": "body",
+    "text": "COHb >20-25%, laktacidos eller CNS-påverkan. Cyanväte"
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygenbehandling med tättslutande mask"
+  },
+  {
+    "type": "bullet",
+    "text": "Allvarliga symtom: Hydroxykobalamin (Cyanokit) 25 mg/ml, 5 g i v (om"
+  },
+  {
+    "type": "body",
+    "text": "tillgängligt)"
+  },
+  {
+    "type": "bullet",
+    "text": "Lindriga symtom: Natriumtiosulfat 150 mg/ml, 100 ml i v under 5 - 10 min."
+  },
+  {
+    "type": "bullet",
+    "text": "Ställningstagande till behandling med hyperbar oxygen (HBO)"
+  },
+  {
+    "type": "body",
+    "text": "Heta gaser"
+  },
+  {
+    "type": "bullet",
+    "text": "Överväg tidig intubation, säkra tuben med bomullsband vid brännskada i ansiktet."
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygenbehandling 15 l/min, mask med reservoar."
+  },
+  {
+    "type": "bullet",
+    "text": "Vila, höjd huvudända."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid luftvägsobstruktion kan bronkdilaterande ges:"
+  },
+  {
+    "type": "body",
+    "text": "Turbuhaler: Bricanyl, 0,5 mg/dos, 2 - 3 inhalationer Nebulisator: Salbutamol 2 mg/ml, 3 - 6 ml, ev. med tillägg av Ipratropium 0,25 mg/ml, 1 - 2 ml"
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Observans på att toxiska lungödem kan uppstå upp till 48 timmar efter initial exponering med ett relativt symtomfattigt intervall."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Inför transport ska noggrann utvärdering av luftvägen göras. Låg tröskel för säkring av luftväg med hjälp av intubation. Referenser Läkemedelsboken. Akuta förgiftningar – initial bedömning och behandling. Giftinformationscentralen."
+  },
+  {
+    "type": "h1",
+    "text": "Elolyckor"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Skadans omfattning beror på mängden elektrisk energi. Elolyckor indelas i högspännings- (>1000 V) och lågspänningsolyckor (<1000 V). Växelström är farligare än likström beroende på svårigheten att komma loss från strömkällan och högre risk att inducera ventrikelflimmer (hjärtstopp). Högspänningsolyckor ska betraktas som traumafall. Blixtnedslag ska alltid handläggas som högspänningsolyckor."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Arytmier i form av ventrikelflimmer, asystoli och supraventrikulära arytmier."
+  },
+  {
+    "type": "body",
+    "text": "Lågspänningsolyckor kan ge dödlig arytmi direkt vid skadetillfället och sällsynt kan arytmier, t ex förmaksflimmer, uppträda timmarna efter olyckstillfället även vid lågspänningsolyckor."
+  },
+  {
+    "type": "bullet",
+    "text": "Andningsstopp direkt efter skadan kan uppstå. Långvarig assisterad ventilation/HLR"
+  },
+  {
+    "type": "body",
+    "text": "är motiverad."
+  },
+  {
+    "type": "bullet",
+    "text": "Brännskador: högspänningsskador orsakar både ytliga och djupa brännskador."
+  },
+  {
+    "type": "body",
+    "text": "Strömmen följer vävnader med lägst resistens (blodkärl, nerver och muskler) och kan ge djupa brännskador även om hudskadorna är begränsade. Risk för utveckling av kompartmentsyndrom."
+  },
+  {
+    "type": "bullet",
+    "text": "Njursvikt kan uppstå vid högspänningsolyckor på grund av muskelsönderfall."
+  },
+  {
+    "type": "bullet",
+    "text": "Neurologiska skador med medvetslöshet, funktionsbortfall i extremiteter och andra"
+  },
+  {
+    "type": "body",
+    "text": "neurologiska symtom förekommer vid högspänningsolyckor."
+  },
+  {
+    "type": "bullet",
+    "text": "Ögon- och hörselskador om strömmen gått genom skallen. Nervpåverkan kan"
+  },
+  {
+    "type": "body",
+    "text": "uppträda med viss fördröjning och kvarstå under lång tid. Överväg traumatisk hjärnskada vid neurologiska bortfallssymtom."
+  },
+  {
+    "type": "bullet",
+    "text": "Kärlskador kan uppkomma vid högspänningsolyckor och kan ge både arteriell"
+  },
+  {
+    "type": "body",
+    "text": "kärlspasm och trombos med symtom på akut ischemi."
+  },
+  {
+    "type": "bullet",
+    "text": "Frakturer och luxationer av leder uppkommer på grund av trauma och kraftig"
+  },
+  {
+    "type": "body",
+    "text": "muskelkontraktion i samband med olyckan."
+  },
+  {
+    "type": "bullet",
+    "text": "Skada på kotpelaren."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedömning enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Alltid rytmövervakning."
+  },
+  {
+    "type": "body",
+    "text": "Misstänkt högspänningsolycka:"
+  },
+  {
+    "type": "bullet",
+    "text": "Rytmövervakning."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge inf Ringer-Acetat, 1000 - 2000 ml i v första timmen."
+  },
+  {
+    "type": "body",
+    "text": "Arytmier: Sedvanlig handläggning."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "bullet",
+    "text": "Rytmövervakning i minst 12 timmar i följande fall:"
+  },
+  {
+    "type": "bullet2",
+    "text": "säkerställd eller misstänkt högspänningsolycka"
+  },
+  {
+    "type": "bullet2",
+    "text": "påvisad/nydebuterad arytmi"
+  },
+  {
+    "type": "bullet2",
+    "text": "medvetslöshet, bestående eller övergående"
+  },
+  {
+    "type": "bullet2",
+    "text": "misstänkt strömpassage genom bålen"
+  },
+  {
+    "type": "bullet2",
+    "text": "blixtnedslag"
+  },
+  {
+    "type": "bullet",
+    "text": "Regelbundna kontroller av distalstatus av den drabbade extremiteten (mycket stor risk"
+  },
+  {
+    "type": "body",
+    "text": "för kompartmentsyndrom)."
+  },
+  {
+    "type": "bullet",
+    "text": "Blodgas om möjligt (risk för hyperkalemi)."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontroll av urinen. Mer vätsketillförsel vid misstanke om myoglobinuri (mörkfärgad"
+  },
+  {
+    "type": "body",
+    "text": "urin)."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Personer ska omedelbart till högre medicinsk vårdnivå vid:"
+  },
+  {
+    "type": "bullet",
+    "text": "Högspänningsolycka"
+  },
+  {
+    "type": "bullet",
+    "text": "Lågspänningsolycka med strömgenomgång genom bålen"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandepåverkan"
+  },
+  {
+    "type": "bullet",
+    "text": "Brännskador"
+  },
+  {
+    "type": "bullet",
+    "text": "Tecken på nervskador t ex förlamning"
+  },
+  {
+    "type": "h1",
+    "text": "Barotrauma"
+  },
+  {
+    "type": "body",
+    "text": "Gasers volym beror på det omgivande trycket enligt Boyles lag. Vid ökning av tryck minskar gasvolymen och vid minskat tryck ökar densamma. Det påverkar gasfyllda hålrum med rigida väggar, i eller intill kroppen, som inte har en kommunikation med omgivningstrycket. Ett exempel är mellanörat med en blockerad gaspassage i örontrumpeten. Påverkan kan ske i såväl kompressionsfas (ökande tryck) som i dekompressionsfas (minskande tryck) med två olika typer av skador till följd. I dekompressionsfas kallas skadorna för barotrauma och uppstår då kroppen inte kan evakuera den ökande gasvolymen genom en naturlig väg och vävnadsskada uppstår. T ex trumhinneruptur. Skador i kompressionsfas kallas mer specifikt för ”squeeze” och är ett resultat av kroppens försök att utjämna trycket. Blod eller cellvätska pressas från vävnaden mot det drabbade hålrummet vilket ger små blödningar eller svullnad."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "Symtomutvecklingen kan vara snabb, ofta inom minuter från avslutande av dyk. Barotrauma:"
+  },
+  {
+    "type": "bullet",
+    "text": "Lungbristning"
+  },
+  {
+    "type": "bullet2",
+    "text": "Arteriella luftembolier, framförallt luftembolisering till hjärnan – neurologisk"
+  },
+  {
+    "type": "body",
+    "text": "påverkan beroende av vilket område i hjärnan som drabbas. Andra symtom kan vara kräkning, hosta/blodig hosta. I svårare fall även respiratorisk/cirkulatorisk påverkan, inklusive medvetandeförlust och hjärtstillestånd."
+  },
+  {
+    "type": "bullet2",
+    "text": "Mediastinalt emfysem – ev. andningssvårigheter"
+  },
+  {
+    "type": "bullet2",
+    "text": "Subkutant emfysem – krepitationer i huden, svullnad, smärta i drabbat område,"
+  },
+  {
+    "type": "body",
+    "text": "dissektion till larynx ger förändring av röst (ovanligt)"
+  },
+  {
+    "type": "bullet2",
+    "text": "Pneumothorax – smärta i ena thoraxhalvan, andfåddhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Öron"
+  },
+  {
+    "type": "bullet2",
+    "text": "Ruptur av trumhinnan: smärta och ev. även blödning i yttre hörselgången."
+  },
+  {
+    "type": "bullet2",
+    "text": "Alternobar vertigo – beror på assymmetri i trycket mellan höger och vänster"
+  },
+  {
+    "type": "body",
+    "text": "mellanöra."
+  },
+  {
+    "type": "bullet",
+    "text": "Magtarmkanal"
+  },
+  {
+    "type": "bullet2",
+    "text": "Smärta, ev. uppspänd buk - nedsvald gas kan ge övertöjning av"
+  },
+  {
+    "type": "body",
+    "text": "magtarmkanalens väggar. Squeeze:"
+  },
+  {
+    "type": "bullet",
+    "text": "Hud - luft i veck av dykdräkten komprimeras och ”nyper” i skinnet, ger små"
+  },
+  {
+    "type": "body",
+    "text": "blödningar."
+  },
+  {
+    "type": "bullet",
+    "text": "Öron:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Smärta"
+  },
+  {
+    "type": "bullet2",
+    "text": "Vätska/blod i mellanörat (ses vid öroninspektion) – vid långvariga problem"
+  },
+  {
+    "type": "bullet2",
+    "text": "Stark smärta som plötsligt går över och ev. vätska/blod i hörselgången"
+  },
+  {
+    "type": "body",
+    "text": "(trumhinneperforation)"
+  },
+  {
+    "type": "bullet2",
+    "text": "Rotatorisk yrsel, tinnitus (ofta pip eller ringande ljud i örat) och ensidig"
+  },
+  {
+    "type": "body",
+    "text": "hörselnedsättning som kan uppträda gradvis (ruptur av runda fönstret på grund av för kraftig tryckutjämningsmanöver)"
+  },
+  {
+    "type": "bullet",
+    "text": "Ögon och ansikte – små till större blödningar runt ögonen eller i ögats bindehinnor,"
+  },
+  {
+    "type": "body",
+    "text": "ödem och/eller blödningar i huden runt ögonen."
+  },
+  {
+    "type": "bullet",
+    "text": "Bihålor – framförallt smärta och slemhinneskada (vanligaste orsaken till blod i"
+  },
+  {
+    "type": "body",
+    "text": "dykmasken)."
+  },
+  {
+    "type": "bullet",
+    "text": "Tänder – kan ge mycket stark smärta och därmed leda till irrationella beslut."
+  },
+  {
+    "type": "bullet",
+    "text": "Lungor – vid fridykning; komprimeras lungvolymen mer än residualvolym strömmar"
+  },
+  {
+    "type": "body",
+    "text": "venöst blod in i lungan, kan ge vävnadsskador och lungödem."
+  },
+  {
+    "type": "bullet",
+    "text": "Helkropp – vid hjälmdykning; slangbrott skapar momentant undertryck på hela"
+  },
+  {
+    "type": "body",
+    "text": "kroppen som pressas in mot den solida dykhjälmen."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "body",
+    "text": "Dykledaren har det övergripande operativa ansvaret vid dykeriolycksfall. I en situation med allvarlig symtombild och/eller snabb utveckling av symtom kan dykledaren initiera behandling enligt mall (se nedan). Därefter ska läkare med dykmedicinsk kompetens kontaktas snarast möjligt."
+  },
+  {
+    "type": "bullet",
+    "text": "Lungbristning"
+  },
+  {
+    "type": "bullet2",
+    "text": "Omhändertagande enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet2",
+    "text": "Undersökning enligt mall (”Undersökning av dykare”)."
+  },
+  {
+    "type": "bullet2",
+    "text": "Den drabbade vårdas med fördel i horisontalläge för att minska bubblor till CNS."
+  },
+  {
+    "type": "bullet2",
+    "text": "Oxygen i så hög koncentration som möjligt – Normobar Oxygen Behandling"
+  },
+  {
+    "type": "body",
+    "text": "(NBO)"
+  },
+  {
+    "type": "bullet2",
+    "text": "Kontakta läkare med dykmedicinsk kompetens; FM dykläkare i beredskap om"
+  },
+  {
+    "type": "body",
+    "text": "sådan finns tillgänglig alternativt civil HBO-jour genom SOS Alarm 112."
+  },
+  {
+    "type": "bullet2",
+    "text": "Lämna information om: dykprofilen (djup, tid, andningsgas,"
+  },
+  {
+    "type": "body",
+    "text": "uppstigningshastighet, använda tabeller och tidigare dyk), observationer av kamrater, given behandling och symtomutveckling."
+  },
+  {
+    "type": "bullet2",
+    "text": "Etablera perifer venös infart."
+  },
+  {
+    "type": "bullet2",
+    "text": "Är den skadade vid medvetande kan dryck ges efter det initiala omhändertagandet."
+  },
+  {
+    "type": "body",
+    "text": "Vid påverkat medvetande inf Ringer-Acetat, 1000 ml i v på 1 - 2 timmar. Behandling för lungbristning med neurologiska symtom är Hyperbar Oxygen Behandling – HBO som ges i tryckkammare. Följ råd från FM dykarläkare/civil HBO-jour angående fortsatt handläggning. Ska den skadade transporteras till tryckkammare för bedömning/behandling ska NBO fortsätta under transport."
+  },
+  {
+    "type": "bullet",
+    "text": "Ruptur av runda fönstret"
+  },
+  {
+    "type": "bullet2",
+    "text": "Kontakta FM dykläkare/läkare med dykmedicinsk kompetens. Lämna information"
+  },
+  {
+    "type": "body",
+    "text": "om: dykprofilen (djup, tid, andningsgas, uppstigningshastighet, använda tabeller och tidigare dyk), observationer av kamrater, given behandling och symtomutveckling."
+  },
+  {
+    "type": "bullet2",
+    "text": "Den drabbade bör transporteras till öronklinik för undersökning och utredning."
+  },
+  {
+    "type": "bullet2",
+    "text": "I väntan på behandling får den drabbade gärna inta sittande position, om möjligt."
+  },
+  {
+    "type": "bullet2",
+    "text": "Den drabbade ska undvika att krysta, t ex genom fler tryckutjämningsmanövrar."
+  },
+  {
+    "type": "bullet",
+    "text": "Ruptur av trumhinnan"
+  },
+  {
+    "type": "bullet2",
+    "text": "Kontakta läkare med dykmedicinsk kompetens för rådgivning vad gäller"
+  },
+  {
+    "type": "body",
+    "text": "differentialdiagnostik."
+  },
+  {
+    "type": "bullet2",
+    "text": "Den drabbade bör genomgå inspektion av trumhinna innan dykning återupptas."
+  },
+  {
+    "type": "bullet",
+    "text": "Squeeze"
+  },
+  {
+    "type": "bullet2",
+    "text": "Symtomatisk behandling, t ex mot smärta."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Även lättare neurologisk påverkan ska handläggas skyndsamt med stöd av läkare med dykmedicinsk kompetens då progress av symtombilden kan ske. Utan adekvat behandling finns stor risk för permanenta neurologiska skador."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Vid lungbristning med neurologiska symtom: fortsätt att ge Oxygen i så hög koncentration som möjligt."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Vid flygtransport av patient med misstänkt lungbristning är max flyghöjd 300 m/1000 ft (icke-trycksatt kabin), annars riskerar symtomen att förvärras. Dekompressionssjuka (tryckfallssjuka/”dykarsjuka”) Mängden löst gas, t ex kvävgas, i kroppens vävnader styrs av bland annat omgivningens tryck. Vid högre tryck, t ex under vatten, ökar mängden löst kvävgas i kroppen. Vid lägre tryck, såsom vid vistelse på hög höjd/flygning (framförallt vid accidentell dekompression vid höjder > 18000 fot) eller uppstigning från dyk, är det omgivande kvävgastrycket lägre och kroppen strävar efter att uppnå jämnvikt med detta lägre tryck. Förändringen till ett lägre tryck kallas för dekompression. Sker denna förändring snabbt hinner inte människan vädra ut överskottet av kväve från vävnaderna och bubbelbildning av överskottet av kväve kan uppstå. Gasbubblor bildas som kan förhindra cirkulationen, utöva lokalt tryck i vävnader, samt utlösa biokemiska reaktioner som liknar kroppens inflammationssvar. Mängden löst gas i kroppen påverkas även av temperatur, en kall kropp har svårare att både ta upp och avge gas medan det omvända förhållandet gäller för en varmare kropp. Har en vävnad god blodcirkulation sker både upptag och avgivning av gas snabbare än i en vävnad som har sämre cirkulation. Det är därför viktigt att undvika både nedkylning och hypovolemi hos den drabbade. Bubblor kan bildas i det venösa blodet och transporteras till lungorna. Är det små bubblor fastnar de och vädras ut. Större bubblor, framförallt vid rikligt antal, kan ge cirkulatorisk påverkan, så kallade ”chokes”. Även vid liten kvävgasbelastning med långsam dekompression är det normalt att hitta ett litet antal små bubblor i det venösa blodet. Ett specialfall i sammanhanget uppkommer vid ubåtsolycka med vatteninträngning där räddningsinsats inväntas. Besättningen risker då att utsättas för ökat tryck under en längre tid."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "Symtombilden varierar med var bubblorna bildas och/eller fastnar:"
+  },
+  {
+    "type": "bullet",
+    "text": "Klåda i huden, s k ”dykarloppor”."
+  },
+  {
+    "type": "bullet",
+    "text": "Blå-lila-röda missfärgningar av huden, s k marmoreringar, vanligast på bålen."
+  },
+  {
+    "type": "bullet",
+    "text": "Smärta i stora leder (axel, armbåge, höft, knä), s k ”ledbends”"
+  },
+  {
+    "type": "bullet",
+    "text": "Ödembildning på grund av bubblor i lymfkärl, s k ”lymfbends”"
+  },
+  {
+    "type": "bullet",
+    "text": "Symtom från den del av CNS som påverkas, t ex onormal trötthet, yrsel, nedsatt"
+  },
+  {
+    "type": "body",
+    "text": "styrka, känselbortfall eller domningar. Kan även vid allvarligare fall ge generella kramper och medvetandepåverkan."
+  },
+  {
+    "type": "bullet",
+    "text": "Andnings- och/eller cirkulationspåverkan."
+  },
+  {
+    "type": "body",
+    "text": "OBS! Symtom som neurologisk påverkan med eller utan svikt av respiration/cirkulation som debuterar vid eller mycket snart efter avslutat dyk kan även orsakas av så kallad lungbristining med arteriell luftembolisering till hjärnan. Omedelbar handläggning som vid dekompressionssjuka."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd för dykare"
+  },
+  {
+    "type": "body",
+    "text": "Dykledaren har det övergripande operativa ansvaret vid dykeriolycksfall. I en situation med allvarlig symtombild och/eller snabb utveckling av symtom kan dykledaren initiera behandling enligt mall (se nedan). Därefter ska läkare med dykmedicinsk kompetens kontaktas snarast möjligt."
+  },
+  {
+    "type": "bullet",
+    "text": "Omhändertagande enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Undersökning enligt mall (”Undersökning av dykare”)."
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygen i så hög koncentration som möjligt – Normobar Oxygen Behandling (NBO)."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontakta läkare med dykmedicinsk kompetens: FM dykläkare i beredskap om sådan"
+  },
+  {
+    "type": "body",
+    "text": "finns tillgänglig alternativt civil HBO-jour genom SOS Alarm 112."
+  },
+  {
+    "type": "bullet",
+    "text": "Lämna information om: dykprofilen (djup, tid, andningsgas, uppstigningshastighet,"
+  },
+  {
+    "type": "body",
+    "text": "använda tabeller och tidigare dyk), observationer av kamrater, given behandling och symtomutveckling."
+  },
+  {
+    "type": "bullet",
+    "text": "Förhindra fysisk ansträngning."
+  },
+  {
+    "type": "bullet",
+    "text": "Etablera perifer venös infart."
+  },
+  {
+    "type": "bullet",
+    "text": "Är den skadade vid medvetande kan dryck ges efter det initiala omhändertagandet."
+  },
+  {
+    "type": "body",
+    "text": "Vid påverkat medvetande inf Ringer-Acetat, 1000 ml i v på 1-2 timmar. Behandling för tryckfallssjuka för dykare är Hyperbar Oxygen Behandling – HBO som ges i tryckkammare. Följ råd från FM dykarläkare/civil HBO-jour angående fortsatt handläggning. Ska den skadade transporteras till tryckkammare för bedömning/behandling ska NBO fortsätta under transport."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd för piloter"
+  },
+  {
+    "type": "bullet",
+    "text": "Återvända till högre tryck (landa)."
+  },
+  {
+    "type": "bullet",
+    "text": "Omhändertagande enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Undersökning enligt mall (”Undersökning av dykare”)."
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygen i så hög koncentration som möjligt – Normobar Oxygen Behandling (NBO)."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontakt med Flygläkare."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Även lättare neurologisk påverkan ska handläggas skyndsamt med stöd av läkare med dykmedicinsk kompetens då progress av symtombilden kan ske. Utan adekvat behandling finns stor risk för permanenta neurologiska skador."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Fortsätt att ge Oxygen i så hög koncentration som möjligt."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Vid flygtransport är max flyghöjd 300 m/1000 ft (icke-trycksatt kabin), annars riskerar symtomen att förvärras."
+  },
+  {
+    "type": "h1",
+    "text": "Bukskador"
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm skademekanism och grad av våld. Penetrerande skada? Trubbigt våld?"
+  },
+  {
+    "type": "bullet",
+    "text": "Har bilbälte använts?"
+  },
+  {
+    "type": "bullet",
+    "text": "Krockkudde utlösts?"
+  },
+  {
+    "type": "bullet",
+    "text": "Inspektera omgivningen, ofta finns ledtrådar kring skademekanism tillgängliga."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Sår i bukväggen"
+  },
+  {
+    "type": "bullet",
+    "text": "Missfärgning av huden"
+  },
+  {
+    "type": "bullet",
+    "text": "Inspektera och palpera buken försiktigt (”upp till höger - lever, upp till vänster –"
+  },
+  {
+    "type": "body",
+    "text": "mjälte”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Främmande föremål som sitter kvar i bukväggen, detta är typiskt sådant som"
+  },
+  {
+    "type": "body",
+    "text": "distraherar från viktigare bedömning av vitala funktioner."
+  },
+  {
+    "type": "bullet",
+    "text": "Tecken på cirkulatorisk chock (höjd puls, andningsfrekvens och sjunkande blodtryck)."
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandepåverkan: förvirring och oro är ofta tidiga tecken på blödningschock."
+  },
+  {
+    "type": "bullet",
+    "text": "Patologiskt andningsmönster, avsaknad av bukandning."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Vätskeresuscitera v b"
+  },
+  {
+    "type": "bullet",
+    "text": "Ge inj Tranexamsyra 100 mg/ml, 2 g i v vid misstanke om eller risk för blödning."
+  },
+  {
+    "type": "bullet",
+    "text": "Täck öppna sårskador, tänk på möjligheten att använda thoraxförband vid större"
+  },
+  {
+    "type": "body",
+    "text": "skador."
+  },
+  {
+    "type": "bullet",
+    "text": "Främmande föremål som penetrerat in i bukhålan lämnas kvar i läge och stabiliseras."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge inj Ertapenem, 1 g i v vid penetrerande skada."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Var observant på associerade skador (t ex thorax, bäcken)."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Peroral nutrition/vätska, bedöm med hänsyn till ev. skador på tarm. Överväg reponering av eviscererad tarm. Reponera ej vid pågående blödning i bukhålan eller av tarmen."
+  },
+  {
+    "type": "h1",
+    "text": "Drunkning"
+  },
+  {
+    "type": "body",
+    "text": "Andningspåverkan/andningsstopp på grund av vätska i luftvägarna vid submersion eller immersion."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "body",
+    "text": "Händelseförlopp - tid under vatten, djup, vattentemperatur, dykning. Finns förutsättningar för hypotermi före hjärtstopp? Vid symtom i samband med dykning, se ”Dekompressionssjuka”."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Lufthunger, cyanos"
+  },
+  {
+    "type": "bullet",
+    "text": "Oro, panik"
+  },
+  {
+    "type": "bullet",
+    "text": "Känselbortfall – thorax, armar eller ben"
+  },
+  {
+    "type": "bullet",
+    "text": "Bröstsmärta, svårt att djupandas"
+  },
+  {
+    "type": "bullet",
+    "text": "Rosslande hosta, rosa/skummande upphostningar, agonal andning"
+  },
+  {
+    "type": "bullet",
+    "text": "Bradykardi, asystoli"
+  },
+  {
+    "type": "bullet",
+    "text": "Ledsmärtor"
+  },
+  {
+    "type": "bullet",
+    "text": "Hypotermi"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Livlös patient som bogseras i vattnet till stranden:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Ge 5 kraftiga inblåsningar när du bottnar."
+  },
+  {
+    "type": "bullet2",
+    "text": "Dra upp den skadade på land och gör ny medvetandekontroll."
+  },
+  {
+    "type": "bullet2",
+    "text": "Om ingen eller onormal andning: starta HLR."
+  },
+  {
+    "type": "bullet2",
+    "text": "Vid misstanke om kraftig nedkylning, se ”Hypotermi”."
+  },
+  {
+    "type": "bullet",
+    "text": "Patient med livstecken:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Förhindra fortsatt nedkylning, isolera och packa in i ångtätt skikt, t ex"
+  },
+  {
+    "type": "body",
+    "text": "bubbelplast."
+  },
+  {
+    "type": "bullet",
+    "text": "EKG-övervakning."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid hypotension (BT syst < 80 mmHg), ge inf Ringer-acetat, 250 ml i v , kan"
+  },
+  {
+    "type": "body",
+    "text": "upprepas fyra gånger. Undvik övervätskning p g a risk för lungödem."
+  },
+  {
+    "type": "bullet",
+    "text": "Oxygen v b, målsaturation 92%"
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Stor risk för kräkning vid HLR!"
+  },
+  {
+    "type": "bullet",
+    "text": "Spinal rörelsebegränsning vid alla drunkningstillbud i samband med dykning i grunt"
+  },
+  {
+    "type": "body",
+    "text": "vatten."
+  },
+  {
+    "type": "bullet",
+    "text": "Alla som behövde någon form av resuscitering (även en inblåsning) och uppvisar"
+  },
+  {
+    "type": "body",
+    "text": "symtom från luftvägarna ska evakueras till sjukhus."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontakt med tryckkammarjour vid dykningsrelaterad drunkning."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "bullet",
+    "text": "Sidoläge p g a kräkningsrisk."
+  },
+  {
+    "type": "bullet",
+    "text": "Kraftigt nedkyld patient med någon form av livstecken ska evakueras med isolation, t"
+  },
+  {
+    "type": "body",
+    "text": "ex bubbelplast."
+  },
+  {
+    "type": "bullet",
+    "text": "Undvik onödiga manipulationer på grund av arytmirisk vid hypotermi."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Lungskador kan bli symtomatiska efter 6 timmar och kräva assisterad ventilation med respirator. Överväg tidig säkring av luftväg."
+  },
+  {
+    "type": "h1",
+    "text": "Hjärtstopp (traumatiskt)"
+  },
+  {
+    "type": "body",
+    "text": "Cirkulationsstillestånd som orsakas av trauma som leder till hypoxi eller en hypovolem chock. Hypovolemin kan vara sekundär till övertryckspneumothorax, hjärttamponad eller livshotande blödning."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Livlöshet:"
+  },
+  {
+    "type": "body",
+    "text": "o Ingen puls (carotis) alternativt uttalad bradykardi eller o PEA, asystoli o Kroppsskador som kan vara uttalade eller mycket diskreta"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Stoppa livshotande yttre blödning (<C>)."
+  },
+  {
+    "type": "bullet",
+    "text": "Etablera fri luftväg på det sätt du behärskar, ventilera vid behov, ge Oxygen."
+  },
+  {
+    "type": "bullet",
+    "text": "Avlasta thorax bilateralt med nåldekompression alternativt thorakostomi."
+  },
+  {
+    "type": "bullet",
+    "text": "Stabilisera bäcken vid trubbigt våld eller explosion."
+  },
+  {
+    "type": "bullet",
+    "text": "Sätt intraosseös nål och ge vätska snabbt, helst blodprodukter alternativt inf Ringer-"
+  },
+  {
+    "type": "body",
+    "text": "Acetat, 2000 ml i v"
+  },
+  {
+    "type": "bullet",
+    "text": "Ge inj Tranexamsyra 100 mg/ml, 2 g i o"
+  },
+  {
+    "type": "bullet",
+    "text": "Stabilisera eventuella femurfrakturer."
+  },
+  {
+    "type": "bullet",
+    "text": "Kompressioner kan övervägas men bör inte försena åtgärder enl ovan."
+  },
+  {
+    "type": "bullet",
+    "text": "Hänsyn till eventuella nack- eller ryggskador nedprioriteras, men tillämpa den"
+  },
+  {
+    "type": "body",
+    "text": "försiktighet som är möjlig."
+  },
+  {
+    "type": "bullet",
+    "text": "Förvarna mottagande enhet om traumatiskt hjärtstopp om patienten förs dit under"
+  },
+  {
+    "type": "body",
+    "text": "pågående behandling."
+  },
+  {
+    "type": "bullet",
+    "text": "Prioritera transport till kirurgisk förmåga"
+  },
+  {
+    "type": "bullet",
+    "text": "Prognosen är ytterst dyster vid cirkulationsstillestånd >20 minuter, Är det längre tid"
+  },
+  {
+    "type": "body",
+    "text": "sedan sista livstecken kan man låta bli att inleda behandling. Har man inte haft effekt av ovanstående åtgärder och man inte är i omedelbar närhet av kirurgi kan behandling avbrytas efter 20 min"
+  },
+  {
+    "type": "h1",
+    "text": "Skallskada"
+  },
+  {
+    "type": "body",
+    "text": "En skallskada är ofta associerad med andra skador. Penetrerande skallskada har ofta en dyster prognos men framförallt vid mindre kaliber och skador som inte passerar mittlinjen är prognosen bättre. Skilj också på skallskada och ansiktsskada (då inte cerebrum är engagerat). Lågt blodtryck hos en skallskadad beror ej på intrakraniell skallskada, blödningschock måste misstänkas."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetslös? Hur länge?"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm skademekanism och grad av våld."
+  },
+  {
+    "type": "bullet",
+    "text": "Skallskada medför risk för halsryggskada."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Påverkat medvetande"
+  },
+  {
+    "type": "bullet",
+    "text": "Var observant på ”fritt intervall” (går från medvetande till medvetslöshet)"
+  },
+  {
+    "type": "bullet",
+    "text": "Amnesi (retrograd – antegrad)"
+  },
+  {
+    "type": "bullet",
+    "text": "Neurologiska symtom – kramper, pareser"
+  },
+  {
+    "type": "bullet",
+    "text": "Liqvorläckage/blödning ur öra, näsa"
+  },
+  {
+    "type": "bullet",
+    "text": "Långsam puls/högt blodtryck (obs relativ bradykardi är viktigt att notera och tyder"
+  },
+  {
+    "type": "body",
+    "text": "ofta på en allvarligare skallskada)"
+  },
+  {
+    "type": "bullet",
+    "text": "Patologiska ögonrörelser"
+  },
+  {
+    "type": "bullet",
+    "text": "Oliksidig pupillreaktion"
+  },
+  {
+    "type": "bullet",
+    "text": "Ofri luftväg, patologiskt andningsmönster"
+  },
+  {
+    "type": "bullet",
+    "text": "Övergående hypoventilation/apné"
+  },
+  {
+    "type": "bullet",
+    "text": "Hematom, svullnad, sårskada, brillenhematom, Battle Sign"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Säkerställ fri luftväg."
+  },
+  {
+    "type": "bullet",
+    "text": "Spinal rörelsebegränsning enl riktlinje (om det taktiska läget tillåter)."
+  },
+  {
+    "type": "bullet",
+    "text": "Assistera ventilation med hjälp av mask alternativt larynxmask om andningsfrekvens"
+  },
+  {
+    "type": "body",
+    "text": "< 10/min. Koppla kapnograf och eftersträva normoventilation med EtCO2 4.5 - 5 kPa och andningsfrekvens > 10/min. Sat > 90%. Om kompetens finns och det taktiska läget tillåter: RSI och intubation vid medvetslöshet (GCS < 9)."
+  },
+  {
+    "type": "bullet",
+    "text": "Om svag/icke-palpabel radialispuls alternativt BT < 80 - 90 mmHg: misstanke om"
+  },
+  {
+    "type": "body",
+    "text": "samtidig annan skada med hemorragisk chock. Vätskeresuscitera, helst med blodprodukter med mål palpabel radialispuls alternativt BT syst 100 - 110 mmHg."
+  },
+  {
+    "type": "bullet",
+    "text": "Om isolerad skallskada utan samtidig hemorragisk chock eller om blödningskontroll"
+  },
+  {
+    "type": "body",
+    "text": "uppnådd: mål BT syst 110 - 140 mmHg (MAP 80 mmHg)."
+  },
+  {
+    "type": "bullet",
+    "text": "Tranexamsyra 100 mg/ml, 2g i v till medelsvåra skallskador (påverkat medvetande"
+  },
+  {
+    "type": "body",
+    "text": "C, V, P i ACVPU)."
+  },
+  {
+    "type": "bullet",
+    "text": "Undersök pupiller (storlek, position, ljusreaktion)."
+  },
+  {
+    "type": "bullet",
+    "text": "Antibiotika vid penetrerande skallskada, inj Cefotaxim, 1 g i v /i m"
+  },
+  {
+    "type": "bullet",
+    "text": "Vid kramper, se ”Kramper”."
+  },
+  {
+    "type": "bullet",
+    "text": "Täck öppna sår i skallen med sterila kompresser/förband, försiktighet med tryck på"
+  },
+  {
+    "type": "body",
+    "text": "skallfrakturer och där hjärnvävnad blottas."
+  },
+  {
+    "type": "bullet",
+    "text": "30 grader höjd huvudända om möjligt."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Försiktighet med förband och bomullsband runt halsen."
+  },
+  {
+    "type": "bullet",
+    "text": "Följ medvetandegrad och pupillstatus."
+  },
+  {
+    "type": "bullet",
+    "text": "Följ EtCO2."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Påbörja evakuering så snart som möjligt. Kontakta mottagande enhet."
+  },
+  {
+    "type": "h1",
+    "text": "Mild traumatisk hjärnskada"
+  },
+  {
+    "type": "body",
+    "text": "Orsakas av yttre trauma i form av antingen trubbigt våld eller tryckvåg och benämns med en samlingsterm MTBI (Mild Traumatic Brain Injury). Denna intrakraniella skada orsakas i militärt sammanhang för det mesta av tryckvågen vid detonation, hastig fartökning och/eller fartsänkning och är ofta svår att upptäcka med gängse radiologiska metoder (slätröntgen, CT). Syfte med denna rutin är att säkerställa att personal utsatt för tryckvågsskador eller annan mild traumatisk hjärnskada får adekvat bedömning, omhändertagande och behandling."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "För diagnos krävs:"
+  },
+  {
+    "type": "bullet",
+    "text": "Kort medvetandeförlust"
+  },
+  {
+    "type": "bullet",
+    "text": "Minnesförlust för händelserna strax innan och/eller efter incidenten"
+  },
+  {
+    "type": "bullet",
+    "text": "Förändrat mentalt status (t ex förvirring, desorientering, sänkt medvetande) under"
+  },
+  {
+    "type": "body",
+    "text": "tiden före eller kort stund efter incidenten."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "I anslutning till utlösande incident, t ex detonation eller trafikolycka, utför en"
+  },
+  {
+    "type": "body",
+    "text": "legitimerad läkare översiktligt neurologiskt status för att utesluta/bekräfta eventuellt funktionsbortfall."
+  },
+  {
+    "type": "bullet",
+    "text": "Senast 48 timmar efter tillbudet ska all personal, som befunnit sig inom"
+  },
+  {
+    "type": "body",
+    "text": "detonationsområdet eller i fordon som varit inblandade i trafikolycka, fylla i ett enkelt självskattningsformulär Screening för TBI (3 Question DVBIC Screening Tool) som ska finnas på varje förbandsplats."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid positivt screeningsresultat ska en utredningsprocess inledas. Om tillbudet äger"
+  },
+  {
+    "type": "body",
+    "text": "rum utomlands och patienten repatrieras, fortsätter utredningen genom kontrakterat civilt sjukhus, för närvarande Karolinska Universitetssjukhuset (SMO samt jourhavande läkare ansvarig för kontakt med kontrakterad sjukvårdsinrättning). Vid incident inom Sverige fortsätter utredningen på sjukhus närmaste patientens boende med möjlighet till högt specialiserade radiologiska undersökningar (MR) och neuropsykologiska tester."
+  },
+  {
+    "type": "h1",
+    "text": "Screening för TBI (3 Question DVBIC Screening Tool)"
+  },
+  {
+    "type": "body",
+    "text": "1. Har du drabbats av någon skada/skador under insatsen med ursprung i något av följande? (Kryssa i alla som stämmer) A.  Fragment/splitter B.  Finkalibrig ammunition C.  Fordonsrelaterad D.  Fall E.  Explosion (IED, RPG, Mina, Granat etc.) F.  Annat specificera:_____________________________________ 2. Ledde någon skada du fick under insatsen till något av följande? (Kryssa i alla som stämmer) A.  Omtöcknad, förvirrad eller ”ser stjärnor” B.  Kommer inte ihåg att du fick skadan (minnesbortfall) C.  Tappat medvetandet i mindre än en minut D.  Tappat medvetandet i 1 - 20 minuter E.  Tappat medvetandet i mer än 20 minuter F.  Symtom på hjärnskakning (t ex huvudvärk, yrsel, dåsighet) G.  Huvudskada H.  Inget av ovanstående 3. Har du för närvarande några besvär som du tror kan komma från ett slag mot huvudet eller en hjärnskakning? (Kryssa i alla som stämmer) A.  Huvudvärk B.  Yr/yrsel C.  Minnesproblem D.  Balansproblem E.  ”Ringande” i öronen F.  Irritabilitet G.  Sömnbesvär H.  Inlärningsproblem I.  Koncentrationssvårigheter J.  Påtaglig trötthet"
+  },
+  {
+    "type": "h1",
+    "text": "Spinal skada"
+  },
+  {
+    "type": "body",
+    "text": "En spinal skada är en skada på ryggmärgen som oftast orsakas av kraftigt trubbigt våld mot nacke eller rygg. I militär kontext är det även vanligt förekommande med penetrerande våld som explosionsskador som kan leda till komplexa spinala skador och/eller luftembolier. Nervsträngarna som löper i ryggmärgen kan bli delvis eller helt förstörda och beroende på lokalisationen (nivå) ge upphov till neurologiska bortfallssymtom."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm skademekanism och grad av våld."
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandepåverkan?"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Neurologiska symtom – bortfall av känsel/motorik"
+  },
+  {
+    "type": "bullet",
+    "text": "Hypoventilation/bukandning vid skada på halsryggnivå"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärta/ömhet i nacke/rygg"
+  },
+  {
+    "type": "bullet",
+    "text": "Neurogen chock: lågt blodtryck (syst och diast) och låg puls; varm, torr hud (skada på"
+  },
+  {
+    "type": "body",
+    "text": "hög bröstryggnivå)"
+  },
+  {
+    "type": "bullet",
+    "text": "Påverkad/upphörd blås- /sfinkterfunktion"
+  },
+  {
+    "type": "body",
+    "text": "Behandling/åtgärder"
+  },
+  {
+    "type": "bullet",
+    "text": "Säkerställ fri luftväg vid medvetandesänkning."
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm andningsdjup och frekvens. Höga spinala skador ger påverkad andning."
+  },
+  {
+    "type": "body",
+    "text": "Eftersträv normal ventilation, assistera andning v b och koppla kapnograf (EtCO2 5kPa, andningsfrekvens > 10/min)."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid hypotension (BT syst < 100 mmHg), ge inf Ringer-Acetat i v , 250 ml, kan"
+  },
+  {
+    "type": "body",
+    "text": "upprepas fyra gånger. Mål BT syst > 110 mmHg (MAP > 80 mmHg)."
+  },
+  {
+    "type": "bullet",
+    "text": "Bradykardi (puls < 45/min i kombination med BT syst < 100 mmHg) behandlas med"
+  },
+  {
+    "type": "body",
+    "text": "inj Atropin 0,5 mg/ml, 1 ml (0,5 mg) i v"
+  },
+  {
+    "type": "bullet",
+    "text": "Spinal rörelsebegränsning."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Patienten ska ej stockvändas för undersökning av kotpelaren."
+  },
+  {
+    "type": "h1",
+    "text": "Thoraxskador"
+  },
+  {
+    "type": "body",
+    "text": "De vanligaste thoraxskadorna är pneumothorax, lungkontusion, skada på thoraxväggen och skador på de stora kärlen i thorax. Vanligaste skademekanismerna i militär kontext är penetrerande och explosion."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm skademekanism – penetrerande/trubbigt/explosion."
+  },
+  {
+    "type": "bullet",
+    "text": "Tid sedan händelsen."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningspåverkan med lufthunger (dyspné)"
+  },
+  {
+    "type": "bullet",
+    "text": "Ökad andningsfrekvens"
+  },
+  {
+    "type": "bullet",
+    "text": "Nedsatt saturation"
+  },
+  {
+    "type": "bullet",
+    "text": "Oro, ångest; vill ej ligga ner"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärta vid djupandning, oregelbunden andning"
+  },
+  {
+    "type": "bullet",
+    "text": "Instabil bröstkorg, asymmetriska andningsrörelser, ”Flail Chest”"
+  },
+  {
+    "type": "bullet",
+    "text": "Öppen pneumothorax"
+  },
+  {
+    "type": "bullet",
+    "text": "Blodtillblandade upphostningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Halsvenstas (saknas vid samtidig hypovolemi) och trachealförskjutning – sena tecken"
+  },
+  {
+    "type": "body",
+    "text": "vid övertryckspneumothorax"
+  },
+  {
+    "type": "bullet",
+    "text": "Cirkulationskollaps"
+  },
+  {
+    "type": "body",
+    "text": "Behandling/åtgärder"
+  },
+  {
+    "type": "bullet",
+    "text": "Arbeta enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Penetrerande/öppen thoraxskada: applicera thoraxförband (alternativt"
+  },
+  {
+    "type": "body",
+    "text": "defibrillatorplattor)."
+  },
+  {
+    "type": "bullet",
+    "text": "Främmande föremål som penetrerat in i thorax lämnas kvar i läge och stabiliseras."
+  },
+  {
+    "type": "bullet",
+    "text": "Den skadade bör inta ställning som underlättar andningen mest."
+  },
+  {
+    "type": "bullet",
+    "text": "Om livlös, se ”Traumatiskt hjärtstopp”."
+  },
+  {
+    "type": "bullet",
+    "text": "Observans på utveckling av övertryckspneumothorax."
+  },
+  {
+    "type": "bullet2",
+    "text": "Tilltagande andnöd"
+  },
+  {
+    "type": "bullet2",
+    "text": "Ökande andningsfrekvens"
+  },
+  {
+    "type": "bullet2",
+    "text": "Saturation < 90%"
+  },
+  {
+    "type": "bullet2",
+    "text": "Sjunkande blodtryck"
+  },
+  {
+    "type": "body",
+    "text": "Lyft på eventuellt förekommande lufttäta thoraxförband. Om ingen förbättring genomför thorakocentes (nåldekompression) alternativt thorakostomi (bara vid övertrycksandning) på den skadade sidan. Upprepas en gång vid utebliven effekt på samma sida men annan lokalisation. Behov av bilateral dekompression?"
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Observera att även skott- och splitterskador i andra delar av kroppen kan ge skador i"
+  },
+  {
+    "type": "body",
+    "text": "thorax beroende på projektilbanan i kroppen."
+  },
+  {
+    "type": "bullet",
+    "text": "Efter genomförd nåldekompression samt vid penetrerande thoraxskada kommer det"
+  },
+  {
+    "type": "body",
+    "text": "krävas thoraxdränage i ett senare skede."
+  },
+  {
+    "type": "bullet",
+    "text": "Beakta risken för lungkontusioner och tryckskador på lungorna efter t ex en explosion."
+  },
+  {
+    "type": "body",
+    "text": "Den skadade kan då försämras några timmar efter skadetillfället och behöva respiratorvård."
+  },
+  {
+    "type": "h1",
+    "text": "Ögonskador"
+  },
+  {
+    "type": "body",
+    "text": "Kemisk skada"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Orsakas huvudsakligen vid exponering för frätande ämnen (framförallt alkali)."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Nedsatt syn"
+  },
+  {
+    "type": "bullet",
+    "text": "Ökat tårflöde"
+  },
+  {
+    "type": "bullet",
+    "text": "Irritation, smärta"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Avlägsna eventuellt förekommande kontaktlins."
+  },
+  {
+    "type": "bullet",
+    "text": "Spola ögat omedelbart med stora mängder vätska, NaCl 0.9%, Ringer-Acetat"
+  },
+  {
+    "type": "body",
+    "text": "(använd infusionsslangen) eller med det renaste vattnet som finns. Lyft v b ögonlocket för att kunna spola rent. Ju längre det går att spola desto större chans att rädda synen."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge v b ögondroppar Tetrakain 10 mg/ml, 1 - 2 droppar vid kraftig smärta och för att"
+  },
+  {
+    "type": "body",
+    "text": "underlätta spolningen."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid symtomgivande exponering för tårgas eller pepparspray ska hela ansiktet sköljas"
+  },
+  {
+    "type": "body",
+    "text": "med vatten alternativt Ringer-Acetat. Penetrerande skada"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Förekommer isolerat eller som del av omfattande skador i ansikte och huvud. I samband med explosioner är det vanligt att små föremål penetrerar in i ögongloben utan att man hittar uppenbara ytliga skador. Beakta även att det är vanligt att båda ögonen är skadade efter en explosion. I samband med explosioner kan även trumhinnorna vara skadade och den skadade kan på grund av hörselnedsättning ej medverka vid undersökning."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Fråga aktivt efter nedsatt syn, irritation, smärta (anamnesen är den viktigaste"
+  },
+  {
+    "type": "body",
+    "text": "indikationen att skada föreligger)"
+  },
+  {
+    "type": "bullet",
+    "text": "Främmande föremål i ögat"
+  },
+  {
+    "type": "bullet",
+    "text": "Skador på ögonlock"
+  },
+  {
+    "type": "bullet",
+    "text": "Kännbara frakturer runt ögonhålan"
+  },
+  {
+    "type": "bullet",
+    "text": "Blödningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Svullnad, framträdande öga"
+  },
+  {
+    "type": "bullet",
+    "text": "Oregelbunden pupill"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Låt främmande kroppar sitta kvar. Om de är mycket rörliga så kan det vara en fördel"
+  },
+  {
+    "type": "body",
+    "text": "ax fixera dem mot t ex kinden eller pannan för att undvika rörelse, om det går att göra utan att dra i ögat."
+  },
+  {
+    "type": "bullet",
+    "text": "Låt eventuellt förekommande kontaktlins sitta kvar. (Risk att dra ut ögonvävnad som"
+  },
+  {
+    "type": "body",
+    "text": "man misstar för kontaktlins.)"
+  },
+  {
+    "type": "bullet",
+    "text": "Gör en snabb synundersökning. Först med det friska ögat stängt. Täck sedan för det"
+  },
+  {
+    "type": "body",
+    "text": "skadade ögat. Varje öga ska undersökas för sig. Från bäst till sämst: 1. Kan läsa text 2. Kan räkna antal fingrar 3. Kan se handrörelser 4. Kan se ljus"
+  },
+  {
+    "type": "bullet",
+    "text": "Täck det skadade ögat med ett hårt ögonförband (ej tryckförband!). Ett mjukt förband"
+  },
+  {
+    "type": "body",
+    "text": "kan läggas under det hårda förbandet. Om ögonförband inte finns tillgängligt kan ett par intakta skyddsglasögon användas istället. Om den skadades ögonlock är oskadat kan det användas som skydd, stäng det då bakom ett mjukt förband alternativt tejp."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid stora öppna skador kan det vara bra med ett förband framför båda ögonen så att"
+  },
+  {
+    "type": "body",
+    "text": "patienten inte tittar runt. Försvårar det evakueringen eller utlöser stress hos den skadade räcker det med att täcka enbart det skadade ögat."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge antibiotika, T. Moxifloxacin 400 mg, 1 st p o så fort tillfälle ges. Till patient som"
+  },
+  {
+    "type": "body",
+    "text": "inte kan svälja, ge inj Cefotaxim, 1 g i v /i m Ge ej ögondroppar för att lokalbedöva!"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärtstilla. Välj läkemedel efter den skadades cirkulatoriska och respiratoriska"
+  },
+  {
+    "type": "body",
+    "text": "tillstånd (Ketamin ej kontraindicerat)."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Ögonskador får ej förhindra upptäckt av andra skador eller fördröja avtransport av kritiskt skadad patient."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Konstaterad eller misstanke om öppen ögonskada ska föranleda snabb avtransport."
+  },
+  {
+    "type": "h1",
+    "text": "Käkfrakturer"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Käkfrakturer drabbar mandibeln (underkäken) betydligt oftare är maxillan (överkäken). Käkledskondylen (collum mandibulae) är den anatomiska del som vanligen drabbas i mandibeln. Frakturer i maxillan och mellanansiktet är ovanligare och brukar klassiskt indelas efter anatomisk utbredning i Le Fort I, II och III (efter René Le Fort 1901). Mandibelfrakturer"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Asymmetri orsakad av muskeldrag på den drabbade sidan"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärta, palpationsömhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Malocklusion (ocklusionsstörning, öppet bett)"
+  },
+  {
+    "type": "bullet",
+    "text": "Deviation vid gapning"
+  },
+  {
+    "type": "bullet",
+    "text": "Rörelseinskränkning"
+  },
+  {
+    "type": "bullet",
+    "text": "Sensibilitetsstörning i underkäkens nerver, tänder, tunga och hakspets"
+  },
+  {
+    "type": "body",
+    "text": "Maxillafrakturer och mellanansiktes frakturer"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Asymmetri, felställning"
+  },
+  {
+    "type": "bullet",
+    "text": "Svullnad, smärta, palpationsömhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Ökad rörlighet i mellanansiktet (näsrot, tandbärande segment)"
+  },
+  {
+    "type": "bullet",
+    "text": "Trismus (gapsvårigheter)"
+  },
+  {
+    "type": "bullet",
+    "text": "”Förlängt” ansikte"
+  },
+  {
+    "type": "bullet",
+    "text": "Frontalt öppet bett"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningssvårigheter"
+  },
+  {
+    "type": "bullet",
+    "text": "Blödning från hörselgången, näsa"
+  },
+  {
+    "type": "bullet",
+    "text": "Diplopi (dubbelseende)"
+  },
+  {
+    "type": "bullet",
+    "text": "Sensibilitetsstörningar i överkäkens tänder och frontala delarna av mellanansiktet"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd (båda tillstånd)"
+  },
+  {
+    "type": "bullet",
+    "text": "Kontrollera risken för commotio (hjärnskakning)"
+  },
+  {
+    "type": "bullet",
+    "text": "Upprätta fria luftvägar"
+  },
+  {
+    "type": "bullet",
+    "text": "Eventuella blödningar stoppas"
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Akut transport till sjukvårdsenhet, helst käkkirurgjour."
+  },
+  {
+    "type": "h1",
+    "text": "Tandskador"
+  },
+  {
+    "type": "body",
+    "text": "Trauma mot ansiktet ger ofta upphov till multipla skador vilka kan omfatta flera olika vävnader. Det är därför mycket viktigt att man är organiserad i sitt tänkande och genomför den kliniska undersökningen systematiskt och genomgående. Adekvata diagnoser är en förutsättning för ett korrekt patientomhändertagande. Skador i tandens hårdvävnad a) Okomplicerad kronfraktur (kronfraktur utan pulpablotta)"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Fraktur som orsakat tandsubstansförlust omfattande emalj och dentin"
+  },
+  {
+    "type": "body",
+    "text": "(tandben) utan synlig blottläggning av pulpan."
+  },
+  {
+    "type": "bullet",
+    "text": "Tanden kan vara hypersensibel (framförallt känslig för kyla)."
+  },
+  {
+    "type": "bullet",
+    "text": "Röntgen visar frakturens omfattning och utsträckning."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Enbart slipning av vass yta med liten fil (liten fraktur) kan göras direkt på"
+  },
+  {
+    "type": "body",
+    "text": "plats."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid större substansförlust med symtom såsom isning, försök att täcka den"
+  },
+  {
+    "type": "body",
+    "text": "öppna ytan av dentin med provisorisk fyllning (Cavit)."
+  },
+  {
+    "type": "bullet",
+    "text": "Tandläkarbesök så snart som det är möjligt för röntgen av tanden och"
+  },
+  {
+    "type": "body",
+    "text": "permanent restauration med etsteknik."
+  },
+  {
+    "type": "bullet",
+    "text": "Analgetika (T. Paracetamol 1 g, max 4 st/dygn och/eller T. Ibuprofen 400"
+  },
+  {
+    "type": "body",
+    "text": "mg, max 3 st/dygn.) b) Komplicerad kronfraktur (kronfraktur med pulpablotta)"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Frakturen involverar emalj, dentin och pulpa."
+  },
+  {
+    "type": "bullet",
+    "text": "Blödning från pulpan."
+  },
+  {
+    "type": "bullet",
+    "text": "Tanden är hypersensibel (framför allt känslig för kyla)."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Transport så snart som möjligt till tandvårdsenhet för röntgen och vidare"
+  },
+  {
+    "type": "body",
+    "text": "handläggning. c) Kron-rotfrakturer (okomplicerade och komplicerade)"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Fraktur involverande emalj, dentin, rotcement med eller utan pulpablotta och"
+  },
+  {
+    "type": "body",
+    "text": "kommunikation till munhålan."
+  },
+  {
+    "type": "bullet",
+    "text": "Krondelen kan vara separerad från rotsegmentet. Klinisk diagnostik försvåras"
+  },
+  {
+    "type": "body",
+    "text": "om fraktursegmentet ej är separerade från varandra."
+  },
+  {
+    "type": "bullet",
+    "text": "Tanden kan vara hypersensibel (kyla/värme)."
+  },
+  {
+    "type": "bullet",
+    "text": "Tanden är perkussionsöm."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärtlindring: analgetika (T. Paracetamol 1 g p o, max 4 st/dygn och/eller T."
+  },
+  {
+    "type": "body",
+    "text": "Ibuprofen 400 mg p o, max 3 st/dygn)"
+  },
+  {
+    "type": "bullet",
+    "text": "Ev. antibiotika (T. Fenoxymetylpenicillin, 1 g p o, 1 x 3)"
+  },
+  {
+    "type": "bullet",
+    "text": "Rekommendera munskölj med Klorhexidin 0, 12% (Corsodyl, Hexident) 2"
+  },
+  {
+    "type": "body",
+    "text": "gånger/dag tills patienten kan komma till tandläkare."
+  },
+  {
+    "type": "bullet",
+    "text": "Snar avtransport till sjukvårdsenhet/tandläkare för röntgen och vidare"
+  },
+  {
+    "type": "body",
+    "text": "handläggning. Om frakturlinjen går under alveolära benkanten kan tanden inte sparas. Extraktion av tanden bör göras av tandläkare. Exartikulation"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Tanden fullständigt ute ur alveolen"
+  },
+  {
+    "type": "bullet",
+    "text": "Blödning ur alveolen"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedömning av tandläkare"
+  },
+  {
+    "type": "h1",
+    "text": "Omgivningsorsakade tillstånd"
+  },
+  {
+    "type": "h1",
+    "text": "Akut bullerskada"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Subjektiv hörselnedsättning"
+  },
+  {
+    "type": "bullet",
+    "text": "Lockkänsla"
+  },
+  {
+    "type": "bullet",
+    "text": "Sus, pip, ringningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärta"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Den skadade ska tas till och vistas i en miljö där det finns vardagsljud utan förekomst"
+  },
+  {
+    "type": "body",
+    "text": "av hörselskadligt buller."
+  },
+  {
+    "type": "bullet",
+    "text": "Hörselskydd bör undvikas för att inte förstärka eventuell tinnitus. Kan användas"
+  },
+  {
+    "type": "body",
+    "text": "kortvarigt vid transport."
+  },
+  {
+    "type": "bullet",
+    "text": "Undvik kraftig fysisk ansträngning."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Medicinsk bedömning och hörselundersökning inom 24 h efter bullertraumat. I första hand Försvarshälsan, om ej möjligt inom tre dygn till civil sjukvård."
+  },
+  {
+    "type": "h1",
+    "text": "Hypertermi"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Värmerelaterade sjukdomar kan yttra sig som lindrig till svår fysisk påverkan. Vid svår påverkan (värmeslag) är dödligheten hög trots full intensivvård. Kyla och vätska så fort som möjligt!! Definitionen på hypertermi är kroppstemperatur > 37.5 C på grund av sviktande temperaturreglering. Orsak, symtom och medicinsk handläggning beroende på hypertermins svårighetsgrad Värmekramp"
+  },
+  {
+    "type": "bullet",
+    "text": "Orsak: elektrolytförluster genom svettning, långvarig hård fysisk aktivitet."
+  },
+  {
+    "type": "bullet",
+    "text": "Symtom: plötsligt uppkomna, smärtsamma, ofrivilliga kramper i ben, armar och buk,"
+  },
+  {
+    "type": "body",
+    "text": "tydliga muskelsammandragningar."
+  },
+  {
+    "type": "bullet",
+    "text": "Fynd: rektaltemperatur < 38.5 C, opåverkat mentalt status."
+  },
+  {
+    "type": "bullet",
+    "text": "Behandling:"
+  },
+  {
+    "type": "bullet2",
+    "text": "vila, lätta på utrustning och klädsel"
+  },
+  {
+    "type": "bullet2",
+    "text": "massage och stretchning av drabbad muskel"
+  },
+  {
+    "type": "bullet2",
+    "text": "vätska p o, helst med elektrolyttillsats (t ex sportdryck)"
+  },
+  {
+    "type": "bullet2",
+    "text": "vid fortsatta symtom inf Ringer-Acetat i v"
+  },
+  {
+    "type": "body",
+    "text": "Värmeutmattning"
+  },
+  {
+    "type": "bullet",
+    "text": "Orsak: negligering av värmerelaterade symtom, kan utvecklas till värmeslag"
+  },
+  {
+    "type": "bullet",
+    "text": "Symtom: extrem muskelsvaghet, stapplande gång, blekhet, kraftig svettning,"
+  },
+  {
+    "type": "body",
+    "text": "muskelsmärtor, dålig balans, illamående, kräkningar, magsmärtor"
+  },
+  {
+    "type": "bullet",
+    "text": "Fynd: orienterad, opåverkat medvetande, snabb hjärt- och andningsfrekvens,"
+  },
+  {
+    "type": "body",
+    "text": "rektaltemperatur < 40.5 C"
+  },
+  {
+    "type": "bullet",
+    "text": "Behandling:"
+  },
+  {
+    "type": "bullet2",
+    "text": "vila, lätta på utrustning och kläder"
+  },
+  {
+    "type": "bullet2",
+    "text": "påbörja kylning så fort som möjligt, måltemperatur < 38.5 C, vätska p o"
+  },
+  {
+    "type": "bullet2",
+    "text": "vid fortsatta symtom inf Ringer-Acetat i v"
+  },
+  {
+    "type": "bullet2",
+    "text": "vila i 1 - 2 dagar"
+  },
+  {
+    "type": "bullet2",
+    "text": "observation på sjukhus om kraftigt förhöjd temperatur eller uttalade symtom"
+  },
+  {
+    "type": "body",
+    "text": "Värmesvimning"
+  },
+  {
+    "type": "bullet",
+    "text": "Orsak: värmeorsakad blodansamling i benen vid längre tids stillastående"
+  },
+  {
+    "type": "bullet",
+    "text": "Symtom: svartnar för ögonen, tunnelseende, ljuskänslighet, lättare huvudvärk, blek,"
+  },
+  {
+    "type": "body",
+    "text": "kallsvettig"
+  },
+  {
+    "type": "bullet",
+    "text": "Fynd: självlimiterande, övergående när patienten ligger horisontellt, långsam"
+  },
+  {
+    "type": "body",
+    "text": "hjärtfrekvens, rektaltemperatur < 38.5 C"
+  },
+  {
+    "type": "bullet",
+    "text": "Behandling:"
+  },
+  {
+    "type": "bullet2",
+    "text": "horisontalläge med upphöjda ben"
+  },
+  {
+    "type": "bullet2",
+    "text": "lätta på utrustning och klädsel, vila i skugga, vätska p o"
+  },
+  {
+    "type": "bullet2",
+    "text": "vila 24 timmar"
+  },
+  {
+    "type": "bullet2",
+    "text": "om ej återställd inom 15 minuter, ta rektaltemperatur och överväg värmeslag"
+  },
+  {
+    "type": "body",
+    "text": "eller icke-värmerelaterad orsak Värmeslag, ansträngningsutlöst (”Exertional Heat Stroke”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Orsak: utslagen temperaturreglering, fysisk aktivitet utan möjlighet för kroppen till"
+  },
+  {
+    "type": "body",
+    "text": "avkylning (t ex fotmarsch med packning)"
+  },
+  {
+    "type": "bullet",
+    "text": "Symtom: påverkat medvetande, generella muskelkramper (epileptiforma)"
+  },
+  {
+    "type": "bullet",
+    "text": "Fynd: rektaltemperatur > 40.5 C, snabb hjärtfrekvens, normalt eller lågt blodtryck,"
+  },
+  {
+    "type": "body",
+    "text": "högt pulstryck, pupillpåverkan (pinpoint, dilaterade, fixerade), nystagmus, hypoglykemi"
+  },
+  {
+    "type": "bullet",
+    "text": "Behandling:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Omedelbar! aggressiv kylning tills rektaltemperaturen < 39 C"
+  },
+  {
+    "type": "bullet2",
+    "text": "symtomatisk behandling av sviktande vitala parametrar"
+  },
+  {
+    "type": "bullet2",
+    "text": "hjärtkompressioner vid pulslöshet (defibrillering och antiarrytmika ineffektiva"
+  },
+  {
+    "type": "body",
+    "text": "vid svår hypertermi)"
+  },
+  {
+    "type": "bullet2",
+    "text": "kyla först, transportera sen (om parametrar tillåter), annars kylning under"
+  },
+  {
+    "type": "body",
+    "text": "transport; försiktig, långsam infusion av kristalloid Fysikalisk nedkylning vid värmeslag"
+  },
+  {
+    "type": "bullet",
+    "text": "Skugga och fläkta"
+  },
+  {
+    "type": "bullet",
+    "text": "Nedsänkning i iskallt vatten, konstant omrörning av vattnet under kylningen."
+  },
+  {
+    "type": "body",
+    "text": "Överkroppen viktigast."
+  },
+  {
+    "type": "bullet",
+    "text": "Kylklampar eller annat kallt i armhålor, skrev, runt hals"
+  },
+  {
+    "type": "bullet",
+    "text": "Om nedsänkning ej möjlig spraya med kallt vatten (15 C) från alla håll, samtidigt"
+  },
+  {
+    "type": "body",
+    "text": "med fläktning."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Undvik läkemedel i form av paracetamol, NSAID, ASA."
+  },
+  {
+    "type": "bullet",
+    "text": "Kramper behandlas symtomatiskt."
+  },
+  {
+    "type": "body",
+    "text": "Övervakning Rektaltemperatur var 5:e minut vid värmeslag."
+  },
+  {
+    "type": "h1",
+    "text": "Hypotermi"
+  },
+  {
+    "type": "body",
+    "text": "Accidentell hypotermi, allmän nedkylning, definieras som en oplanerad sänkning av central kroppstemperatur till < 35 C. Ofta orsakad av exponering för kall miljö, i kombination med större trauma, intoxikation, andra sjukdomstillstånd eller fysisk utmattning samt vid drunkning och lavinolyckor."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "Kroppens försvar mot nedkylning består av perifer vasokonstriktion (kärlsammandragning) som minskar värmeförlusterna till omgivningen samt huttring (ofrivilliga muskelkontraktioner) som ökar kroppens energiproduktion. Vid exponering för kyla aktiveras dessa reaktioner tidigt, redan innan central kroppstemperatur hinner sjunka, men blir mer uttalade med tilltagande nedkylning. Förmåga till huttring kan nedsättas av utmattning/näringsbrist eller vid samtidiga skador/sjukdomar. Vid svår nedkylning avstannar huttringen helt som en direkt följd av kylans påverkan på nerver och muskulatur. Tidiga symtom på allmän nedkylning:"
+  },
+  {
+    "type": "bullet",
+    "text": "Blek och kall hud, ofta med påverkan på finmotorik och känsel i händer och fötter."
+  },
+  {
+    "type": "bullet",
+    "text": "Tilltagande huttring, nedsatt kraft och påverkad grovmotorik."
+  },
+  {
+    "type": "bullet",
+    "text": "Trötthet med påverkan på humör och omdöme."
+  },
+  {
+    "type": "bullet",
+    "text": "Ökad urinproduktion (kölddiures)."
+  },
+  {
+    "type": "body",
+    "text": "Vid mer uttalad nedkylning ses:"
+  },
+  {
+    "type": "bullet",
+    "text": "Avtagande eller utslagen huttring."
+  },
+  {
+    "type": "bullet",
+    "text": "Sänkt medvetandegrad/medvetslöshet."
+  },
+  {
+    "type": "bullet",
+    "text": "Långsam andning och puls med sjunkande blodtryck."
+  },
+  {
+    "type": "bullet",
+    "text": "Oregelbunden hjärtrytm med risk för ventrikelflimmer och hjärtstillestånd."
+  },
+  {
+    "type": "bullet",
+    "text": "Försämrad koagulationsförmåga med risk för ökad blödning vid samtidigt trauma."
+  },
+  {
+    "type": "body",
+    "text": "Den kliniska bilden vid hypotermi påverkas av samtidiga skador, sjukdomar eller andra tillstånd. Verifiera om möjligt med mätning av central kroppstemperatur. I fält kan en enkel gradering av nedkylning göras utifrån medvetandegrad, huttring och förekomst av livstecken."
+  },
+  {
+    "type": "h2",
+    "text": "Observera att angivet temperaturintervall kan uppvisa stora variationer."
+  },
+  {
+    "type": "bullet",
+    "text": "HT grad 1: Vaken och huttrar (30 - 35 C)"
+  },
+  {
+    "type": "bullet",
+    "text": "HT grad 2: Medvetandesänkt, avtagande huttring (28 - 32 C)"
+  },
+  {
+    "type": "bullet",
+    "text": "HT grad 3: Medvetslös med egen andning/puls (24 - 28 C)"
+  },
+  {
+    "type": "bullet",
+    "text": "HT grad 4: Livlös utan egen andning/puls (< 24 C)"
+  },
+  {
+    "type": "bullet",
+    "text": "HT grad 5: Irreversibel hypotermi, död! (<10-15 C)"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "body",
+    "text": "Initiala åtgärder, på skadeplats och under transport, syftar i första hand till att förhindra fortsatt nedkylning. Skydda mot väder och vind, om möjligt genom att tidigt förflytta den skadade in i fordon, tält eller annan skyddad miljö. Vid uttalad nedkylning (HT grad 2-3) skall personen behandlas varsamt och om möjligt i horisontalläge för att minska risken för blodtrycksfall och arytmier. HT grad 1 (”kall, huttrar”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Värm upp på lämpligaste vis: Varm dryck, filt, yttre värme, fysisk aktivitet)"
+  },
+  {
+    "type": "body",
+    "text": "HT grad 2 (”kall, trött, huttrar inte”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Initialt omhändertagande enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Monitorering av saturation (syremättnad) är ofta opålitlig p g a nedsatt perifer"
+  },
+  {
+    "type": "body",
+    "text": "cirkulation. Tillför syrgas utifrån klinisk bedömning. Vid svår nedkylning rekommenderas övervakning med defibrilleringsplattor och tidig i v /i o kärlaccess."
+  },
+  {
+    "type": "bullet",
+    "text": "Avlägsna om möjligt blöta kläder och tillför isolering i form av förstärkningskläder,"
+  },
+  {
+    "type": "body",
+    "text": "täcken, filtar, sovsäck eller liknande. I utomhusmiljö prioriteras ett vind- och vattentätt material ytterst som vindsäck/bubbelplast/eller särskilt räddningstäcke för att bibehålla värme och isoleringsförmåga i underliggande lager."
+  },
+  {
+    "type": "bullet",
+    "text": "Överväg aktiv värmetillförsel. En i övrigt oskadad och vaken person bör tillföras varm"
+  },
+  {
+    "type": "body",
+    "text": "och energirik dryck, t ex choklad/soppa/saft och uppmuntras till fysisk aktivitet för att stimulera kroppens egen värmeproduktion. Vid mer uttalad nedkylning eller vid samtidiga skador/sjukdomar tillförs med fördel en aktiv värmekälla till bålen, t ex en kemisk värmefilt eller plastflaskor/vattensäck med varmt vatten. Observera att kall hud har en ökad risk för brännskador p g a nedsatt blodcirkulation. Skydda v b med en tunn filt/lakan eller kläder mellan hud och värmekälla."
+  },
+  {
+    "type": "bullet",
+    "text": "Intravenösa vätskor/blodprodukter bör ges via vätskevärmare för att motverka"
+  },
+  {
+    "type": "body",
+    "text": "ytterligare nedkylning. Vid längre transporter kan inf Glukos ges för att upprätthålla/stimulera kroppens egen värmeproduktion."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontrollera kroppstemperatur när så är möjligt. Hörselgångstermometer kan användas"
+  },
+  {
+    "type": "body",
+    "text": "men observera risk för falskt låga temperaturer, särskilt i utomhusmiljö. Vid svår nedkylning prioriteras kontinuerlig mätning av kroppstemperatur med temperaturgivare/probe i rektum, urinblåsa (KAD) eller esofagus (matstrupen). HT grad 3 (”medvetslös”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm livstecken i en minut (medvetande/andning/puls i central artär)."
+  },
+  {
+    "type": "bullet",
+    "text": "Sidoläge, vid behov och kompetens försiktigt RSI/intubation, annars basala"
+  },
+  {
+    "type": "body",
+    "text": "luftvägsåtgärder (LMA utan sedering riskerar att utlösa arytmier eller luftvägsreaktioner)"
+  },
+  {
+    "type": "bullet",
+    "text": "I övrigt som HT grad 2."
+  },
+  {
+    "type": "body",
+    "text": "HT grad 4 (”livlös”)"
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm livstecken i en minut (medvetande/andning/puls i central artär)."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid misstanke om hjärtstopp: starta HLR"
+  },
+  {
+    "type": "bullet",
+    "text": "Adrenalin kan ges upp till 3 gånger initialt om temperaturen oklar. Kolla temperatur"
+  },
+  {
+    "type": "body",
+    "text": "så snart som möjligt för beslut om förlängd resuscitering är indicerad."
+  },
+  {
+    "type": "bullet",
+    "text": "Om kroppstemperatur:"
+  },
+  {
+    "type": "bullet",
+    "text": "< 30 C: avstå läkemedel"
+  },
+  {
+    "type": "bullet",
+    "text": "30 - 35 C: Adrenalin i dubbelt intervall (var 8:e minut)"
+  },
+  {
+    "type": "bullet",
+    "text": "> 35 C: normal A-HLR algoritm"
+  },
+  {
+    "type": "bullet",
+    "text": "Vid ventrikelflimmer defibrillera snarast, efter 3:e defibrillering utan sinusrytm bör"
+  },
+  {
+    "type": "body",
+    "text": "man avvakta tills kroppstemperatur är > 30C."
+  },
+  {
+    "type": "bullet",
+    "text": "HLR ska fortsättas tills dess att patienten är varm."
+  },
+  {
+    "type": "bullet",
+    "text": "Patienten ska transporteras med pågående HLR till enhet med möjlighet till ECLS och"
+  },
+  {
+    "type": "body",
+    "text": "uppvärmning på ECMO/hjärtlungmaskin."
+  },
+  {
+    "type": "bullet",
+    "text": "Bör ej dödförklaras förrän uppvärmning skett till minst 33C."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Aktiv uppvärmning vid svår nedkylning bör ske i en kontrollerad miljö med adekvat monitorering och tillgång till intensivvårdskompetens."
+  },
+  {
+    "type": "bullet",
+    "text": "Rekommenderad uppvärmningshastighet 1 - 2 C/h. Beredskap för att hantera"
+  },
+  {
+    "type": "body",
+    "text": "vasodilatation, blodtrycksfall, ev. arytmier och elektrolytrubbningar."
+  },
+  {
+    "type": "bullet",
+    "text": "Oftast tillräckligt med extern uppvärmning i form av varmluftstäcke eller kemisk"
+  },
+  {
+    "type": "body",
+    "text": "värmefilt."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontrollera P-glukos, blodgas och elektrolyter."
+  },
+  {
+    "type": "bullet",
+    "text": "Säkra intravenösa infarter."
+  },
+  {
+    "type": "bullet",
+    "text": "Sätt KAD."
+  },
+  {
+    "type": "body",
+    "text": "Vid uttalad hypotermi kan det vara svårt att avgöra om livstecken föreligger. Vid frånvaro av andning och puls, eller vid tveksamhet, starta HLR och transportera till sjukhus med möjlighet till cirkulatoriskt stöd och uppvärmning med hjärtlungmaskin/ECMO."
+  },
+  {
+    "type": "bullet",
+    "text": "Bedöm livstecken (medvetande/ andning/ centrala pulsar) i en minut."
+  },
+  {
+    "type": "bullet",
+    "text": "Om kompetens och utrustning finns omedelbart tillgängligt så kan EKG, ultraljud av"
+  },
+  {
+    "type": "body",
+    "text": "hjärta och/eller mätning av EtCO2 (utandad koldioxid) användas som hjälpmedel för att bedöma om cirkulation föreligger."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid misstanke om hjärtstopp, starta HLR (30:2) enligt ordinarie algoritm."
+  },
+  {
+    "type": "bullet",
+    "text": "Säkra luftväg tidigt om kompetens finns, särskilt inför längre transporter."
+  },
+  {
+    "type": "bullet",
+    "text": "Adrenalin kan ges om temp oklar men bör avstås om bekräftat/förmodat"
+  },
+  {
+    "type": "body",
+    "text": "< 30 C."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid temp > 30 C ges Adrenalin med dubblerat tidsintervall, dvs var 8:e minut."
+  },
+  {
+    "type": "bullet",
+    "text": "Defibrillering vid VT/VF kan initialt provas upp till 3 gånger."
+  },
+  {
+    "type": "bullet",
+    "text": "Avstå ytterligare defibrillering tills temp > 30 C."
+  },
+  {
+    "type": "bullet",
+    "text": "Prioritera tidigt att etablera transport/MEDEVAC till högre vårdnivå."
+  },
+  {
+    "type": "bullet",
+    "text": "Korta avbrott i kompressioner kan initialt vara nödvändigt för att möjliggöra"
+  },
+  {
+    "type": "body",
+    "text": "förflyttning. Överväg mekaniska bröstkompressioner om tillgängligt."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontrollera central kroppstemperatur om möjligt."
+  },
+  {
+    "type": "bullet",
+    "text": "Långvarig resuscitering är motiverad om temp < 30 C."
+  },
+  {
+    "type": "bullet",
+    "text": "Fortsätt HLR tills dess att patienten kan bedömas på sjukhus."
+  },
+  {
+    "type": "bullet",
+    "text": "Skydda mot ytterligare nedkylning under transport."
+  },
+  {
+    "type": "body",
+    "text": "Svår nedkylning ger en sänkt metabolism vilket skyddar kroppens organ mot skador orsakade av syrebrist. Överlevnad med god neurologisk funktion är därför möjlig trots långvarigt cirkulationsstillestånd. Särskilt vid situationer där nedkylning förelegat innan hjärtstoppet inträffat men även vid mycket snabb nedkylning direkt efter hjärtstoppet, såsom vid drunkning i kallt vatten. Förutsättning för att lyckas etablera egen hjärtaktivitet och cirkulation efter hjärtstillestånd vid hypotermi är ofta uppvärmning med hjärtlungmaskin/ECMO. Grundprincipen är därför att nedkyld person med hjärtstopp alltid skall transporteras med pågående HLR till sjukhus för bedömning och ev. fortsatt resuscitering. Prehospitalt bör HLR endast avstås/avslutas vid samtidig förekomst av svåra skador oförenliga med liv eller misstanke om mycket långvarig syrebrist/ andra tillstånd som gör att resuscitering ej bedöms möjlig."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "bullet",
+    "text": "Varsam evakuering i fordon med temperatur i vårdutrymmet 25 - 30 C."
+  },
+  {
+    "type": "bullet",
+    "text": "Notera vindförhållanden; vinddrag från t ex öppna dörrar kan bidra till avkylning"
+  },
+  {
+    "type": "body",
+    "text": "(helikopter)."
+  },
+  {
+    "type": "h1",
+    "text": "Allergi/Anafylaxi"
+  },
+  {
+    "type": "body",
+    "text": "Överkänslighetsreaktion (allergi) som snabbt kan leda till ett livshotande tillstånd (anafylaxi, allergisk chock). Vanliga orsaker är getingstick, läkemedel (antibiotika), födoämnen. Allergiliknande reaktion kan även uppträda i samband med blodtransfusion. Allergi"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Nässelutslag (urtikaria) med klåda"
+  },
+  {
+    "type": "bullet",
+    "text": "Klåda, svullnad i halsen"
+  },
+  {
+    "type": "bullet",
+    "text": "Ögonrodnad med klåda"
+  },
+  {
+    "type": "bullet",
+    "text": "Rinnsnuva med klåda, nästäppa"
+  },
+  {
+    "type": "bullet",
+    "text": "Nysningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Ingen påverkan på andning, cirkulation eller allmäntillstånd"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "T. Desloratadin 5 mg, 1 st p o"
+  },
+  {
+    "type": "bullet",
+    "text": "T. Betametason 0,5 mg, 10 tabletter p o löses i vatten"
+  },
+  {
+    "type": "body",
+    "text": "Anafylaxi"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "body",
+    "text": "Som vid allergi, men med tillägg av:"
+  },
+  {
+    "type": "bullet",
+    "text": "Lågt blodtryck"
+  },
+  {
+    "type": "bullet",
+    "text": "Andnöd, obstruktivitet"
+  },
+  {
+    "type": "bullet",
+    "text": "Buksmärta, kräkningar, diarré; urinavgång"
+  },
+  {
+    "type": "bullet",
+    "text": "Oro, ångest, medvetandesänkning"
+  },
+  {
+    "type": "bullet",
+    "text": "Andnings- och cirkulationsstopp"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Inj Adrenalin 1 mg/ml, 0,5 mg i m (lårets utsida). Upprepas var 5:e minut v b"
+  },
+  {
+    "type": "bullet",
+    "text": "Sätt PVK alternativt intraosseös nål och ge inf Ringer-Acetat, 250 ml i v i snabb takt"
+  },
+  {
+    "type": "bullet",
+    "text": "Inj Betametason 4 mg/ml, 8 mg i v"
+  },
+  {
+    "type": "bullet",
+    "text": "T. Desloratadin 5 mg, 2 tabletter p o (när patienten kan medverka)."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid obstruktivitet ge inhal. Salbutamol 2 mg/ml, 2,5 ml, upprepas var 10:e minut v b"
+  },
+  {
+    "type": "bullet",
+    "text": "Följ saturation, puls, blodtryck"
+  },
+  {
+    "type": "body",
+    "text": "Vid utebliven effekt av upprepade intramuskulära adrenalininjektioner och cirkulatorisk kollaps med medvetandepåverkan ges: Inj Adrenalin 0,1 mg/ml, 1-3 ml i v, ges långsamt (1 ml/minut). Kan upprepas efter 2-5 min. Kontinuerlig EKG-övervakning krävs."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Adrenalin intramuskulärt ges på liberal indikation vid misstänkt anafylaxi."
+  },
+  {
+    "type": "bullet",
+    "text": "Försiktighet vid intravenös administrering av adrenalin på grund av risk för allvarlig"
+  },
+  {
+    "type": "body",
+    "text": "hjärtpåverkan (arytmi, svikt)."
+  },
+  {
+    "type": "bullet",
+    "text": "Hastig uppresning av patienter med anafylaxi kan leda till livshotande blodtrycksfall."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Allvarliga reaktioner ska behållas under övervakning i minst 4 - 12 timmar beroende på svårighetsgrad. Effekten av läkemedelsbehandlingen kan släppa och allergireaktionen kan återkomma. Ge då ytterligare Betametason enligt ovan med tillägg av T. Desloratadin, 5 mg p o"
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Alla patienter med anafylaxi ska snabbt evakueras till högre vårdnivå."
+  },
+  {
+    "type": "h1",
+    "text": "Astma"
+  },
+  {
+    "type": "body",
+    "text": "Inflammation i luftvägarnas slemhinnor som gör att musklerna runt luftrören drar ihop sig och slemhinnan i luftrören svullnar. Det innebär att luftflödet till lungorna begränsas. Orsaker: försämring av grundsjukdomen, rökgasförgiftning, allergi."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Andnöd med förhöjd andningsfrekvens och sänkt saturation, vill sitta upp"
+  },
+  {
+    "type": "bullet",
+    "text": "Ökad hosta/slemproduktion"
+  },
+  {
+    "type": "bullet",
+    "text": "Förlängd utandning, mot delvis slutna läppar"
+  },
+  {
+    "type": "bullet",
+    "text": "Pipande andningsljud (framförallt vid utandning)"
+  },
+  {
+    "type": "bullet",
+    "text": "Försvagade eller avsaknade andningsljud (allvarligt tecken)"
+  },
+  {
+    "type": "bullet",
+    "text": "Förhöjd puls"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Ge Oxygen, 4 - 6 l, målsaturation > 90%."
+  },
+  {
+    "type": "bullet",
+    "text": "Inhal. Salbutamol 2 mg/ml, 2,5 ml via nebulisator. Kan upprepas en gång efter 10 -"
+  },
+  {
+    "type": "body",
+    "text": "20 min alternativt inhal Bricanyl Turbuhaler 0,5 mg/dos, 1 - 2 inhalationer."
+  },
+  {
+    "type": "bullet",
+    "text": "T. Betametason 0,5 mg, 8 tabletter p o Löses i vatten. Vid svåra fall inj Betametason"
+  },
+  {
+    "type": "body",
+    "text": "4 mg/ml, 8 mg i v"
+  },
+  {
+    "type": "bullet",
+    "text": "Om patienten har svårt att inhalera och bedömt livshotande tillstånd"
+  },
+  {
+    "type": "body",
+    "text": "inj Adrenalin 1 mg/ml, 0,5 mg i m Kan upprepas v b"
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Inga sederande läkemedel ska ges."
+  },
+  {
+    "type": "h2",
+    "text": "Aspekter vid fördröjd avtransport"
+  },
+  {
+    "type": "body",
+    "text": "Övervakning av andningen, saturation och hjärtfrekvens. Upprepa v b behandling med inh. Salbutamol en gång per timme eller kontinuerligt, inhal. Ipratropium 0,25 mg/ml, 2 ml var 6:e timme."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Om det rör sig om en patient med känd astma som blir helt återställd med normaliserad saturation och hjärtfrekvens och helt upphävda subjektiva symtom kan evakuering ske med låg prioritet. I alla andra fall bör snabb evakuering ske."
+  },
+  {
+    "type": "h1",
+    "text": "Hjärtstopp (medicinskt)"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetslöshet"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningsstopp eller agonal andning"
+  },
+  {
+    "type": "bullet",
+    "text": "Pulslöshet"
+  },
+  {
+    "type": "body",
+    "text": "Undersökningar Primärt undersöks endast vitala funktioner. I fredstid och vid alla tillåtande situationer i krig är grundregeln att HLR ska påbörjas på personer som drabbats av ett hjärtstopp. Vid osäkerhet i frågan om HLR bör utföras eller inte, ska HLR alltid påbörjas. Om det är uppenbart att spontan cirkulation och andningsfunktion inte går att återställa ska HLR inte påbörjas. T ex när personen har skador som inte är förenliga med liv eller uppvisar tydliga tecken på att varit död en längre tid, t ex likstelhet. Ett annat ställningstagande till att inte starta HLR kan vara under pågående strid om det taktiska läget inte tillåter."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "body",
+    "text": "Arbeta enligt A-HLR-algoritmen. Ge inj Adrenalin 1 mg/ml, spädd till 0,1 mg/ml, 1 mg i v vid:"
+  },
+  {
+    "type": "bullet",
+    "text": "Asystoli/PEA omedelbart"
+  },
+  {
+    "type": "bullet",
+    "text": "VT/VF efter 3:e defibrilleringen"
+  },
+  {
+    "type": "bullet",
+    "text": "Ge därefter Adrenalin var 4:e minut"
+  },
+  {
+    "type": "bullet",
+    "text": "Skapa fri luftväg"
+  },
+  {
+    "type": "body",
+    "text": "Vid kvarstående VT/VF efter 3 defibrilleringar, ge inj Amiodaron 50 mg/ml, 300 mg i v Hela dosen ska ges så snabbt som möjligt. Vid kvarstående VT/VF efter 5:e defibrilleringen ges ytterligare Amiodaron 50mg/ml, 150 mg i v Vid inledande av HLR är det absolut viktigaste att starta kompressioner, därefter koppla defibrillator. (Endast vid drunkning eller annan hypoxisk orsak är ventilation (med 100% Oxygen) prioriterat och att starta med.) Avbrytande av A-HLR HLR kan avbrytas om samtliga kriterier nedan (1 - 4) är uppfyllda, under förutsättning att det inte finns skäl att misstänka att patienten är förgiftad, nedkyld, gravid eller varit med om drunkningstillbud. 1. Hjärtstoppet var obevittnat. 2. HLR har inte påbörjats av personer på platsen. 3. Mer än 15 minuter från larm till ankomst till patient. 4. Initial rytm asystoli eller kontinuerlig asystoli trots A-HLR under minst 20 minuter."
+  },
+  {
+    "type": "h1",
+    "text": "Främmande kropp"
+  },
+  {
+    "type": "body",
+    "text": "Främmande föremål på olika nivåer i luftvägarna, t ex matbitar, nötter, tänder."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Vad hände i samband med insjuknandet?"
+  },
+  {
+    "type": "bullet",
+    "text": "Symtomens svårighetsgrad – partiellt eller komplett hinder?"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Hostattacker, stridor, indragningar, användning av yttre andningsmuskler"
+  },
+  {
+    "type": "bullet",
+    "text": "Kan ej prata"
+  },
+  {
+    "type": "bullet",
+    "text": "Tar sig ofta om halsen"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningsstopp"
+  },
+  {
+    "type": "bullet",
+    "text": "Cyanos"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetslöshet"
+  },
+  {
+    "type": "bullet",
+    "text": "”Symtomfritt” intervall (främmande kropp som hamnat perifert i bronkträdet att"
+  },
+  {
+    "type": "body",
+    "text": "respiration ej hindras helt)"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Vid partiellt luftvägsstopp:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Uppmana patienten att fortsätta hosta."
+  },
+  {
+    "type": "bullet2",
+    "text": "Ge Oxygen."
+  },
+  {
+    "type": "bullet2",
+    "text": "Evakuera i den ställning som patienten väljer, ofta i sittande. Tvinga ej"
+  },
+  {
+    "type": "body",
+    "text": "patienten att lägga sig ner."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid totalt luftvägsstopp – vaken patient:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Ge upp till 5 ryggslag."
+  },
+  {
+    "type": "bullet2",
+    "text": "Ge upp till 5 buktryck med patienten framåtlutad."
+  },
+  {
+    "type": "bullet2",
+    "text": "Upprepa ovanstående."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid totalt luftvägsstopp – medvetslös patient:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Titta i munnen efter främmande kropp, ev. med hjälp av laryngoskop. Plocka"
+  },
+  {
+    "type": "body",
+    "text": "bort eventuell främmande kropp med fingrar eller Magills tång."
+  },
+  {
+    "type": "bullet2",
+    "text": "Starta HLR. Titta i munnen innan nya inblåsningar."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Patienter med främmande kropp, även om man tror sig fått upp allt, ska bedömas av läkare."
+  },
+  {
+    "type": "h1",
+    "text": "Hypoglykemi"
+  },
+  {
+    "type": "body",
+    "text": "Hypoglykemi kan uppstå vid behandling med såväl insulin som tabletter mot diabetes."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Aktuell medicinering – doser (överdosering insulin)?"
+  },
+  {
+    "type": "bullet",
+    "text": "Aktivitet och kost under dagen (uppskjuten eller överhoppad måltid)?"
+  },
+  {
+    "type": "bullet",
+    "text": "Ökad fysisk aktivitet?"
+  },
+  {
+    "type": "bullet",
+    "text": "Alkohol?"
+  },
+  {
+    "type": "bullet",
+    "text": "Tecken till infektion?"
+  },
+  {
+    "type": "bullet",
+    "text": "Kända diabeteskomplikationer?"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Hungerkänslor"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Dubbelseende"
+  },
+  {
+    "type": "bullet",
+    "text": "Kallsvett"
+  },
+  {
+    "type": "bullet",
+    "text": "Vidgade pupiller"
+  },
+  {
+    "type": "bullet",
+    "text": "Tremor/kramper"
+  },
+  {
+    "type": "bullet",
+    "text": "Oro/ångest/aggressivitet"
+  },
+  {
+    "type": "bullet",
+    "text": "Blek hud"
+  },
+  {
+    "type": "bullet",
+    "text": "Sänkt medvetande/koma"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Kontroll av P-glukos och ev. insulinpump."
+  },
+  {
+    "type": "bullet",
+    "text": "Om P-glukos ej är mätbart och patienten är medvetandesänkt – behandla som om"
+  },
+  {
+    "type": "body",
+    "text": "patienten har hypoglykemi."
+  },
+  {
+    "type": "bullet",
+    "text": "Hypoglykemi: P-glukos < 3,0 mmol/l eller stark misstanke om att patientens symtom"
+  },
+  {
+    "type": "body",
+    "text": "beror på för lågt P-glukos:"
+  },
+  {
+    "type": "bullet",
+    "text": "Vaken patient ges socker peroralt (t ex mjölk/saft/juice)"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetslös patient ges inj Glukos 300 mg/ml, 10 ml (3 g) i v (snabb bolus). Om"
+  },
+  {
+    "type": "body",
+    "text": "patienten inte vaknar upp ges upprepade 10 ml doser tills P-glukos > 5 mmol/l. Max 100 ml."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Vid infektionstecken, nedsatt medvetande, upprepade hypoglykemiepisoder eller intoxikationer i samband med hypoglykemin ska patienten evakueras."
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Vaken och orienterad patient med diabetes typ 1 behöver inte evakueras."
+  },
+  {
+    "type": "h1",
+    "text": "Kramper"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "Kramper är oftast ett tecken på bakomliggande orsak. Exempel på orsaker är skalltrauma, lågt blodsocker, infektioner, alkoholabstinens, elektrolytrubbning, allvarlig hypertermi, stroke. För vissa patienter med känd epilepsi kan omgivningsfaktorer som sömnbrist och ljusstimulering öka risken för epileptiska anfall."
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Plötslig medvetandeförlust med initial stelhet i hela kroppen, därefter symmetriska"
+  },
+  {
+    "type": "body",
+    "text": "ryckningar i hela kroppen"
+  },
+  {
+    "type": "bullet",
+    "text": "Uttalad trötthet eller förvirring efter anfallet, varar flera minuter till flera timmar"
+  },
+  {
+    "type": "bullet",
+    "text": "Tungbett"
+  },
+  {
+    "type": "bullet",
+    "text": "Urin- eller faecesavgång"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Kontrollera och skapa fri luftväg."
+  },
+  {
+    "type": "bullet",
+    "text": "Förhindra ytterligare skador till följd av kramperna; skydda huvudet."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge inj Midazolam 5 mg/ml, 10 mg i m alternativt i.n (fördelat i båda näsborrarna)."
+  },
+  {
+    "type": "bullet",
+    "text": "Om patienten har PVK/intraosseös infart kan inj Midazolam 5 mg/ml, 2,5 mg i v ges."
+  },
+  {
+    "type": "body",
+    "text": "Kan upprepas upp till max 10 mg."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid misstanke om skalltrauma, undersökning enligt <C>ABCDE."
+  },
+  {
+    "type": "bullet",
+    "text": "Kontroll av nackstelhet, kroppstemperatur, P-glukos. Tecken på orsaker som kräver"
+  },
+  {
+    "type": "body",
+    "text": "akut åtgärd som hypertermi, hypoglykemi? Se respektive riktlinje."
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "bullet",
+    "text": "Livshotande tillstånd om långvariga/upprepade kramper (> 30 min)."
+  },
+  {
+    "type": "bullet",
+    "text": "Alla med förstagångskramp ska evakueras."
+  },
+  {
+    "type": "h1",
+    "text": "Medvetandesänkning"
+  },
+  {
+    "type": "body",
+    "text": "Tänk enligt minnesramsan MIDASE:"
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Trauma?"
+  },
+  {
+    "type": "bullet",
+    "text": "Underliggande sjukdomar? Pågående läkemedelsbehandling?"
+  },
+  {
+    "type": "bullet",
+    "text": "Infektionstecken, feber?"
+  },
+  {
+    "type": "bullet",
+    "text": "Många drabbade samtidigt?"
+  },
+  {
+    "type": "bullet",
+    "text": "Vittnen?"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Sänkt medvetandegrad"
+  },
+  {
+    "type": "bullet",
+    "text": "Tecken på skalltrauma"
+  },
+  {
+    "type": "bullet",
+    "text": "Tungbett"
+  },
+  {
+    "type": "bullet",
+    "text": "Nackstelhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Högt alternativt lågt blodtryck"
+  },
+  {
+    "type": "bullet",
+    "text": "Lågt P-glukos"
+  },
+  {
+    "type": "bullet",
+    "text": "Feber"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Fria luftvägar/framstuga sidoläge"
+  },
+  {
+    "type": "bullet",
+    "text": "Inhal Oxygen v b (sat > 90%)"
+  },
+  {
+    "type": "bullet",
+    "text": "Perifer/intraosseös infart"
+  },
+  {
+    "type": "bullet",
+    "text": "Inf Ringer-Acetat, 250 ml i v vid BT syst < 90 mmHg, kan upprepas."
+  },
+  {
+    "type": "bullet",
+    "text": "Orsaksbehandling"
+  },
+  {
+    "type": "h2",
+    "text": "Evakuering"
+  },
+  {
+    "type": "body",
+    "text": "Alltid snabb avtransport (undantag känd diabetiker som återhämtar sig fullt, se ”Hypoglykemi”)."
+  },
+  {
+    "type": "h1",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "h2",
+    "text": "Bakgrund"
+  },
+  {
+    "type": "body",
+    "text": "I 90 % av fallen rör det sig om ofarlig huvudvärk som beror på spänningshuvudvärk eller migrän. Det finns dock orsaker till huvudvärk som kan vara allvarliga och kräva snabb handläggning och avtransport."
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "body",
+    "text": "Genom att ställa följande frågor/hitta följande symtom hos den sjuka kan man skilja mellan ofarliga och farliga typer av huvudvärk: Ofarliga"
+  },
+  {
+    "type": "bullet",
+    "text": "Känd huvudvärk sedan tidigare, oförändrad karaktär"
+  },
+  {
+    "type": "bullet",
+    "text": "Samtidiga lättare förkylningssymtom utan allmänpåverkan, nackstelhet eller feber"
+  },
+  {
+    "type": "bullet",
+    "text": "Minskat/upphört intag av läkemedel (framförallt smärtstillande), koffein"
+  },
+  {
+    "type": "body",
+    "text": "→ Behandla med vila och smärtstillande (T. Paracetamol 1 g, max 4 st/dygn och/eller T. Ibuprofen 400 mg, max 3 st/dygn). Misstänkt farliga"
+  },
+  {
+    "type": "bullet",
+    "text": "Urakut insättande (åskknall)"
+  },
+  {
+    "type": "bullet",
+    "text": "Feber, nackstelhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Krampanfall"
+  },
+  {
+    "type": "bullet",
+    "text": "Personlighetsförändring (t ex aggressivitet, apati, oklar ångest)"
+  },
+  {
+    "type": "bullet",
+    "text": "Neurologiska bortfallssymtom, dubbelseende, dimsyn, ljus- /ljudkänslighet"
+  },
+  {
+    "type": "bullet",
+    "text": "Medicinering med p-piller"
+  },
+  {
+    "type": "bullet",
+    "text": "Ökar vid fysisk ansträngning, hosta eller nysning"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandepåverkan/ -förlust"
+  },
+  {
+    "type": "bullet",
+    "text": "Traumatisk skada mot huvudet"
+  },
+  {
+    "type": "body",
+    "text": "→ Evakuera omgående till högre vårdnivå."
+  },
+  {
+    "type": "h1",
+    "text": "Akut stressreaktion"
+  },
+  {
+    "type": "body",
+    "text": "Övergående reaktion på en händelse eller upplevelse som utgör en extrem fysisk och/eller psykisk belastning. Tillståndet uppkommer i direkt anslutning till händelsen och karakteriseras av en förändrad verklighetsuppfattning."
+  },
+  {
+    "type": "h2",
+    "text": "Anamnes"
+  },
+  {
+    "type": "bullet",
+    "text": "Utlösande orsak/händelse"
+  },
+  {
+    "type": "bullet",
+    "text": "Sömnbrist"
+  },
+  {
+    "type": "bullet",
+    "text": "Tidigare/långvarig stress"
+  },
+  {
+    "type": "h2",
+    "text": "Symtom och kliniska fynd"
+  },
+  {
+    "type": "bullet",
+    "text": "Fysiska:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Hjärtklappning"
+  },
+  {
+    "type": "bullet2",
+    "text": "Svettning"
+  },
+  {
+    "type": "bullet2",
+    "text": "Darrning"
+  },
+  {
+    "type": "bullet2",
+    "text": "Muskelspänningar med värk"
+  },
+  {
+    "type": "bullet",
+    "text": "Psykiska/kognitiva:"
+  },
+  {
+    "type": "bullet2",
+    "text": "Svårigheter att kontrollera känslor (aggressivitet, förtvivlan)"
+  },
+  {
+    "type": "bullet2",
+    "text": "Minskad psykisk uthållighet"
+  },
+  {
+    "type": "bullet2",
+    "text": "Nedsatt koncentrationsförmåga"
+  },
+  {
+    "type": "bullet2",
+    "text": "Svårighet att fatta beslut"
+  },
+  {
+    "type": "h2",
+    "text": "Behandling/åtgärd"
+  },
+  {
+    "type": "bullet",
+    "text": "Prata långsamt och med lugn röst."
+  },
+  {
+    "type": "bullet",
+    "text": "Lyssna på personen och uppmuntra till att prata."
+  },
+  {
+    "type": "bullet",
+    "text": "Fråga om självmordstankar."
+  },
+  {
+    "type": "bullet",
+    "text": "Visa stöd, omsorg och engagemang."
+  },
+  {
+    "type": "bullet",
+    "text": "Avsätt och ge den andra tillräckligt med tid."
+  },
+  {
+    "type": "bullet",
+    "text": "Låt bli att kritisera och/eller döma."
+  },
+  {
+    "type": "bullet",
+    "text": "Respektera den andres tankar och reaktioner."
+  },
+  {
+    "type": "bullet",
+    "text": "Ge inga råd."
+  },
+  {
+    "type": "bullet",
+    "text": "Vid svår ångest/fysiskt kraftigt agiterad person: Tabl Atarax 25 mg, 12,5 mg (1/2"
+  },
+  {
+    "type": "body",
+    "text": "tabl) p o, kan upprepas. Max 50 mg/dygn. Alternativt inj Midazolam 5 mg/ml, 5 mg i m alternativt i n"
+  },
+  {
+    "type": "h2",
+    "text": "Observera"
+  },
+  {
+    "type": "body",
+    "text": "Lämna inte personen ensam."
+  },
+  {
+    "type": "h1",
+    "text": "CBRN"
+  },
+  {
+    "type": "body",
+    "text": "Prehospitalt omhändertagande av skadade i CBRN-sammanhang Omhändertagande av skadade vid CBRN-händelser sker enligt <C>ABCDE och övriga principer för prehospitalt omhändertagande. Om den skadade befinner sig i en kontaminerad miljö genomförs omedelbart nödvändiga livräddande åtgärder, därefter bör den skadade om möjligt evakueras till en säkrare plats. Att vårda en patient i kontaminerad miljö kan kräva skyddsutrustning vilket försvårar eller omöjliggör vissa åtgärder. Man måste också vara medveten om att den skadade kan utgöra en kontaminationsrisk för oskyddad sjukvårdspersonal. Samtidigt ska inte det initiala omhändertagandet fördröjas på grund av överdrivet fokus på egen säkerhet. Dubbla nitrilhandskar och ev. skyddsmask kan i de flesta fall ge ett tillräckligt skydd i detta läge. Initialt omhändertagande sker enligt <C>ABCDE, men med beaktande av egen säkerhet. Giftinformationscentralen ska inte glömmas bort som en resurs i dessa sammanhang för frågor som gäller behandlingsriktlinjer och aktuella risker. Tecken på CBRN-händelser Det kan vara svårt eller omöjligt att initialt avgöra om en händelse kan vara CBRN-relaterad, men tecken att vara observant på kan vara: Flera patienter med liknande symtom Möjliga symtom kan vara synstörningar, ögonsmärtor, mios/mydriasis, huvudvärk, andningspåverkan, sekretion (ögon, saliv, svett), hudrodnad/brännskador av okänd orsak eller medvetandepåverkan, annorlunda smak- eller luktupplevelser, synlig rök eller dimma. Sanering Sanering av skadade är i de flesta fall en del av omhändertagandet, framförallt vid kemiska hot, och syftar till att avlägsna substanser som är skadliga för patienten såväl som för omhändertagande personal. Vissa kemikalier på hud tas snabbt upp av kroppen och en omedelbar initial sanering kan då vara livräddande. Den enklaste formen av sanering och samtidigt den som ofta är rimlig i prehospitala sammanhang är total avklädning. På så sätt blir man av med ämnen i pulver- eller vätskeform som kan finnas på kläder och skor. Är det endast ämnen i gasform det handlar om är vanligen avklädning fullt tillräckligt. Gäller det fasta och/eller flytande ämnen måste en ytterligare, fullständig sanering övervägas. Nervgas och senapsgas är specialfall som är mer svårhanterliga och här bör speciella personsaneringsmedel (PS 104 eller PS 105) användas även vid initial sanering. I följande skiss illustreras schematiskt det upplägg och den zonindelning som gäller vid sanering inom civil och militär räddningstjänst och sjukvård, nationellt såväl som internationellt. Het zon (hot zone) är det kontaminerade område där det farliga ämnet finns och där det kan vara förenat med uppenbar risk att vistas. Särskild skyddsutrustning kan behöva användas. Efter omedelbart livräddande åtgärder är den primära uppgiften att föra ut skadad och oskyddad personal ur zonen snarast möjligt. En första livräddande personsanering kan behöva genomföras i övergången mellan het och varm zon. Varm zon Varm zon (warm zone) är området närmast utanför den heta zonen där hotbilden främst består av risken för sekundär kontamination genom hantering av kontaminerad materiel och/eller kontaminerade skadade från den heta zonen. Skyddsutrustning ska normalt sett bäras. I den varma zonen upprättas vanligen en samlingsplats för skadade och saneringsplats för sanering av såväl skadade som annan personal. Huvuduppgift i den varma zonen är sortering/prioritering och omhändertagande. Detta följs snarast möjligt av slutlig sanering och flyttning av de skadade till kall zon. Kall zon Kall zon (cold zone) är det yttre område dit skadade förs efter sanering. Beroende av läge och resurser kan även skadade med ytterligare saneringsbehov flyttas till denna zon, men de ska då kunna hanteras så att de inte utgör ett hot för andra. Förutsättningarna i den kalla zonen ska vara sådana att skyddsutrustning inte ska behöva bäras. Skyddsutrustning bör dock medföras för att kunna tas på om t ex vindriktningen skulle ändras. I den kalla zonen fortsätter omhändertagandet med förnyad prioritering och medicinskt omhändertagande med de resurser som finns att tillgå. CBRN - översikt C - (kemiska hot) 1) Luftvägar Exempel"
+  },
+  {
+    "type": "bullet",
+    "text": "Lungretande gaser (t ex ammoniak, fosgen, klorgas, svaveldioxid)"
+  },
+  {
+    "type": "bullet",
+    "text": "Allmäntoxiska gaser (t ex kolmonoxid, cyanid, svavelväte och fluorväte)"
+  },
+  {
+    "type": "body",
+    "text": "Mekanism Lungretande gaser ger i första hand symtom genom sin retande effekt på ögon och luftvägar. Allmäntoxiska gaser ger varierande toxiska effekter på enskilda organ/organsystem. Det är dock sällan en distinkt skiljelinje mellan de olika typerna av gaser. Symtom"
+  },
+  {
+    "type": "bullet",
+    "text": "Irritation, smärta och sveda i ögonen"
+  },
+  {
+    "type": "bullet",
+    "text": "Irritation, hosta, sveda och andra symtom från luftvägarna"
+  },
+  {
+    "type": "bullet",
+    "text": "Andnöd, kvävningskänsla, stridor"
+  },
+  {
+    "type": "bullet",
+    "text": "Specifika toxiska effekter beroende av ämne som t ex huvudvärk, cyanos,"
+  },
+  {
+    "type": "body",
+    "text": "blodtrycksfall, chock, kramper, medvetslöshet Behandling Se ”Rökgasförgiftning”. Övrigt Vid brand i olika typer av materiel kan ett antal retande eller toxiska gaser bildas. Vissa gaser transporteras i tryckkondenserad form (nedkyld, flytande) och har en mycket låg temperatur vid läckage. Därmed finns risk för momentana frysskador vid kontakt med läckande vätska. 2) Ögon och hud Exempel"
+  },
+  {
+    "type": "bullet",
+    "text": "Syror: t ex svavelsyra, fluorvätesyra och salpetersyra"
+  },
+  {
+    "type": "bullet",
+    "text": "Baser: t ex natriumhydroxid och kaliumhydroxid"
+  },
+  {
+    "type": "body",
+    "text": "Mekanism Frätskador är en vanlig effekt men man ska också beakta att vissa ämnen kan ge systemtoxiska effekter efter passage genom huden. Vid stänk i ögonen är risken för bestående ögonskador stor och snabbt insatt behandling kan vara avgörande för att begränsa skadans omfattning. Symtom Lokala hudskador i form av t ex frätskador. Observera att vissa ämnen kan ge en långsamt insättande frätskada som initialt kan yttra sig endast som hudrodnad. Symtom från ögon och luftvägar i likhet med retande gaser om ämnet har stänkt eller förekommer i gasfas. Irritation, hosta, sveda och andra symtom från luftvägarna. Specifika toxiska effekter beroende av ämne. Behandling Ögon: se ”Ögonskador” Hud: Stänk på huden av frätande ämnen behandlas med riklig sköljning med vatten. 3) Nervsystemet – nervgaser/organiska fosforföreningar Exempel Sarin, soman, VX, nervgasgruppen ”Novitjok”, insekticider Mekanism Organiska fosforföreningar binds till enzymet acetylkolinesteras och hämmar dess nedbrytning av acetylkolin. Följden blir en kolinerg överstimulering med ökad aktivitet i bl a. skelettmuskulatur och glatt muskulatur. Förgiftning kan ske genom både inandning och hudpenetration. Trots benämningen nervgas så kan den här typen av ämnen förekomma i flytande och fast form såväl som gasform. Speciellt ämnen hörande till ”Novitjok” gruppen verkar kunna finnas kvar i miljön länge med stor risk för sekundär smitta Symtom"
+  },
+  {
+    "type": "bullet",
+    "text": "Mios"
+  },
+  {
+    "type": "bullet",
+    "text": "Sekretion i form av salivation, svettningar, tårflöde, rinnande näsa samt sekretion i"
+  },
+  {
+    "type": "body",
+    "text": "luftvägarna."
+  },
+  {
+    "type": "bullet",
+    "text": "Skelettmuskelkramper som kan vara lokala om det rör sig om hudpenetration, eller"
+  },
+  {
+    "type": "body",
+    "text": "mer generella av typen epileptiska kramper där det också finns ett CNS-medierat inslag."
+  },
+  {
+    "type": "bullet",
+    "text": "Andningspåverkan."
+  },
+  {
+    "type": "bullet",
+    "text": "Takykardi vid lindrigare förgiftning och övergång till bradykardi vid svårare fall."
+  },
+  {
+    "type": "body",
+    "text": "Behandling Autoinjektor med nervgasmotmedel (Atropin + Oxim). Normalt sett inleds behandlingen med en autoinjektor. Om innehåll läcker ut ur autoinjektorn eller backar ut ur ingångshålet, överväg injektion av ytterligare en autoinjektor. Om effekten av given autoinjektor av annat skäl inte bedöms tillräcklig eller om patienten försämras ges ytterligare en autoinjektor efter 10 - 15 minuter. Ytterligare Atropin ges för att förstärka effekten. (Doseringar som nämns för de mest potenta nervgaserna är 2-6 mg atropin var 5-10 min) Behandlingsmål är normaltorra/torra slemhinnor och/eller torr axill. Lätt takykardi kan vara ett behandlingsmål vid bradykardi. Mycket höga doser kan krävas vid svåra förgiftningar. Bensodiazepiner ska ges snarast, i synnerhet vid svårare förgiftning. Midazolam 5 mg/ml, 2,5-5 mg i v ges som första dos och kan upprepas v b. Finns tillgång till autoinjektor med Diazepam 10 mg ges en sådan. 4) Hud – hudskadande ämnen Exempel Senapsgas Mekanism Skadorna uppkommer genom att senapsgasen kemiskt reagerar med molekyler i kroppens vävnader. Förgiftning kan ske genom inandning såväl som genom hudpenetration av senapsgas i vätskeform. Symtom Ofta är symtomen mycket lätta eller obefintliga initialt för att sedan förvärras 1 - 3 timmar efter exponering. Vanliga symtom är sveda och smärta i ögonen samt hudskador liknande de som ses vid brännskador. Symtom från luftvägarna av samma typ som för retande gaser. Behandling Enligt lungretande och toxiska gaser. 5) Opioider Exempel"
+  },
+  {
+    "type": "h1",
+    "text": "Fentanyl"
+  },
+  {
+    "type": "body",
+    "text": "Mekanism Andningsdepression genom påverkan på centrala funktioner. Symtom"
+  },
+  {
+    "type": "bullet",
+    "text": "Mios"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningsdepression"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandepåverkan, medvetslöshet"
+  },
+  {
+    "type": "body",
+    "text": "Behandling Naloxon 0,4 mg/ml, 0,2 mg i v alternativt 0,4 mg i n, upprepas v b. B - (biologiska hot) Under denna rubrik återfinns såväl vanliga infektionssjukdomar som biologiska stridsmedel. Det är ofta svårt eller omöjligt att vid misstanke om infektionssjukdom initialt bedöma om det rör sig om ett naturligt utbrott eller bruk av biologiskt stridsmedel då många av de tänkbara biologiska stridsmedlen också förekommer naturligt. Spridningsväg kan vara från en primär smittkälla som t ex vatten eller livsmedel men det kan också röra sig om en smitta med spridning sekundärt från människa till människa. Alla observationer ska dock alltid följas upp och rapporteras i aktuell organisation. Viktigt i arbetet med hantering av biologiska hot är god preventiv medicinsk kunskap hos all personal. RN - (radiologiska hot) Här ingår såväl kärnvapen som olika typer av strålkällor. Strålskador ger vanligen symtom först i ett senare skede och det kan ofta vara svårt eller omöjligt att ställa en diagnos prehospitalt. Exempel"
+  },
+  {
+    "type": "bullet",
+    "text": "Radioaktiva ämnen i samband med smutsiga bomber, olyckshändelser mm."
+  },
+  {
+    "type": "bullet",
+    "text": "Radioaktivt nedfall i samband med större olyckshändelse i kärnkraftverk eller"
+  },
+  {
+    "type": "body",
+    "text": "kärnvapenexplosion Mekanism Skadorna uppkommer genom att joniserande strålning utsänds i samband med radioaktiva ämnens sönderfall. Joniserande strålning skapar negativt och positivt laddade joner i cellerna som i sin tur leder till kemiska reaktioner och påverkan på den aktuella cellens funktioner. Symtom Symtomen beror till stor del av vilka stråldoser man utsatts för och under hur lång tid samt vilka organsystem som drabbats. Akut strålsjuka uppkommer ca ett dygn efter att man utsatts för helkroppsdoser på ca 1 Sv (Sievert, 1 Sv = 1000 mSv). Illamående och kräkningar är de vanligaste symtomen på akut strålsjuka. Stråldoser i detta område ska följas upp men kommer vanligen inte att innebära några större problem ur sjukvårdens synvinkel. Hudrodnad, illamående och kräkningar kan också uppkomma tidigare vid högre stråldoser (3"
+  },
+  {
+    "type": "bullet2",
+    "text": "6 Sievert eller mer). Dessa symtom kommer inom några timmar efter misstänkt bestrålning"
+  },
+  {
+    "type": "body",
+    "text": "kan tyda på höga stråldoser som sannolikt kommer att kräva kvalificerad behandling. Påverkan på blodbilden är typisk vid påverkan av joniserande strålning men är sällan omedelbar och har initialt sett endast en diagnostisk betydelse. De största riskerna är förknippade med intag (peroralt eller via inhalation) av vissa ämnen. Här kan symtomen vara ospecifika initialt men snabbt utvecklas till livshotande tillstånd beroende av vilka ämnen och vilken stråldos det rör sig om. Behandling Sedvanligt omhändertagande enligt principerna för <C>ABCDE gäller. I likhet med för kemiska skador så kan man förvänta sig en försämrad prognos och därmed en möjlig påverkan på prioriteringen vid kombination av traumatisk skada och radiologisk skada. De allvarliga följderna av RN-skador är inte omedelbara utan uppkommer efter dagar - veckor och hanteras därmed inte prehospitalt. Illamående kan behandlas med antiemetiska läkemedel, t ex Ondansetron. Specifika antidoter mot vissa radioaktiva ämnen finns liksom bl a. läkemedel för att stimulera bildningen av ny benmärg men dessa är vanligen inte aktuella att ge prehospitalt. Undantag är jodtabletter (kaliumjodid) som ska ges snarast om det misstänks att man utsatts för (eller kommer att utsättas för) radioaktiv jod. Radioaktiv jod är dock i princip bara ett problem i samband med haverier i kärnkraftverk. Personer äldre än 40 år bedöms dock inte ha någon nytta av behandling med jodtabletter. Vid behov av kirurgisk behandling bör denna (beroende av stråldos) ske inom 1-2 dygn då strålskador kan innebära påverkan på bl a immunsystem och läkningsprocesser. Alternativet kan vara att avvakta med kirurgi 2-3 veckor för att möjliggöra återhämtning och förbättra prognosen. Övrigt Beroende på vilka analysmöjligheter som finns kan det vara av värde att samla prov från patienten. Uppkastningar, urin samt prover från t ex näshålan kan, om personen är invärtes kontaminerad, i vissa fall användas för att bestämma vilka strålkällor som är aktuella samt vilken stråldos patienten fått vilket kan vara av värde vid fortsatt behandling. Sanering vid RN-händelser syftar till att mekaniskt avlägsna eventuell yttre radioaktiv kontamination från den skadade. I praktiken innebär det sanering av samma typ som vid kemisk kontamination. Notera dock att radiologisk kontamination inte kan elimineras utan ämnet ifråga kommer bara att flyttas från patienten och finnas kvar i miljön."
+  },
+  {
+    "type": "h1",
+    "text": "Läkemedel"
+  },
+  {
+    "type": "body",
+    "text": "ADRENALIN Beredningsform: Injektionslösning Styrka: 1 mg/ml Kan spädas till 0,1 mg/ml, 10 ml (vid A-HLR) Terapeutisk effekt: • Ökad myokardkontraktilitet"
+  },
+  {
+    "type": "bullet",
+    "text": "Sänker tröskeln inför defibrillering"
+  },
+  {
+    "type": "bullet",
+    "text": "Slemhinneavsvällande"
+  },
+  {
+    "type": "bullet",
+    "text": "Bronkdilatation"
+  },
+  {
+    "type": "bullet",
+    "text": "Perifer vasokonstriktion"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Hjärtstopp"
+  },
+  {
+    "type": "bullet",
+    "text": "Svår allergi, anafylaxi"
+  },
+  {
+    "type": "bullet",
+    "text": "Behandlingsrefraktär, livshotande astma"
+  },
+  {
+    "type": "bullet",
+    "text": "Övre luftvägssvullnad (t ex inhalationsbrännskada)"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Vid anafylaxi: intramuskulärt Vid övre luftvägssvullnad: inhalation via nebulisator"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Hjärtstopp: 1 mg (10 ml av spädd lösning 0.1 mg/ml) intravenöst enl"
+  },
+  {
+    "type": "body",
+    "text": "HLR algoritm Anafylaxi/astma: 0,5 mg (0,5 ml) intramuskulärt, upprepas var 5:e minut v b Övre luftvägssvullnad: inhalation 1 ml (1 mg) + 2 ml NaCl 0,9%"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Angina pectoris"
+  },
+  {
+    "type": "bullet",
+    "text": "Obehandlad hypertyreos"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Huvudvärk, yrsel, tremor"
+  },
+  {
+    "type": "bullet",
+    "text": "Takykardi, palpitationer, oro"
+  },
+  {
+    "type": "bullet",
+    "text": "Blodtrycksstegring"
+  },
+  {
+    "type": "bullet",
+    "text": "Illamående, kräkning"
+  },
+  {
+    "type": "body",
+    "text": "Överdosering: • Arytmier"
+  },
+  {
+    "type": "bullet",
+    "text": "Hjärtinsufficiens"
+  },
+  {
+    "type": "bullet",
+    "text": "Lungödem"
+  },
+  {
+    "type": "body",
+    "text": "AMIODARON Beredningsform: Injektionslösning Styrka: 50 mg/ml Terapeutisk effekt: Förlängd refraktärperiod och minskad myokardiell retbarhet"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Hjärtstopp"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 300 mg (6 ml) intravenöst efter 3:e defibrilleringen."
+  },
+  {
+    "type": "body",
+    "text": "150 mg (3 ml) efter 5:e defibrilleringen."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Hypotension"
+  },
+  {
+    "type": "bullet",
+    "text": "Bradykardi"
+  },
+  {
+    "type": "bullet",
+    "text": "AV-block"
+  },
+  {
+    "type": "body",
+    "text": "ATARAX Beredningsform: Tablett Styrka: 25 mg Terapeutisk effekt: Lugnande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Ångest"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Peroralt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 12.5 mg (1/2 tablett)"
+  },
+  {
+    "type": "body",
+    "text": "Kan upprepas. Max 50 mg/dygn."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Elektrolytrubbningar"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Sömnighet/trötthet"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Muntorrhet"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet Bör ej kombineras med Ondansetron ATROPIN Beredningsform: Injektionslösning Styrka: 0,5 mg/ml Terapeutisk effekt: Pulshöjande (förbättrad överledning i AV-noden)"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Bradykardi"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 0,5 mg (1 ml)"
+  },
+  {
+    "type": "body",
+    "text": "Se CBRN-kapitlet för dosering vid CBRN-händelser. Kan kräva många upprepade injektioner och höga doser."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Takykardi"
+  },
+  {
+    "type": "bullet",
+    "text": "Muntorrhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Excitation, desorientering och hallucinationer (vid höga"
+  },
+  {
+    "type": "body",
+    "text": "doser)"
+  },
+  {
+    "type": "bullet",
+    "text": "Miktionsbesvär, ackommodationspares"
+  },
+  {
+    "type": "body",
+    "text": "BETAMETASON Beredningsform: Tabletter, injektionslösning Styrka: 0,5 mg respektive 4 mg/ml Terapeutisk effekt: Inflammationshämmande, effektduration > 48 timmar"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Svår allergi"
+  },
+  {
+    "type": "bullet",
+    "text": "Anafylaktisk reaktion"
+  },
+  {
+    "type": "bullet",
+    "text": "Astma"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Peroralt: Tabletterna löses i vatten. I undantagsfall kan de tuggas innan nedsväljning. Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Astma: 8 tabletter (4 mg) peroralt eller 8 mg (2 ml) intravenöst"
+  },
+  {
+    "type": "body",
+    "text": "Allergi/anafylaxi: 5 mg (10 tabletter) peroralt eller 8 mg (2 ml) intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Magsår"
+  },
+  {
+    "type": "bullet",
+    "text": "Diabetes mellitus"
+  },
+  {
+    "type": "bullet",
+    "text": "Hypertoni"
+  },
+  {
+    "type": "bullet",
+    "text": "Hjärtinsufficiens"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: Hyperglykemi"
+  },
+  {
+    "type": "body",
+    "text": "BRICANYL TURBUHALER (TERBUTALIN) Beredningsform: Inhalationspulver Styrka: 0,5 mg/dos Terapeutisk effekt: Bronkdilaterande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Astma"
+  },
+  {
+    "type": "bullet",
+    "text": "Rökgasförgiftning"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Inhalation"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Astma: 1-2 inhalationer"
+  },
+  {
+    "type": "body",
+    "text": "Rökgasförgiftning: 2-3 inhalationer"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Diabetiker (risk för hypoglykemi)"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Tremor"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Takykardi"
+  },
+  {
+    "type": "bullet",
+    "text": "Hjärtklappningar"
+  },
+  {
+    "type": "body",
+    "text": "BUDESONID Beredningsform: Suspension för nebulisator Styrka: 0,5 mg/ml Terapeutisk effekt: Lokal antiinflammatorisk effekt i lungorna"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Rökgasförgiftning"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Inhalation via nebulisatormask"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 8 ml (4 mg), kan upprepas."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: -"
+  },
+  {
+    "type": "body",
+    "text": "CEFOTAXIM Beredningsform: Pulver till infusionslösning Styrka: 1 g Terapeutisk effekt: Antibiotika"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Penetrerande skador"
+  },
+  {
+    "type": "bullet",
+    "text": "Svåra mjukdelsinfektioner"
+  },
+  {
+    "type": "bullet",
+    "text": "Meningit"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intramuskulärt Intravenöst Blandas med 4 ml NaCl 0,9%"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1 g x 2"
+  },
+  {
+    "type": "body",
+    "text": "Meningit: 3 g x 3 intravenöst Försiktighet Bör inte injiceras snabbare än 3-5 minuter (risk för arytmier)"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Överkänslighet"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Diarré"
+  },
+  {
+    "type": "bullet",
+    "text": "Utslag"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärtor vid injektionsstället vid intramuskulär injektion"
+  },
+  {
+    "type": "body",
+    "text": "DESLORATADIN Beredningsform: Tablett, tablett munlöslig Styrka: 5 mg Terapeutisk effekt: Antihistamin (ej sederande)"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Allergisk reaktion"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Peroralt. Alternativt smältas i munnen."
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Allergi: 1 tablett (5 mg)"
+  },
+  {
+    "type": "body",
+    "text": "Anafylaxi: 2 tabletter (10 mg)"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Trötthet"
+  },
+  {
+    "type": "bullet",
+    "text": "Muntorrhet"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "body",
+    "text": "ERTAPENEM Beredningsform: Pulver till infusionslösning Styrka: 1 g Terapeutisk effekt: Antibiotika"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Penetrerande bukskador"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst Blandas med 10 ml NaCl 0,9%"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1 g"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Överkänslighet"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Bör ges som infusion under 30 minuter"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Tromboflebit"
+  },
+  {
+    "type": "bullet",
+    "text": "Diarré, illamående, kräkningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Utslag, klåda"
+  },
+  {
+    "type": "body",
+    "text": "FENTANYL Beredningsform: Sugtablett Styrka: 800 μg Terapeutisk effekt: Smärtstillande, opioid"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Svår smärta"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Buccalt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1 sugtablett"
+  },
+  {
+    "type": "body",
+    "text": "Kräver patientövervakning efter administration."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: • Skallskada"
+  },
+  {
+    "type": "bullet",
+    "text": "Cirkulatorisk chock"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Andningsdepression (antidot: Naloxon)"
+  },
+  {
+    "type": "bullet",
+    "text": "Illamående, kräkningar"
+  },
+  {
+    "type": "body",
+    "text": "FLUMAZENIL Beredningsform: Injektionslösning Styrka: 0,1 mg/ml Terapeutisk effekt: Specifik antidot mot bensodiazepin"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Överdosering med bensodiazepin"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 0,2 mg (2 ml). Vid otillräcklig effekt inom 60 sek kan upprepade"
+  },
+  {
+    "type": "body",
+    "text": "doser om 0,1 mg (1 ml) ges tills effekt uppnås, max 1 mg (10 ml)"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Patient med känd krampbenägenhet"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: -"
+  },
+  {
+    "type": "body",
+    "text": "GLUKOS Beredningsform: Infusionslösning Styrka: 300 mg/ml Terapeutisk effekt: Blodsockerhöjande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Svår hypoglykemi"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 10 ml (3 g), därefter 10 ml i bolus doser. Max 100 ml."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Tromboflebit vid injektion i tunna, perifera kärl"
+  },
+  {
+    "type": "bullet",
+    "text": "Vävnadsnekros vid extravasal injektion"
+  },
+  {
+    "type": "body",
+    "text": "HYDROXYKOBALAMIN (CYANOKIT) Beredningsform: Pulver till infusionslösning Styrka: 25 mg/ml Terapeutisk effekt: Medel mot cyanidförgiftning"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Rökgasförgiftning"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst under 15 minuter"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 5 g (200 ml), kan upprepas en gång v b"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: -"
+  },
+  {
+    "type": "body",
+    "text": "IBUPROFEN Beredningsform: Tablett Styrka: 400 mg Terapeutisk effekt: Smärtstillande (NSAID)"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Lindrig till måttlig smärta"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Peroralt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1 tablett, max 3 gånger per dygn"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: • Överkänslighet mot ASA/NSAID"
+  },
+  {
+    "type": "bullet",
+    "text": "Astma"
+  },
+  {
+    "type": "bullet",
+    "text": "Dehydrering"
+  },
+  {
+    "type": "bullet",
+    "text": "Inflammatorisk tarmsjukdom"
+  },
+  {
+    "type": "bullet",
+    "text": "Ulcus"
+  },
+  {
+    "type": "bullet",
+    "text": "Risk för blödning"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Illamående, kräkning"
+  },
+  {
+    "type": "bullet",
+    "text": "Buksmärtor"
+  },
+  {
+    "type": "bullet",
+    "text": "Astma, bronkospasm"
+  },
+  {
+    "type": "bullet",
+    "text": "Hudutslag"
+  },
+  {
+    "type": "body",
+    "text": "IPRATROPIUM Beredningsform: Lösning för nebulisator Styrka: 0,25 mg/ml Terapeutisk effekt: Bronkdilaterande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Rökgasförgiftning"
+  },
+  {
+    "type": "bullet",
+    "text": "Astma"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Inhalation via nebulisator"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Rökgasförgiftning: 1-2 ml (0,25 - 0,5 mg)"
+  },
+  {
+    "type": "body",
+    "text": "Astma: 2 ml (0,5 mg) var 6:e timme"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Yrsel, illamående"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Halsirritation, hosta"
+  },
+  {
+    "type": "bullet",
+    "text": "Muntorrhet"
+  },
+  {
+    "type": "body",
+    "text": "KALCIUM Beredningsform: Injektionslösning Styrka: 9,2 mg/ml Terapeutisk effekt: Ökar hjärtmuskelkontraktilitet"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Reperfusionssyndrom"
+  },
+  {
+    "type": "bullet",
+    "text": "Transfusion med blodprodukter"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst, långsamt (2-3 min)"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 10 ml, kan upprepas v b"
+  },
+  {
+    "type": "body",
+    "text": "S-Calcium ska mätas med blodgas så fort möjlighet finns."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: Bradykardi"
+  },
+  {
+    "type": "body",
+    "text": "Interaktioner: Ges ej i samma infart som blodprodukter Överdosering: • Arytmier, hjärtstopp"
+  },
+  {
+    "type": "bullet",
+    "text": "Illamående, kräkningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Buksmärta"
+  },
+  {
+    "type": "bullet",
+    "text": "Medvetandesänkning"
+  },
+  {
+    "type": "body",
+    "text": "KETAMIN 10 mg/ml Beredningsform: Injektionsvätska Styrka: 10 mg/ml Terapeutisk effekt: • Dissociativ anestesi"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärtstillande"
+  },
+  {
+    "type": "bullet",
+    "text": "Bronkdilatation"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Svår smärta"
+  },
+  {
+    "type": "bullet",
+    "text": "Anestesiinduktion"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Analgesi: 30 mg (3 ml), kan upprepas"
+  },
+  {
+    "type": "body",
+    "text": "Anestesiinduktion: individuell dosering"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Pågående psykos"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Hallucinationer"
+  },
+  {
+    "type": "bullet",
+    "text": "Salivation"
+  },
+  {
+    "type": "bullet",
+    "text": "Övergående takykardi och blodtryckshöjning"
+  },
+  {
+    "type": "bullet",
+    "text": "Okontrollerat rörelsemönster"
+  },
+  {
+    "type": "body",
+    "text": "Interaktioner: • Bensodiazepiner förstärker effekten av ketamin"
+  },
+  {
+    "type": "bullet",
+    "text": "Förstärkt effekt av opioid"
+  },
+  {
+    "type": "body",
+    "text": "Överdosering: Övergående respiratorisk depression vid snabb tillförsel KETAMIN 50 mg/ml Beredningsform: Injektionslösning Styrka: 50 mg/ml Terapeutisk effekt: • Dissociativ anestesi"
+  },
+  {
+    "type": "bullet",
+    "text": "Smärtstillande"
+  },
+  {
+    "type": "bullet",
+    "text": "Bronkdilatation"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Svår smärta"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intranasalt via MAD Intramuskulärt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Intranasalt: 50 mg (1 ml) (fördelat i båda näsborrarna)"
+  },
+  {
+    "type": "body",
+    "text": "Intramuskulärt: 50-150 mg (1-3 ml) Kan upprepas efter ca 30 min"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Pågående psykos"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Hallucinationer"
+  },
+  {
+    "type": "bullet",
+    "text": "Salivation"
+  },
+  {
+    "type": "bullet",
+    "text": "Övergående takykardi och blodtryckshöjning"
+  },
+  {
+    "type": "bullet",
+    "text": "Okontrollerat rörelsemönster"
+  },
+  {
+    "type": "body",
+    "text": "Interaktioner: • Bensodiazepiner förstärker effekten av ketamin"
+  },
+  {
+    "type": "bullet",
+    "text": "Förstärkt effekt av opioid"
+  },
+  {
+    "type": "body",
+    "text": "Överdosering: Övergående respiratorisk depression vid snabb tillförsel LIDOKAIN Beredningsform: Injektionslösning Styrka: 10 mg/ml Terapeutisk effekt: Lokalanestesi"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Lokal anestesi vid anläggning av intraosseös infart på vaken patient"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Infiltreras i hud och/eller injiceras i intraosseös nål"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1-2 ml (10 - 20 mg) infiltreras från hud ner till periostet,"
+  },
+  {
+    "type": "body",
+    "text": "2 ml (20 mg) ges därefter intraosseöst"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "MIDAZOLAM Beredningsform: Injektionslösning Styrka: 5 mg/ml Terapeutisk effekt: • Lugnande, ångestdämpande, sövande"
+  },
+  {
+    "type": "bullet",
+    "text": "Muskelrelaxerande, antiepileptisk (kramplösande)"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Sedering"
+  },
+  {
+    "type": "bullet",
+    "text": "Generella kramper"
+  },
+  {
+    "type": "bullet",
+    "text": "Vid misstänkt nervgasförgiftning tillsammans med"
+  },
+  {
+    "type": "body",
+    "text": "autoinjektor Administrationssätt: Intramuskulärt Intranasalt via MAD Intravenöst Kräver patientövervakning efter administration."
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Kramper:"
+  },
+  {
+    "type": "bullet2",
+    "text": "intramuskulärt: 10 mg (2 ml) i stor muskelgrupp."
+  },
+  {
+    "type": "bullet2",
+    "text": "intranasalt: 10 mg (2 ml) fördelat i båda näsborrarna"
+  },
+  {
+    "type": "bullet2",
+    "text": "intravenöst: 2,5 mg (0,5 ml), kan upprepas upp till max 10"
+  },
+  {
+    "type": "body",
+    "text": "mg Sedering:"
+  },
+  {
+    "type": "bullet2",
+    "text": "intramuskulärt: 5 mg (1 ml)"
+  },
+  {
+    "type": "bullet2",
+    "text": "intranasalt: 5 mg (1 ml)"
+  },
+  {
+    "type": "bullet2",
+    "text": "intravenöst: 1-2 mg (0,2-0,4 ml)"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Hypovolema patienter"
+  },
+  {
+    "type": "bullet",
+    "text": "Nedsatt allmäntillstånd"
+  },
+  {
+    "type": "bullet",
+    "text": "Alkohol och andra narkotiska preparat t ex andra"
+  },
+  {
+    "type": "body",
+    "text": "bensodiazepiner potentierar effekten"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Andningsdepression (Antidot: Flumazenil)"
+  },
+  {
+    "type": "bullet",
+    "text": "Hypotension"
+  },
+  {
+    "type": "body",
+    "text": "MORFIN Beredningsform: Injektionslösning Styrka: 10 mg/ml Terapeutisk effekt: • Analgesi"
+  },
+  {
+    "type": "bullet",
+    "text": "Ångestdämpande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Svår smärta"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst Kräver patientövervakning efter administration. Spädning 1 ml morfin spädes med 9 ml NaCl 0,9% till 1 mg/ml"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1,0–2,5 mg (1–2,5 ml, med spädning enligt ovan) i upprepade doser"
+  },
+  {
+    "type": "body",
+    "text": "till önskad effekt"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet. • Hypovolemi"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningspåverkan"
+  },
+  {
+    "type": "bullet",
+    "text": "Skallskada"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Andningsdepression"
+  },
+  {
+    "type": "bullet",
+    "text": "Hypotension"
+  },
+  {
+    "type": "bullet",
+    "text": "Blodtrycksfall, framförallt vid hypovolemi"
+  },
+  {
+    "type": "bullet",
+    "text": "Bronkkonstriktion"
+  },
+  {
+    "type": "bullet",
+    "text": "Illamående, kräkningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Yrsel"
+  },
+  {
+    "type": "bullet",
+    "text": "Urinretention"
+  },
+  {
+    "type": "bullet",
+    "text": "Klåda, urtikaria"
+  },
+  {
+    "type": "body",
+    "text": "Överdosering: • Andningsdepression (Antidot: Naloxon) MOXIFLOXACIN Beredningsform: Tablett Styrka: 400 mg Terapeutisk effekt: Antibiotika"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Penetrerande skada hos vaken patient"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Peroralt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1 tablett"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Överkänslighet"
+  },
+  {
+    "type": "body",
+    "text": "NALOXON Beredningsform: Injektionslösning Styrka: 0,4 mg/ml Terapeutisk effekt: Specifik antidot mot opioider"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Överdosering med opiod"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst Intramuskulärt Intranasalt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Intravenöst: 0,2 mg (0,5 ml), kan upprepas"
+  },
+  {
+    "type": "body",
+    "text": "Intramuskulärt: 0,4 mg (1 ml), kan upprepas Intranasalt: 0,4 mg (1 ml), kan upprepas"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Kort halveringstid, risk för rebound av opioideffekten (ca 20 min)"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Illamående, kräkningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Svettningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Lungödem"
+  },
+  {
+    "type": "bullet",
+    "text": "Takykardi, tremor"
+  },
+  {
+    "type": "body",
+    "text": "NATRIUMTIOSULFAT Beredningsform: Injektionslösning Styrka: 150 mg/ml Terapeutisk effekt: Medel mot cyanidförgiftning"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Rökgasförgiftning"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 100 ml under 5-10 minuter"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Hypotension"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: -"
+  },
+  {
+    "type": "body",
+    "text": "ONDANSETRON Beredningsform: Injektionslösning Styrka: 2 mg/ml Terapeutisk effekt: 5-HT3-antagonist"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Illamående och kräkningar"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 4 mg (2 ml), max 8 mg (4 ml) tre gånger per dygn"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Värmekänsla"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "OXYGEN Beredningsform: Andningsoxygen Styrka: - Terapeutisk effekt: Höjning av PO2 i blod"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Hypoxi"
+  },
+  {
+    "type": "bullet",
+    "text": "Dykarsjuka"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Inhalation"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Doseras efter behov och indikation"
+  },
+  {
+    "type": "body",
+    "text": "Riktvärden vid användning av olika hjälpmedel: Grimma 1-4 liter 24 - 40% Traumamask 10-15 liter 80 - 99% Pocketmask 10 liter 50% Mask/reservoar/blåsa >15 liter 93% - 100%"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Kroniskt obstruktiv lungsjukdom (KOL)"
+  },
+  {
+    "type": "bullet",
+    "text": "Arbete i omgivning med risk för brand eller självantändning"
+  },
+  {
+    "type": "body",
+    "text": "(olja, fett) PARACETAMOL Beredningsform: Tablett Styrka: 500 mg Terapeutisk effekt: Smärtstillande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Lindrig till måttlig smärta"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Peroralt"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1 g (2 tabletter), max 4 gånger per dygn"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Leversvikt"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Hypovolemi Överdosering: • Buksmärtor, illamående, kräkningar"
+  },
+  {
+    "type": "bullet",
+    "text": "Leversvikt"
+  },
+  {
+    "type": "body",
+    "text": "PULMICORT TURBUHALER (BUDESONID) Beredningsform: Inhalationspulver Styrka: 400 μg/dos Terapeutisk effekt: Lokal antiinflammatorisk effekt i lungorna"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: Rökgasförgiftning"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Inhalation"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 10 inhalationer, kan upprepas"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: -"
+  },
+  {
+    "type": "body",
+    "text": "RINGER-ACETAT Beredningsform: Infusionslösning Styrka: Fysiologiskt balanserad elektrolytlösning (isoton) Terapeutisk effekt: Ökning av intravasal volym"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Hypovolemi"
+  },
+  {
+    "type": "bullet",
+    "text": "Vätskeresuscitering vid brännskador"
+  },
+  {
+    "type": "bullet",
+    "text": "Forcerad diures"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Individuell dosering beroende på kliniskt tillstånd"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Allvarlig hjärtsvikt (lungödem)"
+  },
+  {
+    "type": "bullet",
+    "text": "Andningssvårigheter av medicinska orsaker (t ex lungödem,"
+  },
+  {
+    "type": "body",
+    "text": "KOL)"
+  },
+  {
+    "type": "bullet",
+    "text": "Svår skallskada"
+  },
+  {
+    "type": "body",
+    "text": "SALBUTAMOL Beredningsform: Lösning för nebulisator Styrka: 2 mg/ml (endosbehållare 2,5 ml = 5 mg) Terapeutisk effekt: Bronkdilatation"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Akut astma"
+  },
+  {
+    "type": "bullet",
+    "text": "Rökgasförgiftning"
+  },
+  {
+    "type": "bullet",
+    "text": "Inhalationsbrännskada med luftvägssvullnad"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Inhalation via nebulisator"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: Rökgasförgiftning: 3-6 ml (6-12 mg)"
+  },
+  {
+    "type": "body",
+    "text": "Akut astma: 2,5 ml (5 mg), kan upprepas v b"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: -"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: • Svår hjärtkärlsjukdom"
+  },
+  {
+    "type": "bullet",
+    "text": "Okontrollerad hypertyreos"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Takykardi, palpitationer"
+  },
+  {
+    "type": "bullet",
+    "text": "Tremor, yrsel"
+  },
+  {
+    "type": "bullet",
+    "text": "Huvudvärk"
+  },
+  {
+    "type": "bullet",
+    "text": "Bronkospasm"
+  },
+  {
+    "type": "bullet",
+    "text": "Klåda, hudutslag"
+  },
+  {
+    "type": "body",
+    "text": "TETRAKAIN Beredningsform: Ögondroppar Styrka: 10 mg/ml (1%) Terapeutisk effekt: Lokalt smärtstillande"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Ögonsmärtor vid exponering för frätande ämnen"
+  },
+  {
+    "type": "bullet",
+    "text": "Underlätta spolning av öga vid kemisk ögonskada"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Droppas i ögat"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 1-2 droppar i det skadade ögat"
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Penetrerande ögonskada"
+  },
+  {
+    "type": "body",
+    "text": "Försiktighet: Får ej ersätta nödvändig ögonspolning"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Övergående lokal irritation/sveda"
+  },
+  {
+    "type": "bullet",
+    "text": "Hornhinneskada vid upprepad användning"
+  },
+  {
+    "type": "body",
+    "text": "TRANEXAMSYRA Beredningsform: Injektionslösning Styrka: 100 mg/ml Terapeutisk effekt: Fibrinolyshämmare"
+  },
+  {
+    "type": "h2",
+    "text": "Indikationer: • Stor blödning"
+  },
+  {
+    "type": "bullet",
+    "text": "Medelsvår skallskada med medvetandepåverkan"
+  },
+  {
+    "type": "body",
+    "text": "Administrationssätt: Intravenöst"
+  },
+  {
+    "type": "h2",
+    "text": "Dosering: 2 g (20 ml) som bolus. Ges ej efter tre timmar från skadetillfället."
+  },
+  {
+    "type": "h2",
+    "text": "Kontraindikationer: Aktiv tromboembolisk sjukdom"
+  },
+  {
+    "type": "h2",
+    "text": "Biverkningar: • Illamående, kräkning. Minskad risk vid långsam infusion."
+  },
+  {
+    "type": "bullet",
+    "text": "Hypotension. Minskad risk vid långsam infusion."
+  }
+]

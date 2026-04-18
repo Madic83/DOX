@@ -1,5 +1,6 @@
 ﻿import { useState, useEffect } from 'react'
 import type { Patient, VitalReading } from './types'
+import pmGuidelinesRaw from './data/fm-prehospitala-2025.json'
 import './App.css'
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
   const [evacuationLocation, setEvacuationLocation] = useState('')
   const [viewEvacuated, setViewEvacuated] = useState(false)
   const [viewDeceased, setViewDeceased] = useState(false)
+  const [viewPm, setViewPm] = useState(false)
+  const [pmSearch, setPmSearch] = useState('')
+  const [pmShowToc, setPmShowToc] = useState(false)
   const [previousTreatment, setPreviousTreatment] = useState('')
   const [customTimeVitals, setCustomTimeVitals] = useState('')
   const [customTimeMeds, setCustomTimeMeds] = useState('')
@@ -148,6 +152,7 @@ function App() {
     setShowVitals(null)
     setViewEvacuated(false)
     setViewDeceased(false)
+    setViewPm(false)
   }
 
   // Om ingen är inloggad, visa login-sida
@@ -1294,6 +1299,273 @@ function App() {
     )
   }
 
+  if (viewPm) {
+    type PmEntry = { type: 'h1' | 'h2' | 'body' | 'bullet' | 'bullet2'; text: string }
+    const allEntries = pmGuidelinesRaw as PmEntry[]
+
+    const h1Entries = allEntries.filter(e => e.type === 'h1')
+    const slugify = (text: string) => 'pm-' + text.toLowerCase().replace(/[^a-zåäö0-9]+/gi, '-')
+    const scrollToSection = (text: string) => {
+      const el = document.getElementById(slugify(text))
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      setPmShowToc(false)
+    }
+
+    // When searching: find h1 sections that contain matches and show matching context
+    let displayEntries: PmEntry[]
+    if (pmSearch.trim().length < 2) {
+      displayEntries = allEntries
+    } else {
+      const q = pmSearch.toLowerCase()
+      // Gather sections (h1 blocks)
+      const sections: { heading: PmEntry; children: PmEntry[] }[] = []
+      let cur: { heading: PmEntry; children: PmEntry[] } | null = null
+      for (const e of allEntries) {
+        if (e.type === 'h1') {
+          if (cur) sections.push(cur)
+          cur = { heading: e, children: [] }
+        } else if (cur) {
+          cur.children.push(e)
+        }
+      }
+      if (cur) sections.push(cur)
+
+      displayEntries = []
+      for (const sec of sections) {
+        const allText = [sec.heading.text, ...sec.children.map(c => c.text)].join(' ').toLowerCase()
+        if (allText.includes(q)) {
+          displayEntries.push(sec.heading)
+          displayEntries.push(...sec.children)
+        }
+      }
+    }
+
+    const highlight = (text: string) => {
+      if (pmSearch.trim().length < 2) return text
+      const q = pmSearch.trim()
+      const idx = text.toLowerCase().indexOf(q.toLowerCase())
+      if (idx === -1) return text
+      return (
+        <>
+          {text.slice(0, idx)}
+          <mark style={{ background: '#fbbf24', color: '#000', borderRadius: '2px' }}>{text.slice(idx, idx + q.length)}</mark>
+          {text.slice(idx + q.length)}
+        </>
+      )
+    }
+
+    const isBodySectionHeading = (entry: PmEntry, index: number) => {
+      if (entry.type !== 'body') return false
+      const next = displayEntries[index + 1]
+      if (!next || next.type !== 'h2') return false
+      const text = entry.text.trim()
+      return (
+        text.length > 1 &&
+        text.length <= 60 &&
+        /^[A-ZÅÄÖ]/.test(text) &&
+        !text.endsWith('.') &&
+        !text.endsWith(':')
+      )
+    }
+
+    const getMedicineHeading = (entry: PmEntry, index: number): { name: string; rest: string } | null => {
+      if (entry.type !== 'body') return null
+
+      const MEDICINE_HEADINGS = [
+        'ADRENALIN',
+        'AMIODARON',
+        'ATARAX',
+        'ATROPIN',
+        'BETAMETASON',
+        'BRICANYL TURBUHALER (TERBUTALIN)',
+        'BUDESONID',
+        'CEFOTAXIM',
+        'DESLORATADIN',
+        'ERTAPENEM',
+        'FENTANYL',
+        'FLUMAZENIL',
+        'GLUKOS',
+        'HYDROXYKOBALAMIN (CYANOKIT)',
+        'IBUPROFEN',
+        'IPRATROPIUM',
+        'KALCIUM',
+        'KETAMIN',
+        'LIDOKAIN',
+        'MIDAZOLAM',
+        'MORFIN',
+        'MOXIFLOXACIN',
+        'NALOXON',
+        'NATRIUMTIOSULFAT',
+        'ONDANSETRON',
+        'OXYGEN',
+        'PARACETAMOL',
+        'PULMICORT TURBUHALER (BUDESONID)',
+        'RINGER-ACETAT',
+        'SALBUTAMOL',
+        'TETRAKAIN',
+        'TRANEXAMSYRA'
+      ]
+
+      const normalizeName = (s: string) => s.toUpperCase().replace(/[–—]/g, '-').replace(/\s+/g, ' ').trim()
+
+      let currentH2 = ''
+      let currentH1 = ''
+      for (let i = index; i >= 0; i--) {
+        if (!currentH1 && displayEntries[i].type === 'h1') {
+          currentH1 = displayEntries[i].text.toLowerCase()
+        }
+        if (displayEntries[i].type === 'h2') {
+          currentH2 = displayEntries[i].text.toLowerCase()
+        }
+        if (currentH1 && currentH2) {
+          break
+        }
+      }
+
+      if (!currentH2.includes('läkemedel') && !currentH1.includes('läkemedel')) return null
+
+      const text = entry.text.trim()
+      if (!/beredningsform/i.test(text)) return null
+
+      const beredningsIndex = text.toLowerCase().indexOf('beredningsform')
+      if (beredningsIndex <= 0) return null
+
+      const before = text.slice(0, beredningsIndex).trim()
+      const after = text.slice(beredningsIndex).trim()
+
+      const normalizedBefore = normalizeName(before)
+      const matchedName = MEDICINE_HEADINGS
+        .slice()
+        .sort((a, b) => b.length - a.length)
+        .find(name => normalizedBefore.startsWith(normalizeName(name)))
+
+      if (!matchedName) return null
+
+      return { name: matchedName, rest: after }
+    }
+
+    return (
+      <div style={{ minHeight: '100vh', background: '#0a0a0a', color: '#e5e7eb', display: 'flex', flexDirection: 'column' }}>
+        {/* Header */}
+        <div style={{ background: '#111827', borderBottom: '1px solid #374151', padding: '12px 16px', display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0, position: 'fixed', top: 0, left: 0, right: 0, zIndex: 30 }}>
+          <button
+            onClick={() => setViewPm(false)}
+            style={{ padding: '8px 16px', fontSize: '14px', background: '#374151', color: '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', whiteSpace: 'nowrap' }}
+          >
+            ← Tillbaka
+          </button>
+          <div style={{ flex: 1 }}>
+            <div style={{ fontWeight: 700, fontSize: '16px', color: '#f9c74f' }}>FM Prehospitala behandlingsriktlinjer 2025</div>
+          </div>
+          <button
+            onClick={() => setPmShowToc(v => !v)}
+            style={{ padding: '8px 14px', fontSize: '14px', background: pmShowToc ? '#f9c74f' : '#374151', color: pmShowToc ? '#000' : '#fff', border: 'none', borderRadius: '6px', cursor: 'pointer', whiteSpace: 'nowrap' }}
+          >
+            ☰ Innehåll
+          </button>
+          <input
+            type="text"
+            placeholder="🔍 Sök i PM..."
+            value={pmSearch}
+            onChange={e => setPmSearch(e.target.value)}
+            style={{
+              padding: '8px 14px', fontSize: '15px', background: '#1f2937', color: '#fff',
+              border: '1px solid #4b5563', borderRadius: '8px', outline: 'none', width: '210px'
+            }}
+          />
+          {pmSearch && (
+            <button onClick={() => setPmSearch('')} style={{ background: 'none', border: 'none', color: '#9ca3af', cursor: 'pointer', fontSize: '18px' }}>✕</button>
+          )}
+        </div>
+
+        {pmShowToc && (
+          <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, zIndex: 50, display: 'flex' }} onClick={() => setPmShowToc(false)}>
+            <div style={{ width: '340px', maxWidth: '88vw', background: '#111827', borderRight: '1px solid #374151', overflowY: 'auto', padding: '16px' }} onClick={e => e.stopPropagation()}>
+              <div style={{ fontWeight: 700, fontSize: '15px', color: '#f9c74f', marginBottom: '12px', paddingBottom: '8px', borderBottom: '1px solid #374151' }}>
+                Innehållsförteckning
+              </div>
+              {h1Entries.map((e, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => scrollToSection(e.text)}
+                  style={{ display: 'block', width: '100%', textAlign: 'left', background: 'none', border: 'none', color: '#d1d5db', cursor: 'pointer', padding: '7px 8px', borderRadius: '4px', fontSize: '14px', lineHeight: 1.4 }}
+                >
+                  {e.text}
+                </button>
+              ))}
+            </div>
+            <div style={{ flex: 1, background: 'rgba(0,0,0,0.5)' }} />
+          </div>
+        )}
+
+        {/* Content */}
+        <div style={{ flex: 1, overflowY: 'auto', padding: '86px 20px 16px', maxWidth: '860px', margin: '0 auto', width: '100%' }}>
+          {pmSearch.trim().length >= 2 && displayEntries.length === 0 && (
+            <div style={{ color: '#9ca3af', padding: '40px', textAlign: 'center' }}>Inga träffar för "{pmSearch}"</div>
+          )}
+          {displayEntries.map((entry, i) => {
+            if (entry.type === 'h1') {
+              return (
+                <h2 key={i} id={slugify(entry.text)} style={{ fontSize: '20px', fontWeight: 700, color: '#f9c74f', marginTop: '32px', marginBottom: '6px', borderBottom: '1px solid #374151', paddingBottom: '4px' }}>
+                  {highlight(entry.text)}
+                </h2>
+              )
+            }
+            if (entry.type === 'h2') {
+              return (
+                <h3 key={i} style={{ fontSize: '15px', fontWeight: 600, color: '#93c5fd', marginTop: '16px', marginBottom: '4px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                  {highlight(entry.text)}
+                </h3>
+              )
+            }
+            const medicineHeading = getMedicineHeading(entry, i)
+            if (medicineHeading) {
+              return (
+                <>
+                  <h4 key={`med-name-${i}`} style={{ fontSize: '22px', fontWeight: 800, color: '#F3D021', marginTop: '24px', marginBottom: '6px' }}>
+                    {highlight(medicineHeading.name)}
+                  </h4>
+                  <p key={`med-rest-${i}`} style={{ fontSize: '14px', lineHeight: 1.6, color: '#d1d5db', marginTop: '0', marginBottom: '0' }}>
+                    {highlight(medicineHeading.rest)}
+                  </p>
+                </>
+              )
+            }
+            if (isBodySectionHeading(entry, i)) {
+              return (
+                <h4 key={i} style={{ fontSize: '18px', fontWeight: 700, color: '#fde68a', marginTop: '22px', marginBottom: '6px', borderLeft: '3px solid #f59e0b', paddingLeft: '10px' }}>
+                  {highlight(entry.text)}
+                </h4>
+              )
+            }
+            if (entry.type === 'bullet') {
+              return (
+                <div key={i} style={{ display: 'flex', gap: '8px', marginTop: '4px', paddingLeft: '8px' }}>
+                  <span style={{ color: '#f9c74f', flexShrink: 0 }}>•</span>
+                  <span style={{ fontSize: '14px', lineHeight: 1.55, color: '#d1d5db' }}>{highlight(entry.text)}</span>
+                </div>
+              )
+            }
+            if (entry.type === 'bullet2') {
+              return (
+                <div key={i} style={{ display: 'flex', gap: '8px', marginTop: '3px', paddingLeft: '24px' }}>
+                  <span style={{ color: '#9ca3af', flexShrink: 0 }}>–</span>
+                  <span style={{ fontSize: '14px', lineHeight: 1.55, color: '#9ca3af' }}>{highlight(entry.text)}</span>
+                </div>
+              )
+            }
+            return (
+              <p key={i} style={{ fontSize: '14px', lineHeight: 1.6, color: '#d1d5db', marginTop: '8px', marginBottom: '0' }}>
+                {highlight(entry.text)}
+              </p>
+            )
+          })}
+          <div style={{ height: '40px' }} />
+        </div>
+      </div>
+    )
+  }
+
   if (showVitals) {
     const patient = patients.find(p => p.id === showVitals) || deceasedPatients.find(p => p.id === showVitals)
     const isDeceasedPatient = deceasedPatients.some(p => p.id === showVitals)
@@ -1876,14 +2148,35 @@ function App() {
                 }
 
                 // === STANDARD TCCC-INTERVENTIONER ===
+                const systolicForPain = patient.bloodPressure ? parseInt(patient.bloodPressure.split('/')[0] || '0') : 0
+                const respForPain = patient.respiration ? parseInt(patient.respiration) : 0
+                const spo2ForPain = patient.spo2 ? parseInt(patient.spo2) : 0
+                const consciousnessForPain = (patient.consciousness || '').toUpperCase().trim()
+
+                const hasLowBloodPressure = systolicForPain > 0 && systolicForPain < 90
+                const hasReducedConsciousness = ['V', 'P', 'U'].includes(consciousnessForPain)
+                const hasRespiratoryDistress =
+                  (respForPain > 0 && (respForPain < 10 || respForPain > 30)) ||
+                  (spo2ForPain > 0 && spo2ForPain < 90)
+
+                const hasAnalgesicContraindication = hasLowBloodPressure || hasReducedConsciousness || hasRespiratoryDistress
+
                 recommendations.treatments.push('')
                 recommendations.treatments.push('📋 STANDAR SMÅRTSTILLANDE INTERVENTIONER:')
                 recommendations.treatments.push('  • Smärtlindring beroende på nivå av smärta, medvetande och andning')
                 recommendations.treatments.push('  • Paracetamol: 1g PO/PR var 6:e timme (max 4g/dygn)')
-                recommendations.treatments.push('  • Ibuprofen: 400 mg PO var 6-8 timme (max 1200 mg/dygn) - om inte kontraindicerat')
-                recommendations.treatments.push('  • Fentanylklubba 800mcg kan upprepas en gång efter 15 min. ej om andningspåverkad eller medvetslös)')
-                recommendations.treatments.push('  • Morfin 0,05-0,1 mg/kg IV/IM var 4-6 timme vid svår smärta (max 10 mg/dos) ej om andnings- eller cirkulationpåverkad')
-                recommendations.treatments.push('  • Esketamin: 15mg i.v, 25mg i.n. 25-75mg i.m.')
+                if (!hasLowBloodPressure) {
+                  recommendations.treatments.push('  • Ibuprofen: 400 mg PO var 6-8 timme (max 1200 mg/dygn)')
+                }
+
+                if (hasAnalgesicContraindication) {
+                  recommendations.treatments.push('  • ⚠️ Undvik opioid/sederande analgesi vid nuvarande vitalparametrar (lågt BT, medvetandesänkning eller andningspåverkan).')
+                  recommendations.treatments.push('  • Reassess efter stabilisering av cirkulation/andning innan opioid övervägs.')
+                } else {
+                  recommendations.treatments.push('  • Fentanylklubba 800mcg kan upprepas en gång efter 15 min')
+                  recommendations.treatments.push('  • Morfin 0,05-0,1 mg/kg IV/IM var 4-6 timme vid svår smärta (max 10 mg/dos)')
+                }
+                recommendations.treatments.push('  • Ketamin: 0,1–0,3 mg/kg IV, 0,5 mg/kg IM (kan ges vid lågt BT, medvetandesänkning och andningsbesvär)')
                 
                 return (
                   <div>
@@ -1894,7 +2187,7 @@ function App() {
                       </div>
                     </div>
                     <div style={{ background: '#000', padding: '15px', borderRadius: '4px' }}>
-                      <ul style={{ margin: 0, paddingLeft: '20px' }}>
+                      <ul style={{ margin: 0, paddingLeft: '0', listStyle: 'none' }}>
                         {recommendations.treatments.map((treatment, i) => {
                           // Formatera rubrikerna
                           if (treatment.match(/^🔴|^🫁|^💥|^🛡️|^🩸|^❄️|^📋/)) {
@@ -1914,6 +2207,18 @@ function App() {
                           if (treatment === '') {
                             return <li key={i} style={{ marginBottom: '10px' }} />
                           }
+
+                          const medMatch = treatment.match(/^\s*•\s*(Paracetamol|Ibuprofen|Fentanylklubba|Morfin|Esketamin|Ketamin):\s*(.*)$/i)
+                          if (medMatch) {
+                            return (
+                              <li key={i} style={{ marginBottom: '8px', fontSize: '13px', color: '#fff' }}>
+                                <span style={{ color: '#fbbf24', fontWeight: 'bold', marginRight: '6px' }}>•</span>
+                                <span style={{ color: '#fde68a', fontWeight: 700 }}>{medMatch[1]}:</span>{' '}
+                                <span style={{ color: '#fff' }}>{medMatch[2]}</span>
+                              </li>
+                            )
+                          }
+
                           // Normala punkter
                           return (
                             <li key={i} style={{ marginBottom: '5px', fontSize: '13px', color: '#fff' }}>
@@ -2267,6 +2572,22 @@ function App() {
           }}
         >
           Avlidna ({deceasedPatients.length})
+        </button>
+
+        <button
+          onClick={() => setViewPm(true)}
+          style={{
+            padding: '20px 40px',
+            fontSize: '18px',
+            background: '#2563eb',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            fontWeight: 'bold'
+          }}
+        >
+          PM
         </button>
       </div>
 
