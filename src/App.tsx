@@ -7,6 +7,7 @@ function App() {
   const [loginForm, setLoginForm] = useState({ username: '', password: '' })
   const [patients, setPatients] = useState<Patient[]>([])
   const [evacuatedPatients, setEvacuatedPatients] = useState<(Patient & { evacuatedLocation?: string })[]>([])
+  const [deceasedPatients, setDeceasedPatients] = useState<Patient[]>([])
   const [showForm, setShowForm] = useState(false)
   const [editingPatientId, setEditingPatientId] = useState<string | null>(null)
   const [showVitals, setShowVitals] = useState<string | null>(null)
@@ -14,6 +15,7 @@ function App() {
   const [showEvacuationModal, setShowEvacuationModal] = useState(false)
   const [evacuationLocation, setEvacuationLocation] = useState('')
   const [viewEvacuated, setViewEvacuated] = useState(false)
+  const [viewDeceased, setViewDeceased] = useState(false)
   const [previousTreatment, setPreviousTreatment] = useState('')
   const [customTimeVitals, setCustomTimeVitals] = useState('')
   const [customTimeMeds, setCustomTimeMeds] = useState('')
@@ -58,8 +60,9 @@ function App() {
     if (currentUser) {
       localStorage.setItem(`patients_${currentUser}`, JSON.stringify(patients))
       localStorage.setItem(`evacuated_${currentUser}`, JSON.stringify(evacuatedPatients))
+      localStorage.setItem(`deceased_${currentUser}`, JSON.stringify(deceasedPatients))
     }
-  }, [patients, evacuatedPatients, currentUser])
+  }, [patients, evacuatedPatients, deceasedPatients, currentUser])
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault()
@@ -82,6 +85,12 @@ function App() {
         setEvacuatedPatients(JSON.parse(savedEvacuated))
       } else {
         setEvacuatedPatients([])
+      }
+      const savedDeceased = localStorage.getItem('deceased_test')
+      if (savedDeceased) {
+        setDeceasedPatients(JSON.parse(savedDeceased))
+      } else {
+        setDeceasedPatients([])
       }
       setLoginForm({ username: '', password: '' })
       return
@@ -106,6 +115,12 @@ function App() {
         } else {
           setEvacuatedPatients([])
         }
+        const savedDeceased = localStorage.getItem(`deceased_${loginForm.username}`)
+        if (savedDeceased) {
+          setDeceasedPatients(JSON.parse(savedDeceased))
+        } else {
+          setDeceasedPatients([])
+        }
         setLoginForm({ username: '', password: '' })
       } else {
         alert('Fel lösenord')
@@ -117,6 +132,8 @@ function App() {
       
       setCurrentUser(loginForm.username)
       setPatients([])
+      setEvacuatedPatients([])
+      setDeceasedPatients([])
       setLoginForm({ username: '', password: '' })
     }
   }
@@ -125,8 +142,12 @@ function App() {
     setCurrentUser(null)
     localStorage.removeItem('currentUser')
     setPatients([])
+    setEvacuatedPatients([])
+    setDeceasedPatients([])
     setShowForm(false)
     setShowVitals(null)
+    setViewEvacuated(false)
+    setViewDeceased(false)
   }
 
   // Om ingen är inloggad, visa login-sida
@@ -298,28 +319,46 @@ function App() {
     let updatedPatients: Patient[] = []
     
     if (editingPatientId) {
-      // Uppdatera befintlig patient
-      updatedPatients = patients.map(p => {
-        if (p.id === editingPatientId) {
-          const updatedPatient = { ...p, ...formData }
-          // Lägg till nuvarande vitala parametrar i historik om nåtg¥gra är ifyllda
-          if (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) {
-            const newReading: VitalReading = {
-              time: getTime(customTimeVitals),
-              consciousness: formData.consciousness ?? '',
-              respiration: formData.respiration ?? '',
-              pulse: formData.pulse ?? '',
-              bloodPressure: formData.bloodPressure ?? '',
-              spo2: formData.spo2 ?? '',
-              temperature: formData.temperature ?? ''
-            }
-            updatedPatient.vitalHistory = [...(p.vitalHistory || []), newReading]
-          }
-          return updatedPatient
+      // Uppdatera befintlig aktiv patient
+      const existingPatient = patients.find(p => p.id === editingPatientId)
+
+      if (!existingPatient) {
+        setEditingPatientId(null)
+        setShowForm(false)
+        return
+      }
+
+      const updatedPatient: Patient = {
+        ...existingPatient,
+        ...formData,
+        triageCategory: (formData.triageCategory ?? existingPatient.triageCategory ?? '') as 'P1' | 'P2' | 'P3' | 'P4' | ''
+      }
+
+      // Lägg till nuvarande vitala parametrar i historik om nåtg¥gra är ifyllda
+      if (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) {
+        const newReading: VitalReading = {
+          time: getTime(customTimeVitals),
+          consciousness: formData.consciousness ?? '',
+          respiration: formData.respiration ?? '',
+          pulse: formData.pulse ?? '',
+          bloodPressure: formData.bloodPressure ?? '',
+          spo2: formData.spo2 ?? '',
+          temperature: formData.temperature ?? ''
         }
-        return p
-      })
-      setPatients(updatedPatients)
+        updatedPatient.vitalHistory = [...(existingPatient.vitalHistory || []), newReading]
+      }
+
+      if (updatedPatient.triageCategory === 'P4') {
+        const remainingPatients = patients.filter(p => p.id !== editingPatientId)
+        setPatients(remainingPatients)
+        setDeceasedPatients(prev => [...prev.filter(p => p.id !== updatedPatient.id), updatedPatient])
+        updatedPatients = remainingPatients
+      } else {
+        updatedPatients = patients.map(p => (p.id === editingPatientId ? updatedPatient : p))
+        setPatients(updatedPatients)
+        setDeceasedPatients(prev => prev.filter(p => p.id !== updatedPatient.id))
+      }
+
       setEditingPatientId(null)
     } else {
       // Skapa ny patient
@@ -365,8 +404,14 @@ function App() {
         notes: formData.notes,
         dateTime: formData.dateTime
       }
-      updatedPatients = [...patients, newPatient]
-      setPatients(updatedPatients)
+
+      if (newPatient.triageCategory === 'P4') {
+        setDeceasedPatients(prev => [...prev, newPatient])
+        updatedPatients = patients
+      } else {
+        updatedPatients = [...patients, newPatient]
+        setPatients(updatedPatients)
+      }
     }
     
     // Spara explicit till localStorage
@@ -1120,8 +1165,118 @@ function App() {
     )
   }
 
+  if (viewDeceased) {
+    return (
+      <div style={{ minHeight: '100vh', background: '#000', color: '#fff', padding: '20px' }}>
+        <button
+          onClick={() => setViewDeceased(false)}
+          style={{
+            padding: '10px 20px',
+            fontSize: '16px',
+            background: '#666',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            marginBottom: '20px'
+          }}
+        >
+          ← Tillbaka
+        </button>
+        <h1 style={{ marginBottom: '20px' }}>Avlidna patienter ({deceasedPatients.length})</h1>
+
+        {deceasedPatients.length === 0 ? (
+          <div style={{ textAlign: 'center', padding: '40px', color: '#666' }}>
+            <p>Inga avlidna patienter</p>
+          </div>
+        ) : (
+          <div>
+            {deceasedPatients.map(patient => (
+              <div
+                key={patient.id}
+                style={{
+                  background: '#111',
+                  padding: '15px',
+                  marginBottom: '15px',
+                  borderRadius: '8px',
+                  border: '1px solid #333'
+                }}
+              >
+                <div style={{ fontSize: '18px', fontWeight: 'bold', marginBottom: '10px', color: '#ef4444' }}>
+                  {patient.patientNumber} - {patient.name || 'Namn ej angivet'}
+                </div>
+                <div style={{ marginBottom: '5px' }}>
+                  <strong>Ålder:</strong> {patient.age || '-'}
+                </div>
+                <div style={{ marginBottom: '5px' }}>
+                  <strong>Skador:</strong> {patient.injuries || '-'}
+                </div>
+                <div style={{ marginBottom: '10px' }}>
+                  <strong>Triagekategori:</strong>{' '}
+                  <span style={{
+                    padding: '4px 8px',
+                    borderRadius: '4px',
+                    background: getTriageColor(patient.triageCategory),
+                    color: '#fff',
+                    fontWeight: 'bold'
+                  }}>
+                    {patient.triageCategory}
+                  </span>
+                </div>
+
+                <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+                  <button
+                    onClick={() => {
+                      setViewDeceased(false)
+                      setViewMode('journal')
+                      setShowVitals(patient.id)
+                    }}
+                    style={{
+                      padding: '8px 16px',
+                      fontSize: '14px',
+                      background: '#F3D021',
+                      color: '#000',
+                      border: 'none',
+                      borderRadius: '4px',
+                      cursor: 'pointer',
+                      fontWeight: 'bold'
+                    }}
+                  >
+                    Journal
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      setViewDeceased(false)
+                      setViewMode('at-mist')
+                      setShowVitals(patient.id)
+                      setShowEvacuationModal(true)
+                    }}
+                    style={{
+                      padding: '8px 16px',
+                      fontSize: '14px',
+                      background: '#ea580c',
+                      color: '#fff',
+                      border: 'none',
+                      borderRadius: '4px',
+                      cursor: 'pointer',
+                      fontWeight: 'bold'
+                    }}
+                  >
+                    Evakuera
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    )
+  }
+
   if (showVitals) {
-    const patient = patients.find(p => p.id === showVitals)
+    const patient = patients.find(p => p.id === showVitals) || deceasedPatients.find(p => p.id === showVitals)
+    const isDeceasedPatient = deceasedPatients.some(p => p.id === showVitals)
     if (!patient) return null
 
     // Kombinera historik med nuvarande värden
@@ -1399,45 +1554,47 @@ function App() {
 
         {viewMode === 'journal' ? (
           <div>
-            <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
-              <button 
-                onClick={() => {
-                  setPreviousTreatment(patient.treatment)
-                  setFormData({
-                    patientNumber: patient.patientNumber,
-                    name: patient.name,
-                    age: patient.age,
-                    timeOfInjury: patient.timeOfInjury,
-                    mechanism: patient.mechanism,
-                    injuries: patient.injuries,
-                    consciousness: '',
-                    respiration: '',
-                    pulse: '',
-                    bloodPressure: '',
-                    spo2: '',
-                    temperature: '',
-                    treatment: patient.treatment,
-                    location: patient.location,
-                    unit: patient.unit,
-                    triageCategory: patient.triageCategory,
-                    signs: patient.signs
-                  })
-                  setEditingPatientId(patient.id)
-                  setShowForm(true)
-                }}
-                style={{
-                  padding: '10px 20px',
-                  background: '#F3D021',
-                  color: '#000',
-                  border: 'none',
-                  borderRadius: '6px',
-                  cursor: 'pointer',
-                  fontWeight: 'bold'
-                }}
-              >
-                Registrera värde
-              </button>
-            </div>
+            {!isDeceasedPatient && (
+              <div style={{ display: 'flex', gap: '10px', marginBottom: '20px' }}>
+                <button 
+                  onClick={() => {
+                    setPreviousTreatment(patient.treatment)
+                    setFormData({
+                      patientNumber: patient.patientNumber,
+                      name: patient.name,
+                      age: patient.age,
+                      timeOfInjury: patient.timeOfInjury,
+                      mechanism: patient.mechanism,
+                      injuries: patient.injuries,
+                      consciousness: '',
+                      respiration: '',
+                      pulse: '',
+                      bloodPressure: '',
+                      spo2: '',
+                      temperature: '',
+                      treatment: patient.treatment,
+                      location: patient.location,
+                      unit: patient.unit,
+                      triageCategory: patient.triageCategory,
+                      signs: patient.signs
+                    })
+                    setEditingPatientId(patient.id)
+                    setShowForm(true)
+                  }}
+                  style={{
+                    padding: '10px 20px',
+                    background: '#F3D021',
+                    color: '#000',
+                    border: 'none',
+                    borderRadius: '6px',
+                    cursor: 'pointer',
+                    fontWeight: 'bold'
+                  }}
+                >
+                  Registrera värde
+                </button>
+              </div>
+            )}
             
             <h3 style={{ marginBottom: '20px', color: '#F3D021' }}>Trend:</h3>
             
@@ -1900,6 +2057,7 @@ function App() {
                   onClick={() => {
                     setEvacuatedPatients([...evacuatedPatients, { ...patient, evacuatedLocation: evacuationLocation }])
                     setPatients(patients.filter(p => p.id !== patient.id))
+                    setDeceasedPatients(deceasedPatients.filter(p => p.id !== patient.id))
                     setShowVitals(null)
                     setShowEvacuationModal(false)
                     setEvacuationLocation('')
@@ -1960,11 +2118,13 @@ function App() {
           {currentUser === 'test' && (
             <button 
               onClick={() => {
-                if (window.confirm('Är du säker på att du vill rensa ALLA patienter och evakuerade? Detta går inte att ångra!')) {
+                if (window.confirm('Är du säker på att du vill rensa ALLA patienter, avlidna och evakuerade? Detta går inte att ångra!')) {
                   setPatients([])
                   setEvacuatedPatients([])
+                  setDeceasedPatients([])
                   localStorage.removeItem('patients_test')
                   localStorage.removeItem('evacuated_test')
+                  localStorage.removeItem('deceased_test')
                 }
               }}
               style={{
@@ -2002,61 +2162,76 @@ function App() {
       </div>
       <p style={{ marginBottom: '20px' }}>{patients.length} patienter registrerade</p>
       
-      <button 
-        onClick={() => {
-          setShowForm(true)
-          setEditingPatientId(null)
-          setFormData({
-            patientNumber: '',
-            name: '',
-            age: '',
-            timeOfInjury: '',
-            mechanism: '',
-            injuries: '',
-            consciousness: '',
-            respiration: '',
-            pulse: '',
-            bloodPressure: '',
-            spo2: '',
-            temperature: '',
-            treatment: '',
-            location: '',
-            unit: '',
-            triageCategory: ''
-          })
-        }}
-        style={{
-          padding: '20px 40px',
-          fontSize: '18px',
-          background: '#F3D021',
-          color: '#000',
-          border: 'none',
-          borderRadius: '8px',
-          cursor: 'pointer',
-          marginBottom: '30px',
-          fontWeight: 'bold'
-        }}
-      >
-        + Registrera ny patient
-      </button>
+      <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '30px' }}>
+        <button 
+          onClick={() => {
+            setShowForm(true)
+            setEditingPatientId(null)
+            setFormData({
+              patientNumber: '',
+              name: '',
+              age: '',
+              timeOfInjury: '',
+              mechanism: '',
+              injuries: '',
+              consciousness: '',
+              respiration: '',
+              pulse: '',
+              bloodPressure: '',
+              spo2: '',
+              temperature: '',
+              treatment: '',
+              location: '',
+              unit: '',
+              triageCategory: ''
+            })
+          }}
+          style={{
+            padding: '20px 40px',
+            fontSize: '18px',
+            background: '#F3D021',
+            color: '#000',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            fontWeight: 'bold'
+          }}
+        >
+          + Registrera ny patient
+        </button>
 
-      <button 
-        onClick={() => setViewEvacuated(true)}
-        style={{
-          padding: '20px 40px',
-          fontSize: '18px',
-          background: '#ea580c',
-          color: '#fff',
-          border: 'none',
-          borderRadius: '8px',
-          cursor: 'pointer',
-          marginBottom: '30px',
-          fontWeight: 'bold',
-          marginTop: '10px'
-        }}
-      >
-        Evakuerade ({evacuatedPatients.length})
-      </button>
+        <button 
+          onClick={() => setViewEvacuated(true)}
+          style={{
+            padding: '20px 40px',
+            fontSize: '18px',
+            background: '#ea580c',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            fontWeight: 'bold'
+          }}
+        >
+          Evakuerade ({evacuatedPatients.length})
+        </button>
+
+        <button 
+          onClick={() => setViewDeceased(true)}
+          style={{
+            padding: '20px 40px',
+            fontSize: '18px',
+            background: '#6b7280',
+            color: '#fff',
+            border: 'none',
+            borderRadius: '8px',
+            cursor: 'pointer',
+            fontWeight: 'bold'
+          }}
+        >
+          Avlidna ({deceasedPatients.length})
+        </button>
+      </div>
 
       {patients.length > 0 && (
         <div>
