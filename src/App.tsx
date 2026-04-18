@@ -566,7 +566,7 @@ function App() {
               <label style={{ display: 'block', marginBottom: '8px', fontWeight: 'bold' }}>TCCC - Läkemedel:</label>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px', marginBottom: '10px' }}>
                 {[
-                  'TXA 2g iv (Ej efter 3h fråtn skada)',
+                  'TXA 2g iv (Ej efter 3h från skada)',
                   'Morfin 10mg IM/IV',
                   'Fentanylklubba 800mcg',
                   'Esketamin 25mg im',
@@ -742,7 +742,7 @@ function App() {
               <div style={{ marginBottom: '8px' }}>
                 <label style={{ display: 'block', marginBottom: '5px', fontSize: '13px' }}>Tourniquet:</label>
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '6px' }}>
-                  {['TQ HA', 'TQ HB', 'TQ VA', 'TQ VB'].map(tq => {
+                  {['TQ HöArm', 'TQ HöBen', 'TQ VäArm', 'TQ VäBen'].map(tq => {
                     const isApplied = (formData.treatment ?? '').includes(tq)
                     return (
                       <button
@@ -791,8 +791,8 @@ function App() {
                 {[
                   { action: 'Luftväg säkrad', needsLocation: false },
                   { action: 'Nåldekomp', needsLocation: true, sides: ['H', 'V'] },
-                  { action: 'Chest seal', needsLocation: true, sides: ['H', 'V'] },
-                  { action: 'Sårpack', needsLocation: true, sides: ['H', 'V'] }
+                  { action: 'Chest seal', needsLocation: true, sides: ['Hö fram', 'Hö bak', 'Vä fram', 'Vä bak'] },
+                  { action: 'Sårpack', needsLocation: true, sides: ['Hö ljumske','Hö axill', 'Vä ljumske', 'Vä axill'] },
                 ].map(item => {
                   if (item.needsLocation && item.sides) {
                     return (
@@ -1394,7 +1394,7 @@ function App() {
             marginBottom: '20px'
           }}
         >
-          † Tillbaka
+          ← Tillbaka
         </button>
 
         {viewMode === 'journal' ? (
@@ -1558,10 +1558,9 @@ function App() {
                   if ((injuries.includes('extremitet') || injuries.includes('ben') || injuries.includes('arm') || injuries.includes('hand') || injuries.includes('fot')) && 
                       (injuries.includes('blöd') || injuries.includes('skada'))) {
                     recommendations.treatments.push('🔴 EXTREMITETSSKADA MED BLÖDNING:')
-                    recommendations.treatments.push('  • Applicera tourniquet ovan skadan (2-3 cm proximalt)')
-                    recommendations.treatments.push('  • Markera tid på tourniquet och huden')
-                    recommendations.treatments.push('  • Höga tourniquets (lårliv/övre arm) vid massiv blödning')
-                  }
+                    recommendations.treatments.push('  • Applicera tourniquet ovan skadan (minst 2-3 cm proximalt)')
+                    recommendations.treatments.push('  • Antibiotika vid öppen skada')
+                                      }
                   
                   // Bröstkorgskada
                   if (injuries.includes('thorax') || injuries.includes('bröstkorg') || injuries.includes('bröst')) {
@@ -1569,31 +1568,33 @@ function App() {
                     
                     // Öppen bröstkorgskada
                     if (injuries.includes('öppen') || injuries.includes('genom')) {
-                      recommendations.treatments.push('  • ÖPPEN THORAX: Täck omedelbar med okklusiv förband (3-sidor)')
-                      recommendations.treatments.push('  • Se efter luftvägsljud - ljud från såret indikerar luftläcka')
+                      recommendations.treatments.push('  • ÖPPEN THORAX: Täck omedelbar med thoraxförband)')
+                      recommendations.treatments.push('  • Lyssna efter luftvägsljud - ljud från såret indikerar luftläckage')
+                      recommendations.treatments.push('  • Antibiotika vid öppen skada')
                     }
                     
                     // Tecken på spänningsthorax
                     if ((patient.respiration && parseInt(patient.respiration) > 30) || 
                         (patient.spo2 && parseInt(patient.spo2) < 90) ||
                         (patient.pulse && parseInt(patient.pulse) > 120)) {
-                      recommendations.treatments.push('  • MISSTANKE PÅ SPÄNNINGSTHORAX:')
-                      recommendations.treatments.push('  • Nåldekommpression: 2nd ICS, midaxillär linje (14G kanyl)')
-                      recommendations.treatments.push('  • Följd av bröstdränage (28-32F chest tube)')
+                      recommendations.treatments.push('  • MISSTANKE OM ÖVERTRYCKSPNEUMOTHORAX:')
+                      recommendations.treatments.push('  • Nåldekommpression: 4-5:e ICS, Midazillär linjen')
+                      recommendations.treatments.push('  • Följt av thoraxdrän')
                     }
                   }
                   
                   // Bäcken-/abdominalskada
                   if (injuries.includes('abdomen') || injuries.includes('bäcken') || injuries.includes('magiskador')) {
-                    recommendations.treatments.push('💥 ABDOMINAL/BÄCKEN-SKADA:')
+                    recommendations.treatments.push('💥 BUK/BÄCKENSKADA:')
                     
                     if (injuries.includes('bäcken')) {
-                      recommendations.treatments.push('  • Applicera bäckenband (SAM Pelvic Sling) för stabilisering')
-                      recommendations.treatments.push('  • Förhindrar ökad blödning från frakturerade bäckenknotor')
-                    }
+                      recommendations.treatments.push('  • Applicera bäckengördelför stabilisering')
+                                          }
                     
                     recommendations.treatments.push('  • Risk för massiv intra-abdominal blödning')
+                    recommendations.treatments.push('  • Om tarmar synliga, täck med fuktat förband')
                     recommendations.treatments.push('  • PRIORITERA EVAKUERING till operationssal')
+                    recommendations.treatments.push('  • Antibiotika vid öppen skada')
                   }
                 }
 
@@ -1603,14 +1604,14 @@ function App() {
                   
                   if (consciousness === 'U') {
                     recommendations.treatments.push('🛡️ AIRWAY - MEDVETSLÖS PATIENT:')
-                    recommendations.treatments.push('  • Positionera på sidan (recovery position)')
-                    recommendations.treatments.push('  • Säkerställ öppen luftväg - avlägsna framliggande material')
-                    recommendations.treatments.push('  • Överväg nasopharyngeal airway (NPA, 6-8mm)')
-                    recommendations.treatments.push('  • Intubering om tränad och möjligt')
+                    recommendations.treatments.push('  • Positionera i stabilt sidoläge')
+                    recommendations.treatments.push('  • Säkerställ öppen luftväg - avlägsna främmande föremål')
+                    recommendations.treatments.push('  • Överväg NPA (näskantarell)')
+                    recommendations.treatments.push('  • Intubering om tränad, möjligt, och lämpligt')
                   } else if (consciousness === 'V' || consciousness === 'P') {
                     recommendations.treatments.push('🛡️ AIRWAY - REDUCERAD MEDVETENHET:')
                     recommendations.treatments.push('  • Övervaka luftväg löpande - risk för försämring')
-                    recommendations.treatments.push('  • Ha airway-verktyg redo (NPA, OPA, intubering-utrustning)')
+                    recommendations.treatments.push('  • Ha luftvägsutrustning redo (NPA, OPA, intubering-utrustning)')
                   }
                 }
 
@@ -1620,16 +1621,16 @@ function App() {
                   
                   if (respValue > 35) {
                     recommendations.treatments.push('🫁 BREATHING - EXTREMT HÖG ANDNINGSFREKVENS:')
-                    recommendations.treatments.push('  • Misstanke på spänningsthorax - se bröstkorgskada ovan')
+                    recommendations.treatments.push('  • Misstanke på övertryckspneumothorax - se bröstkorgskada ovan')
                     recommendations.treatments.push('  • Eller massiv blödning/chock - se circulation nedan')
                   } else if (respValue > 30) {
                     recommendations.treatments.push('🫁 BREATHING - HÖG ANDNINGSFREKVENS (>30):')
-                    recommendations.treatments.push('  • Kan indikera spänningsthorax eller chock')
-                    recommendations.treatments.push('  • Taktisk andning: 4-4-4-4 (in-hold-ut-hold) för att lugna')
+                    recommendations.treatments.push('  • Kan indikera övertryckspneumothorax eller chock')
+                    
                   } else if (respValue < 10) {
                     recommendations.treatments.push('🫁 BREATHING - LÅG ANDNINGSFREKVENS (<10) - KRITISKT:')
                     recommendations.treatments.push('  • Manuell ventilation: BVM (Bag-Valve-Mask) 12-20 andetag/min')
-                    recommendations.treatments.push('  • Överväg airway-intervention')
+                    recommendations.treatments.push('  • Överväg luftvägsintervention')
                   }
                 }
 
@@ -1639,24 +1640,26 @@ function App() {
                   const pulseValue = patient.pulse ? parseInt(patient.pulse) : 0
                   
                   if (systolic < 90 || pulseValue > 120) {
-                    recommendations.treatments.push('🩸 CIRCULATION - HYPOVOLEMIC CHOCK:')
-                    recommendations.treatments.push('  • Två IV-kanylor (18G eller större, grön eller vit)')
-                    recommendations.treatments.push('  • Vätsketillförsel: Normal Saline eller Ringer Laktat')
-                    recommendations.treatments.push('  • TCCC-protokoll: Restriktiv vätskehantering tills kirurgisk hemostasis')
+                    recommendations.treatments.push('🩸 CIRCULATION - HYPOVOLEM CHOCK:')
+                    recommendations.treatments.push('  • Två IV-infarter')
+                    recommendations.treatments.push('  • Vätsketillförsel')
+                    recommendations.treatments.push('  • Restriktiv vätskehantering tills kirurgisk kontroll')
+                    recommendations.treatments.push('  • Tranexamsyra (TXA): 2g IV inom 3 timmar från trauma')
                     
                     if (systolic < 70) {
                       recommendations.treatments.push('  • KRITISK HYPOTENSION (<70): Minimal vätsketillförsel, PRIORITERA EVAKUERING')
                     }
                   } else if (systolic < 100 || pulseValue > 100) {
                     recommendations.treatments.push('🩸 CIRCULATION - KOMPENSERAD CHOCK:')
-                    recommendations.treatments.push('  • En IV-kanyl, börja vätsketillförsel')
+                    recommendations.treatments.push('  • En IV-infart, börja vätsketillförsel')
                     recommendations.treatments.push('  • Övervaka blödningskälla')
+                     recommendations.treatments.push('  • Tranexamsyra (TXA): 2g IV inom 3 timmar från trauma')
                   }
                   
                   if (pulseValue < 60 && pulseValue > 0) {
                     recommendations.treatments.push('🩸 CIRCULATION - BRADYKARDI:')
-                    recommendations.treatments.push('  • Risk för spänningsthorax eller hjärtarytmi')
-                    recommendations.treatments.push('  • Kontrollera bröstkorgskada och airway')
+                    recommendations.treatments.push('  • Risk för övertryckspneumothorax eller hjärtarytmi')
+                    recommendations.treatments.push('  • Kontrollera bröstkorgskada och luftväg')
                   }
                 }
 
@@ -1665,34 +1668,35 @@ function App() {
                   const tempValue = parseFloat(patient.temperature)
                   
                   if (tempValue < 32) {
-                    recommendations.treatments.push('❄️ SEVERE HYPOTHERMIA (<32°C):')
+                    recommendations.treatments.push('❄️ ALLVARLIG HYPOTERMI (<32°C):')
                     recommendations.treatments.push('  • Långsam passiv värmning - undvik "afterdrop"')
-                    recommendations.treatments.push('  • Minimal rörelse - risk för cardiac arrest')
+                    recommendations.treatments.push('  • Minimal rörelse - risk för hjärtstillestånd')
                     recommendations.treatments.push('  • ECMO-värming på sjukhus om möjligt')
                   } else if (tempValue < 35) {
-                    recommendations.treatments.push('❄️ MODERATE HYPOTHERMIA (32-35°C):')
+                    recommendations.treatments.push('❄️ MODERAT HYPOTERMI (32-35°C):')
                     recommendations.treatments.push('  • Aktiv yttre värmning (värmefilt, värmande vätskor)')
                   } else if (tempValue < 36) {
-                    recommendations.treatments.push('❄️ MILD HYPOTHERMIA (<36°C):')
+                    recommendations.treatments.push('❄️ MILD HYPOTERMI (<36°C):')
                     recommendations.treatments.push('  • Passiv värmning - täckning och skydd från miljö')
                   }
                 }
 
                 // === STANDARD TCCC-INTERVENTIONER ===
                 recommendations.treatments.push('')
-                recommendations.treatments.push('📋 STANDARD INTERVENTIONER:')
-                recommendations.treatments.push('  • Tranexamic acid (TXA): 1g IV över 10 min inom 3 timmar från trauma')
-                recommendations.treatments.push('  • Morphine: 0.1 mg/kg IV/IM eller Ketamine: 1-2 mg/kg IV')
-                recommendations.treatments.push('  • Combat Gauze/Quikclot vid arteriell blödning')
-                recommendations.treatments.push('  • Tetanus-profylax: Tdap eller dT beroende på historia')
-                recommendations.treatments.push('  • Överväg antibiotikaprofylax vid öppen skada (Amoxicillin-Clavulansyra)')
-
+                recommendations.treatments.push('📋 STANDAR SMÅRTSTILLANDE INTERVENTIONER:')
+                recommendations.treatments.push('  • Smärtlindring beroende på nivå av smärta, medvetande och andning')
+                recommendations.treatments.push('  • Paracetamol: 1g PO/PR var 6:e timme (max 4g/dygn)')
+                recommendations.treatments.push('  • Ibuprofen: 400 mg PO var 6-8 timme (max 1200 mg/dygn) - om inte kontraindicerat')
+                recommendations.treatments.push('  • Fentanylklubba 800mcg kan upprepas en gång efter 15 min. ej om andningspåverkad eller medvetslös)')
+                recommendations.treatments.push('  • Morfin 0,05-0,1 mg/kg IV/IM var 4-6 timme vid svår smärta (max 10 mg/dos) ej om andnings- eller cirkulationpåverkad')
+                recommendations.treatments.push('  • Esketamin: 15mg i.v, 25mg i.n. 25-75mg i.m.')
+                
                 return (
                   <div>
                     <div style={{ background: '#1a1a1a', padding: '10px', borderRadius: '4px', marginBottom: '15px', borderLeft: '4px solid #F3D021' }}>
                       <strong style={{ color: '#F3D021' }}>TCCC PROTOKOLL - TACTICAL COMBAT CASUALTY CARE</strong>
                       <div style={{ fontSize: '12px', color: '#aaa', marginTop: '5px' }}>
-                        Följer FM:s Prehospitala behandlingsriktlinjer (2019)
+                        Följer FM:s Prehospitala behandlingsriktlinjer (2025)
                       </div>
                     </div>
                     <div style={{ background: '#000', padding: '15px', borderRadius: '4px' }}>
@@ -1734,7 +1738,7 @@ function App() {
 
         {viewMode === 'at-mist' && (
           <>
-            <h3 style={{ marginBottom: '15px', color: '#F3D021', marginTop: '30px' }}>AT-MIST</h3>
+            <h3 style={{ marginBottom: '15px', color: '#fff', marginTop: '30px' }}>AT-MIST</h3>
             <button 
               onClick={() => {
                 setShowEvacuationModal(true)
@@ -1755,37 +1759,39 @@ function App() {
                 
                 {/* Samlad journal */}
                 <div style={{ 
-              background: '#0a2a1a', 
+              background: '#fff', 
+              color: '#000',
               padding: '20px', 
               marginBottom: '20px', 
               borderRadius: '8px',
-              border: '2px solid #F3D021'
+              border: '2px solid #d1d5db'
             }}>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '15px' }}>
                 <div><strong>Patientnummer:</strong> {patient.patientNumber}</div>
                 <div><strong>Enhet:</strong> {patient.unit || '-'}</div>
                 <div><strong>Namn:</strong> {patient.name || '-'}</div>
                 <div><strong>Triagekategori:</strong> {patient.triageCategory || '-'}</div>
-                <div style={{ gridColumn: '1 / -1', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #333' }}>
-                  <strong style={{ color: '#F3D021' }}>A - Age (Ålder):</strong> {patient.age || '-'}
+                <div style={{ gridColumn: '1 / -1', marginTop: '10px', paddingTop: '10px', borderTop: '1px solid #d1d5db' }}>
+                  <strong style={{ color: '#000' }}>A - Age (Ålder):</strong> {patient.age || '-'}
                 </div>
                 <div style={{ gridColumn: '1 / -1' }}>
-                  <strong style={{ color: '#F3D021' }}>T - Time (Tidsnummer):</strong> {patient.timeOfInjury || '-'}
+                  <strong style={{ color: '#000' }}>T - Time (Tidsnummer):</strong> {patient.timeOfInjury || '-'}
                 </div>
                 <div style={{ gridColumn: '1 / -1' }}>
-                  <strong style={{ color: '#F3D021' }}>M - Mechanism (Skademekanism):</strong> {patient.mechanism || '-'}
+                  <strong style={{ color: '#000' }}>M - Mechanism (Skademekanism):</strong> {patient.mechanism || '-'}
                 </div>
                 <div style={{ gridColumn: '1 / -1' }}>
-                  <strong style={{ color: '#F3D021' }}>I - Injuries (Skador):</strong> {patient.injuries || '-'}
+                  <strong style={{ color: '#000' }}>I - Injuries (Skador):</strong> {patient.injuries || '-'}
                 </div>
               </div>
               <div style={{ marginTop: '15px' }}>
-                <strong style={{ display: 'block', marginBottom: '8px', color: '#F3D021' }}>S - Signs (Vitala parametrar):</strong>
+                <strong style={{ display: 'block', marginBottom: '8px', color: '#000' }}>S - Signs (Vitala parametrar):</strong>
                 <div style={{ 
-                  background: '#000', 
+                  background: '#fff', 
                   padding: '10px', 
                   borderRadius: '4px',
-                  fontSize: '13px'
+                  fontSize: '13px',
+                  border: '1px solid #d1d5db'
                 }}>
                   {(() => {
                     // Hitta senaste värdet för varje parameter från hela historiken
@@ -1827,14 +1833,15 @@ function App() {
               </div>
               {patient.treatment && (
                 <div style={{ marginTop: '15px' }}>
-                  <strong style={{ display: 'block', marginBottom: '8px', color: '#F3D021' }}>T - Treatment (Behandling):</strong>
+                  <strong style={{ display: 'block', marginBottom: '8px', color: '#000' }}>T - Treatment (Behandling):</strong>
                   <div style={{ 
-                    background: '#000', 
+                    background: '#fff', 
                     padding: '10px', 
                     borderRadius: '4px',
                     whiteSpace: 'pre-wrap',
                     fontFamily: 'monospace',
-                    fontSize: '13px'
+                    fontSize: '13px',
+                    border: '1px solid #d1d5db'
                   }}>
                     {patient.treatment}
                   </div>
