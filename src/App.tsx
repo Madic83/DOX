@@ -334,6 +334,25 @@ function App() {
         triageCategory: (formData.triageCategory ?? existingPatient.triageCategory ?? '') as 'P1' | 'P2' | 'P3' | 'P4' | ''
       }
 
+      const previousTriage = existingPatient.triageCategory
+      const nextTriage = updatedPatient.triageCategory
+      if (previousTriage !== nextTriage && nextTriage) {
+        updatedPatient.triageHistory = [
+          ...(existingPatient.triageHistory || []),
+          {
+            from: previousTriage,
+            to: nextTriage,
+            time: new Date().toLocaleString('sv-SE', {
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit',
+              hour: '2-digit',
+              minute: '2-digit'
+            })
+          }
+        ]
+      }
+
       // Lägg till nuvarande vitala parametrar i historik om nåtg¥gra är ifyllda
       if (formData.consciousness || formData.respiration || formData.pulse || formData.bloodPressure || formData.spo2 || formData.temperature) {
         const newReading: VitalReading = {
@@ -383,6 +402,7 @@ function App() {
         id: Date.now().toString(),
         patientNumber,
         vitalHistory,
+        triageHistory: [],
         name: formData.name ?? '',
         age: formData.age ?? '',
         unit: formData.unit ?? '',
@@ -1664,6 +1684,23 @@ function App() {
                   Inga åtgärder eller läkemedel registrerade ännu
                 </div>
               )}
+
+              <div style={{ marginTop: '20px' }}>
+                <h5 style={{ marginBottom: '10px', color: '#F3D021', fontSize: '14px' }}>Prioritetsändringar</h5>
+                {patient.triageHistory && patient.triageHistory.length > 0 ? (
+                  <div>
+                    {patient.triageHistory.map((change, index) => (
+                      <div key={`${change.time}-${index}`} style={{ marginBottom: '8px', color: '#fff' }}>
+                        <strong>{change.time}:</strong> {change.from || 'Ej satt'} → {change.to || 'Ej satt'}
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div style={{ color: '#666' }}>
+                    Inga prioriteringsändringar registrerade
+                  </div>
+                )}
+              </div>
             </div>
           </div>
         ) : null}

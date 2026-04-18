@@ -10,6 +10,12 @@ export interface VitalReading {
   temperature: string
 }
 
+export interface TriageChange {
+  from: 'P1' | 'P2' | 'P3' | 'P4' | ''
+  to: 'P1' | 'P2' | 'P3' | 'P4' | ''
+  time: string
+}
+
 export interface Patient {
   id: string
   
@@ -41,6 +47,7 @@ export interface Patient {
   
   // Historik
   vitalHistory: VitalReading[]
+  triageHistory?: TriageChange[]
   
   // Behandling
   treatment: string
