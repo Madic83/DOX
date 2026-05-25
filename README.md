@@ -1,5 +1,28 @@
 # DOX
 
+DOX is now configured as a PWA so it can be installed on iPhone and used offline after the first online visit.
+
+## Deploy via GitHub Pages
+
+1. Push to the `main` branch.
+2. In GitHub, open `Settings -> Pages`.
+3. Set `Source` to `GitHub Actions`.
+4. Wait for workflow `Deploy to GitHub Pages` to finish.
+5. Open your published URL: `https://<your-user>.github.io/DOX/`.
+
+## Install on iPhone (offline)
+
+1. Open the GitHub Pages URL in Safari.
+2. Use `Share -> Add to Home Screen`.
+3. Start the app once while online so resources are cached.
+4. Turn off network and launch from the home screen icon.
+
+## Notes
+
+- Service worker and web app manifest are generated during build.
+- Offline support works for assets the app caches during install/first load.
+- If you update the app, reopen it online once to fetch the latest version.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
